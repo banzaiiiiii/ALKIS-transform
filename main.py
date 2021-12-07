@@ -1,16 +1,21 @@
-# This is a sample Python script.
+from rdfTransformer import jarWrapper
+from Neo4jConnection import createTestGraph
+import rdflib
+import neo4j
 
-# Press Umschalt+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# rdfTransformer wird aufgerufen
+# testmapping filePath wird übergeben
+# ouput .ttl wird gespeichert
+
+fileName = "D://repos/Uni/BA/rmlmapper-java/target/rmlmapper-4.12.0-r358-all.jar"
+arg1 = "-m"
+arg2 = "D://repos/Uni/BA/pythonProject/Input/example-json-mapping.ttl"
+
+arg3 = "-o"
+arg4 = "D://repos/Uni/BA/pythonProject/Output/test.ttl"
+
+#result = jarWrapper(fileName, arg1, arg2, arg3, arg4)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Strg+F8 to toggle the breakpoint.
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+result = createTestGraph()
