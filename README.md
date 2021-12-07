@@ -8,7 +8,7 @@ diese anhand des richtigen RML-Mapping mithilfe rmlmapper umwandeln
 
 transformierte Daten in Neo4j GraphDb speichern
 
-Daten nach gewissen Gesichtspunkten über SQARQL Schnittstelle zur Verfügung stellen 
+Daten nach gewissen Gesichtspunkten über SPARQL Schnittstelle zur Verfügung stellen 
 
 ## Demo Video über Funktionsweise
 todo
