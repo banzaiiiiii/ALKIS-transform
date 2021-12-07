@@ -2,7 +2,13 @@
 Projekt zur Bachelorarbeit - Transformation von ALKIS Daten in semantische Formate 
 
 ## geplante Funktionsweise des Programms 
-todo
+aktuelle ALKIS-Daten an Schnittstellen abrufen
+
+diese anhand des richtigen RML-Mapping mithilfe rmlmapper umwandeln
+
+transformierte Daten in Neo4j GraphDb speichern
+
+Daten nach gewissen Gesichtspunkten über SQARQL Schnittstelle zur Verfügung stellen 
 
 ## Demo Video über Funktionsweise
 todo
@@ -10,7 +16,9 @@ todo
 ## Programmfunktionsweise bis jetzt 
 
 Aufruf von rmlmapper Anwendung mit Argumenten(mappingfile und output path)
+
 Speicherung von output in Neo4J DB
+
 Ausgabe von Testdaten aus Neo4J DB
 
 ## genutzte Technologien
