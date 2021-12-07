@@ -16,5 +16,7 @@ Ausgabe von Testdaten aus Neo4J DB
 ## genutzte Technologien
 
 rmlmapper: https://github.com/RMLio/rmlmapper-java 
+
 Neo4j mit neosemantics als GraphDB : https://github.com/neo4j-labs/rdflib-neo4j 
+
 RDFLib: https://github.com/RDFLib/rdflib
