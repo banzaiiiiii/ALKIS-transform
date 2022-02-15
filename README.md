@@ -13,14 +13,6 @@ Daten nach gewissen Gesichtspunkten über SPARQL Schnittstelle zur Verfügung st
 ## Demo Video über Funktionsweise
 todo
 
-## Programmfunktionsweise bis jetzt 
-
-Aufruf von rmlmapper Anwendung mit Argumenten(mappingfile und output path)
-
-Speicherung von output in Neo4J DB
-
-Ausgabe von Testdaten aus Neo4J DB
-
 ## genutzte Technologien
 
 rmlmapper: https://github.com/RMLio/rmlmapper-java 
