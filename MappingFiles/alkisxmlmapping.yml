@@ -1,0 +1,31 @@
+prefixes:
+  alkis: https://w3id.org/alkis/
+  ex: http://www.example.com/
+  gml: http://www.opengis.net/gml/3.2/
+mappings:
+  alkis_flurstueck:
+    sources:
+      - access: D://repos/Uni/Ba/ALKIS-transform/TestData/14521590/147602.xml
+        referenceFormulation: xpath
+        iterator: /AX_Bestandsdatenauszug/enthaelt/FeatureCollection/featureMember/AX_Flurstueck
+    subjects: https://w3id.org/alkis/$(identifier)
+    predicateobjects:
+      - [a, alkis:AX_Flurstueck]
+      - [alkis:Lebenszeitintervall, $(lebenszeitintervall/AA_Lebenszeitintervall/beginnt)]
+      - [alkis:modellart, $(modellart/AA_Modellart/advStandardModell)]
+      - [alkis:zeigtAufExternes, $(zeigtAufExternes/AA_Fachdatenverbindung/fachdatenobjekt/AA_Fachdatenobjekt/name)]
+      - [alkis:position, $(position/Surface/patches/PolygonPatch/exterior/Ring/curveMember/Curve/segments/LineStringSegment/posList)]
+      - [alkis:gemarkung, $(gemarkung/AX_Gemarkung_Schluessel/gemarkungsnummer)]
+      - [alkis:flurstuecksnummer, $(flurstuecksnummer/AX_Flurstuecksnummer/zaehler)]
+      - [alkis:flurstueckskennzeichen, $(flurstueckskennzeichen)]
+      - [alkis:amtlicheFlaeche, $(amtlicheFlaeche)]
+      - [alkis:objektkoordinaten, $(objektkoordinaten/Point/pos)]
+      - [alkis:zeitpunktDerEntstehung, $(zeitpunktDerEntstehung)]
+      - [alkis:gemeindezugehoerigkeitLand, $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/land)]
+      - [alkis:gemeindezugehoerigkeitRegierungsbezirk, $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/regierungsbezirk)]
+      - [alkis:gemeindezugehoerigkeitkreis, $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/kreis)]
+      - [alkis:gemeindezugehoerigkeitgemeinde, $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/gemeinde)]
+      - [alkis:istGebucht, $(istGebucht)]
+      - [alkis:weistAuf, $(weistAuf)]
+
+

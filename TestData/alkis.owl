@@ -123,7 +123,7 @@ alkis:flaecheDesAbschnitts rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/alkis/flurstuecksnummer
 alkis:flurstuecksnummer rdf:type owl:ObjectProperty ;
                         rdfs:domain alkis:AX_Flurstueck_Kerndaten ;
-                        rdfs:range alkis:AX_Flurstuecksnummer .
+                        rdfs:range alkis:AX_Flurstuecksnummer .DEHHALKAD00004f3_G0
 
 
 ###  https://w3id.org/alkis/gehoertAnteiligZu

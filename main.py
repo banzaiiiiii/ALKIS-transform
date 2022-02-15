@@ -1,21 +1,41 @@
-from rdfTransformer import jarWrapper
-from Neo4jConnection import createTestGraph
-import rdflib
-import neo4j
+from rdfTransformer import *
+from Neo4jConnection import *
+from AlkisDataService import *
 
-# rdfTransformer wird aufgerufen
-# testmapping filePath wird übergeben
-# ouput .ttl wird gespeichert
 
-fileName = "D://repos/Uni/BA/rmlmapper-java/target/rmlmapper-4.12.0-r358-all.jar"
-arg1 = "-m"
-arg2 = "D://repos/Uni/BA/pythonProject/Input/example-json-mapping.ttl"
+#download alkis data, with "gemeindenummer"
+#apiResponse = getDataAsDownload("Sachsen", "14522490")
 
-arg3 = "-o"
-arg4 = "D://repos/Uni/BA/pythonProject/Output/test.ttl"
-
-#result = jarWrapper(fileName, arg1, arg2, arg3, arg4)
+getDataFromWFS()
 
 
 
-result = createTestGraph()
+# input which .xml file you want to map
+#nameFileToMap("/TestData/Sachsen/14522490/147602.xml")
+
+# Umwandlung von yaaarml rules to rml rules
+#yarrrmlToRML()
+
+#Umwandlung der Daten zu .ttl
+#callRDFTransformer(outputPathFolder="Sachsen")
+# speicherung in neo4j db
+#saveToNeo4j()
+
+
+
+
+#example output from neo4j
+#outPutFromNeo4j()
+
+
+
+
+'''
+text abfrage: welche gemeindenummer wollen sie mappen? 
+input gemeindenummer.
+try download gemeindenummer!
+pic yarrml file
+map and transform to ttl and save to db 
+beispiel abfrage! 
+
+'''
