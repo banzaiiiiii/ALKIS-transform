@@ -29,7 +29,7 @@ def getDataFromWFS():
     count = "10"
     namespace = ""
 
-    urlGETFeature = WFS_dictionary["sachsen2"] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
+    urlGETFeature = WFS_dictionary["nrw_alkis_vereinfacht"] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
           typenames + "&COUNT=" + count
     urlGetCapabilities = WFS_dictionary["sachsen2"] + "Service=WFS&Request=getcapabilities&version=2.0"
     urlDescribeFeatureType = WFS_dictionary["sachsen2"] + "Service=WFS&Request=DescribeFeatureType&version=2.0&Typename=" + typenames

@@ -1,0 +1,35 @@
+prefixes:
+  alkis: https://w3id.org/alkis/
+  gml: http://www.opengis.net/gml/3.2/
+mappings:
+  alkis_flurstueck:
+    sources:
+      - access: D://repos/Uni/Ba/ALKIS-transform/TestData/dataFromWFS.xml
+        referenceFormulation: xpath
+        iterator: FeatureCollection/member/Flurstueck
+    subjects: https://w3id.org/alkis/$(idflurst)
+    predicateobjects:
+      - [a, alkis:Flurstueck]
+      - [alkis:flurstueckskennzeichen, $(flstkennz)]
+      - [alkis:gemeindezugehoerigkeitLand, $(land)]
+      - [alkis:landschluessel, $(landschl)]
+      - [alkis:gemarkung, $(gemarkung)]
+      - [alkis:gemarkungschluessel, $(gemaschl)]
+      - [alkis:flurnummer, $(flur)]
+      - [alkis:flurschluessel, $(flurschl)]
+      - [alkis:flstnrzae, $(flstnrzae)]
+      - [alkis:gemeindezugehoerigkeitRegierungsbezirk, $(regbezirk) ]
+      - [alkis:gemeindezugehoerigkeitRegierungsbezirkSchluessel, $(regbezschl) ]
+      - [alkis:gemeindezugehoerigkeitkreis, $(kreis) ]
+      - [alkis:gemeindezugehoerigkeitkreisSchluessel, $(kreisschl) ]
+      - [alkis:gemeindezugehoerigkeitgemeinde, $(gemeinde) ]
+      - [alkis:gemeindezugehoerigkeitgemeindeSchluessel, $(gmdschl) ]
+      - [alkis:aktualitaet, $(aktualit)]
+      - [alkis:objektkoodinaten, $(geometrie/Multisurface/surfaceMember/polygon/exterior/Linearring/posList]
+      - [alkis:flaeche, $(flaeche)]
+      - [alkis:abweichenderRechtszustand, $(abwrecht)]
+      - [alkis:lageText, $(lagebeztxt)]
+      - [alkis:sonstigeEigenschaften, $(tntxt)]
+
+
+

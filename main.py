@@ -14,10 +14,10 @@ getDataFromWFS()
 #nameFileToMap("/TestData/Sachsen/14522490/147602.xml")
 
 # Umwandlung von yaaarml rules to rml rules
-#yarrrmlToRML()
+yarrrmlToRML()
 
 #Umwandlung der Daten zu .ttl
-#callRDFTransformer(outputPathFolder="Sachsen")
+callRDFTransformer(outputPathFolder="NRW")
 # speicherung in neo4j db
 #saveToNeo4j()
 
