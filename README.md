@@ -30,6 +30,8 @@ Triples die vom rmlMapper ausgegeben werden im .ttl Format
 
 rmlmapper: https://github.com/RMLio/rmlmapper-java 
 
+Yarrrml Parser: https://github.com/RMLio/yarrrml-parser
+
 Neo4j mit neosemantics als GraphDB : https://github.com/neo4j-labs/rdflib-neo4j 
 
 RDFLib: https://github.com/RDFLib/rdflib
