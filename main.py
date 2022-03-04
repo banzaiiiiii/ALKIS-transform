@@ -1,12 +1,12 @@
 from rdfTransformer import *
 from Neo4jConnection import *
 from AlkisDataService import *
-
+from FusekiConnection import *
 
 #download alkis data, with "gemeindenummer"
 #apiResponse = getDataAsDownload("Sachsen", "14522490")
 
-getDataFromWFS()
+#getDataFromWFS()
 
 
 
@@ -14,10 +14,10 @@ getDataFromWFS()
 #nameFileToMap("/TestData/Sachsen/14522490/147602.xml")
 
 # Umwandlung von yaaarml rules to rml rules
-yarrrmlToRML()
+#yarrrmlToRML()
 
 #Umwandlung der Daten zu .ttl
-callRDFTransformer(outputPathFolder="NRW")
+#callRDFTransformer(outputPathFolder="NRW")
 # speicherung in neo4j db
 #saveToNeo4j()
 
@@ -27,7 +27,7 @@ callRDFTransformer(outputPathFolder="NRW")
 #example output from neo4j
 #outPutFromNeo4j()
 
-
+fusekiConnection()
 
 
 '''
