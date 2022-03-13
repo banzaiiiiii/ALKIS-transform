@@ -2,6 +2,14 @@ prefixes:
   alkis: https://w3id.org/alkis/
   gml: http://www.opengis.net/gml/3.2/
 mappings:
+  alkis_quelle:
+    sources:
+      - access: D://repos/Uni/Ba/ALKIS-transform/TestData/wfs_capabilities.xml
+        referenceFormulation: xpath
+        iterator: WFS_Capabilities/ServiceIdentification
+    subjects: http://www.example.com/quelle/$(Title)
+    predicateobjects:
+      - [a, alkis:Quelle]
   alkis_flurstueck:
     sources:
       - access: D://repos/Uni/Ba/ALKIS-transform/TestData/dataFromWFS.xml

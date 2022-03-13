@@ -9,7 +9,7 @@ mappingRules = "D://repos/Uni/BA/ALKIS-transform/MappingFiles/yarrrml.ttl"
 arg3 = "-o"
 
 def yarrrmlToRML():
-    process = Popen('yarrrml-parser -i "D://repos/Uni/Ba/ALKIS-transform/MappingFiles/alkis_vereinfacht.yml" -o "D://repos/Uni/BA/ALKIS-transform/MappingFiles/yarrrml.ttl" ', stdout=PIPE, stderr=PIPE, shell=True)
+    process = Popen('yarrrml-parser -i "D://repos/Uni/Ba/ALKIS-transform/MappingFiles/alkis_vereinfacht_new.yml" -o "D://repos/Uni/BA/ALKIS-transform/MappingFiles/yarrrml.ttl" ', stdout=PIPE, stderr=PIPE, shell=True)
     result = process.communicate()
     print(result[0].decode('utf-8'))
 

@@ -15,7 +15,7 @@ def fusekiConnection():
     alkis_graph = URIRef('http://example.org/alkis_graph')
     store = Graph(store, identifier=alkis_graph)
 
-    store.load("D://repos/Uni/BA/ALKIS-transform/Output/nrw/2022-02-16.ttl", format="ttl")
+    store.load("D://repos/Uni/BA/ALKIS-transform/Output/nrw/2022-03-09.ttl", format="ttl")
 
 
 

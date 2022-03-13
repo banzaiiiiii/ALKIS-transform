@@ -6,19 +6,23 @@ from FusekiConnection import *
 #download alkis data, with "gemeindenummer"
 #apiResponse = getDataAsDownload("Sachsen", "14522490")
 
+getCapabilities()
 #getDataFromWFS()
-
+#testCall()
 
 
 # input which .xml file you want to map
 #nameFileToMap("/TestData/Sachsen/14522490/147602.xml")
 
 # Umwandlung von yaaarml rules to rml rules
-#yarrrmlToRML()
+yarrrmlToRML()
 
 #Umwandlung der Daten zu .ttl
-#callRDFTransformer(outputPathFolder="NRW")
+callRDFTransformer(outputPathFolder="NRW")
+
+
 # speicherung in neo4j db
+
 #saveToNeo4j()
 
 
