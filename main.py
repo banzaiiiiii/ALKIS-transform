@@ -6,7 +6,7 @@ from FusekiConnection import *
 #download alkis data, with "gemeindenummer"
 #apiResponse = getDataAsDownload("Sachsen", "14522490")
 
-getCapabilities()
+#getCapabilities()
 #getDataFromWFS()
 #testCall()
 
@@ -15,10 +15,10 @@ getCapabilities()
 #nameFileToMap("/TestData/Sachsen/14522490/147602.xml")
 
 # Umwandlung von yaaarml rules to rml rules
-yarrrmlToRML()
+#yarrrmlToRML()
 
 #Umwandlung der Daten zu .ttl
-callRDFTransformer(outputPathFolder="NRW")
+#callRDFTransformer(outputPathFolder="NRW")
 
 
 # speicherung in neo4j db
