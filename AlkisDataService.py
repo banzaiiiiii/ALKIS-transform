@@ -23,14 +23,14 @@ def unZipFiles(bundesland, gemeindenummer):
     deleteZip(bundesland, gemeindenummer)
 
 
-def getDataFromWFS():
+def getDataFromWFS(bundesland):
     typenames = "Flurstueck"
     count = "10"
     namespace = ""
 
-    urlGETFeature = WFS_dictionary["nrw_alkis_vereinfacht"] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
+    urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
           typenames + "&COUNT=" + count
-    urlDescribeFeatureType = WFS_dictionary["nrw_alkis_vereinfacht"] + "Service=WFS&Request=DescribeFeatureType&version=2.0&Typename=" + typenames
+   # urlDescribeFeatureType = WFS_dictionary["NRW"] + "Service=WFS&Request=DescribeFeatureType&version=2.0&Typename=" + typenames
     request = requests.get(urlGETFeature, allow_redirects=True)
     open("TestData/dataFromWFS.xml", 'wb').write(request.content)
 
@@ -47,16 +47,13 @@ def testCall():
 
 
 WFS_dictionary = {
-    "nrw_alkis_vereinfacht": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?", # funktioniert
+    "NRW": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?", # funktioniert
     "Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # funktioniert, aber erkennt typename=flurstueck nicht
     "Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
     "Brandenburg": "https://isk.geobasis-bb.de/ows/alkis_vereinf_wfs?",
     "mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_sf",
     "hamburg": "https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?",
     "sachsen": "", #kein wfs auffindbar, nur download https://www.geodaten.sachsen.de/batch-download-4719.html
-
-
-
     "bayern": "https://geoservices.bayern.de/wfs/v1/ogc_alkis_ave.cgi?", # muss von kundenservice freigeschaltet werden
     "Sachsen-Anhalt": "", # kostenpflichtig
     "Reinland-pfalz": "", # kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353

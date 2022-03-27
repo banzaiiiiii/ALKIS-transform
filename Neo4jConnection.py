@@ -10,7 +10,7 @@ def saveToNeo4j():
 
     graph.open(theconfig, create=False)
 
-    graph.load("D://repos/Uni/BA/ALKIS-transform/Output/Hamburg/hamburgtest.ttl", format="ttl")
+    graph.load("D://repos/uni/ba/alkis-transform/output/nrw/2022-03-27-04-23-48.ttl", format="ttl")
 
 
 def saveExample():
