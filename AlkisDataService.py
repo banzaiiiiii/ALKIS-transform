@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import requests
 import urllib.request
 import zipfile
@@ -24,7 +26,11 @@ def unZipFiles(bundesland, gemeindenummer):
 
 
 def getDataFromWFS(bundesland):
-    typenames = "Flurstueck"
+    if("vereinfacht" in bundesland):
+        typenames = "Flurstueck"
+    else:
+        typenames = "AX_Flurstueck"
+
     count = "10"
     namespace = ""
 
@@ -32,7 +38,12 @@ def getDataFromWFS(bundesland):
           typenames + "&COUNT=" + count
    # urlDescribeFeatureType = WFS_dictionary["NRW"] + "Service=WFS&Request=DescribeFeatureType&version=2.0&Typename=" + typenames
     request = requests.get(urlGETFeature, allow_redirects=True)
-    open("TestData/dataFromWFS.xml", 'wb').write(request.content)
+    if ("NAS" or "nas") in bundesland:
+        open("TestData/"+bundesland[0:3]+"/NAS-konform.xml", 'wb').write(request.content)
+    if ("aaa" or "AAA") in bundesland:
+        open("TestData/"+bundesland[0:3]+"/AAA-basiert.xml", 'wb').write(request.content)
+    if("vereinfacht" in bundesland):
+        open("TestData/"+bundesland[0:3]+"/vereinfachtes-schema.xml", 'wb').write(request.content)
 
 
 def getCapabilities():
@@ -47,7 +58,9 @@ def testCall():
 
 
 WFS_dictionary = {
-    "NRW": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?", # funktioniert
+    "NRW-vereinfacht": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?", # funktioniert
+    "NRW-AAA-basiert": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_aaa-modell-basiert?",
+    "NRW-NAS-konform": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_nas-konform?",
     "Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # funktioniert, aber erkennt typename=flurstueck nicht
     "Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
     "Brandenburg": "https://isk.geobasis-bb.de/ows/alkis_vereinf_wfs?",

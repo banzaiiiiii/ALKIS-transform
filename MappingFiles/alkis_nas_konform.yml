@@ -1,0 +1,54 @@
+prefixes:
+  alkis: https://w3id.org/alkis/
+  ex: http://alkis-transform.de/
+  ngeo: http://geovocab.org/geometry/
+mappings:
+  alkis_flurstueck:
+    sources:
+      - access: /TestData/NRW/NAS-konform.xml
+        referenceFormulation: xpath
+        iterator: FeatureCollection/member/AX_Flurstueck
+    subjects: alkis:$(identifier)
+    predicateobjects:
+      - [ a, alkis:AX_Flurstueck ]
+      - [ alkis:anlass, $(anlass) ]
+      - [ alkis:amtlicheFlaeche, $(amtlicheFlaeche) ]
+      - [ alkis:flurstueckskennzeichen, $(flurstueckskennzeichen) ]
+      - [ alkis:zeitpunktDerEntstehung, $(zeitpunktDerEntstehung) ]
+      - predicates: alkis:lebenszeitintervall
+        objects:
+          value: alkis:$(identifier)_lebenszeitintervall
+          type: iri
+      - predicates: alkis:modellart
+        objects:
+          value: alkis:$(identifier)_modellart
+          type: iri
+      - predicates: alkis:flurstuecksnummer
+        objects:
+          value: alkis:$(identifier)_flurstuecksnummer
+          type: iri
+      - predicates: alkis:gemarkung
+        objects:
+          value: alkis:$(identifier)_gemarkung
+          type: iri
+      - predicates: alkis:gemeindezugehoerigkeit
+        objects:
+          value: alkis:$(identifier)_gemeindezugehoerigkeit
+          type: iri
+      - predicates: alkis:objektkoordinaten
+        objects:
+          value: alkis:$(identifier)_objektkoordinaten
+          type: iri
+      - predicates: alkis:position
+        objects:
+          value: alkis:$(identifier)_position
+          type: iri
+  alkis_flurstuecksnummer:
+    sources:
+      - access: /TestData/NRW/NAS-konform.xml
+        referenceFormulation: xpath
+        iterator: FeatureCollection/member/AX_Flurstueck
+    subjects: alkis:$(identifier)_flurstuecksnummer
+    predicateobjects:
+      - [a, alkis:AX_Flurstuecksnummer]
+      - [alkis:zaehler, $(/AX_Flurstuecksnummer/zaehler)]

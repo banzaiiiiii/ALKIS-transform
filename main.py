@@ -19,19 +19,14 @@ while True:
                 AlkisDataService.getDataFromWFS(bundeslandToMap)
             break
         if inputNumber == "2":  # Map existing .xml file
-            defaultFile = "/TestData/dataFromWFS.xml"
             fileToMap = input("Enter path to the .xml you want to transform\n")
             try:
-                rdfTransformer.nameFileToMap(fileToMap)
-                rdfTransformer.yarrrmlToRML()
+                rdfTransformer.nameFileToMap("/TestData/NRW/NAS-konform.xml")
+                file = input("Enter which mappingfile you want to use!\n Options: alkis_nas_konform, alkis_aaa_basiert OR alkis_vereinfacht\n")
+                rdfTransformer.yarrrmlToRML("alkis_nas_konform")
                 rdfTransformer.callRDFTransformer(outputPathFolder="NRW")
             except Exception as exception:
                 print(exception)
-            else:
-                print("default file has been picked for transformation")
-                rdfTransformer.nameFileToMap(defaultFile)
-                rdfTransformer.yarrrmlToRML()
-                rdfTransformer.callRDFTransformer(outputPathFolder="NRW")
             break
         if inputNumber == "3":  # save .ttl to db
             path = input("Enter path to .tll file you want to save!\n")
