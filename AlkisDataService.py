@@ -40,7 +40,7 @@ def getDataFromWFS(bundesland):
     request = requests.get(urlGETFeature, allow_redirects=True)
     if ("NAS" or "nas") in bundesland:
         open("TestData/"+bundesland[0:3]+"/NAS-konform.xml", 'wb').write(request.content)
-    if ("aaa" or "AAA") in bundesland:
+    if ("AAA" or "aaa" ) in bundesland:
         open("TestData/"+bundesland[0:3]+"/AAA-basiert.xml", 'wb').write(request.content)
     if("vereinfacht" in bundesland):
         open("TestData/"+bundesland[0:3]+"/vereinfachtes-schema.xml", 'wb').write(request.content)

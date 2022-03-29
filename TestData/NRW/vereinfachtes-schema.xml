@@ -36,8 +36,7 @@
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
+</gml:surfaceMember></gml:MultiSurface>
 </geometrie>
 <flaeche>6850.00</flaeche>
 <abwrecht>Kein abweichender Rechtszustand</abwrecht>

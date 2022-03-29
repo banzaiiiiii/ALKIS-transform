@@ -21,9 +21,9 @@ while True:
         if inputNumber == "2":  # Map existing .xml file
             fileToMap = input("Enter path to the .xml you want to transform\n")
             try:
-                rdfTransformer.nameFileToMap("/TestData/NRW/NAS-konform.xml")
+                rdfTransformer.nameFileToMap("/TestData/NRW/vereinfachtes-schema.xml")
                 file = input("Enter which mappingfile you want to use!\n Options: alkis_nas_konform, alkis_aaa_basiert OR alkis_vereinfacht\n")
-                rdfTransformer.yarrrmlToRML("alkis_nas_konform")
+                rdfTransformer.yarrrmlToRML("alkis_vereinfacht")
                 rdfTransformer.callRDFTransformer(outputPathFolder="NRW")
             except Exception as exception:
                 print(exception)
