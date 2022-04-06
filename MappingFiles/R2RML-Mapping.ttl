@@ -1,0 +1,92 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix ex: <http://alkis-transform.de/> .
+@prefix ngeo: <http://geovocab.org/geometry/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+:rules_000 rdf:type void:Dataset ;
+	void:exampleResource :map_alkis_flurstueck_000, :map_alkis_flurstuecksnummer_000 .
+
+:map_alkis_flurstueck_000 rml:logicalSource :source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "alkis_flurstueck" ;
+	rr:subjectMap :s_000 ;
+	rr:predicateObjectMap :pom_000, :pom_001 .
+
+:source_000 rdf:type rml:LogicalSource ;
+	rml:source "/Testdata/NRW/AAA-basiert.xml" ;
+	rml:iterator "FeatureCollection/member/AX_Flurstueck" ;
+	rml:referenceFormulation ql:XPath .
+
+:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://alkis-transform.de/{identifier}" .
+
+:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_000 ;
+	rr:objectMap :om_000 .
+
+:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_000 rdf:type rr:ObjectMap ;
+	rr:constant "https://w3id.org/alkis/AX_Flurstueck" ;
+	rr:termType rr:IRI .
+
+:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_001 ;
+	rr:objectMap :om_001 .
+
+:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant alkis:flurstuecksnummer .
+
+:om_001 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/alkis/{identifier}_flurstuecksnummer" ;
+	rr:termType rr:IRI .
+
+:map_alkis_flurstuecksnummer_000 rml:logicalSource :source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "alkis_flurstuecksnummer" ;
+	rr:subjectMap :s_001 ;
+	rr:predicateObjectMap :pom_002, :pom_003 .
+
+:source_001 rdf:type rml:LogicalSource ;
+	rml:source "/Testdata/NRW/AAA-basiert.xml" ;
+	rml:iterator "FeatureCollection/member/AX_Flurstueck/lebenszeitintervall/AA_Lebenszeitintervall" ;
+	rml:referenceFormulation ql:XPath .
+
+:s_001 rdf:type rr:SubjectMap ;
+	rr:constant "https://w3id.org/alkis/lebenszeitintervall" .
+
+:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_002 ;
+	rr:objectMap :om_002 .
+
+:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_002 rdf:type rr:ObjectMap ;
+	rr:constant "https://w3id.org/alkis/AX_Flurstuecksnummer" ;
+	rr:termType rr:IRI .
+
+:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_003 ;
+	rr:objectMap :om_003 .
+
+:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant alkis:lebenszeitintervall .
+
+:om_003 rdf:type rr:ObjectMap ;
+	rml:reference "beginnt" ;
+	rr:termType rr:Literal .
+

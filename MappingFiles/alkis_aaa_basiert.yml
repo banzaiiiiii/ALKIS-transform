@@ -1,0 +1,27 @@
+prefixes:
+  alkis: https://w3id.org/alkis/
+  ex: http://alkis-transform.de/
+  ngeo: http://geovocab.org/geometry/
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+mappings:
+  alkis_flurstueck:
+    sources:
+      - access: /Testdata/NRW/AAA-basiert.xml
+        referenceFormulation: xpath
+        iterator: FeatureCollection/member/AX_Flurstueck
+    subjects: ex:$(identifier)
+    predicateobjects:
+      - [ a, alkis:AX_Flurstueck ]
+      - predicates: alkis:Lebenszeitintervall
+        objects:
+          value: alkis:$(identifier)_flurstuecksnummer
+          type: iri 
+  alkis_lebenszeitintervall:
+    sources:
+      - access: /Testdata/NRW/AAA-basiert.xml
+        referenceFormulation: xpath
+        iterator: FeatureCollection/member/AX_Flurstueck/lebenszeitintervall/AA_Lebenszeitintervall
+    subjects: alkis:lebenszeitintervall
+    predicateobjects:
+      - [a, alkis:AX_Flurstuecksnummer]
+      - [alkis:lebenszeitintervall, $(beginnt)]

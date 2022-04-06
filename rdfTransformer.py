@@ -5,14 +5,14 @@ import fileinput
 
 rmlMapperPath = "D://repos/Uni/BA/rmlmapper-java/target/rmlmapper-4.12.0-r358-all.jar"
 arg1 = "-m"
-mappingRules = "D://repos/Uni/BA/ALKIS-transform/MappingFiles/yarrrml.ttl"
+mappingRules = "D://repos/Uni/BA/ALKIS-transform/MappingFiles/R2RML-Mapping.ttl"
 arg3 = "-o"
 
 
 def yarrrmlToRML(file):
     mappingFile = file +".yml"
     process = Popen(
-        'yarrrml-parser -i "D://repos/Uni/Ba/ALKIS-transform/MappingFiles/'+mappingFile+'"'+' -o "D://repos/Uni/BA/ALKIS-transform/MappingFiles/yarrrml.ttl" --pretty',
+        'yarrrml-parser -i "D://repos/Uni/Ba/ALKIS-transform/MappingFiles/'+mappingFile+'"'+' -o "D://repos/Uni/BA/ALKIS-transform/MappingFiles/R2RML-Mapping.ttl" --pretty',
         stdout=PIPE, stderr=PIPE, shell=True)
     result = process.communicate()
     print(result[0].decode('utf-8'))
@@ -32,10 +32,10 @@ def callRDFTransformer(outputPathFolder):
 # changes the .xml file that is getting accessed in the .yarrrml mapping file
 def nameFileToMap(FileName):
     mappingFile = ""
-    if ("NAS" or "nas") in FileName:
+    if "NAS" in FileName:
         mappingFile = "alkis_nas_konform.yml"
-    if ("aaa" or "AAA") in FileName:
-        mappingFile = "alkis_nas_konform.yml"
+    if "AAA" in FileName:
+        mappingFile = "alkis_aaa_basiert.yml"
     if ("vereinfacht" in FileName):
         mappingFile = "alkis_vereinfacht.yml"
     with fileinput.FileInput("D://repos/uni/ba/alkis-transform/MappingFiles/" + mappingFile,

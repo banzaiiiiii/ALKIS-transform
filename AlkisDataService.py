@@ -58,21 +58,33 @@ def testCall():
 
 
 WFS_dictionary = {
-    "NRW-vereinfacht": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?", # funktioniert
+    "NRW-vereinfacht": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?",
     "NRW-AAA-basiert": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_aaa-modell-basiert?",
     "NRW-NAS-konform": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_nas-konform?",
-    "Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # funktioniert, aber erkennt typename=flurstueck nicht
+    "Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
     "Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
-    "Brandenburg": "https://isk.geobasis-bb.de/ows/alkis_vereinf_wfs?",
-    "mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_sf",
-    "hamburg": "https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?",
-    "sachsen": "", #kein wfs auffindbar, nur download https://www.geodaten.sachsen.de/batch-download-4719.html
-    "bayern": "https://geoservices.bayern.de/wfs/v1/ogc_alkis_ave.cgi?", # muss von kundenservice freigeschaltet werden
-    "Sachsen-Anhalt": "", # kostenpflichtig
-    "Reinland-pfalz": "", # kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353
-
+    "Brandenburg-vereinfacht": "https://isk.geobasis-bb.de/ows/alkis_vereinf_wfs?",
+    "Brandenburg-AAA-basiert": "https://isk.geobasis-bb.de/ows/alkis_sf_wfs?",
+    "Brandenburg-NAS-konform": "https://isk.geobasis-bb.de/ows/alkis_nas_wfs?SERVICE=WFS&",
+    "Mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_einfach?",
+    "Hamburg": "https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?",
+    "Sachsen": "https://geodienste.sachsen.de/aaa/public_alkis/vereinf/wfs?",
+    "Bayern": "https://geoservices.bayern.de/wfs/v1/ogc_alkis_ave.cgi?", # muss von kundenservice freigeschaltet werden
+    "Sachsen-Anhalt": "", #kostenpflichtig
+    "Reinland-pfalz": "", #kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353
+    "Hessen-vereinfacht": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/vereinf/wfs?",
+    "Hessen-NAS-konform": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/nas/wfs?",
+    "Niedersachsen": "",
+    "Schleswig-Holtstein": "", #kostenpflichtig https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_digALKIS.html
+    "Baden-Württemberg": "",
+    "Bremen": "https://geodienste.bremen.de/wfs_flurstuecke?SERVICE=WFS&REQUEST=GetCapabilities",
+    "Saarland": "" #kostenpflichtig https://geoportal.saarland.de/spatial-objects/325?Service=WFS&Request=GetCapabilities
     #https://fbinter.stadt-berlin.de/fb_daten/beschreibung/datenformatbeschreibung/datenformatbeschreibung_alkis_berlin.pdf
 }
+
+# urheberrechtlich geschützt https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=FA4D0ED5-EE47-4959-A620-DA34AA76663E&plugid=/ingrid-group:ige-iplug-hb
+def outputDic():
+    return str(WFS_dictionary.keys())
 
 FeatureTypes = {
     "FlurstueckEigentuemer", "Flurstueck", "FlurstueckPunkt", "GebaeudeBauwerk", "KatasterBezirk", "Nutzung", "NutzungFlurstueck", "VerwaltungsEinheit"

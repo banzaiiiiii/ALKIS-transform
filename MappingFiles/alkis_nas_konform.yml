@@ -5,7 +5,7 @@ prefixes:
 mappings:
   alkis_flurstueck:
     sources:
-      - access: /TestData/NRW/NAS-konform.xml
+      - access: /Testdata/NRW/AAA-basiert.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/AX_Flurstueck
     subjects: alkis:$(identifier)
@@ -45,7 +45,7 @@ mappings:
           type: iri
   alkis_flurstuecksnummer:
     sources:
-      - access: /TestData/NRW/NAS-konform.xml
+      - access: /Testdata/NRW/AAA-basiert.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/AX_Flurstueck
     subjects: alkis:$(identifier)_flurstuecksnummer

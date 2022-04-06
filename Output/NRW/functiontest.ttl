@@ -1,0 +1,32 @@
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000NqDl> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nqdl" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000NqfC> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nqfc" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000Nscu> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nscu" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000Nsvw> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nsvw" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000NtIY> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000ntiy" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000Nucy> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nucy" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000Nujy> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nujy" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000NupT> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000nupt" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL1000RPJK> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al1000rpjk" .
+
+<http://alkis-transform.de/urn%3Aadv%3Aoid%3ADENW42AL30000dKp> a alkis:AX_Flurstueck;
+  alkis:flurstuecksnummer "urn:adv:oid:denw42al30000dkp" .

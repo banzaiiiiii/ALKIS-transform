@@ -8,7 +8,7 @@ mappings:
       - access: /TestData/NRW/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck
-    subjects: alkis:$(idflurst)
+    subjects: ex:$(idflurst)
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]
       - [ alkis:amtlicheFlaeche, $(flaeche)]

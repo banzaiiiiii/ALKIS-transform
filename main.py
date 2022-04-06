@@ -10,20 +10,21 @@ while True:
             " 4: Enter SPARQL Query\n type 'CLOSE' for closing the program \n")
         print(inputNumber)
         if inputNumber == "1":  # Download and MAP ALKIS Data
-            bundeslandToMap = input("Enter state you want to download the data from.\n")
-            if bundeslandToMap == ("Sachsen" or "Saxony" or "sachsen" or "saxony"):
-                AlkisDataService.getDataAsDownload("Sachsen", "14522490")
+            bundeslandToMap = input("Enter state you want to download the data from.\n All available data sources are listed here:" + AlkisDataService.outputDic() + "\n")
             if (bundeslandToMap == "Caps"):
                 AlkisDataService.getCapabilities()
             else:
-                AlkisDataService.getDataFromWFS(bundeslandToMap)
+                try:
+                    AlkisDataService.getDataFromWFS(bundeslandToMap)
+                except:
+                    print("Something went wrong, please try again!")
             break
         if inputNumber == "2":  # Map existing .xml file
             fileToMap = input("Enter path to the .xml you want to transform\n")
             try:
-                rdfTransformer.nameFileToMap("/TestData/NRW/vereinfachtes-schema.xml")
+                rdfTransformer.nameFileToMap("/Testdata/NRW/AAA-basiert.xml")
                 file = input("Enter which mappingfile you want to use!\n Options: alkis_nas_konform, alkis_aaa_basiert OR alkis_vereinfacht\n")
-                rdfTransformer.yarrrmlToRML("alkis_vereinfacht")
+                rdfTransformer.yarrrmlToRML("alkis_aaa_basiert")
                 rdfTransformer.callRDFTransformer(outputPathFolder="NRW")
             except Exception as exception:
                 print(exception)
@@ -37,7 +38,7 @@ while True:
                 print(exception, "Something went wrong!")
             break
         if inputNumber == "4":  # Sparql Query
-            print("Querys are not implemented yet!")
+            FusekiConnection.queryDB()
             break
         if inputNumber == "close" or "CLOSE" or "exit":
             break
@@ -45,13 +46,3 @@ while True:
             print("Input a valid number!")
     except Exception as exception:
         print(exception)
-
-'''
-text abfrage: welche gemeindenummer wollen sie mappen? 
-input gemeindenummer.
-try download gemeindenummer!
-pic yarrml file
-map and transform to ttl and save to db 
-beispiel abfrage! 
-
-'''
