@@ -2,53 +2,136 @@ prefixes:
   alkis: https://w3id.org/alkis/
   ex: http://alkis-transform.de/
   ngeo: http://geovocab.org/geometry/
+sources:
+  flurstueck-source:
+      access: /Testdata/NRW/AAA-basiert.xml
+      referenceFormulation: xpath
+      iterator: FeatureCollection/member/AX_Flurstueck
 mappings:
   alkis_flurstueck:
-    sources:
-      - access: /Testdata/NRW/AAA-basiert.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/AX_Flurstueck
-    subjects: alkis:$(identifier)
+    sources: flurstueck-source
+    subjects: ex:$(identifier)
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]
-      - [ alkis:anlass, $(anlass) ]
-      - [ alkis:amtlicheFlaeche, $(amtlicheFlaeche) ]
-      - [ alkis:flurstueckskennzeichen, $(flurstueckskennzeichen) ]
-      - [ alkis:zeitpunktDerEntstehung, $(zeitpunktDerEntstehung) ]
+      - [ alkis:anlass, $(anlass), xsd:string ]
+      - [ alkis:amtlicheFlaeche, $(amtlicheFlaeche), xsd:integer ]
+      - [ alkis:flurstueckskennzeichen, $(flurstueckskennzeichen), xsd:string ]
+      - [ alkis:zeitpunktDerEntstehung, $(zeitpunktDerEntstehung), xsd:dateTime ]
+      - [ alkis:flurnummer, $(flurnummer), xsd:integer]
+      - [ alkis:abweichenderRechtszustand, $(abweichenderRechtszustand), xsd:boolean]
+      - [ alkis:rechtsbehelfsverfahren, $(rechtsbehelfsverfahren), xsd:boolean]
+      - [ alkis:zeitpunktDerEntstehung, $(zeitpunktDerEntstehung), xsd:datetime]
       - predicates: alkis:lebenszeitintervall
         objects:
-          value: alkis:$(identifier)_lebenszeitintervall
+          value: ex:$(identifier)_lebenszeitintervall
           type: iri
       - predicates: alkis:modellart
         objects:
-          value: alkis:$(identifier)_modellart
-          type: iri
-      - predicates: alkis:flurstuecksnummer
-        objects:
-          value: alkis:$(identifier)_flurstuecksnummer
-          type: iri
-      - predicates: alkis:gemarkung
-        objects:
-          value: alkis:$(identifier)_gemarkung
-          type: iri
-      - predicates: alkis:gemeindezugehoerigkeit
-        objects:
-          value: alkis:$(identifier)_gemeindezugehoerigkeit
-          type: iri
-      - predicates: alkis:objektkoordinaten
-        objects:
-          value: alkis:$(identifier)_objektkoordinaten
+          value: ex:$(identifier)_modellart
           type: iri
       - predicates: alkis:position
         objects:
-          value: alkis:$(identifier)_position
+          value: ex:$(identifier)_position
           type: iri
+      - predicates: alkis:gemarkung
+        objects:
+          value: ex:$(identifier)_gemarkung
+          type: iri
+      - predicates: alkis:flurstuecksnummer
+        objects:
+          value: ex:$(identifier)_flurstuecksnummer
+          type: iri
+      - predicates: alkis:gemeindezugehoerigkeit
+        objects:
+          value: ex:$(identifier)_gemeindezugehoerigkeit
+          type: iri
+      - predicates: alkis:zustaendigeStelle
+        objects:
+          value: ex:$(identifier)_zustaendigeStelle
+          type: iri
+  alkis_lebenszeitintervall:
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_lebenszeitintervall
+    predicateobjects:
+       - [ a, alkis:AA_Lebenszeitintervall ]
+       - predicates: alkis:beginnt
+         objects:
+           value: $(lebenszeitintervall/AA_Lebenszeitintervall/beginnt)
+           datatype: xsd:dateTime
+  alkis_modellart:
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_modellart
+    predicateobjects:
+      - [ a, alkis:AA_Modellart ]
+      - predicates: alkis:advStandartModell
+        objects:
+          value: $(modellart/AA_Modellart/advStandardModell)
+          datatype: xsd:string
+  alkis_position:
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_position
+    predicateobjects:
+      - [ a, ngeo:MultiPolygon ]
+      - predicates: ngeo:id
+        objects:
+          value: $(position/Polygon[1])
+          datatype: xsd:integer
+      - predicates: alkis:posList
+          objects:
+            value: $(position/Polygon/exterior/LinearRing/posList[1])
+  alkis_gemarkung:
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_gemarkung
+    predicateobjects:
+      - [ a, alkis:AX_Gemarkung_Schluessel ]
+      - predicates: alkis:gemarkungsnummer
+        objects:
+          value: $(gemarkung/AX_Gemarkung_Schluessel/gemarkungsnummer)
+          datatype: xsd:integer
+      - predicates: alkis:land
+        objects:
+          value: $(gemarkung/AX_Gemarkung_Schluessel/land)
+          datatype: xsd:string
   alkis_flurstuecksnummer:
-    sources:
-      - access: /Testdata/NRW/AAA-basiert.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/AX_Flurstueck
-    subjects: alkis:$(identifier)_flurstuecksnummer
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_flurstuecksnummer
     predicateobjects:
       - [a, alkis:AX_Flurstuecksnummer]
-      - [alkis:zaehler, $(/AX_Flurstuecksnummer/zaehler)]
+      - predicates: alkis:zaehler
+        objects:
+          value: $(flurstuecksnummer/AX_Flurstuecksnummer/zaehler)
+          datatype: xsd:integer
+  alkis_gemeindezugehoerigkeit:
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_gemeindezugehoerigkeit
+    predicateobjects:
+      - [ a, alkis:AX_Gemeindekennzeichen ]
+      - predicates: alkis:gemeinde
+        objects:
+          value: $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/gemeinde)
+          datatype: xsd:string
+      - predicates: alkis:kreis
+        objects:
+          value: $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/kreis)
+          datatype: xsd:string
+      - predicates: alkis:regierungsbezirk
+        objects:
+          value: $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/regierungsbezirk)
+          datatype: xsd:string
+      - predicates: alkis:land
+        objects:
+          value: $(gemeindezugehoerigkeit/AX_Gemeindekennzeichen/land)
+          datatype: xsd:string
+  alkis_zustaendigeStelle:
+    sources: flurstueck-source
+    subjects: ex:$(identifier)_zustaendigeStelle
+    predicateobjects:
+      - [ a, alkis:AX_Dienststelle_Schluessel ]
+      - predicates: alkis:land
+        objects:
+          value: $(zustaendigeStelle/AX_Dienststelle_Schluessel/land)
+          datatype: xsd:string
+      - predicates: alkis:stelle
+        objects:
+          value: $(zustaendigeStelle/AX_Dienststelle_Schluessel/stelle)
+          datatype: xsd:string
