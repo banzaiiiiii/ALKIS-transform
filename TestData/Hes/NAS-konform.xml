@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:FeatureCollection timeStamp="2022-04-10T19:44:13.66+02:00" numberReturned="10" numberMatched="unknown" xmlns="http://www.adv-online.de/namespaces/adv/gid/6.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.adv-online.de/namespaces/adv/gid/6.0 https://www.gds.hessen.de/wfs2/aaa-suite/schema/NAS/6.0/schema/AAA-Fachschema.xsd http://www.opengis.net/wfs/2.0 https://www.gds.hessen.de/wfs2/aaa-suite/schema/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://www.gds.hessen.de/wfs2/aaa-suite/schema/NAS/6.0/schema/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://www.gds.hessen.de/wfs2/aaa-suite/schema/NAS/6.0/schema/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://www.gds.hessen.de/wfs2/aaa-suite/schema/NAS/6.0/schema/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::25832" srsDimension="2">
+<gml:lowerCorner>469605.821 5487001.695</gml:lowerCorner>
+<gml:upperCorner>469723.603 5487120.131</gml:upperCorner>
+</gml:Envelope>
+</wfs:boundedBy>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA0">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA0</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8147.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8147.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469713.680 5487024.130 469723.603 5487035.348</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8147.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469723.603 5487035.348 469697.415 5487058.746</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8147.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469697.415 5487058.746 469687.532 5487047.448</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8147.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469687.532 5487047.448 469713.680 5487024.130</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>723</zaehler>
+<nenner>2</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007230002__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">528.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUGy"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSN6"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA1">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA1</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8148.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8148.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469654.104 5487099.994 469661.458 5487109.521</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8148.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469661.458 5487109.521 469652.894 5487100.934</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8148.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469652.894 5487100.934 469654.104 5487099.994</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>724</zaehler>
+<nenner>5</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007240005__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">9.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1957-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DULO"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNp"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA2">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA2</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8149.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8149.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469664.420 5487091.888 469672.345 5487100.067</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8149.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469672.345 5487100.067 469661.458 5487109.521</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8149.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469661.458 5487109.521 469654.104 5487099.994</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8149.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469654.104 5487099.994 469664.420 5487091.888</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>724</zaehler>
+<nenner>6</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007240006__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">163.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1957-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUIg"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNn"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA3">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA3</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8150.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469655.220 5487044.794 469655.110 5487044.674</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469655.110 5487044.674 469657.238 5487043.335</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469657.238 5487043.335 469672.269 5487060.421</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469672.269 5487060.421 469675.227 5487063.760</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469675.227 5487063.760 469685.450 5487075.408</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469685.450 5487075.408 469679.992 5487079.695</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469679.992 5487079.695 469664.420 5487091.888</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_8">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469664.420 5487091.888 469654.104 5487099.994</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_9">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469654.104 5487099.994 469652.894 5487100.934</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_10">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469652.894 5487100.934 469636.121 5487114.057</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_11">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469636.121 5487114.057 469635.303 5487112.898</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_12">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469635.303 5487112.898 469634.703 5487111.918</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_13">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469634.703 5487111.918 469681.803 5487075.118</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8150.position_complex.Geom_14">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469681.803 5487075.118 469655.220 5487044.794</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>724</zaehler>
+<nenner>10</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007240010__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">259.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1975-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUNM"/>
+<zeigtAuf xlink:href="urn:adv:oid:DEHE06120000DSIJ"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA4">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA4</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8151.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469667.384 5487036.929 469668.953 5487039.338</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469668.953 5487039.338 469676.350 5487034.671</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469676.350 5487034.671 469685.762 5487045.256</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469685.762 5487045.256 469687.342 5487047.228</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469687.342 5487047.228 469672.269 5487060.421</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469672.269 5487060.421 469657.238 5487043.335</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8151.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469657.238 5487043.335 469667.384 5487036.929</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>724</zaehler>
+<nenner>12</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007240012__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">400.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1975-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUIS"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSN7"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA5">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA5</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8152.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469687.342 5487047.228 469687.532 5487047.448</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469687.532 5487047.448 469697.415 5487058.746</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469697.415 5487058.746 469701.202 5487063.065</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469701.202 5487063.065 469691.987 5487070.291</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469691.987 5487070.291 469685.450 5487075.408</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469685.450 5487075.408 469675.227 5487063.760</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469675.227 5487063.760 469672.269 5487060.421</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8152.position_complex.Geom_8">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469672.269 5487060.421 469687.342 5487047.228</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>724</zaehler>
+<nenner>13</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007240013__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">411.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1975-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUIR"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSN8"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA6">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA6</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8153.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469679.992 5487079.695 469690.535 5487090.334</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469690.535 5487090.334 469695.033 5487094.813</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469695.033 5487094.813 469706.325 5487106.400</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469706.325 5487106.400 469692.542 5487120.131</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469692.542 5487120.131 469672.345 5487100.067</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469672.345 5487100.067 469664.420 5487091.888</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8153.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469664.420 5487091.888 469679.992 5487079.695</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>724</zaehler>
+<nenner>16</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007240016__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">754.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1977-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUJa"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSN9"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA7">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA7</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8154.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469655.220 5487044.794 469681.803 5487075.118</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469681.803 5487075.118 469634.703 5487111.918</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469634.703 5487111.918 469620.994 5487089.633</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469620.994 5487089.633 469613.438 5487075.195</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469613.438 5487075.195 469622.444 5487070.358</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469622.444 5487070.358 469632.990 5487062.083</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469632.990 5487062.083 469631.431 5487059.834</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8154.position_complex.Geom_8">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469631.431 5487059.834 469655.220 5487044.794</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>725</zaehler>
+<nenner>5</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007250005__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">2314.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1976-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUJT"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNa"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNb"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA8">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA8</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8155.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469693.872 5487001.695 469703.827 5487012.382</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469703.827 5487012.382 469703.757 5487012.912</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469703.757 5487012.912 469713.680 5487024.130</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469713.680 5487024.130 469687.532 5487047.448</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469687.532 5487047.448 469687.342 5487047.228</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469687.342 5487047.228 469685.762 5487045.256</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469685.762 5487045.256 469676.350 5487034.671</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_8">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469676.350 5487034.671 469668.953 5487039.338</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_9">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469668.953 5487039.338 469667.384 5487036.929</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_10">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469667.384 5487036.929 469659.808 5487025.013</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8155.position_complex.Geom_11">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469659.808 5487025.013 469693.872 5487001.695</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>725</zaehler>
+<nenner>6</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007250006__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">1250.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1999-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUJH"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNc"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNd"/>
+</AX_Flurstueck>
+</wfs:member>
+<wfs:member>
+<AX_Flurstueck gml:id="DEHE06120000DtA9">
+<gml:identifier codeSpace="http://www.adv-online.de/">urn:adv:oid:DEHE06120000DtA9</gml:identifier>
+<lebenszeitintervall>
+<AA_Lebenszeitintervall>
+<beginnt>2009-11-05T09:47:58Z</beginnt>
+</AA_Lebenszeitintervall>
+</lebenszeitintervall>
+<modellart>
+<AA_Modellart>
+<advStandardModell>DLKM</advStandardModell>
+</AA_Modellart>
+</modellart>
+<anlass>000000</anlass>
+<position>
+<gml:Surface gml:id="o11001.id.8156.position_complex.Geom_0">
+<gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:Ring>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_1">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469652.282 5487030.290 469657.070 5487027.002</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_2">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469657.070 5487027.002 469659.808 5487025.013</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_3">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469659.808 5487025.013 469667.384 5487036.929</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_4">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469667.384 5487036.929 469657.238 5487043.335</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_5">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469657.238 5487043.335 469655.110 5487044.674</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_6">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469655.110 5487044.674 469655.220 5487044.794</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_7">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469655.220 5487044.794 469631.431 5487059.834</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_8">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469631.431 5487059.834 469632.990 5487062.083</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_9">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469632.990 5487062.083 469622.444 5487070.358</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_10">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469622.444 5487070.358 469613.438 5487075.195</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_11">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469613.438 5487075.195 469609.959 5487068.546</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_12">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469609.959 5487068.546 469605.821 5487059.828</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_13">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469605.821 5487059.828 469638.716 5487039.859</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_14">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469638.716 5487039.859 469647.894 5487033.358</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+<gml:curveMember>
+<gml:Curve gml:id="o11001.id.8156.position_complex.Geom_15">
+<gml:segments>
+<gml:LineStringSegment>
+<gml:posList>469647.894 5487033.358 469652.282 5487030.290</gml:posList>
+</gml:LineStringSegment>
+</gml:segments>
+</gml:Curve>
+</gml:curveMember>
+</gml:Ring>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</position>
+<gemarkung>
+<AX_Gemarkung_Schluessel>
+<land>06</land>
+<gemarkungsnummer>3070</gemarkungsnummer>
+</AX_Gemarkung_Schluessel>
+</gemarkung>
+<flurstuecksnummer>
+<AX_Flurstuecksnummer>
+<zaehler>726</zaehler>
+<nenner>2</nenner>
+</AX_Flurstuecksnummer>
+</flurstuecksnummer>
+<flurstueckskennzeichen>063070001007260002__</flurstueckskennzeichen>
+<amtlicheFlaeche uom="urn:adv:uom:m2">951.00</amtlicheFlaeche>
+<flurnummer>1</flurnummer>
+<zeitpunktDerEntstehung>1976-01-01</zeitpunktDerEntstehung>
+<gemeindezugehoerigkeit>
+<AX_Gemeindekennzeichen>
+<land>06</land>
+<regierungsbezirk>4</regierungsbezirk>
+<kreis>31</kreis>
+<gemeinde>020</gemeinde>
+</AX_Gemeindekennzeichen>
+</gemeindezugehoerigkeit>
+<istGebucht xlink:href="urn:adv:oid:DEHE06120000DUJE"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNe"/>
+<weistAuf xlink:href="urn:adv:oid:DEHE06120000DSNf"/>
+</AX_Flurstueck>
+</wfs:member>
+</wfs:FeatureCollection>

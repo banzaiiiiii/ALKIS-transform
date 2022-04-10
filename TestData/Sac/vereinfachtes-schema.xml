@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:FeatureCollection timeStamp="2022-04-10T19:42:22.092+02:00" numberReturned="10" numberMatched="unknown" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://geodienste.sachsen.de/aaa-suite_schema/guest/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:lowerCorner>476460.705 5684973.905</gml:lowerCorner>
+<gml:upperCorner>482273.659 5691334.416</gml:upperCorner>
+</gml:Envelope>
+</wfs:boundedBy>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000cCFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000cCFL</gml:identifier>
+<idflurst>DESNALK05e0000cC</idflurst>
+<flstkennz>146325___00121000100</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 25</gemarkung>
+<gemaschl>146325</gemaschl>
+<flstnrzae>121</flstnrzae>
+<flstnrnen>1</flstnrnen>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000cCFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464317.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464317.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>477327.104 5686337.176 477343.065 5686300.077 477478.128 5686363.754 477489.077 5686410.303 477327.104 5686337.176</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>6321</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Wald;6321</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000rJFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000rJFL</gml:identifier>
+<idflurst>DESNALK05e0000rJ</idflurst>
+<flstkennz>146324___00175____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 24</gemarkung>
+<gemaschl>146324</gemaschl>
+<flstnrzae>175</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000rJFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464319.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464319.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>478151.019 5687084.373 478155.497 5687068.799 478158.096 5687059.743 478227.197 5687082.25 478289.235 5687102.451 478280.707 5687125.551 478218.372 5687105.768 478151.019 5687084.373</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>3468</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Nieskyer Straße 48</lagebeztxt>
+<tntxt>Wohnbaufläche;1636|Landwirtschaft;673|Wald;1159</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000QkFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000QkFL</gml:identifier>
+<idflurst>DESNALK05e0000Qk</idflurst>
+<flstkennz>146310___00011____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 5</gemarkung>
+<gemaschl>146310</gemaschl>
+<flstnrzae>11</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000QkFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464320.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464320.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>477825.7 5691172.155 477849.349 5691180.705 477911.096 5691203.027 477853.109 5691334.416 477742.098 5691295.663 477802.559 5691164.438 477812.637 5691168.072 477825.7 5691172.155</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>17160</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Wald;9150|Fließgewässer;8010</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000OpFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000OpFL</gml:identifier>
+<idflurst>DESNALK05e0000Op</idflurst>
+<flstkennz>146309___00476000100</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 4</gemarkung>
+<gemaschl>146309</gemaschl>
+<flstnrzae>476</flstnrzae>
+<flstnrnen>1</flstnrnen>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000OpFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464323.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464323.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>478015.223 5687874.472 478061.493 5687894.189 478051.101 5687922.483 478005.906 5687904.693 478015.223 5687874.472</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>1529</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Bautzener Straße 40</lagebeztxt>
+<tntxt>Wohnbaufläche;1529</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000n7FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000n7FL</gml:identifier>
+<idflurst>DESNALK05e0000n7</idflurst>
+<flstkennz>146318___00031____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 13</gemarkung>
+<gemaschl>146318</gemaschl>
+<flstnrzae>31</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000n7FL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464325.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464325.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>482135.29 5688342.484 482145.682 5688326.553 482154.609 5688287.128 482167.002 5688259.474 482273.659 5688354.453 482234.757 5688404.489 482135.29 5688342.484</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>9624</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Wald;9624</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000hhFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000hhFL</gml:identifier>
+<idflurst>DESNALK05e0000hh</idflurst>
+<flstkennz>146312___00149____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 7</gemarkung>
+<gemaschl>146312</gemaschl>
+<flstnrzae>149</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000hhFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464328.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464328.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>480818.194 5687497.932 480829.961 5687490.357 480889.134 5687481.079 480926.594 5687474.529 480924.642 5687483.481 480923.317 5687487.525 480912.482 5687517.371 480912.203 5687521.403 480911.132 5687526.845 480909.768 5687531.186 480904.742 5687538.162 480895.806 5687548.789 480887.516 5687559.961 480882.011 5687562.505 480872.848 5687572.001 480859.506 5687588.15 480852.714 5687595.08 480845.772 5687601.233 480831.794 5687615.254 480818.194 5687497.932</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>7330</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Wald;7330</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000aTFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000aTFL</gml:identifier>
+<idflurst>DESNALK05e0000aT</idflurst>
+<flstkennz>146309___00515____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 4</gemarkung>
+<gemaschl>146309</gemaschl>
+<flstnrzae>515</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000aTFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464330.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464330.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>477910.707 5687793.78 478023.739 5687839.137 478015.223 5687874.472 478005.906 5687904.693 478003.216 5687913.16 477990.254 5687907.754 477969.708 5687871.384 477967.144 5687869.363 477965.708 5687866.395 477916.713 5687859.953 477910.707 5687793.78</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>6330</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Landwirtschaft;5300|Wald;1030</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000LjFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000LjFL</gml:identifier>
+<idflurst>DESNALK05e0000Lj</idflurst>
+<flstkennz>146326___00120____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 26</gemarkung>
+<gemaschl>146326</gemaschl>
+<flstnrzae>120</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000LjFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464334.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464334.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>476460.705 5685040.754 476508.198 5685027.18 476533.04 5685015.468 476545.582 5685005.906 476579.809 5684973.905 476548.485 5685009.039 476534.515 5685018.031 476508.755 5685029.846 476460.705 5685040.754</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>280</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Weg;280</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000gYFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000gYFL</gml:identifier>
+<idflurst>DESNALK05e0000gY</idflurst>
+<flstkennz>146309___00134000100</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 4</gemarkung>
+<gemaschl>146309</gemaschl>
+<flstnrzae>134</flstnrzae>
+<flstnrnen>1</flstnrnen>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000gYFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464336.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464336.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>478111.709 5688869.445 478115.442 5688855.746 478131.905 5688860.154 478127.327 5688877.957 478110.573 5688873.619 478111.709 5688869.445</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>215</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Landwirtschaft;215</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK05e0000iqFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000iqFL</gml:identifier>
+<idflurst>DESNALK05e0000iq</idflurst>
+<flstkennz>146312___00123____00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Kreba-Neudorf Flur 7</gemarkung>
+<gemaschl>146312</gemaschl>
+<flstnrzae>123</flstnrzae>
+<regbezirk>NUTS 2-Region Dresden</regbezirk>
+<regbezschl>146</regbezschl>
+<kreis>Landkreis Görlitz</kreis>
+<kreisschl>14626</kreisschl>
+<gemeinde>Kreba-Neudorf</gemeinde>
+<gmdschl>14626260</gmdschl>
+<oid>DESNALK05e0000iqFL</oid>
+<aktualit>2013-11-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.86464338.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.86464338.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>479557.889 5688053.871 479589.485 5688049.119 479603.162 5688144.794 479575.856 5688181.624 479557.889 5688053.871</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>5060</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>ohne Lage</lagebeztxt>
+<tntxt>Wald;5060</tntxt>
+</Flurstueck>
+</wfs:member>
+</wfs:FeatureCollection>

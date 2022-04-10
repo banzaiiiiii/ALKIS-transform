@@ -26,24 +26,36 @@ def unZipFiles(bundesland, gemeindenummer):
 
 
 def getDataFromWFS(bundesland):
-    if("vereinfacht" in bundesland):
+
+    createDir(bundesland)
+    response = requests.get(createGetFeatureURL(bundesland), allow_redirects=True)
+
+    if "NAS" in bundesland:
+         open("TestData/"+bundesland[0:3]+"/NAS-konform.xml", 'wb').write(response.content)
+    elif "AAA" in bundesland:
+        open("TestData/"+bundesland[0:3]+"/AAA-basiert.xml", 'wb').write(response.content)
+    elif "vereinfacht" in bundesland:
+        open("TestData/"+bundesland[0:3]+"/vereinfachtes-schema.xml", 'wb').write(response.content)
+    else:
+        open("TestData/"+bundesland[0:3]+"/unbekanntes-schema.xml", 'wb').write(response.content)
+
+
+def createGetFeatureURL(bundesland):
+    if ("vereinfacht" in bundesland):
         typenames = "Flurstueck"
     else:
         typenames = "AX_Flurstueck"
-
     count = "10"
     namespace = ""
-
     urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
-          typenames + "&COUNT=" + count
-   # urlDescribeFeatureType = WFS_dictionary["NRW"] + "Service=WFS&Request=DescribeFeatureType&version=2.0&Typename=" + typenames
-    request = requests.get(urlGETFeature, allow_redirects=True)
-    if ("NAS" or "nas") in bundesland:
-        open("TestData/"+bundesland[0:3]+"/NAS-konform.xml", 'wb').write(request.content)
-    if ("AAA" or "aaa" ) in bundesland:
-        open("TestData/"+bundesland[0:3]+"/AAA-basiert.xml", 'wb').write(request.content)
-    if("vereinfacht" in bundesland):
-        open("TestData/"+bundesland[0:3]+"/vereinfachtes-schema.xml", 'wb').write(request.content)
+                    typenames + "&COUNT=" + count
+    return urlGETFeature
+
+
+def createDir(bundesland):
+    directory = bundesland[0:3]
+    if os.path.exists(directory):
+        os.makedirs("TestData/" + directory)
 
 
 def getCapabilities():
@@ -52,33 +64,28 @@ def getCapabilities():
     open("TestData/wfs_capabilities.xml", 'wb').write(request.content)
 
 
-def testCall():
-    request = requests.get(WFS_dictionary["Berlin"] + "Service=WFS&Request=GetFeature&VERSION=2.0.0&TYPENAME=flurstueck", allow_redirects=True)
-    open("TestData/wfs_test.xml", 'wb').write(request.content)
-
-
 WFS_dictionary = {
     "NRW-vereinfacht": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?",
     "NRW-AAA-basiert": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_aaa-modell-basiert?",
     "NRW-NAS-konform": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_nas-konform?",
-    "Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
-    "Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
+    #"Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
+    #"Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
     "Brandenburg-vereinfacht": "https://isk.geobasis-bb.de/ows/alkis_vereinf_wfs?",
     "Brandenburg-AAA-basiert": "https://isk.geobasis-bb.de/ows/alkis_sf_wfs?",
     "Brandenburg-NAS-konform": "https://isk.geobasis-bb.de/ows/alkis_nas_wfs?SERVICE=WFS&",
-    "Mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_einfach?",
-    "Hamburg": "https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?",
-    "Sachsen": "https://geodienste.sachsen.de/aaa/public_alkis/vereinf/wfs?",
-    "Bayern": "https://geoservices.bayern.de/wfs/v1/ogc_alkis_ave.cgi?", # muss von kundenservice freigeschaltet werden
-    "Sachsen-Anhalt": "", #kostenpflichtig
-    "Reinland-pfalz": "", #kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353
+   # "Mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_einfach?",#auth
+    "Hamburg-vereinfacht": "https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?",
+    "Sachsen-vereinfacht": "https://geodienste.sachsen.de/aaa/public_alkis/vereinf/wfs?",
+    #"Bayern": "https://geoservices.bayern.de/wfs/v1/ogc_alkis_ave.cgi?", # muss von kundenservice freigeschaltet werden
+    #"Sachsen-Anhalt": "", #kostenpflichtig
+    #"Reinland-pfalz": "", #kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353
     "Hessen-vereinfacht": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/vereinf/wfs?",
     "Hessen-NAS-konform": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/nas/wfs?",
-    "Niedersachsen": "",
-    "Schleswig-Holtstein": "", #kostenpflichtig https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_digALKIS.html
-    "Baden-Württemberg": "",
-    "Bremen": "https://geodienste.bremen.de/wfs_flurstuecke?SERVICE=WFS&REQUEST=GetCapabilities",
-    "Saarland": "" #kostenpflichtig https://geoportal.saarland.de/spatial-objects/325?Service=WFS&Request=GetCapabilities
+    #"Niedersachsen": "",
+    #"Schleswig-Holtstein": "", #kostenpflichtig https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_digALKIS.html
+    #"Baden-Württemberg": "",
+    #"Bremen": "https://geodienste.bremen.de/wfs_flurstuecke?SERVICE=WFS&REQUEST=GetCapabilities",
+    #"Saarland": "" #kostenpflichtig https://geoportal.saarland.de/spatial-objects/325?Service=WFS&Request=GetCapabilities
     #https://fbinter.stadt-berlin.de/fb_daten/beschreibung/datenformatbeschreibung/datenformatbeschreibung_alkis_berlin.pdf
 }
 

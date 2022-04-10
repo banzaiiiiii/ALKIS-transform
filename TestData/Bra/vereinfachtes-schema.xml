@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:FeatureCollection timeStamp="2022-04-10T18:31:06.065+02:00" numberReturned="10" numberMatched="3145313" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://isk.geobasis-bb.de/schema/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 https://isk.geobasis-bb.de/schema/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://isk.geobasis-bb.de/schema/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://isk.geobasis-bb.de/schema/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://isk.geobasis-bb.de/schema/ogc/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:lowerCorner>375408.075 5699461.653</gml:lowerCorner>
+<gml:upperCorner>376958.937 5699719.55</gml:upperCorner>
+</gml:Envelope>
+</wfs:boundedBy>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007T8VoFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007T8VoFL</gml:identifier>
+<idflurst>DEBBAL010007T8Vo</idflurst>
+<flstkennz>12133200201168______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>002</flur>
+<flurschl>121332002</flurschl>
+<flstnrzae>1168</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007T8VoFL</oid>
+<aktualit>2014-10-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987315.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987315.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>376901.824 5699660.098 376902.626 5699655.926 376958.937 5699652.997 376957.6 5699658.072 376901.824 5699660.098</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>257.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Kröbelner Straße 23</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007T8VpFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007T8VpFL</gml:identifier>
+<idflurst>DEBBAL010007T8Vp</idflurst>
+<flstkennz>12133200201169______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>002</flur>
+<flurschl>121332002</flurschl>
+<flstnrzae>1169</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007T8VpFL</oid>
+<aktualit>2014-05-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987316.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987316.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>376892.772 5699707.164 376895.327 5699693.879 376901.824 5699660.098 376957.6 5699658.072 376941.404 5699719.55 376893.889 5699710.37 376892.772 5699707.164</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>2972.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Viertelfeld 10</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFAFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFAFL</gml:identifier>
+<idflurst>DEBBAL010007VMFA</idflurst>
+<flstkennz>12133200100290______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>290</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFAFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987317.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987317.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375560.719 5699558.732 375561.008 5699555.676 375562.836 5699552.824 375565.559 5699550.908 375568.759 5699548.805 375571.82 5699546.443 375574.945 5699542.014 375579.805 5699551.799 375560.719 5699558.732</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>126.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFBFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFBFL</gml:identifier>
+<idflurst>DEBBAL010007VMFB</idflurst>
+<flstkennz>12133200100291______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>291</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFBFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987318.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987318.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375555.412 5699539.675 375558.37 5699542.662 375562.215 5699543.542 375565.184 5699541.709 375567.649 5699539.226 375569.052 5699536.717 375569.563 5699534.217 375569.617 5699531.027 375568.496 5699526.2 375560.816 5699496.515 375558.753 5699492.092 375560.249 5699490.861 375564.024 5699489.838 375564.441 5699492.773 375567.631 5699515.208 375570.04 5699532.138 375574.945 5699542.014 375571.82 5699546.443 375568.759 5699548.805 375565.559 5699550.908 375562.836 5699552.824 375561.008 5699555.676 375560.719 5699558.732 375555.412 5699539.675</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>287.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFCFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFCFL</gml:identifier>
+<idflurst>DEBBAL010007VMFC</idflurst>
+<flstkennz>12133200100292______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>292</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFCFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987319.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987319.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375540.534 5699500.823 375542.495 5699494.577 375545 5699489.545 375549.01 5699486.109 375557.682 5699481.191 375560.249 5699490.861 375558.753 5699492.092 375560.816 5699496.515 375568.496 5699526.2 375569.617 5699531.027 375569.563 5699534.217 375569.052 5699536.717 375567.649 5699539.226 375565.184 5699541.709 375562.215 5699543.542 375558.37 5699542.662 375555.412 5699539.675 375550.833 5699533.569 375547.134 5699526.946 375542.728 5699516.133 375540.616 5699508.461 375540.534 5699500.823</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>1119.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFDFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFDFL</gml:identifier>
+<idflurst>DEBBAL010007VMFD</idflurst>
+<flstkennz>12133200100293______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>293</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFDFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987320.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987320.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375431.603 5699514.568 375484.361 5699493.886 375502.649 5699491.372 375507.7 5699492.43 375512.113 5699494.377 375516.763 5699498.435 375519.706 5699503.328 375523.359 5699515.585 375526.454 5699526.953 375533.39 5699538.544 375539.477 5699546.263 375552.216 5699558.578 375553.645 5699561.302 375496.32 5699582.125 375484.366 5699567.129 375471.566 5699554.561 375453.411 5699538.761 375439.233 5699529.033 375431.603 5699514.568</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>5935.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFEFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFEFL</gml:identifier>
+<idflurst>DEBBAL010007VMFE</idflurst>
+<flstkennz>12133200100294______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>294</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFEFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987321.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987321.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375519.706 5699503.328 375526.177 5699501.487 375531.039 5699484.475 375531.238 5699483.439 375531.618 5699482.595 375542.868 5699473.25 375557.24 5699462.775 375561.031 5699476.293 375561.036 5699476.31 375560.754 5699476.488 375559.816 5699472.46 375556.103 5699475.182 375557.682 5699481.191 375549.01 5699486.109 375545 5699489.545 375542.495 5699494.577 375540.534 5699500.823 375540.616 5699508.461 375542.728 5699516.133 375547.134 5699526.946 375550.833 5699533.569 375555.412 5699539.675 375560.719 5699558.732 375553.645 5699561.302 375552.216 5699558.578 375539.477 5699546.263 375533.39 5699538.544 375526.454 5699526.953 375523.359 5699515.585 375519.706 5699503.328</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>1646.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFFFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFFFL</gml:identifier>
+<idflurst>DEBBAL010007VMFF</idflurst>
+<flstkennz>12133200100295______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>295</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFFFL</oid>
+<aktualit>2015-01-29Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987322.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987322.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375556.103 5699475.182 375559.816 5699472.46 375560.754 5699476.488 375561.036 5699476.31 375563.196 5699484.01 375564.024 5699489.838 375560.249 5699490.861 375557.682 5699481.191 375556.103 5699475.182</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>75.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFGFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFGFL</gml:identifier>
+<idflurst>DEBBAL010007VMFG</idflurst>
+<flstkennz>12133200100296______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>296</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFGFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987323.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987323.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375417.594 5699513.283 375494.957 5699484.207 375556.925 5699461.653 375557.24 5699462.775 375542.868 5699473.25 375531.618 5699482.595 375531.238 5699483.439 375531.039 5699484.475 375526.177 5699501.487 375519.706 5699503.328 375516.763 5699498.435 375512.113 5699494.377 375507.7 5699492.43 375502.649 5699491.372 375484.361 5699493.886 375431.603 5699514.568 375439.233 5699529.033 375425.894 5699521.348 375419.129 5699518.369 375417.594 5699513.283</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>1401.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Hafen</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007VMFIFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007VMFIFL</gml:identifier>
+<idflurst>DEBBAL010007VMFI</idflurst>
+<flstkennz>12133200100304______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>001</flur>
+<flurschl>121332001</flurschl>
+<flstnrzae>304</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007VMFIFL</oid>
+<aktualit>2014-05-19Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987324.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987324.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>375408.075 5699526.762 375423.787 5699534.725 375430.862 5699538.826 375412.483 5699546.367 375408.075 5699526.762</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>201.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Im Schloßwerder</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+</wfs:FeatureCollection>
