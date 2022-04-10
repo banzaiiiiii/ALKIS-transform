@@ -1,5 +1,7 @@
 {
   "ProjektFolder": "D://repos/Uni/Ba/Alkis-transform/",
   "rmlmapper": "D://repos/Uni/BA/rmlmapper-java/target/rmlmapper-4.12.0-r358-all.jar",
-  "fuseki-endpoint": ""
+  "fuseki_query_endpoint": "http://localhost:3030/ds/query",
+  "fuseki_update_endpoint": "http://localhost:3030/ds/update"
+
 }

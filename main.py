@@ -3,12 +3,14 @@ import AlkisDataService
 import FusekiConnection
 import Neo4jConnection
 
+
 def endOrRepeatProgram():
     userinput = input("Close Program? Press 'Y' or 'N' \n")
     if userinput == ("N" or "n"):
         start()
     else:
         print("closing programm..\n")
+
 
 def start():
     userInput = input(
@@ -33,10 +35,14 @@ def start():
             print(exception)
         endOrRepeatProgram()
     elif userInput == "3":
-        print("case3\n")
+        path = input("Enter path to .tll file you want to save!\n")
+        try:
+            FusekiConnection.saveGraph(path)
+        except Exception as exception:
+            print(exception, "Something went wrong!")
         endOrRepeatProgram()
     elif userInput == "4":
-        print("case4\n")
+        print("Here you can enter Sparql Queries!\n Not yet implemented\n")
         endOrRepeatProgram()
     else:
         print("Wrong input try again!\n")

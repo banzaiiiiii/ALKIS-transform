@@ -1,13 +1,11 @@
 from rdflib import URIRef, Graph
 from rdflib.plugins.stores import sparqlstore
-
+import Helper
 
 def saveGraph(path):
-    query_endpoint = 'http://localhost:3030/ds/query'
-    update_endpoint = 'http://localhost:3030/ds/update'
 
     store = sparqlstore.SPARQLUpdateStore()
-    store.open((query_endpoint, update_endpoint))
+    store.open((Helper.getQueryEndpoint(), Helper.getUpdateEndpoint()))
 
 
     alkis_graph = URIRef('http://example.org/alkis_graph')
