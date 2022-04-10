@@ -1,0 +1,393 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://alkis-transform.de/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ngeo: <http://geovocab.org/geometry/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "528.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007230002__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_position;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 723 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA0_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "9.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007240005__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_position;
+  alkis:zeitpunktDerEntstehung "1957-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1957-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA1_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "163.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007240006__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_position;
+  alkis:zeitpunktDerEntstehung "1957-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1957-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA2_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "259.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007240010__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_position;
+  alkis:zeitpunktDerEntstehung "1975-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1975-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA3_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "400.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007240012__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_position;
+  alkis:zeitpunktDerEntstehung "1975-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1975-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA4_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "411.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007240013__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_position;
+  alkis:zeitpunktDerEntstehung "1975-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1975-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA5_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "754.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007240016__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_position;
+  alkis:zeitpunktDerEntstehung "1977-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1977-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA6_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "2314.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007250005__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_position;
+  alkis:zeitpunktDerEntstehung "1976-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1976-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 725 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA7_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "1250.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007250006__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_position;
+  alkis:zeitpunktDerEntstehung "1999-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1999-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 725 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA8_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9 a alkis:AX_Flurstueck;
+  alkis:amtlicheFlaeche "951.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "000000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "063070001007260002__";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_position;
+  alkis:zeitpunktDerEntstehung "1976-01-01"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "1976-01-01"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 726 .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 3070;
+  alkis:land "06" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "020";
+  alkis:kreis "31";
+  alkis:land "06";
+  alkis:regierungsbezirk "4" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2009-11-05T09:47:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_position a ngeo:MultiPolygon .
+
+ex:urn%3Aadv%3Aoid%3ADEHE06120000DtA9_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel .

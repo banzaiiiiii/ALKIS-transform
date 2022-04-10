@@ -49,6 +49,6 @@ def nameFileToMap(FileName):
             if (line.startswith("      - access:") == True):
                 print("      - access: " + FileName, end='\n')
             elif(line.startswith("      access:") == True):
-                print("      - access: " + FileName, end='\n')
+                print("      access: " + FileName, end='\n')
             else:
                 print(line, end='')

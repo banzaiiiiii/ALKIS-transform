@@ -2,12 +2,14 @@ prefixes:
   alkis: https://w3id.org/alkis/
   ex: http://example.com/
   ngeo: http://geovocab.org/geometry/
+sources:
+  flurstueck-source:
+      access:
+      referenceFormulation: xpath
+      iterator: FeatureCollection/member/Flurstueck
 mappings:
   alkis_flurstueck:
-    sources:
-      - access: TestData/Ham/vereinfachtes-schema.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/Flurstueck
+    sources: flurstueck-source
     subjects: ex:$(idflurst)
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]

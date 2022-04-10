@@ -4,7 +4,7 @@ prefixes:
   ngeo: http://geovocab.org/geometry/
 sources:
   flurstueck-source:
-      - access: TestData/Bra/AAA-basiert.xml
+      access: TestData/Bra/AAA-basiert.xml
       referenceFormulation: xpath
       iterator: FeatureCollection/member/AX_Flurstueck
 mappings:
