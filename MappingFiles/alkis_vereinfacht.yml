@@ -5,7 +5,7 @@ prefixes:
 mappings:
   alkis_flurstueck:
     sources:
-      - access: /TestData/NRW/vereinfachtes-schema.xml
+      - access: TestData/Ham/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck
     subjects: ex:$(idflurst)
@@ -38,7 +38,7 @@ mappings:
           type: iri
   alkis_flurstuecksnummer:
     sources:
-      - access: /TestData/NRW/vereinfachtes-schema.xml
+      - access: TestData/Ham/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck
     subjects: ex:$(idflurst)_flurstuecksnummer
@@ -47,7 +47,7 @@ mappings:
       - [alkis:zaehler, $(flstnrzae)]
   alkis_gemarkung:
     sources:
-      - access: /TestData/NRW/vereinfachtes-schema.xml
+      - access: TestData/Ham/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck
     subjects: ex:$(idflurst)_gemarkung
@@ -57,7 +57,7 @@ mappings:
       - [ alkis:gemarkung, $(gemarkung)]
   alkis_gemeindezugehoerigkeit:
     sources:
-      - access: /TestData/NRW/vereinfachtes-schema.xml
+      - access: TestData/Ham/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck
     subjects: ex:$(idflurst)_gemeindezugehoerigkeit
@@ -69,7 +69,7 @@ mappings:
       - [ alkis:regierungsbezirk, $(regbezirk) ]
   alkis_lebenszeitintervall:
     sources:
-      - access: /TestData/NRW/vereinfachtes-schema.xml
+      - access: TestData/Ham/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck
     subjects: ex:$(idflurst)_lebenszeitintervall
@@ -78,7 +78,7 @@ mappings:
       - [ alkis:beginnt, $(aktualit)]
   alkis_geometrie:
     sources:
-      - access: /TestData/NRW/vereinfachtes-schema.xml
+      - access: TestData/Ham/vereinfachtes-schema.xml
         referenceFormulation: xpath
         iterator: FeatureCollection/member/Flurstueck/geometrie/gml:MultiSurface/gml:surfaceMember/gml:Polygon/gml:exterior/gml:LinearRing
     subjects: alkis:$(idflurst)_geometrie

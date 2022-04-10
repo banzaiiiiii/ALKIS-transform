@@ -24,7 +24,13 @@ def start():
         print("Download was successful! the file can be found under /TestData")
         endOrRepeatProgram()
     elif userInput == "2":
-        print("case2\n")
+        try:
+            fileToMap = input("Enter path to the .xml you want to transform\n")
+            rdfTransformer.nameFileToMap(fileToMap)
+            rdfTransformer.yarrrmlToRML(fileToMap)
+            rdfTransformer.callRDFTransformer(fileToMap)
+        except Exception as exception:
+            print(exception)
         endOrRepeatProgram()
     elif userInput == "3":
         print("case3\n")
