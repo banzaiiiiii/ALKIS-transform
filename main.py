@@ -15,7 +15,7 @@ def endOrRepeatProgram():
 def start():
     userInput = input(
         "Press a number: \n 1: Download ALKIS DATA \n 2: Transform existing ALKIS Data \n 3: SAVE .ttl file to fuseki \n"
-        " 4: Enter SPARQL Query\n")
+        " 4: Enter SPARQL Query\n 5:Automatically transform data for all available states and output all graph triples!")
     if userInput == "1":
         bundeslandToMap = input(
             "Enter state you want to download the data from.\n All available data sources are listed here:" + AlkisDataService.outputDic() + "\n")
@@ -44,6 +44,8 @@ def start():
     elif userInput == "4":
         print("Here you can enter Sparql Queries!\n Not yet implemented\n")
         endOrRepeatProgram()
+    elif userInput == "5":
+        print("not yet implemented\n")
     else:
         print("Wrong input try again!\n")
         start()
