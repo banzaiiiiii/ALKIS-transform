@@ -1,0 +1,436 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://alkis-transform.de/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ngeo: <http://geovocab.org/geometry/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "257.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "060200";
+  alkis:flurnummer 2;
+  alkis:flurstueckskennzeichen "12133200201168______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_position;
+  alkis:zeitpunktDerEntstehung "2014-04-17"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-04-17"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 1168 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-10-08T06:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_position a ngeo:MultiPolygon;
+  alkis:posList _:3769012e8242056996602e098203769022e6262056996552e926203769582e9372056996522e997203769572e62056996582e072203769012e8242056996602e0982csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vo_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "2972.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "060100";
+  alkis:flurnummer 2;
+  alkis:flurstueckskennzeichen "12133200201169______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_position;
+  alkis:zeitpunktDerEntstehung "2014-04-17"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-04-17"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 1169 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-05T07:53:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_position a ngeo:MultiPolygon;
+  alkis:posList _:3768922e7722056997072e164203768952e3272056996932e879203769012e8242056996602e098203769572e62056996582e072203769412e4042056997192e55203768932e8892056997102e37203768922e7722056997072e1642csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007T8Vp_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "126.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100290______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 290 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_position a ngeo:MultiPolygon;
+  alkis:posList _:3755602e7192056995582e732203755612e0082056995552e676203755622e8362056995522e824203755652e5592056995502e908203755682e7592056995482e805203755712e822056995462e443203755742e9452056995422e014203755792e8052056995512e799203755602e7192056995582e7322csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFA_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "287.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100291______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 291 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_position a ngeo:MultiPolygon;
+  alkis:posList _:3755552e4122056995392e675203755582e372056995422e662203755622e2152056995432e542203755652e1842056995412e709203755672e6492056995392e226203755692e0522056995362e717203755692e5632056995342e217203755692e6172056995312e027203755682e4962056995262e2203755602e8162056994962e515203755582e7532056994922e092203755602e2492056994902e861203755642e0242056994892e838203755642e4412056994922e773203755672e6312056995152e208203755702e042056995322e138203755742e9452056995422e014203755712e822056995462e443203755682e7592056995482e805203755652e5592056995502e908203755622e8362056995522e824203755612e0082056995552e676203755602e7192056995582e732203755552e4122056995392e6752csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFB_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "1119.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100292______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 292 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_position a ngeo:MultiPolygon;
+  alkis:posList _:3755402e5342056995002e823203755422e4952056994942e577203755452056994892e545203755492e012056994862e109203755572e6822056994812e191203755602e2492056994902e861203755582e7532056994922e092203755602e8162056994962e515203755682e4962056995262e2203755692e6172056995312e027203755692e5632056995342e217203755692e0522056995362e717203755672e6492056995392e226203755652e1842056995412e709203755622e2152056995432e542203755582e372056995422e662203755552e4122056995392e675203755502e8332056995332e569203755472e1342056995262e946203755422e7282056995162e133203755402e6162056995082e461203755402e5342056995002e8232csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFC_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "5935.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100293______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 293 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_position a ngeo:MultiPolygon;
+  alkis:posList _:3754312e6032056995142e568203754842e3612056994932e886203755022e6492056994912e372203755072e72056994922e43203755122e1132056994942e377203755162e7632056994982e435203755192e7062056995032e328203755232e3592056995152e585203755262e4542056995262e953203755332e392056995382e544203755392e4772056995462e263203755522e2162056995582e578203755532e6452056995612e302203754962e322056995822e125203754842e3662056995672e129203754712e5662056995542e561203754532e4112056995382e761203754392e2332056995292e033203754312e6032056995142e5682csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFD_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "1646.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100294______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 294 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_position a ngeo:MultiPolygon;
+  alkis:posList _:3755192e7062056995032e328203755262e1772056995012e487203755312e0392056994842e475203755312e2382056994832e439203755312e6182056994822e595203755422e8682056994732e25203755572e242056994622e775203755612e0312056994762e293203755612e0362056994762e31203755602e7542056994762e488203755592e8162056994722e46203755562e1032056994752e182203755572e6822056994812e191203755492e012056994862e109203755452056994892e545203755422e4952056994942e577203755402e5342056995002e823203755402e6162056995082e461203755422e7282056995162e133203755472e1342056995262e946203755502e8332056995332e569203755552e4122056995392e675203755602e7192056995582e732203755532e6452056995612e302203755522e2162056995582e578203755392e4772056995462e263203755332e392056995382e544203755262e4542056995262e953203755232e3592056995152e585203755192e7062056995032e3282csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFE_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "75.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "200000";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100295______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 295 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2015-01-29T14:16:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_position a ngeo:MultiPolygon;
+  alkis:posList _:3755562e1032056994752e182203755592e8162056994722e46203755602e7542056994762e488203755612e0362056994762e31203755632e1962056994842e01203755642e0242056994892e838203755602e2492056994902e861203755572e6822056994812e191203755562e1032056994752e1822csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFF_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "1401.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100296______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_position;
+  alkis:zeitpunktDerEntstehung "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-05"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 296 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_position a ngeo:MultiPolygon;
+  alkis:posList _:3754172e5942056995132e283203754942e9572056994842e207203755562e9252056994612e653203755572e242056994622e775203755422e8682056994732e25203755312e6182056994822e595203755312e2382056994832e439203755312e0392056994842e475203755262e1772056995012e487203755192e7062056995032e328203755162e7632056994982e435203755122e1132056994942e377203755072e72056994922e43203755022e6492056994912e372203754842e3612056994932e886203754312e6032056995142e568203754392e2332056995292e033203754252e8942056995212e348203754192e1292056995182e369203754172e5942056995132e2832csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFG_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI a alkis:AX_Flurstueck;
+  alkis:abweichenderRechtszustand false;
+  alkis:amtlicheFlaeche "201.00"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:anlass "010101";
+  alkis:flurnummer 1;
+  alkis:flurstueckskennzeichen "12133200100304______";
+  alkis:flurstuecksnummer ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_flurstuecksnummer;
+  alkis:gemarkung ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_gemeindezugehoerigkeit;
+  alkis:lebenszeitintervall ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_lebenszeitintervall;
+  alkis:modellart ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_modellart;
+  alkis:position ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_position;
+  alkis:zeitpunktDerEntstehung "2014-05-12"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
+    "2014-05-12"^^<http://www.w3.org/2001/XMLSchema#datetime>;
+  alkis:zustaendigeStelle ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_zustaendigeStelle .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 304 .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkungsnummer 1332;
+  alkis:land "12" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "341";
+  alkis:kreis "62";
+  alkis:land "12";
+  alkis:regierungsbezirk "0" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_lebenszeitintervall a alkis:AA_Lebenszeitintervall;
+  alkis:beginnt "2014-05-19T18:33:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_modellart a alkis:AA_Modellart;
+  alkis:advStandartModell "DLKM" .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_position a ngeo:MultiPolygon;
+  alkis:posList _:3754082e0752056995262e762203754232e7872056995342e725203754302e8622056995382e826203754122e4832056995462e367203754082e0752056995262e7622csadf2casdrf .
+
+ex:urn%3Aadv%3Aoid%3ADEBBAL010007VMFI_zustaendigeStelle a alkis:AX_Dienststelle_Schluessel;
+  alkis:land "12";
+  alkis:stelle "3058" .

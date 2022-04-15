@@ -25,30 +25,54 @@ def unZipFiles(bundesland, gemeindenummer):
     deleteZip(bundesland, gemeindenummer)
 
 
-def getDataFromWFS(bundesland):
+def getDataFromWFS(bundesland, gemarkung=None):
 
-    createDir(bundesland)
-    response = requests.get(createGetFeatureURL(bundesland), allow_redirects=True)
+
+    response = requests.get(createGetFeatureURL(bundesland, gemarkung), allow_redirects=True)
 
     if "NAS" in bundesland:
-         open("TestData/"+bundesland[0:3]+"/NAS-konform.xml", 'wb').write(response.content)
+        with open("TestData/"+bundesland[0:3]+"/NAS-konform.xml", 'wb') as file:
+            file.write(response.content)
     elif "AAA" in bundesland:
-        open("TestData/"+bundesland[0:3]+"/AAA-basiert.xml", 'wb').write(response.content)
+        with open("TestData/"+bundesland[0:3]+"/AAA-basiert.xml", 'wb') as file:
+            file.write(response.content)
     elif "vereinfacht" in bundesland:
-        open("TestData/"+bundesland[0:3]+"/vereinfachtes-schema.xml", 'wb').write(response.content)
+        with open("TestData/"+bundesland[0:3]+"/vereinfachtes-schema.xml", 'wb') as file:
+            file.write(response.content)
     else:
-        open("TestData/"+bundesland[0:3]+"/unbekanntes-schema.xml", 'wb').write(response.content)
+        with open("TestData/"+bundesland[0:3]+"/unbekanntes-schema.xml", 'wb') as file:
+            file.write(response.content)
 
 
-def createGetFeatureURL(bundesland):
+def createGetFeatureURL(bundesland, gemarkung=None):
     if ("vereinfacht" in bundesland):
-        typenames = "Flurstueck"
+        typenames = "ave:Flurstueck"
+        namespaces = "xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
+        count = "10"
+        if gemarkung != None:
+            filter = "<fes:Filter xmlns='http://www.opengis.net/ogc' xmlns:fes='http://www.opengis.net/fes/2.0' xmlns:gml='http://www.opengis.net/gml/3.2'>" \
+                     "  <fes:PropertyIsEqualTo>" \
+                     "  <fes:ValueReference>ave:gemarkung</fes:ValueReference>" \
+                     "    <fes:Literal>" + gemarkung + "</fes:Literal>" \
+                                                       "  </fes:PropertyIsEqualTo>" \
+                                                       "</fes:Filter>"
+            urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
+                            typenames + "&NAMESPACES=" + namespaces + "&COUNT=" + count + "&FILTER=" + filter
+        else:
+            urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
+                            typenames + "&NAMESPACES=" + namespaces + "&COUNT=" + count
     else:
         typenames = "AX_Flurstueck"
-    count = "10"
-    namespace = ""
-    urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
-                    typenames + "&COUNT=" + count
+        count = "10"
+        namespaces = "xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
+        filter = "<fes:Filter xmlns='http://www.opengis.net/ogc' xmlns:fes='http://www.opengis.net/fes/2.0' xmlns:gml='http://www.opengis.net/gml/3.2'>" \
+             "  <fes:PropertyIsEqualTo>" \
+             "  <fes:ValueReference>gemarkungsnummer</fes:ValueReference>" \
+             "    <fes:Literal>" + gemarkung + "</fes:Literal>" \
+            "  </fes:PropertyIsEqualTo>" \
+                 "</fes:Filter>"
+        urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
+                    typenames + "&COUNT=" + count + "&FILTER=" + filter
     return urlGETFeature
 
 

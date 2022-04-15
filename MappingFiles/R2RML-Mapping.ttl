@@ -13,13 +13,14 @@
 @prefix alkis: <https://w3id.org/alkis/> .
 @prefix ex: <http://alkis-transform.de/> .
 @prefix ngeo: <http://geovocab.org/geometry/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
 
 :rules_000 rdf:type void:Dataset ;
 	void:exampleResource :map_alkis_flurstueck_000, :map_alkis_lebenszeitintervall_000, :map_alkis_modellart_000, :map_alkis_position_000, :map_alkis_gemarkung_000, :map_alkis_flurstuecksnummer_000, :map_alkis_gemeindezugehoerigkeit_000, :map_alkis_zustaendigeStelle_000 .
 
 :source_000 rdf:type rml:LogicalSource ;
 	rdfs:label "flurstueck-source" ;
-	rml:source "TestData/Hes/NAS-konform.xml" ;
+	rml:source "TestData/Bra/AAA-basiert.xml" ;
 	rml:iterator "FeatureCollection/member/AX_Flurstueck" ;
 	rml:referenceFormulation ql:XPath .
 
@@ -305,12 +306,11 @@
 	rr:objectMap :om_021 .
 
 :pm_021 rdf:type rr:PredicateMap ;
-	rr:constant ngeo:id .
+	rr:constant alkis:posList .
 
 :om_021 rdf:type rr:ObjectMap ;
-	rml:reference "position/Polygon[1]" ;
-	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+	rr:template "{position/Polygon/exterior/LinearRing/posList},sadf,asdrf" ;
+	rr:termType rr:BlankNode .
 
 :map_alkis_gemarkung_000 rml:logicalSource :source_000 ;
 	rdf:type rr:TriplesMap ;

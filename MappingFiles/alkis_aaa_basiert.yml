@@ -2,6 +2,7 @@ prefixes:
   alkis: https://w3id.org/alkis/
   ex: http://alkis-transform.de/
   ngeo: http://geovocab.org/geometry/
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
 sources:
   flurstueck-source:
       access: TestData/Bra/AAA-basiert.xml
@@ -72,13 +73,18 @@ mappings:
     subjects: ex:$(identifier)_position
     predicateobjects:
       - [ a, ngeo:MultiPolygon ]
-      - predicates: ngeo:id
-        objects:
-          value: $(position/Polygon[1])
-          datatype: xsd:integer
       - predicates: alkis:posList
-          objects:
-            value: $(position/Polygon/exterior/LinearRing/posList[1])
+        objects:
+           value: $(position/Polygon/exterior/LinearRing/posList)
+#    predicateobjects:
+ #     - [ a, ngeo:MultiPolygon ]
+ #     - predicates: alkis:posList
+ #       objects:
+ #         function: grel:string_substring
+ #         parameters:
+  #          - [grel:valueParameter, $(position/Polygon/exterior/LinearRing/posList)]
+  #          - [grel:param_int_i_from, 0]
+ #           - [grel:param_int_i_opt_to, 22]
   alkis_gemarkung:
     sources: flurstueck-source
     subjects: ex:$(identifier)_gemarkung

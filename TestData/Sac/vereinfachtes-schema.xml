@@ -1,382 +1,388 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wfs:FeatureCollection timeStamp="2022-04-10T19:42:22.092+02:00" numberReturned="10" numberMatched="unknown" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://geodienste.sachsen.de/aaa-suite_schema/guest/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:FeatureCollection timeStamp="2022-04-15T14:55:14.559+02:00" numberReturned="10" numberMatched="unknown" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://geodienste.sachsen.de/aaa-suite_schema/guest/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://geodienste.sachsen.de/aaa-suite_schema/guest/ogc/iso/19139/20070417/gmd/gmd.xsd">
 <wfs:boundedBy>
 <gml:Envelope srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:lowerCorner>476460.705 5684973.905</gml:lowerCorner>
-<gml:upperCorner>482273.659 5691334.416</gml:upperCorner>
+<gml:lowerCorner>314783.659 5688114.218</gml:lowerCorner>
+<gml:upperCorner>317599.324 5691838.307</gml:upperCorner>
 </gml:Envelope>
 </wfs:boundedBy>
 <wfs:member>
-<Flurstueck gml:id="DESNALK05e0000cCFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000cCFL</gml:identifier>
-<idflurst>DESNALK05e0000cC</idflurst>
-<flstkennz>146325___00121000100</flstkennz>
+<Flurstueck gml:id="DESNALK0v80000ukFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000ukFL</gml:identifier>
+<idflurst>DESNALK0v80000uk</idflurst>
+<flstkennz>140415___00686000a00</flstkennz>
 <land>Freistaat Sachsen</land>
 <landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 25</gemarkung>
-<gemaschl>146325</gemaschl>
-<flstnrzae>121</flstnrzae>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>686</flstnrzae>
+<flstnrnen>a</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000ukFL</oid>
+<aktualit>2015-03-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.137041857.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.137041857.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>317126.975 5690738.197 317128.13 5690722.406 317130.127 5690722.525 317130.049 5690738.461 317126.975 5690738.197</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>40</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Petersstraße</lagebeztxt>
+<tntxt>Straßenverkehr;40</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK0v80000sfFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000sfFL</gml:identifier>
+<idflurst>DESNALK0v80000sf</idflurst>
+<flstkennz>140415___02638001200</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>2638</flstnrzae>
+<flstnrnen>12</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000sfFL</oid>
+<aktualit>2015-03-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.137042198.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.137042198.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>314907.556 5691426.371 314950.486 5691284.543 315023.217 5691044.883 315059.008 5690926.941 315066.586 5690901.943 315072.287 5690903.606 315065.533 5690915.703 315037.743 5691010.574 314787.759 5691838.307 314783.659 5691835.115 314821.426 5691710.328 314864.523 5691567.932 314907.556 5691426.371</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>4227</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Cottaweg</lagebeztxt>
+<tntxt>Straßenverkehr;4227</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK0v80000swFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000swFL</gml:identifier>
+<idflurst>DESNALK0v80000sw</idflurst>
+<flstkennz>140415___01009000a00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>1009</flstnrzae>
+<flstnrnen>a</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000swFL</oid>
+<aktualit>2015-03-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.137042242.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.137042242.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>317250.134 5690105.66 317269.379 5690103.931 317270.135 5690113.338 317268.318 5690118.106 317267.21 5690119.393 317265.007 5690119.613 317265.425 5690124.93 317255.733 5690126.808 317252.682 5690127.334 317252.129 5690127.516 317250.134 5690105.66</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>380</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Härtelstraße 4</lagebeztxt>
+<tntxt>Wohnbaufläche;380</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK0v80000v2FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000v2FL</gml:identifier>
+<idflurst>DESNALK0v80000v2</idflurst>
+<flstkennz>140415___02055000i00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>2055</flstnrzae>
+<flstnrnen>i</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000v2FL</oid>
+<aktualit>2015-03-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.137042528.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.137042528.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>316565.827 5691503.864 316550.34 5691500.528 316552.795 5691489.178 316565.032 5691491.697 316567.953 5691493.034 316565.827 5691503.864</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>180</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Färberstraße 12</lagebeztxt>
+<tntxt>Wohnbaufläche;180</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK0v80000v8FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000v8FL</gml:identifier>
+<idflurst>DESNALK0v80000v8</idflurst>
+<flstkennz>140415___02499000r00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>2499</flstnrzae>
+<flstnrnen>r</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000v8FL</oid>
+<aktualit>2015-03-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.137042592.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.137042592.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>317581.321 5688140.003 317580.533 5688114.679 317596.414 5688114.218 317598.193 5688115.946 317599.324 5688139.012 317585.371 5688139.817 317581.321 5688140.003</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>440</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Richard-Lehmann-Straße; Altenburger Straße 56; Richard-Lehmann-Straße 77</lagebeztxt>
+<tntxt>Wohnbaufläche;440</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK0v80000uwFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000uwFL</gml:identifier>
+<idflurst>DESNALK0v80000uw</idflurst>
+<flstkennz>140415___02530000q00</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>2530</flstnrzae>
+<flstnrnen>q</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000uwFL</oid>
+<aktualit>2015-03-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.137042619.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.137042619.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>316563.065 5688940.676 316564.886 5688940.508 316564.064 5688932.072 316575.125 5688931.016 316577.251 5688948.571 316564.051 5688949.898 316563.065 5688940.676</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>210</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Alfred-Kästner-Straße; Alfred-Kästner-Straße 16</lagebeztxt>
+<tntxt>Wohnbaufläche;210</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DESNALK0v80000v0FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80000v0FL</gml:identifier>
+<idflurst>DESNALK0v80000v0</idflurst>
+<flstkennz>140415___01141000100</flstkennz>
+<land>Freistaat Sachsen</land>
+<landschl>14</landschl>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>1141</flstnrzae>
 <flstnrnen>1</flstnrnen>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000cCFL</oid>
-<aktualit>2013-11-08Z</aktualit>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80000v0FL</oid>
+<aktualit>2015-03-28Z</aktualit>
 <geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464317.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:MultiSurface gml:id="flurstueck.id.137042683.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
 <gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464317.geometrie.Geom_1">
+<gml:Polygon gml:id="flurstueck.id.137042683.geometrie.Geom_1">
 <gml:exterior>
 <gml:LinearRing>
-<gml:posList>477327.104 5686337.176 477343.065 5686300.077 477478.128 5686363.754 477489.077 5686410.303 477327.104 5686337.176</gml:posList>
+<gml:posList>317590.671 5689839.091 317593.198 5689844.102 317580.852 5689850.251 317582.732 5689853.989 317582.293 5689854.216 317578.96 5689856.425 317574.401 5689847.264 317590.671 5689839.091</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </geometrie>
-<flaeche>6321</flaeche>
+<flaeche>121</flaeche>
 <abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Wald;6321</tntxt>
+<lagebeztxt>Paul-List-Straße</lagebeztxt>
+<tntxt>Straßenverkehr;121</tntxt>
 </Flurstueck>
 </wfs:member>
 <wfs:member>
-<Flurstueck gml:id="DESNALK05e0000rJFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000rJFL</gml:identifier>
-<idflurst>DESNALK05e0000rJ</idflurst>
-<flstkennz>146324___00175____00</flstkennz>
+<Flurstueck gml:id="DESNALK0v80001piFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80001piFL</gml:identifier>
+<idflurst>DESNALK0v80001pi</idflurst>
+<flstkennz>140415___02578000n00</flstkennz>
 <land>Freistaat Sachsen</land>
 <landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 24</gemarkung>
-<gemaschl>146324</gemaschl>
-<flstnrzae>175</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000rJFL</oid>
-<aktualit>2013-11-08Z</aktualit>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>2578</flstnrzae>
+<flstnrnen>n</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80001piFL</oid>
+<aktualit>2015-03-28Z</aktualit>
 <geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464319.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:MultiSurface gml:id="flurstueck.id.137042835.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
 <gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464319.geometrie.Geom_1">
+<gml:Polygon gml:id="flurstueck.id.137042835.geometrie.Geom_1">
 <gml:exterior>
 <gml:LinearRing>
-<gml:posList>478151.019 5687084.373 478155.497 5687068.799 478158.096 5687059.743 478227.197 5687082.25 478289.235 5687102.451 478280.707 5687125.551 478218.372 5687105.768 478151.019 5687084.373</gml:posList>
+<gml:posList>315945.916 5690544.192 315960.785 5690525.278 315974.427 5690508.405 315982.219 5690514.734 315991.973 5690522.824 315982.897 5690534.318 315963.721 5690558.385 315945.916 5690544.192</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </geometrie>
-<flaeche>3468</flaeche>
+<flaeche>1030</flaeche>
 <abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>Nieskyer Straße 48</lagebeztxt>
-<tntxt>Wohnbaufläche;1636|Landwirtschaft;673|Wald;1159</tntxt>
+<lagebeztxt>Käthe-Kollwitz-Straße 77</lagebeztxt>
+<tntxt>Wohnbaufläche;1030</tntxt>
 </Flurstueck>
 </wfs:member>
 <wfs:member>
-<Flurstueck gml:id="DESNALK05e0000QkFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000QkFL</gml:identifier>
-<idflurst>DESNALK05e0000Qk</idflurst>
-<flstkennz>146310___00011____00</flstkennz>
+<Flurstueck gml:id="DESNALK0v80001FRFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80001FRFL</gml:identifier>
+<idflurst>DESNALK0v80001FR</idflurst>
+<flstkennz>140415___02096000o00</flstkennz>
 <land>Freistaat Sachsen</land>
 <landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 5</gemarkung>
-<gemaschl>146310</gemaschl>
-<flstnrzae>11</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000QkFL</oid>
-<aktualit>2013-11-08Z</aktualit>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>2096</flstnrzae>
+<flstnrnen>o</flstnrnen>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80001FRFL</oid>
+<aktualit>2015-03-28Z</aktualit>
 <geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464320.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:MultiSurface gml:id="flurstueck.id.137042856.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
 <gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464320.geometrie.Geom_1">
+<gml:Polygon gml:id="flurstueck.id.137042856.geometrie.Geom_1">
 <gml:exterior>
 <gml:LinearRing>
-<gml:posList>477825.7 5691172.155 477849.349 5691180.705 477911.096 5691203.027 477853.109 5691334.416 477742.098 5691295.663 477802.559 5691164.438 477812.637 5691168.072 477825.7 5691172.155</gml:posList>
+<gml:posList>315867.923 5691633.93 315873.741 5691614.803 315894.185 5691621.161 315890.323 5691633.654 315888.406 5691640.232 315867.923 5691633.93</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </geometrie>
-<flaeche>17160</flaeche>
+<flaeche>430</flaeche>
 <abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Wald;9150|Fließgewässer;8010</tntxt>
+<lagebeztxt>Feuerbachstraße 16</lagebeztxt>
+<tntxt>Wohnbaufläche;430</tntxt>
 </Flurstueck>
 </wfs:member>
 <wfs:member>
-<Flurstueck gml:id="DESNALK05e0000OpFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000OpFL</gml:identifier>
-<idflurst>DESNALK05e0000Op</idflurst>
-<flstkennz>146309___00476000100</flstkennz>
+<Flurstueck gml:id="DESNALK0v80001ZIFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK0v80001ZIFL</gml:identifier>
+<idflurst>DESNALK0v80001ZI</idflurst>
+<flstkennz>140415___00164____00</flstkennz>
 <land>Freistaat Sachsen</land>
 <landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 4</gemarkung>
-<gemaschl>146309</gemaschl>
-<flstnrzae>476</flstnrzae>
-<flstnrnen>1</flstnrnen>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000OpFL</oid>
-<aktualit>2013-11-08Z</aktualit>
+<gemarkung>Leipzig</gemarkung>
+<gemaschl>140415</gemaschl>
+<flstnrzae>164</flstnrzae>
+<regbezirk>NUTS 2-Region Leipzig</regbezirk>
+<regbezschl>147</regbezschl>
+<kreis>Kreisfreie Stadt Leipzig</kreis>
+<kreisschl>14713</kreisschl>
+<gemeinde>Stadt Leipzig</gemeinde>
+<gmdschl>14713000</gmdschl>
+<oid>DESNALK0v80001ZIFL</oid>
+<aktualit>2015-03-28Z</aktualit>
 <geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464323.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:MultiSurface gml:id="flurstueck.id.137042936.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
 <gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464323.geometrie.Geom_1">
+<gml:Polygon gml:id="flurstueck.id.137042936.geometrie.Geom_1">
 <gml:exterior>
 <gml:LinearRing>
-<gml:posList>478015.223 5687874.472 478061.493 5687894.189 478051.101 5687922.483 478005.906 5687904.693 478015.223 5687874.472</gml:posList>
+<gml:posList>317396.311 5691076.48 317396.711 5691067.984 317408.905 5691066.234 317420.388 5691064.276 317421.397 5691064.103 317423.417 5691072.323 317406.578 5691075.752 317406.57 5691076.442 317396.586 5691076.317 317396.311 5691076.48</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </geometrie>
-<flaeche>1529</flaeche>
+<flaeche>227</flaeche>
 <abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>Bautzener Straße 40</lagebeztxt>
-<tntxt>Wohnbaufläche;1529</tntxt>
-</Flurstueck>
-</wfs:member>
-<wfs:member>
-<Flurstueck gml:id="DESNALK05e0000n7FL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000n7FL</gml:identifier>
-<idflurst>DESNALK05e0000n7</idflurst>
-<flstkennz>146318___00031____00</flstkennz>
-<land>Freistaat Sachsen</land>
-<landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 13</gemarkung>
-<gemaschl>146318</gemaschl>
-<flstnrzae>31</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000n7FL</oid>
-<aktualit>2013-11-08Z</aktualit>
-<geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464325.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464325.geometrie.Geom_1">
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>482135.29 5688342.484 482145.682 5688326.553 482154.609 5688287.128 482167.002 5688259.474 482273.659 5688354.453 482234.757 5688404.489 482135.29 5688342.484</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</geometrie>
-<flaeche>9624</flaeche>
-<abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Wald;9624</tntxt>
-</Flurstueck>
-</wfs:member>
-<wfs:member>
-<Flurstueck gml:id="DESNALK05e0000hhFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000hhFL</gml:identifier>
-<idflurst>DESNALK05e0000hh</idflurst>
-<flstkennz>146312___00149____00</flstkennz>
-<land>Freistaat Sachsen</land>
-<landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 7</gemarkung>
-<gemaschl>146312</gemaschl>
-<flstnrzae>149</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000hhFL</oid>
-<aktualit>2013-11-08Z</aktualit>
-<geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464328.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464328.geometrie.Geom_1">
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>480818.194 5687497.932 480829.961 5687490.357 480889.134 5687481.079 480926.594 5687474.529 480924.642 5687483.481 480923.317 5687487.525 480912.482 5687517.371 480912.203 5687521.403 480911.132 5687526.845 480909.768 5687531.186 480904.742 5687538.162 480895.806 5687548.789 480887.516 5687559.961 480882.011 5687562.505 480872.848 5687572.001 480859.506 5687588.15 480852.714 5687595.08 480845.772 5687601.233 480831.794 5687615.254 480818.194 5687497.932</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</geometrie>
-<flaeche>7330</flaeche>
-<abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Wald;7330</tntxt>
-</Flurstueck>
-</wfs:member>
-<wfs:member>
-<Flurstueck gml:id="DESNALK05e0000aTFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000aTFL</gml:identifier>
-<idflurst>DESNALK05e0000aT</idflurst>
-<flstkennz>146309___00515____00</flstkennz>
-<land>Freistaat Sachsen</land>
-<landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 4</gemarkung>
-<gemaschl>146309</gemaschl>
-<flstnrzae>515</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000aTFL</oid>
-<aktualit>2013-11-08Z</aktualit>
-<geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464330.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464330.geometrie.Geom_1">
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>477910.707 5687793.78 478023.739 5687839.137 478015.223 5687874.472 478005.906 5687904.693 478003.216 5687913.16 477990.254 5687907.754 477969.708 5687871.384 477967.144 5687869.363 477965.708 5687866.395 477916.713 5687859.953 477910.707 5687793.78</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</geometrie>
-<flaeche>6330</flaeche>
-<abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Landwirtschaft;5300|Wald;1030</tntxt>
-</Flurstueck>
-</wfs:member>
-<wfs:member>
-<Flurstueck gml:id="DESNALK05e0000LjFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000LjFL</gml:identifier>
-<idflurst>DESNALK05e0000Lj</idflurst>
-<flstkennz>146326___00120____00</flstkennz>
-<land>Freistaat Sachsen</land>
-<landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 26</gemarkung>
-<gemaschl>146326</gemaschl>
-<flstnrzae>120</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000LjFL</oid>
-<aktualit>2013-11-08Z</aktualit>
-<geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464334.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464334.geometrie.Geom_1">
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>476460.705 5685040.754 476508.198 5685027.18 476533.04 5685015.468 476545.582 5685005.906 476579.809 5684973.905 476548.485 5685009.039 476534.515 5685018.031 476508.755 5685029.846 476460.705 5685040.754</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</geometrie>
-<flaeche>280</flaeche>
-<abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Weg;280</tntxt>
-</Flurstueck>
-</wfs:member>
-<wfs:member>
-<Flurstueck gml:id="DESNALK05e0000gYFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000gYFL</gml:identifier>
-<idflurst>DESNALK05e0000gY</idflurst>
-<flstkennz>146309___00134000100</flstkennz>
-<land>Freistaat Sachsen</land>
-<landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 4</gemarkung>
-<gemaschl>146309</gemaschl>
-<flstnrzae>134</flstnrzae>
-<flstnrnen>1</flstnrnen>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000gYFL</oid>
-<aktualit>2013-11-08Z</aktualit>
-<geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464336.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464336.geometrie.Geom_1">
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>478111.709 5688869.445 478115.442 5688855.746 478131.905 5688860.154 478127.327 5688877.957 478110.573 5688873.619 478111.709 5688869.445</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</geometrie>
-<flaeche>215</flaeche>
-<abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Landwirtschaft;215</tntxt>
-</Flurstueck>
-</wfs:member>
-<wfs:member>
-<Flurstueck gml:id="DESNALK05e0000iqFL">
-<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DESNALK05e0000iqFL</gml:identifier>
-<idflurst>DESNALK05e0000iq</idflurst>
-<flstkennz>146312___00123____00</flstkennz>
-<land>Freistaat Sachsen</land>
-<landschl>14</landschl>
-<gemarkung>Kreba-Neudorf Flur 7</gemarkung>
-<gemaschl>146312</gemaschl>
-<flstnrzae>123</flstnrzae>
-<regbezirk>NUTS 2-Region Dresden</regbezirk>
-<regbezschl>146</regbezschl>
-<kreis>Landkreis Görlitz</kreis>
-<kreisschl>14626</kreisschl>
-<gemeinde>Kreba-Neudorf</gemeinde>
-<gmdschl>14626260</gmdschl>
-<oid>DESNALK05e0000iqFL</oid>
-<aktualit>2013-11-08Z</aktualit>
-<geometrie>
-<gml:MultiSurface gml:id="flurstueck.id.86464338.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
-<gml:surfaceMember>
-<gml:Polygon gml:id="flurstueck.id.86464338.geometrie.Geom_1">
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>479557.889 5688053.871 479589.485 5688049.119 479603.162 5688144.794 479575.856 5688181.624 479557.889 5688053.871</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</geometrie>
-<flaeche>5060</flaeche>
-<abwrecht>Kein abweichender Rechtszustand</abwrecht>
-<lagebeztxt>ohne Lage</lagebeztxt>
-<tntxt>Wald;5060</tntxt>
+<lagebeztxt>Nikolaistraße 18</lagebeztxt>
+<tntxt>Wohnbaufläche;227</tntxt>
 </Flurstueck>
 </wfs:member>
 </wfs:FeatureCollection>
