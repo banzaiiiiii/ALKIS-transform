@@ -27,7 +27,6 @@ def unZipFiles(bundesland, gemeindenummer):
 
 def getDataFromWFS(bundesland, gemarkung=None):
 
-
     response = requests.get(createGetFeatureURL(bundesland, gemarkung), allow_redirects=True)
 
     if "NAS" in bundesland:
@@ -68,11 +67,11 @@ def createGetFeatureURL(bundesland, gemarkung=None):
         filter = "<fes:Filter xmlns='http://www.opengis.net/ogc' xmlns:fes='http://www.opengis.net/fes/2.0' xmlns:gml='http://www.opengis.net/gml/3.2'>" \
              "  <fes:PropertyIsEqualTo>" \
              "  <fes:ValueReference>gemarkungsnummer</fes:ValueReference>" \
-             "    <fes:Literal>" + gemarkung + "</fes:Literal>" \
+             "    <fes:Literal>" + "gemarkung" + "</fes:Literal>" \
             "  </fes:PropertyIsEqualTo>" \
                  "</fes:Filter>"
         urlGETFeature = WFS_dictionary[bundesland] + "Service=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=" + \
-                    typenames + "&COUNT=" + count + "&FILTER=" + filter
+                    typenames + "&COUNT=" + count
     return urlGETFeature
 
 
@@ -88,23 +87,37 @@ def getCapabilities():
     open("TestData/wfs_capabilities.xml", 'wb').write(request.content)
 
 
+# download from vereinfachtes Schema von BRA, HAM, HES, NRW, SAC
+def executeShowCaseDownload():
+    listAvailableStates = ["NRW-vereinfacht", "Brandenburg-vereinfacht", "Hamburg-vereinfacht", "Sachsen-vereinfacht", "Hessen-vereinfacht" ]
+    Typenames = "&TYPENAMES=ave:Flurstueck"
+    KoordinatenType = "&srsName=EPSG:4258"
+    Namespaces = "&NAMESPACES=xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
+    AnzahlObjekte = "&Count=1000"
+    for state in listAvailableStates:
+        response = requests.get(WFS_dictionary[state] + "Service=WFS&REQUEST=GetFeature&Version=2.0.0" + Typenames + KoordinatenType + Namespaces + AnzahlObjekte, allow_redirects=True)
+        with open("TestData/" + state[0:3] + "/vereinfachtes-schema.xml", 'wb') as file:
+            file.write(response.content)
+        print("Download for " + state + " was successful!")
+
+
 WFS_dictionary = {
     "NRW-vereinfacht": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?",
     "NRW-AAA-basiert": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_aaa-modell-basiert?",
     "NRW-NAS-konform": "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_nas-konform?",
-    #"Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
-    #"Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
     "Brandenburg-vereinfacht": "https://isk.geobasis-bb.de/ows/alkis_vereinf_wfs?",
     "Brandenburg-AAA-basiert": "https://isk.geobasis-bb.de/ows/alkis_sf_wfs?",
     "Brandenburg-NAS-konform": "https://isk.geobasis-bb.de/ows/alkis_nas_wfs?SERVICE=WFS&",
-   # "Mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_einfach?",#auth
     "Hamburg-vereinfacht": "https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?",
     "Sachsen-vereinfacht": "https://geodienste.sachsen.de/aaa/public_alkis/vereinf/wfs?",
+    "Hessen-vereinfacht": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/vereinf/wfs?",
+    "Hessen-NAS-konform": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/nas/wfs?",
     #"Bayern": "https://geoservices.bayern.de/wfs/v1/ogc_alkis_ave.cgi?", # muss von kundenservice freigeschaltet werden
     #"Sachsen-Anhalt": "", #kostenpflichtig
     #"Reinland-pfalz": "", #kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353
-    "Hessen-vereinfacht": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/vereinf/wfs?",
-    "Hessen-NAS-konform": "https://www.gds.hessen.de/wfs2/aaa-suite/cgi-bin/alkis/nas/wfs?",
+    # "Mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_einfach?",#auth
+    #"Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
+    #"Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
     #"Niedersachsen": "",
     #"Schleswig-Holtstein": "", #kostenpflichtig https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_digALKIS.html
     #"Baden-Württemberg": "",

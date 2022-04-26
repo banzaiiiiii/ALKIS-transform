@@ -2,9 +2,10 @@ prefixes:
   alkis: https://w3id.org/alkis/
   ex: http://example.com/
   ngeo: http://geovocab.org/geometry/
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
 sources:
   flurstueck-source:
-      access:
+      access: TestData/Sac/vereinfachtes-schema.xml
       referenceFormulation: xpath
       iterator: FeatureCollection/member/Flurstueck
 mappings:
@@ -13,10 +14,10 @@ mappings:
     subjects: ex:$(idflurst)
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]
-      - [ alkis:amtlicheFlaeche, $(flaeche)]
-      - [ alkis:flurstueckskennzeichen, $(flstkennz)]
-      - [ alkis:abweichenderRechtszustand, $(abwrecht) ]
-      - [ alkis:lageText, $(lagebeztxt) ]
+      - [ alkis:amtlicheFlaeche, $(flaeche), xsd:decimal]
+      - [ alkis:flurstueckskennzeichen, $(flstkennz), xsd:string]
+      - [ alkis:abweichenderRechtszustand, $(abwrecht), xsd:string ]
+      - [ alkis:lageText, $(lagebeztxt), xsd:string ]
       - [ alkis:sonstigeEigenschaften, $(tntxt) ]
       - predicates: alkis:Flurstuecksnummer
         objects:
@@ -38,52 +39,41 @@ mappings:
         objects:
           value: ex:$(idflurst)_geometrie
           type: iri
-  alkis_flurstuecksnummer:
-    sources:
-      - access: TestData/Ham/vereinfachtes-schema.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/Flurstueck
-    subjects: ex:$(idflurst)_flurstuecksnummer
-    predicateobjects:
-      - [ a, alkis:AX_Flurstuecksnummer ]
-      - [alkis:zaehler, $(flstnrzae)]
-  alkis_gemarkung:
-    sources:
-      - access: TestData/Ham/vereinfachtes-schema.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/Flurstueck
-    subjects: ex:$(idflurst)_gemarkung
-    predicateobjects:
-      - [ a, alkis:AX_Gemarkung_Schluessel ]
-      - [ alkis:gemarkungsnummer, $(gemaschl) ]
-      - [ alkis:gemarkung, $(gemarkung)]
-  alkis_gemeindezugehoerigkeit:
-    sources:
-      - access: TestData/Ham/vereinfachtes-schema.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/Flurstueck
-    subjects: ex:$(idflurst)_gemeindezugehoerigkeit
-    predicateobjects:
-      - [ a, alkis:AX_Gemeindekennzeichen ]
-      - [ alkis:gemeinde, $(gemeinde) ]
-      - [ alkis:kreis, $(Euskirchen) ]
-      - [ alkis:land, $(land) ]
-      - [ alkis:regierungsbezirk, $(regbezirk) ]
+      - predicates: alkis:objektkoordinaten
+          value: ex:$(idflurst)_objektkoordinaten
+          type: iri
   alkis_lebenszeitintervall:
-    sources:
-      - access: TestData/Ham/vereinfachtes-schema.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/Flurstueck
+    sources: flurstueck-source
     subjects: ex:$(idflurst)_lebenszeitintervall
     predicateobjects:
       - [ a, alkis:AA_lebenszeitintervall ]
-      - [ alkis:beginnt, $(aktualit)]
+      - [ alkis:beginnt, $(aktualit), xsd:dateTime ]
+  alkis_flurstuecksnummer:
+    sources: flurstueck-source
+    subjects: ex:$(idflurst)_flurstuecksnummer
+    predicateobjects:
+      - [ a, alkis:AX_Flurstuecksnummer ]
+      - [alkis:zaehler, $(flstnrzae), xsd:integer]
+  alkis_gemarkung:
+    sources: flurstueck-source
+    subjects: ex:$(idflurst)_gemarkung
+    predicateobjects:
+      - [ a, alkis:AX_Gemarkung_Schluessel ]
+      - [ alkis:gemarkungsnummer, $(gemaschl), xsd:integer ]
+      - [ alkis:gemarkung, $(gemarkung), xsd:string]
+  alkis_gemeindezugehoerigkeit:
+    sources: flurstueck-source
+    subjects: ex:$(idflurst)_gemeindezugehoerigkeit
+    predicateobjects:
+      - [ a, alkis:AX_Gemeindekennzeichen ]
+      - [ alkis:gemeinde, $(gemeinde), xsd:string ]
+      - [ alkis:kreis, $(Euskirchen), xsd:string ]
+      - [ alkis:land, $(land) , xsd:string]
+      - [ alkis:regierungsbezirk, $(regbezirk), xsd:string ]
   alkis_geometrie:
-    sources:
-      - access: TestData/Ham/vereinfachtes-schema.xml
-        referenceFormulation: xpath
-        iterator: FeatureCollection/member/Flurstueck/geometrie/gml:MultiSurface/gml:surfaceMember/gml:Polygon/gml:exterior/gml:LinearRing
+    sources: flurstueck-source
     subjects: alkis:$(idflurst)_geometrie
     predicateobjects:
         - [ a, alkis:Multisurface ]
         - [ alkis:LinearRing, $(gml:posList) ]
+

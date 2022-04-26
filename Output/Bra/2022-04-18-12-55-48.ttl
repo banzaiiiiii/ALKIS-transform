@@ -1,0 +1,286 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ngeo: <http://geovocab.org/geometry/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:DEBBAL010007T8Vo a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007T8Vo_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007T8Vo_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 257.0;
+  alkis:flurstueckskennzeichen "12133200201168______";
+  alkis:gemarkung ex:DEBBAL010007T8Vo_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007T8Vo_gemeindezugehoerigkeit;
+  alkis:lageText "Kröbelner Straße 23";
+  alkis:lebenszeitintervall ex:DEBBAL010007T8Vo_lebenszeitintervall .
+
+ex:DEBBAL010007T8Vo_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 1168 .
+
+ex:DEBBAL010007T8Vo_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007T8Vo_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007T8Vo_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-10-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007T8Vp a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007T8Vp_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007T8Vp_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2972.0;
+  alkis:flurstueckskennzeichen "12133200201169______";
+  alkis:gemarkung ex:DEBBAL010007T8Vp_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007T8Vp_gemeindezugehoerigkeit;
+  alkis:lageText "Am Viertelfeld 10";
+  alkis:lebenszeitintervall ex:DEBBAL010007T8Vp_lebenszeitintervall .
+
+ex:DEBBAL010007T8Vp_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 1169 .
+
+ex:DEBBAL010007T8Vp_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007T8Vp_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007T8Vp_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFA a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFA_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFA_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 126.0;
+  alkis:flurstueckskennzeichen "12133200100290______";
+  alkis:gemarkung ex:DEBBAL010007VMFA_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFA_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFA_lebenszeitintervall .
+
+ex:DEBBAL010007VMFA_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 290 .
+
+ex:DEBBAL010007VMFA_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFA_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFA_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFB a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFB_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFB_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 287.0;
+  alkis:flurstueckskennzeichen "12133200100291______";
+  alkis:gemarkung ex:DEBBAL010007VMFB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFB_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFB_lebenszeitintervall .
+
+ex:DEBBAL010007VMFB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 291 .
+
+ex:DEBBAL010007VMFB_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFB_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFC a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFC_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFC_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1119.0;
+  alkis:flurstueckskennzeichen "12133200100292______";
+  alkis:gemarkung ex:DEBBAL010007VMFC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFC_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFC_lebenszeitintervall .
+
+ex:DEBBAL010007VMFC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 292 .
+
+ex:DEBBAL010007VMFC_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFC_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFD a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFD_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFD_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 5935.0;
+  alkis:flurstueckskennzeichen "12133200100293______";
+  alkis:gemarkung ex:DEBBAL010007VMFD_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFD_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFD_lebenszeitintervall .
+
+ex:DEBBAL010007VMFD_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 293 .
+
+ex:DEBBAL010007VMFD_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFD_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFD_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFE a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFE_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFE_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1646.0;
+  alkis:flurstueckskennzeichen "12133200100294______";
+  alkis:gemarkung ex:DEBBAL010007VMFE_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFE_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFE_lebenszeitintervall .
+
+ex:DEBBAL010007VMFE_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 294 .
+
+ex:DEBBAL010007VMFE_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFE_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFE_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFF a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFF_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFF_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 75.0;
+  alkis:flurstueckskennzeichen "12133200100295______";
+  alkis:gemarkung ex:DEBBAL010007VMFF_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFF_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFF_lebenszeitintervall .
+
+ex:DEBBAL010007VMFF_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 295 .
+
+ex:DEBBAL010007VMFF_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFF_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFF_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2015-01-29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFG a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFG_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFG_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1401.0;
+  alkis:flurstueckskennzeichen "12133200100296______";
+  alkis:gemarkung ex:DEBBAL010007VMFG_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFG_gemeindezugehoerigkeit;
+  alkis:lageText "Am Hafen";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFG_lebenszeitintervall .
+
+ex:DEBBAL010007VMFG_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 296 .
+
+ex:DEBBAL010007VMFG_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFG_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFG_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEBBAL010007VMFI a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEBBAL010007VMFI_geometrie;
+  alkis:Flurstuecksnummer ex:DEBBAL010007VMFI_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 201.0;
+  alkis:flurstueckskennzeichen "12133200100304______";
+  alkis:gemarkung ex:DEBBAL010007VMFI_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEBBAL010007VMFI_gemeindezugehoerigkeit;
+  alkis:lageText "Im Schloßwerder";
+  alkis:lebenszeitintervall ex:DEBBAL010007VMFI_lebenszeitintervall .
+
+ex:DEBBAL010007VMFI_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 304 .
+
+ex:DEBBAL010007VMFI_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Mühlberg";
+  alkis:gemarkungsnummer 121332 .
+
+ex:DEBBAL010007VMFI_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Mühlberg/Elbe";
+  alkis:land "Brandenburg" .
+
+ex:DEBBAL010007VMFI_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2014-05-19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+alkis:DEBBAL010007T8Vo_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007T8Vp_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFA_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFB_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFC_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFD_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFE_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFF_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFG_geometrie a alkis:Multisurface .
+
+alkis:DEBBAL010007VMFI_geometrie a alkis:Multisurface .

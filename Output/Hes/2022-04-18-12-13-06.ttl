@@ -1,0 +1,296 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ngeo: <http://geovocab.org/geometry/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:DEHE06120000DtA0 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA0_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA0_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 528.0;
+  alkis:flurstueckskennzeichen "063070001007230002__";
+  alkis:gemarkung ex:DEHE06120000DtA0_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA0_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 38";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA0_lebenszeitintervall .
+
+ex:DEHE06120000DtA0_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 723 .
+
+ex:DEHE06120000DtA0_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA0_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA0_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA1 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA1_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA1_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 9.0;
+  alkis:flurstueckskennzeichen "063070001007240005__";
+  alkis:gemarkung ex:DEHE06120000DtA1_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA1_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 25";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA1_lebenszeitintervall .
+
+ex:DEHE06120000DtA1_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA1_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA1_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA1_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA2 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA2_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA2_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 163.0;
+  alkis:flurstueckskennzeichen "063070001007240006__";
+  alkis:gemarkung ex:DEHE06120000DtA2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA2_gemeindezugehoerigkeit;
+  alkis:lageText "In den Brückengärten 1";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA2_lebenszeitintervall .
+
+ex:DEHE06120000DtA2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA2_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA2_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA3 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA3_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA3_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 259.0;
+  alkis:flurstueckskennzeichen "063070001007240010__";
+  alkis:gemarkung ex:DEHE06120000DtA3_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA3_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA3_lebenszeitintervall .
+
+ex:DEHE06120000DtA3_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA3_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA3_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA3_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA4 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA4_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA4_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 400.0;
+  alkis:flurstueckskennzeichen "063070001007240012__";
+  alkis:gemarkung ex:DEHE06120000DtA4_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA4_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 21";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA4_lebenszeitintervall .
+
+ex:DEHE06120000DtA4_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA4_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA4_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA4_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA5 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA5_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA5_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 411.0;
+  alkis:flurstueckskennzeichen "063070001007240013__";
+  alkis:gemarkung ex:DEHE06120000DtA5_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA5_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 23";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA5_lebenszeitintervall .
+
+ex:DEHE06120000DtA5_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA5_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA5_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA5_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA6 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA6_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA6_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 754.0;
+  alkis:flurstueckskennzeichen "063070001007240016__";
+  alkis:gemarkung ex:DEHE06120000DtA6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA6_gemeindezugehoerigkeit;
+  alkis:lageText "In den Brückengärten 3";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA6_lebenszeitintervall .
+
+ex:DEHE06120000DtA6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA6_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA6_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA7 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA7_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA7_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2314.0;
+  alkis:flurstueckskennzeichen "063070001007250005__";
+  alkis:gemarkung ex:DEHE06120000DtA7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA7_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 17, 19";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA7_lebenszeitintervall .
+
+ex:DEHE06120000DtA7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 725 .
+
+ex:DEHE06120000DtA7_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA7_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA8 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA8_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA8_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1250.0;
+  alkis:flurstueckskennzeichen "063070001007250006__";
+  alkis:gemarkung ex:DEHE06120000DtA8_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA8_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 34, 36";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA8_lebenszeitintervall .
+
+ex:DEHE06120000DtA8_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 725 .
+
+ex:DEHE06120000DtA8_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA8_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA8_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA9 a alkis:AX_Flurstueck;
+  ngeo:geometrie ex:DEHE06120000DtA9_geometrie;
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA9_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 951.0;
+  alkis:flurstueckskennzeichen "063070001007260002__";
+  alkis:gemarkung ex:DEHE06120000DtA9_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA9_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 15, 15A";
+  alkis:lebenszeitintervall ex:DEHE06120000DtA9_lebenszeitintervall .
+
+ex:DEHE06120000DtA9_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  alkis:zaehler 726 .
+
+ex:DEHE06120000DtA9_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  alkis:gemarkung "Viernheim";
+  alkis:gemarkungsnummer 63070 .
+
+ex:DEHE06120000DtA9_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA9_lebenszeitintervall a alkis:AA_lebenszeitintervall;
+  alkis:beginnt "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+alkis:DEHE06120000DtA0_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA1_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA2_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA3_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA4_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA5_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA6_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA7_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA8_geometrie a alkis:Multisurface .
+
+alkis:DEHE06120000DtA9_geometrie a alkis:Multisurface .

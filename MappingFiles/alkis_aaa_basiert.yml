@@ -15,7 +15,7 @@ mappings:
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]
       - [ alkis:anlass, $(anlass), xsd:string ]
-      - [ alkis:amtlicheFlaeche, $(amtlicheFlaeche), xsd:integer ]
+      - [ alkis:amtlicheFlaeche, $(amtlicheFlaeche), xsd:decimal]
       - [ alkis:flurstueckskennzeichen, $(flurstueckskennzeichen), xsd:string ]
       - [ alkis:zeitpunktDerEntstehung, $(zeitpunktDerEntstehung), xsd:dateTime ]
       - [ alkis:flurnummer, $(flurnummer), xsd:integer]
@@ -72,19 +72,14 @@ mappings:
     sources: flurstueck-source
     subjects: ex:$(identifier)_position
     predicateobjects:
-      - [ a, ngeo:MultiPolygon ]
-      - predicates: alkis:posList
-        objects:
-           value: $(position/Polygon/exterior/LinearRing/posList)
-#    predicateobjects:
- #     - [ a, ngeo:MultiPolygon ]
- #     - predicates: alkis:posList
- #       objects:
- #         function: grel:string_substring
- #         parameters:
-  #          - [grel:valueParameter, $(position/Polygon/exterior/LinearRing/posList)]
-  #          - [grel:param_int_i_from, 0]
- #           - [grel:param_int_i_opt_to, 22]
+     - [ a, ngeo:MultiPolygon ]
+     - predicates: alkis:posList
+       objects:
+        - function: grel:string_substring
+          parameters:
+           - [grel:valueParameter, $(position/Polygon/exterior/LinearRing/posList)]
+           - [grel:param_int_i_from, 0]
+           - [grel:param_int_i_opt_to, 2]
   alkis_gemarkung:
     sources: flurstueck-source
     subjects: ex:$(identifier)_gemarkung

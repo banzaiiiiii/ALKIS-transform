@@ -6,6 +6,7 @@
 @prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
 @prefix fno: <https://w3id.org/function/ontology#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
 @prefix ngeo: <http://geovocab.org/geometry/> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -17,7 +18,7 @@
 ex:DEHHALKA6Ni000Fw a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKA6Ni000Fw_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKA6Ni000Fw_flurstuecksnummer;
-  alkis:amtlicheFlaeche "149.0";
+  alkis:amtlicheFlaeche 149.0;
   alkis:flurstueckskennzeichen "020703___03660______";
   alkis:gemarkung ex:DEHHALKA6Ni000Fw_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKA6Ni000Fw_gemeindezugehoerigkeit;
@@ -26,11 +27,11 @@ ex:DEHHALKA6Ni000Fw a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Unland Vegetationslose Flaeche; 69|Unland Vegetationslose Flaeche; 4|Fliessgewaesser; 76" .
 
 ex:DEHHALKA6Ni000Fw_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "3660" .
+  alkis:zaehler 3660 .
 
 ex:DEHHALKA6Ni000Fw_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Hasselwerder";
-  alkis:gemarkungsnummer "020703" .
+  alkis:gemarkungsnummer 20703 .
 
 ex:DEHHALKA6Ni000Fw_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -38,12 +39,12 @@ ex:DEHHALKA6Ni000Fw_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKA6Ni000Fw_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2021-04-12Z" .
+  alkis:beginnt "2021-04-12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKA70000WCQ a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKA70000WCQ_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKA70000WCQ_flurstuecksnummer;
-  alkis:amtlicheFlaeche "896.0";
+  alkis:amtlicheFlaeche 896.0;
   alkis:flurstueckskennzeichen "020545___01787______";
   alkis:gemarkung ex:DEHHALKA70000WCQ_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKA70000WCQ_gemeindezugehoerigkeit;
@@ -52,11 +53,11 @@ ex:DEHHALKA70000WCQ a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Wohnbauflaeche; 896" .
 
 ex:DEHHALKA70000WCQ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "1787" .
+  alkis:zaehler 1787 .
 
 ex:DEHHALKA70000WCQ_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Farmsen";
-  alkis:gemarkungsnummer "020545" .
+  alkis:gemarkungsnummer 20545 .
 
 ex:DEHHALKA70000WCQ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -64,12 +65,12 @@ ex:DEHHALKA70000WCQ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKA70000WCQ_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2017-12-30Z" .
+  alkis:beginnt "2017-12-30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKA70000auN a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKA70000auN_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKA70000auN_flurstuecksnummer;
-  alkis:amtlicheFlaeche "1192.0";
+  alkis:amtlicheFlaeche 1192.0;
   alkis:flurstueckskennzeichen "020539___01427______";
   alkis:gemarkung ex:DEHHALKA70000auN_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKA70000auN_gemeindezugehoerigkeit;
@@ -78,11 +79,11 @@ ex:DEHHALKA70000auN a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Wohnbauflaeche; 1192" .
 
 ex:DEHHALKA70000auN_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "1427" .
+  alkis:zaehler 1427 .
 
 ex:DEHHALKA70000auN_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Sasel";
-  alkis:gemarkungsnummer "020539" .
+  alkis:gemarkungsnummer 20539 .
 
 ex:DEHHALKA70000auN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -90,12 +91,12 @@ ex:DEHHALKA70000auN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKA70000auN_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2017-09-22Z" .
+  alkis:beginnt "2017-09-22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKA70000ixc a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKA70000ixc_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKA70000ixc_flurstuecksnummer;
-  alkis:amtlicheFlaeche "1050.0";
+  alkis:amtlicheFlaeche 1050.0;
   alkis:flurstueckskennzeichen "020539___02930______";
   alkis:gemarkung ex:DEHHALKA70000ixc_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKA70000ixc_gemeindezugehoerigkeit;
@@ -104,11 +105,11 @@ ex:DEHHALKA70000ixc a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Wohnbauflaeche; 1050" .
 
 ex:DEHHALKA70000ixc_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "2930" .
+  alkis:zaehler 2930 .
 
 ex:DEHHALKA70000ixc_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Sasel";
-  alkis:gemarkungsnummer "020539" .
+  alkis:gemarkungsnummer 20539 .
 
 ex:DEHHALKA70000ixc_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -116,12 +117,12 @@ ex:DEHHALKA70000ixc_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKA70000ixc_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2017-12-30Z" .
+  alkis:beginnt "2017-12-30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKA7000137e a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKA7000137e_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKA7000137e_flurstuecksnummer;
-  alkis:amtlicheFlaeche "3034.0";
+  alkis:amtlicheFlaeche 3034.0;
   alkis:flurstueckskennzeichen "020534___02322______";
   alkis:gemarkung ex:DEHHALKA7000137e_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKA7000137e_gemeindezugehoerigkeit;
@@ -130,11 +131,11 @@ ex:DEHHALKA7000137e a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Flaeche Gemischter Nutzung; 3034" .
 
 ex:DEHHALKA7000137e_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "2322" .
+  alkis:zaehler 2322 .
 
 ex:DEHHALKA7000137e_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Duvenstedt";
-  alkis:gemarkungsnummer "020534" .
+  alkis:gemarkungsnummer 20534 .
 
 ex:DEHHALKA7000137e_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -142,12 +143,12 @@ ex:DEHHALKA7000137e_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKA7000137e_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2017-12-30Z" .
+  alkis:beginnt "2017-12-30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKAJ0000DyY a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKAJ0000DyY_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKAJ0000DyY_flurstuecksnummer;
-  alkis:amtlicheFlaeche "32467.0";
+  alkis:amtlicheFlaeche 32467.0;
   alkis:flurstueckskennzeichen "020107___01758______";
   alkis:gemarkung ex:DEHHALKAJ0000DyY_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKAJ0000DyY_gemeindezugehoerigkeit;
@@ -156,11 +157,11 @@ ex:DEHHALKAJ0000DyY a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Flugverkehr; 26005|Flugverkehr; 6462" .
 
 ex:DEHHALKAJ0000DyY_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "1758" .
+  alkis:zaehler 1758 .
 
 ex:DEHHALKAJ0000DyY_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Finkenwerder Süd";
-  alkis:gemarkungsnummer "020107" .
+  alkis:gemarkungsnummer 20107 .
 
 ex:DEHHALKAJ0000DyY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -168,12 +169,12 @@ ex:DEHHALKAJ0000DyY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKAJ0000DyY_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2020-04-29Z" .
+  alkis:beginnt "2020-04-29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKAJ0000KbZ a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKAJ0000KbZ_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKAJ0000KbZ_flurstuecksnummer;
-  alkis:amtlicheFlaeche "5863.0";
+  alkis:amtlicheFlaeche 5863.0;
   alkis:flurstueckskennzeichen "020104___02959______";
   alkis:gemarkung ex:DEHHALKAJ0000KbZ_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKAJ0000KbZ_gemeindezugehoerigkeit;
@@ -182,11 +183,11 @@ ex:DEHHALKAJ0000KbZ a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Flaeche Besonderer Funktionaler Praegung; 5863" .
 
 ex:DEHHALKAJ0000KbZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "2959" .
+  alkis:zaehler 2959 .
 
 ex:DEHHALKAJ0000KbZ_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Billwerder Ausschlag";
-  alkis:gemarkungsnummer "020104" .
+  alkis:gemarkungsnummer 20104 .
 
 ex:DEHHALKAJ0000KbZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -194,12 +195,12 @@ ex:DEHHALKAJ0000KbZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKAJ0000KbZ_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2017-12-27Z" .
+  alkis:beginnt "2017-12-27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKAV0000wQV a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKAV0000wQV_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKAV0000wQV_flurstuecksnummer;
-  alkis:amtlicheFlaeche "783.0";
+  alkis:amtlicheFlaeche 783.0;
   alkis:flurstueckskennzeichen "020304___00013______";
   alkis:gemarkung ex:DEHHALKAV0000wQV_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKAV0000wQV_gemeindezugehoerigkeit;
@@ -208,11 +209,11 @@ ex:DEHHALKAV0000wQV a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Wohnbauflaeche; 783" .
 
 ex:DEHHALKAV0000wQV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "13" .
+  alkis:zaehler 13 .
 
 ex:DEHHALKAV0000wQV_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Stellingen";
-  alkis:gemarkungsnummer "020304" .
+  alkis:gemarkungsnummer 20304 .
 
 ex:DEHHALKAV0000wQV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -220,12 +221,12 @@ ex:DEHHALKAV0000wQV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKAV0000wQV_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2017-12-28Z" .
+  alkis:beginnt "2017-12-28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKAV00012lL a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKAV00012lL_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKAV00012lL_flurstuecksnummer;
-  alkis:amtlicheFlaeche "754.0";
+  alkis:amtlicheFlaeche 754.0;
   alkis:flurstueckskennzeichen "020305___01838______";
   alkis:gemarkung ex:DEHHALKAV00012lL_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKAV00012lL_gemeindezugehoerigkeit;
@@ -234,11 +235,11 @@ ex:DEHHALKAV00012lL a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Wohnbauflaeche; 754" .
 
 ex:DEHHALKAV00012lL_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "1838" .
+  alkis:zaehler 1838 .
 
 ex:DEHHALKAV00012lL_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Eidelstedt";
-  alkis:gemarkungsnummer "020305" .
+  alkis:gemarkungsnummer 20305 .
 
 ex:DEHHALKAV00012lL_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -246,12 +247,12 @@ ex:DEHHALKAV00012lL_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKAV00012lL_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2015-06-09Z" .
+  alkis:beginnt "2015-06-09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 ex:DEHHALKAlA00003A a alkis:AX_Flurstueck;
   ngeo:geometrie ex:DEHHALKAlA00003A_geometrie;
   alkis:Flurstuecksnummer ex:DEHHALKAlA00003A_flurstuecksnummer;
-  alkis:amtlicheFlaeche "465.0";
+  alkis:amtlicheFlaeche 465.0;
   alkis:flurstueckskennzeichen "020539___10408______";
   alkis:gemarkung ex:DEHHALKAlA00003A_gemarkung;
   alkis:gemeindezugehoerigkeit ex:DEHHALKAlA00003A_gemeindezugehoerigkeit;
@@ -260,11 +261,11 @@ ex:DEHHALKAlA00003A a alkis:AX_Flurstueck;
   alkis:sonstigeEigenschaften "Wohnbauflaeche; 465" .
 
 ex:DEHHALKAlA00003A_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
-  alkis:zaehler "10408" .
+  alkis:zaehler 10408 .
 
 ex:DEHHALKAlA00003A_gemarkung a alkis:AX_Gemarkung_Schluessel;
   alkis:gemarkung "Sasel";
-  alkis:gemarkungsnummer "020539" .
+  alkis:gemarkungsnummer 20539 .
 
 ex:DEHHALKAlA00003A_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:gemeinde "Hamburg";
@@ -272,4 +273,24 @@ ex:DEHHALKAlA00003A_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
   alkis:regierungsbezirk "Hamburg" .
 
 ex:DEHHALKAlA00003A_lebenszeitintervall a alkis:AA_lebenszeitintervall;
-  alkis:beginnt "2019-02-20Z" .
+  alkis:beginnt "2019-02-20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+alkis:DEHHALKA6Ni000Fw_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKA70000WCQ_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKA70000auN_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKA70000ixc_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKA7000137e_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKAJ0000DyY_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKAJ0000KbZ_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKAV0000wQV_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKAV00012lL_geometrie a alkis:Multisurface .
+
+alkis:DEHHALKAlA00003A_geometrie a alkis:Multisurface .

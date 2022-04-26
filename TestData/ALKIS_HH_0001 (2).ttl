@@ -1159,8 +1159,7 @@
     alkis:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_gemeindezugehoerigkeit> ;
     alkis:lebenszeitintervall <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_lebenszeitintervall> ;
     alkis:modellart <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_modellart> ;
-    alkis:objektkoordinaten <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_objektkoordinaten> ;
-    alkis:position <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_position> ;
+    alkis:objektkoordtion <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_position> ;
     alkis:zeigtAufExternes ( [ a alkis:AA_Fachdatenverbindung ;
                 alkis:art "urn:x-gv-hamburg-de:AAA:FDV:autark2web" ;
                 alkis:fachdatenobjekt [ a alkis:AA_Fachdatenobjekt ;
