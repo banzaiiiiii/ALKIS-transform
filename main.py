@@ -1,3 +1,4 @@
+import Helper
 import rdfTransformer
 import AlkisDataService
 import FusekiConnection
@@ -57,14 +58,24 @@ def start():
         print("Here you can enter Sparql Queries!\n Not yet implemented\n")
         endOrRepeatProgram()
     elif userInput == "1":
-        # download 1000 DS von jedem Bundesland
-        #AlkisDataService.executeShowCaseDownload()
+        userInput = input("How many 'Flurstuecke' per state you want to download? type 'all' or a number!\n")
+        if userInput == 'all':
+            AlkisDataService.executeShowCaseDownload()
+        else:
+            try:
+                maxIndex = int(userInput)
+                AlkisDataService.executeShowCaseDownload(maxIndex)
+            except ValueError:
+                print("number must be an int! try again")
+                start()
         # transform .xml files for bra, ham, hes, nrw, sac in .ttl
-        #rdfTransformer.executeShowCaseTransformation()
+        rdfTransformer.executeShowCaseTransformation(maxIndex)
         # save all the transformed files to fuseki
-        FusekiConnection.executeShowCaseSave()
-        # show all Flurstueck , with gemeinde, that are bigger than 1000
-        FusekiConnection.queryDB()
+        #FusekiConnection.executeShowCaseSave()
+        #FusekiConnection.queryDB()
+    elif userInput =="6":
+        Neo4jConnection.saveToNeo4j()
+        print("neo")
     elif userInput == "Close" or userInput == "CLOSE" or userInput == "close":
         endProgramm()
     else:

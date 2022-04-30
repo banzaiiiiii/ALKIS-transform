@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:FeatureCollection timeStamp="2022-04-27T17:33:35.381+02:00" numberReturned="2" numberMatched="3144525" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://isk.geobasis-bb.de/schema/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 https://isk.geobasis-bb.de/schema/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://isk.geobasis-bb.de/schema/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://isk.geobasis-bb.de/schema/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://isk.geobasis-bb.de/schema/ogc/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:lowerCorner>376892.772 5699652.997</gml:lowerCorner>
+<gml:upperCorner>376958.937 5699719.55</gml:upperCorner>
+</gml:Envelope>
+</wfs:boundedBy>
+<wfs:member>
+<Flurstueck gml:id="DEBBAL010007T8VoFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007T8VoFL</gml:identifier>
+<idflurst>DEBBAL010007T8Vo</idflurst>
+<flstkennz>12133200201168______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>002</flur>
+<flurschl>121332002</flurschl>
+<flstnrzae>1168</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007T8VoFL</oid>
+<aktualit>2014-10-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987315.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987315.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>376901.824 5699660.098 376902.626 5699655.926 376958.937 5699652.997 376957.6 5699658.072 376901.824 5699660.098</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>257.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Kröbelner Straße 23</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member><Flurstueck gml:id="DEBBAL010007T8VpFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEBBAL010007T8VpFL</gml:identifier>
+<idflurst>DEBBAL010007T8Vp</idflurst>
+<flstkennz>12133200201169______</flstkennz>
+<land>Brandenburg</land>
+<landschl>12</landschl>
+<gemarkung>Mühlberg</gemarkung>
+<gemaschl>121332</gemaschl>
+<flur>002</flur>
+<flurschl>121332002</flurschl>
+<flstnrzae>1169</flstnrzae>
+<kreis>Elbe-Elster</kreis>
+<kreisschl>12062</kreisschl>
+<gemeinde>Mühlberg/Elbe</gemeinde>
+<gmdschl>12062341</gmdschl>
+<oid>DEBBAL010007T8VpFL</oid>
+<aktualit>2014-05-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.235987316.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::25833" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.235987316.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>376892.772 5699707.164 376895.327 5699693.879 376901.824 5699660.098 376957.6 5699658.072 376941.404 5699719.55 376893.889 5699710.37 376892.772 5699707.164</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>2972.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Am Viertelfeld 10</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+</wfs:FeatureCollection>

@@ -1,3 +1,4 @@
+import fileinput
 import json
 
 
@@ -27,3 +28,14 @@ def getUpdateEndpoint():
     configDic = json.load(configFile)
     value = str(configDic["fuseki_update_endpoint"])
     return value
+
+
+def convertStateNamesForDBpedia(FileName):
+    with fileinput.FileInput(FileName,
+                             inplace=True) as f:
+        for line in f:
+            if (line.contains("Nordrhein-Westfalen") == True):
+                print("North_Rhine_Westphalia", end='\n')
+            else:
+                print(line, end='')
+

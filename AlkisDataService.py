@@ -5,25 +5,6 @@ import urllib.request
 import zipfile
 import os
 
-downloadFolder = "D://repos/Uni/BA/ALKIS-transform/TestData/"
-
-
-def getDataAsDownload(bundesland, gemeindenummer):
-# alkisdatenschlüssel = 2oAZg0U07akQOCK
-# download zip archive mit gemeindenummer von sachsen als zip
-    urllib.request.urlretrieve("https://geocloud.landesvermessung.sachsen.de/index.php/s/UXVzrdm4WeOhkhR/download?path=%2F&files="
-                               + gemeindenummer +".xml.zip", downloadFolder +"/" + bundesland + gemeindenummer + ".xml.zip")
-    unZipFiles(bundesland, gemeindenummer)
-    deleteZip(bundesland, gemeindenummer)
-
-def unZipFiles(bundesland, gemeindenummer):
-    with zipfile.ZipFile(downloadFolder + bundesland + gemeindenummer + ".xml.zip", "r") as zip_ref:
-        zip_ref.extractall(downloadFolder + bundesland + gemeindenummer)
-    for files in os.listdir(downloadFolder + bundesland + gemeindenummer):
-        with zipfile.ZipFile(downloadFolder + bundesland + gemeindenummer + "/" + files, "r") as zip_ref:
-            zip_ref.extractall(downloadFolder + bundesland + gemeindenummer)
-    deleteZip(bundesland, gemeindenummer)
-
 
 def getDataFromWFS(bundesland, gemarkung=None):
 
@@ -47,7 +28,7 @@ def createGetFeatureURL(bundesland, gemarkung=None):
     if ("vereinfacht" in bundesland):
         typenames = "ave:Flurstueck"
         namespaces = "xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
-        count = "10"
+        count = "2"
         if gemarkung != None:
             filter = "<fes:Filter xmlns='http://www.opengis.net/ogc' xmlns:fes='http://www.opengis.net/fes/2.0' xmlns:gml='http://www.opengis.net/gml/3.2'>" \
                      "  <fes:PropertyIsEqualTo>" \
@@ -62,7 +43,7 @@ def createGetFeatureURL(bundesland, gemarkung=None):
                             typenames + "&NAMESPACES=" + namespaces + "&COUNT=" + count
     else:
         typenames = "AX_Flurstueck"
-        count = "10"
+        count = "2"
         namespaces = "xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
         filter = "<fes:Filter xmlns='http://www.opengis.net/ogc' xmlns:fes='http://www.opengis.net/fes/2.0' xmlns:gml='http://www.opengis.net/gml/3.2'>" \
              "  <fes:PropertyIsEqualTo>" \
@@ -88,17 +69,88 @@ def getCapabilities():
 
 
 # download from vereinfachtes Schema von BRA, HAM, HES, NRW, SAC
-def executeShowCaseDownload():
-    listAvailableStates = ["NRW-vereinfacht", "Brandenburg-vereinfacht", "Hamburg-vereinfacht", "Sachsen-vereinfacht", "Hessen-vereinfacht" ]
+# download in eine Datei, Problem: .xml 5 GB und readonly
+"""
+def executeShowCaseDownload(maxIndex=None):
+    listAvailableStates = [#"NRW-vereinfacht",
+                           #"Brandenburg-vereinfacht",
+                           #"Hamburg-vereinfacht",
+                           "Sachsen-vereinfacht",
+                          # "Hessen-vereinfacht"
+                          ]
+    Typenames = "&TYPENAMES=ave:Flurstueck"
+    KoordinatenType = "&srsName=EPSG:4258"
+    Namespaces = "&NAMESPACES=xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
+    AnzahlObjekte = "&Count=20000"
+    StartIndex = 0
+
+    for state in listAvailableStates:
+        while(True):
+            try:
+                # send request to WFS
+                response = requests.get(WFS_dictionary[
+                                            state] + "Service=WFS&REQUEST=GetFeature&Version=2.0.0" + Typenames + KoordinatenType + Namespaces + AnzahlObjekte +
+                                         "&STARTINDEX=" + str(StartIndex), allow_redirects=True)
+                #
+                # if maxindex is reached end download
+                if (maxIndex is not None and StartIndex >= maxIndex) or 'numberReturned="0"' in response.text:
+                    print("Download finished because or maxIndex is reached!\n")
+                    with open("TestData/" + state[0:3] + "/vereinfachtes-schema.xml", 'a+') as file:
+                        file.write("\n</wfs:FeatureCollection>")
+                    break
+                if StartIndex == 0:
+                    indexResponseContentTrimmed = response.text.find('</wfs:FeatureCollection>')
+                    responseContentTrimmed = response.text[:indexResponseContentTrimmed]
+                    with open("TestData/" + state[0:3] + "/vereinfachtes-schema.xml", 'a+') as file:
+                        file.write(responseContentTrimmed)
+                    print("Download for " + state + " was successful!" + " with index at: " + str(StartIndex))
+                    StartIndex += 20000
+                else:
+                    indexResponseContentTrimmed = response.text.find('<wfs:member>')
+                    trim = response.text[indexResponseContentTrimmed:]
+                    trimIndex2 = trim.find('</wfs:FeatureCollection>')
+                    responseContentTrimmed = trim[:trimIndex2]
+                    with open("TestData/" + state[0:3] + "/vereinfachtes-schema.xml", 'a+') as file:
+                        file.write(responseContentTrimmed)
+                    print("Download for " + state + " was successful!" + " with index at: " + str(StartIndex))
+                    StartIndex += 20000
+            except Exception as e:
+                print(e)
+                break
+"""
+
+def executeShowCaseDownload(maxIndex=None):
+    listAvailableStates = ["NRW-vereinfacht",
+                           #"Brandenburg-vereinfacht",
+                           #"Hamburg-vereinfacht",
+                           #"Sachsen-vereinfacht",
+                          # "Hessen-vereinfacht"
+                          ]
     Typenames = "&TYPENAMES=ave:Flurstueck"
     KoordinatenType = "&srsName=EPSG:4258"
     Namespaces = "&NAMESPACES=xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
     AnzahlObjekte = "&Count=1000"
+    StartIndex = 0
+
     for state in listAvailableStates:
-        response = requests.get(WFS_dictionary[state] + "Service=WFS&REQUEST=GetFeature&Version=2.0.0" + Typenames + KoordinatenType + Namespaces + AnzahlObjekte, allow_redirects=True)
-        with open("TestData/" + state[0:3] + "/vereinfachtes-schema.xml", 'wb') as file:
-            file.write(response.content)
-        print("Download for " + state + " was successful!")
+        while(True):
+            try:
+                # send request to WFS
+                response = requests.get(WFS_dictionary[
+                                            state] + "Service=WFS&REQUEST=GetFeature&Version=2.0.0" + Typenames + KoordinatenType + Namespaces + AnzahlObjekte +
+                                         "&STARTINDEX=" + str(StartIndex), allow_redirects=True)
+                #
+                # if maxindex is reached end download
+                if (maxIndex is not None and StartIndex >= maxIndex) or 'numberReturned="0"' in response.text:
+                    print("Download finished or maxIndex is reached!\n")
+                    break
+                with open("TestData/" + state[0:3] + "/vereinfachtes-schema" + str(StartIndex) + ".xml", 'wb') as file:
+                    file.write(response.content)
+                print("Download for " + state + " was successful!" + " with index at: " + str(StartIndex))
+                StartIndex += 1000
+            except Exception as e:
+                print(e)
+                break
 
 
 WFS_dictionary = {

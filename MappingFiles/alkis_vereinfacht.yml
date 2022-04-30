@@ -1,31 +1,51 @@
 prefixes:
   alkis: https://w3id.org/alkis/
   ex: http://example.com/
-  ngeo: http://geovocab.org/geometry/
+  ngeo: http://geovocab.org/geometry#
   grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  dbr: https://dbpedia.org/resource/
+  dbo: https://dbpedia.org/ontology/
 sources:
   flurstueck-source:
-      access: TestData/Sac/vereinfachtes-schema.xml
+      access: TestData/NRW/vereinfachtes-schema5000.xml
       referenceFormulation: xpath
       iterator: FeatureCollection/member/Flurstueck
 mappings:
+  bundesland:
+    sources: flurstueck-source
+    subjects: dbr:$(land)
+    predicateobjects:
+      - [ dbo:type, dbr:States_of_Germany ]
+      - [ rdfs:label, "Bundesland der BRD"]
+      - predicates: alkis:gemarkung
+        objects:
+          value: ex:$(gemarkung)_gemarkung
+          type: iri
+  alkis_gemarkung:
+    sources: flurstueck-source
+    subjects: ex:$(gemarkung)_gemarkung
+    predicateobjects:
+      - [ rdfs:label, "Die Gemarkung ist eine Flächeneinheit des Liegenschaftskatasters, die aus mehreren Fluren besteht."]
+      - [ a, alkis:AX_Gemarkung_Schluessel ]
+      - [ alkis:gemarkungsnummer, $(gemaschl), xsd:integer ]
+      - predicates: alkis:AX_Flurstueck
+        objects:
+          value: ex:$(idflurst)
+          type: iri
   alkis_flurstueck:
     sources: flurstueck-source
     subjects: ex:$(idflurst)
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]
-      - [ alkis:amtlicheFlaeche, $(flaeche), xsd:decimal]
-      - [ alkis:flurstueckskennzeichen, $(flstkennz), xsd:string]
+      - [ alkis:amtlicheFlaeche, $(flaeche), xsd:decimal ]
+      - [ alkis:flurstueckskennzeichen, $(flstkennz), xsd:string ]
       - [ alkis:abweichenderRechtszustand, $(abwrecht), xsd:string ]
       - [ alkis:lageText, $(lagebeztxt), xsd:string ]
       - [ alkis:sonstigeEigenschaften, $(tntxt) ]
+      - [ alkis:flurschluessel, $(flurschl)]
       - predicates: alkis:Flurstuecksnummer
         objects:
           value: ex:$(idflurst)_flurstuecksnummer
-          type: iri
-      - predicates: alkis:gemarkung
-        objects:
-          value: ex:$(idflurst)_gemarkung
           type: iri
       - predicates: alkis:gemeindezugehoerigkeit
         objects:
@@ -33,8 +53,8 @@ mappings:
           type: iri
       - predicates: alkis:lebenszeitintervall
         objects:
-          value: ex:$(idflurst)_lebenszeitintervall
-          type: iri
+         value: ex:$(idflurst)_lebenszeitintervall
+         type: iri
       - predicates: ngeo:geometrie
         objects:
           value: ex:$(idflurst)_geometrie
@@ -53,14 +73,7 @@ mappings:
     subjects: ex:$(idflurst)_flurstuecksnummer
     predicateobjects:
       - [ a, alkis:AX_Flurstuecksnummer ]
-      - [alkis:zaehler, $(flstnrzae), xsd:integer]
-  alkis_gemarkung:
-    sources: flurstueck-source
-    subjects: ex:$(idflurst)_gemarkung
-    predicateobjects:
-      - [ a, alkis:AX_Gemarkung_Schluessel ]
-      - [ alkis:gemarkungsnummer, $(gemaschl), xsd:integer ]
-      - [ alkis:gemarkung, $(gemarkung), xsd:string]
+      - [ alkis:zaehler, $(flstnrzae), xsd:integer ]
   alkis_gemeindezugehoerigkeit:
     sources: flurstueck-source
     subjects: ex:$(idflurst)_gemeindezugehoerigkeit
@@ -68,12 +81,11 @@ mappings:
       - [ a, alkis:AX_Gemeindekennzeichen ]
       - [ alkis:gemeinde, $(gemeinde), xsd:string ]
       - [ alkis:kreis, $(Euskirchen), xsd:string ]
-      - [ alkis:land, $(land) , xsd:string]
+      - [ alkis:land, $(land) , xsd:string ]
       - [ alkis:regierungsbezirk, $(regbezirk), xsd:string ]
   alkis_geometrie:
     sources: flurstueck-source
-    subjects: alkis:$(idflurst)_geometrie
+    subjects: ex:$(idflurst)_geometrie
     predicateobjects:
-        - [ a, alkis:Multisurface ]
-        - [ alkis:LinearRing, $(gml:posList) ]
-
+      - [ a, ngeo:posList ]
+      - [ ex:PosList, $(geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList) ]
