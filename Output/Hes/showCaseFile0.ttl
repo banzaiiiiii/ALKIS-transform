@@ -1,0 +1,3951 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ngeo: <http://geovocab.org/geometry#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:DEHE06120000DtA0 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA0_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 528.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007230002__";
+  alkis:gemarkung ex:DEHE06120000DtA0_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA0_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 38";
+  alkis:position ex:DEHE06120000DtA0_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA0_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 723 .
+
+ex:DEHE06120000DtA0_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA0_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5352803999735 8.58106150013005 49.5350719731162 8.58142466393035 49.535173369855 8.58156094053373 49.5353825146979 8.58119721759545 49.5352803999735 8.58106150013005
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA1 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA1_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 9.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007240005__";
+  alkis:gemarkung ex:DEHE06120000DtA1_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA1_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 25";
+  alkis:position ex:DEHE06120000DtA1_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA1_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA1_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA1_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5357597476268 8.58057867652076 49.5357513533756 8.58059547156944 49.5358374126656 8.58069637375053 49.5357597476268 8.58057867652076
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA2 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA2_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 163.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007240006__";
+  alkis:gemarkung ex:DEHE06120000DtA2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA2_gemeindezugehoerigkeit;
+  alkis:lageText "In den Brückengärten 1";
+  alkis:position ex:DEHE06120000DtA2_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA2_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5357513533756 8.58059547156944 49.535678960327 8.58073866660852 49.5357529234435 8.58084756404151 49.5358374126656 8.58069637375053 49.5357513533756 8.58059547156944
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA3 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA3_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 259.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007240010__";
+  alkis:gemarkung ex:DEHE06120000DtA3_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA3_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße";
+  alkis:position ex:DEHE06120000DtA3_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA3_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA3_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA3_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5358576320686 8.58032642345317 49.5355289921472 8.58098019601572 49.5352549108228 8.58061514362086 49.5352538259683 8.58061363262698 49.5352418888706 8.58064314520699 49.5353963222093 8.58084956334749 49.5354265030471 8.58089018700695 49.5355317830722 8.5810305765238 49.5355700695085 8.58095481538465 49.535678960327 8.58073866660852 49.5357513533756 8.58059547156944 49.5357597476268 8.58057867652076 49.5358769424573 8.58034585609966 49.5358664767889 8.58033464023944 49.5358576320686 8.58032642345317
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA4 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA4_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 400.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007240012__";
+  alkis:gemarkung ex:DEHE06120000DtA4_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA4_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 21";
+  alkis:position ex:DEHE06120000DtA4_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA4_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA4_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA4_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5352418888706 8.58064314520699 49.5351847779551 8.58078385845526 49.5352065243544 8.58080535710503 49.5351649171476 8.58090794447777 49.5352605953784 8.5810372067753 49.5352784116681 8.5810588911916 49.5353963222093 8.58084956334749 49.5352418888706 8.58064314520699
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA5 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA5_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 411.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007240013__";
+  alkis:gemarkung ex:DEHE06120000DtA5_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA5_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 23";
+  alkis:position ex:DEHE06120000DtA5_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA5_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA5_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA5_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5353963222093 8.58084956334749 49.5352784116681 8.5810588911916 49.5352803999735 8.58106150013005 49.5353825146979 8.58119721759545 49.5354215515242 8.58124922318805 49.5354860851023 8.58112131349222 49.5355317830722 8.5810305765238 49.5354265030471 8.58089018700695 49.5353963222093 8.58084956334749
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA6 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA6_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 754.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007240016__";
+  alkis:gemarkung ex:DEHE06120000DtA6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA6_gemeindezugehoerigkeit;
+  alkis:lageText "In den Brückengärten 3";
+  alkis:position ex:DEHE06120000DtA6_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 724 .
+
+ex:DEHE06120000DtA6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA6_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.535678960327 8.58073866660852 49.5355700695085 8.58095481538465 49.5356662899761 8.5810997055426 49.5357068015392 8.58116152536086 49.5358115860248 8.58131669498573 49.5359344006176 8.58112515251007 49.5357529234435 8.58084756404151 49.535678960327 8.58073866660852
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA7 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA7_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2314.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007250005__";
+  alkis:gemarkung ex:DEHE06120000DtA7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA7_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 17, 19";
+  alkis:position ex:DEHE06120000DtA7_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 725 .
+
+ex:DEHE06120000DtA7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA7_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5355262594332 8.58003536214842 49.5354832045281 8.58016020085557 49.5354093034669 8.58030658743674 49.5353889966032 8.58028521479953 49.5352549108228 8.58061514362086 49.5355289921472 8.58098019601572 49.5358576320686 8.58032642345317 49.5356565015096 8.58013867619174 49.5355262594332 8.58003536214842
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA8 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA8_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1250.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007250006__";
+  alkis:gemarkung ex:DEHE06120000DtA8_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA8_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 34, 36";
+  alkis:position ex:DEHE06120000DtA8_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA8_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 725 .
+
+ex:DEHE06120000DtA8_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA8_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5350772196653 8.58068007320417 49.5348691900521 8.58115263750351 49.5349658126119 8.58128939602879 49.5349705762168 8.58128838789052 49.5350719731162 8.58142466393035 49.5352803999735 8.58106150013005 49.5352784116681 8.5810588911916 49.5352605953784 8.5810372067753 49.5351649171476 8.58090794447777 49.5352065243544 8.58080535710503 49.5351847779551 8.58078385845526 49.5350772196653 8.58068007320417
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtA9 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtA9_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 951.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007260002__";
+  alkis:gemarkung ex:DEHE06120000DtA9_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtA9_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 15, 15A";
+  alkis:position ex:DEHE06120000DtA9_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtA9_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 726 .
+
+ex:DEHE06120000DtA9_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtA9_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.535387658278 8.57993127723039 49.5352096958705 8.58038743392903 49.5351516822873 8.5805147767016 49.5351243068767 8.58057565606124 49.5350949726703 8.58064208037371 49.5350772196653 8.58068007320417 49.5351847779551 8.58078385845526 49.5352418888706 8.58064314520699 49.5352538259683 8.58061363262698 49.5352549108228 8.58061514362086 49.5353889966032 8.58028521479953 49.5354093034669 8.58030658743674 49.5354832045281 8.58016020085557 49.5355262594332 8.58003536214842 49.5354662802451 8.57998779367412 49.535387658278 8.57993127723039
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAB a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAB_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 11.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007400011__";
+  alkis:gemarkung ex:DEHE06120000DtAB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAB_gemeindezugehoerigkeit;
+  alkis:lageText "Karl-Marx-Straße";
+  alkis:position ex:DEHE06120000DtAB_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 740 .
+
+ex:DEHE06120000DtAB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAB_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5342168175394 8.57922233294307 49.5342147997291 8.57922231072613 49.5342122729075 8.57922261073036 49.5342099446004 8.57922321660478 49.5342078165773 8.57922405908312 49.5342058837733 8.57922507860726 49.5342040066604 8.57922631971105 49.5342020624455 8.57922789350969 49.5342000734311 8.57922984933333 49.5341980712272 8.57923223664223 49.5341965868697 8.5792343368825 49.5342011566021 8.57924927896774 49.534239786487 8.57927322982024 49.5342404202172 8.57926932412567 49.5342408122686 8.57926498124922 49.5342408933199 8.57926088321591 49.5342407194744 8.57925707035063 49.5342403431097 8.57925356206476 49.5342398108297 8.57925036190707 49.5342391626143 8.5792474621872 49.5342383699769 8.57924464845009 49.5342373599218 8.57924173273953 49.5342360995346 8.57923875076334 49.5342345559349 8.57923575339183 49.5342326989329 8.5792328091935 49.5342305047562 8.57923000604771 49.5342283237163 8.57922777614798 49.5342260198883 8.57922646364143 49.5342226333917 8.57922474133025 49.5342192028687 8.57922323872716 49.5342168175394 8.57922233294307
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAC a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAC_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 167.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007400012__";
+  alkis:gemarkung ex:DEHE06120000DtAC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAC_gemeindezugehoerigkeit;
+  alkis:lageText "Karl-Marx-Straße";
+  alkis:position ex:DEHE06120000DtAC_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 740 .
+
+ex:DEHE06120000DtAC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAC_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5343078195254 8.57937115786731 49.5340120615468 8.58043667419799 49.5340284344653 8.58044724481812 49.5343243644407 8.57938200312758 49.5343078195254 8.57937115786731
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAI a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAI_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 22.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007420003__";
+  alkis:gemarkung ex:DEHE06120000DtAI_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAI_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 18";
+  alkis:position ex:DEHE06120000DtAI_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAI_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 742 .
+
+ex:DEHE06120000DtAI_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAI_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5335939692565 8.58029168556846 49.5335896069016 8.58030908112926 49.5338019877035 8.58040198686329 49.5338037816479 8.58039564181378 49.5336291392576 8.58030911577975 49.5335939692565 8.58029168556846
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAJ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAJ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 277.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007420004__";
+  alkis:gemarkung ex:DEHE06120000DtAJ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAJ_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 18";
+  alkis:position ex:DEHE06120000DtAJ_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAJ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 742 .
+
+ex:DEHE06120000DtAJ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAJ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5336968543855 8.57988089570917 49.533686197134 8.5799234567005 49.5335939692565 8.58029168556846 49.5336291392576 8.58030911577975 49.5336476231746 8.58023460459532 49.5336515256636 8.58021442125609 49.5336774454194 8.58022590502188 49.5336735787562 8.58024604660331 49.5337087254105 8.58026199824174 49.5337122678219 8.5802417350416 49.5337383763598 8.58025318957865 49.5337663931837 8.58010635796185 49.5337718924667 8.58007756466957 49.5337063301827 8.58003817198354 49.5337398389789 8.579910171757 49.5336968543855 8.57988089570917
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAV a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAV_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 425.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007540002__";
+  alkis:gemarkung ex:DEHE06120000DtAV_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAV_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 16";
+  alkis:position ex:DEHE06120000DtAV_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 754 .
+
+ex:DEHE06120000DtAV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAV_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5331691371524 8.57920259485905 49.5331690867548 8.57920605031919 49.5331689545043 8.57921420531937 49.5331619894536 8.57965386892301 49.5332686845416 8.57966832192503 49.5332944424424 8.57920711627546 49.5331691371524 8.57920259485905
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAX a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAX_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007550004__";
+  alkis:gemarkung ex:DEHE06120000DtAX_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAX_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 6; Mannheimer Straße 18";
+  alkis:position ex:DEHE06120000DtAX_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAX_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 755 .
+
+ex:DEHE06120000DtAX_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAX_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5327854574207 8.57934946469003 49.5327868919946 8.57938531528424 49.5328039783167 8.57937188763811 49.5328040867208 8.5793497470567 49.5327854574207 8.57934946469003
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAY a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAY_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 69.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007550005__";
+  alkis:gemarkung ex:DEHE06120000DtAY_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAY_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 6; Mannheimer Straße 18";
+  alkis:position ex:DEHE06120000DtAY_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAY_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 755 .
+
+ex:DEHE06120000DtAY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAY_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5331309403182 8.57922105474641 49.5330737168614 8.57923138588259 49.5330470058951 8.5792373366893 49.5329312028105 8.57926845845586 49.5328987485011 8.57927560558474 49.5328465055482 8.57929511181081 49.5327954798167 8.57932037048998 49.5327852992401 8.57934554116703 49.5327854574207 8.57934946469003 49.5328040867208 8.5793497470567 49.5331309403182 8.57922105474641
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAZ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAZ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2983.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007550006__";
+  alkis:gemarkung ex:DEHE06120000DtAZ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAZ_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 6; Mannheimer Straße 18";
+  alkis:position ex:DEHE06120000DtAZ_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 755 .
+
+ex:DEHE06120000DtAZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAZ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5331689545043 8.57921420531937 49.5331309403182 8.57922105474641 49.5328040867208 8.5793497470567 49.5328039783167 8.57937188763811 49.5327868919946 8.57938531528424 49.5327884270009 8.57942405339931 49.5327307179242 8.57942946847526 49.5326441293313 8.57949754227323 49.5326598196334 8.58000368831068 49.5327782324866 8.5800224224728 49.533106394644 8.58014005282364 49.5331333566813 8.57994799888951 49.5331530735878 8.57986135752268 49.5331597706753 8.57979336047201 49.5331619894536 8.57965386892301 49.5331689545043 8.57921420531937
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAf a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAf_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 64.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007280002__";
+  alkis:gemarkung ex:DEHE06120000DtAf_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAf_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 11, 13";
+  alkis:position ex:DEHE06120000DtAf_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAf_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 728 .
+
+ex:DEHE06120000DtAf_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAf_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5352689793442 8.57985411068408 49.5352203568622 8.58000373563846 49.5352271822945 8.58005285116494 49.5352521580498 8.58004710888819 49.5353078115454 8.57987931848018 49.5352689793442 8.57985411068408
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAh a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAh_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 764.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100729______";
+  alkis:gemarkung ex:DEHE06120000DtAh_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAh_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 9";
+  alkis:position ex:DEHE06120000DtAh_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAh_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 729 .
+
+ex:DEHE06120000DtAh_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAh_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5350275629242 8.5796993021469 49.5348560346704 8.58016839256539 49.5349225209514 8.5802294353124 49.5349604803854 8.58013558610735 49.5350493377447 8.5802167260249 49.5351577975439 8.57993673010549 49.5351642866549 8.57994026786492 49.5351791877999 8.57988238354744 49.5352066151894 8.57981362549571 49.5350275629242 8.5796993021469
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAi a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAi_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 374.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100731______";
+  alkis:gemarkung ex:DEHE06120000DtAi_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAi_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 9";
+  alkis:position ex:DEHE06120000DtAi_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAi_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 731 .
+
+ex:DEHE06120000DtAi_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAi_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5349604803854 8.58013558610735 49.5349225209514 8.5802294353124 49.5348560346704 8.58016839256539 49.5347905011899 8.58034024601298 49.5349447251773 8.58047139605646 49.534975035656 8.58040137012708 49.5349773546908 8.58039596023215 49.5350425645667 8.58023405983334 49.5350493377447 8.5802167260249 49.5349604803854 8.58013558610735
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAj a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAj_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 812.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007320002__";
+  alkis:gemarkung ex:DEHE06120000DtAj_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAj_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 28";
+  alkis:position ex:DEHE06120000DtAj_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAj_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 732 .
+
+ex:DEHE06120000DtAj_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAj_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5345196352813 8.58047282333196 49.5344379952328 8.58067049142364 49.5344370215404 8.58067462446221 49.5344362357584 8.58067893877529 49.5344356902725 8.58068307572217 49.5344353519993 8.58068701564965 49.5344351903249 8.58069074748165 49.534435181232 8.58069448754626 49.5344353388027 8.58069845422719 49.5344356940811 8.58070263977519 49.5344362809664 8.5807070281511 49.534437063575 8.58071125595163 49.5344371782765 8.58071178926888 49.5344382790079 8.58071623372235 49.5344395248075 8.58072029041844 49.5344408766077 8.58072397146901 49.5344423010964 8.58072729526675 49.5344437704626 8.58073028418841 49.5344453587035 8.5807331259425 49.5344471694511 8.58073597154861 49.5344492228512 8.58073878401323 49.534451537686 8.58074151723553 49.5344541299674 8.58074411513864 49.5344544447284 8.58074440078055 49.534737068204 8.58094727370879 49.5348425353869 8.58070227287289 49.534784573337 8.58066022902971 49.5345196352813 8.58047282333196
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAk a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAk_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 858.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007320003__";
+  alkis:gemarkung ex:DEHE06120000DtAk_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAk_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 28";
+  alkis:position ex:DEHE06120000DtAk_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAk_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 732 .
+
+ex:DEHE06120000DtAk_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAk_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5346309402719 8.58020335170282 49.5345920807737 8.5802970559043 49.5345196352813 8.58047282333196 49.534784573337 8.58066022902971 49.5348425353869 8.58070227287289 49.5349204758825 8.58052618118331 49.5349447251773 8.58047139605646 49.5347905011899 8.58034024601298 49.5346309402719 8.58020335170282
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAl a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAl_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 82.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007320004__";
+  alkis:gemarkung ex:DEHE06120000DtAl_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAl_gemeindezugehoerigkeit;
+  alkis:lageText "Berliner Ring 28";
+  alkis:position ex:DEHE06120000DtAl_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAl_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 732 .
+
+ex:DEHE06120000DtAl_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAl_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5344379952328 8.58067049142364 49.534413126707 8.58073065733987 49.5344912081921 8.58078954187638 49.5346026779867 8.58088059163578 49.534719412599 8.58098735222007 49.534737068204 8.58094727370879 49.5344544447284 8.58074440078055 49.5344541299674 8.58074411513864 49.534451537686 8.58074151723553 49.5344492228512 8.58073878401323 49.5344471694511 8.58073597154861 49.5344453587035 8.5807331259425 49.5344437704626 8.58073028418841 49.5344423010964 8.58072729526675 49.5344408766077 8.58072397146901 49.5344395248075 8.58072029041844 49.5344382790079 8.58071623372235 49.5344371782765 8.58071178926888 49.534437063575 8.58071125595163 49.5344362809664 8.5807070281511 49.5344356940811 8.58070263977519 49.5344353388027 8.58069845422719 49.534435181232 8.58069448754626 49.5344351903249 8.58069074748165 49.5344353519993 8.58068701564965 49.5344356902725 8.58068307572217 49.5344362357584 8.58067893877529 49.5344370215404 8.58067462446221 49.5344379952328 8.58067049142364
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAr a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAr_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1027.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007350004__";
+  alkis:gemarkung ex:DEHE06120000DtAr_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAr_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 3";
+  alkis:position ex:DEHE06120000DtAr_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAr_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 735 .
+
+ex:DEHE06120000DtAr_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAr_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5345949803739 8.57942842572888 49.5344642081514 8.57980569971877 49.534433334056 8.57989133342297 49.5344070365852 8.57996411623426 49.5345262647981 8.58006128906948 49.5344975824967 8.58013624835247 49.5344785823846 8.58018002854437 49.5345224968054 8.58022760950411 49.5347178883838 8.57971884640652 49.5347596366554 8.57953159300986 49.5345949803739 8.57942842572888
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAs a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAs_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 858.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007370004__";
+  alkis:gemarkung ex:DEHE06120000DtAs_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAs_gemeindezugehoerigkeit;
+  alkis:lageText "Weinheimer Straße 1";
+  alkis:position ex:DEHE06120000DtAs_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAs_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 737 .
+
+ex:DEHE06120000DtAs_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAs_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5343916488441 8.57932349037072 49.5343897162324 8.57932485593382 49.5343868900689 8.57932719025698 49.5343843290317 8.57932969056834 49.534382020804 8.57933230287413 49.5343799501824 8.57933498174014 49.5343781003008 8.57933768969501 49.5343763586475 8.57934056209415 49.534374638391 8.57934377331168 49.5343729641059 8.57934734884226 49.5343713655303 8.57935131153673 49.5343698779404 8.57935567971533 49.5343690108309 8.57935866422367 49.5342609001848 8.57974925871621 49.534433334056 8.57989133342297 49.5344642081514 8.57980569971877 49.5345949803739 8.57942842572888 49.5344240195815 8.57932304669179 49.5344219600396 8.57932188838389 49.5344188788127 8.57932048536471 49.5344159097128 8.57931948675294 49.5344130686848 8.57931884102956 49.534410365732 8.57931849961781 49.5344078060505 8.57931841777654 49.5344052477267 8.57931856976657 49.534402549168 8.57931898521282 49.5343997160893 8.57931970870676 49.5343967590564 8.5793207885431 49.5343936946097 8.57932227579546 49.5343916488441 8.57932349037072
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtAz a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtAz_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 475.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007400009__";
+  alkis:gemarkung ex:DEHE06120000DtAz_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtAz_gemeindezugehoerigkeit;
+  alkis:lageText "Karl-Marx-Straße";
+  alkis:position ex:DEHE06120000DtAz_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtAz_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 740 .
+
+ex:DEHE06120000DtAz_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtAz_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5341905539551 8.57928700292759 49.5341799102509 8.57929117130462 49.5340825209521 8.57963947891512 49.5338797101555 8.58037173222243 49.5339217876034 8.58039892970588 49.5339400531523 8.58035099646839 49.534127225761 8.57967182217225 49.5342291946356 8.57931145124676 49.5341905539551 8.57928700292759
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtB1 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtB1_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 491.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007570005__";
+  alkis:gemarkung ex:DEHE06120000DtB1_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtB1_gemeindezugehoerigkeit;
+  alkis:lageText "Heddesheimer Straße 4";
+  alkis:position ex:DEHE06120000DtB1_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtB1_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 757 .
+
+ex:DEHE06120000DtB1_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtB1_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5324879449346 8.57961187378427 49.5323622721185 8.57971169465799 49.5322655701415 8.57978636329384 49.5323187935571 8.57995015617661 49.532513596838 8.57998056285978 49.5325021324849 8.57978843980567 49.5325291180196 8.57977635096491 49.5325213008328 8.57970929459592 49.5324901906355 8.57961847426519 49.5324879449346 8.57961187378427
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtB4 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtB4_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 407.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007650002__";
+  alkis:gemarkung ex:DEHE06120000DtB4_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtB4_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 21B";
+  alkis:position ex:DEHE06120000DtB4_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtB4_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 765 .
+
+ex:DEHE06120000DtB4_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtB4_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5326023850518 8.57840761687565 49.5326022694823 8.57840799100832 49.5325851020851 8.57846579547723 49.5325175511271 8.57869305083324 49.5325488698972 8.57871001510299 49.5325512730012 8.57870054161265 49.5327036259032 8.57881876113104 49.5327125682793 8.57866352736209 49.53272198439 8.57850012185182 49.5326023850518 8.57840761687565
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtB6 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtB6_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 538.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100766______";
+  alkis:gemarkung ex:DEHE06120000DtB6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtB6_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 19, 19A";
+  alkis:position ex:DEHE06120000DtB6_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtB6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 766 .
+
+ex:DEHE06120000DtB6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtB6_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5327125682793 8.57866352736209 49.5327036259032 8.57881876113104 49.5326838369346 8.57916228840339 49.5328392987275 8.57912884976286 49.5328260864926 8.57891407582149 49.532842770209 8.57882711514312 49.5328512322868 8.57867583758921 49.5327125682793 8.57866352736209
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtB7 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtB7_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 508.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007670001__";
+  alkis:gemarkung ex:DEHE06120000DtB7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtB7_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 19A";
+  alkis:position ex:DEHE06120000DtB7_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtB7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 767 .
+
+ex:DEHE06120000DtB7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtB7_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5327462157176 8.57820124965928 49.5327273588984 8.57829895338532 49.53272198439 8.57850012185182 49.5327125682793 8.57866352736209 49.5328512322868 8.57867583758921 49.5328737874119 8.57827230623054 49.5327710335042 8.57821141491452 49.5327462157176 8.57820124965928
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtB8 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtB8_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1066.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007670005__";
+  alkis:gemarkung ex:DEHE06120000DtB8_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtB8_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 17B, 17C, 17D, 17E";
+  alkis:position ex:DEHE06120000DtB8_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtB8_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 767 .
+
+ex:DEHE06120000DtB8_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtB8_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5328753326731 8.57824465288066 49.5328737874119 8.57827230623054 49.5328512322868 8.57867583758921 49.532842770209 8.57882711514312 49.5328260864926 8.57891407582149 49.5328392987275 8.57912884976286 49.5329162521187 8.57911228214849 49.5329156750566 8.57896108206217 49.5329410306127 8.57896085044301 49.5329403838012 8.57879548533424 49.5330730945319 8.57881309877562 49.5330798357279 8.57869315161313 49.5330838406342 8.57862212340775 49.5330724328282 8.57858442355134 49.5330804740113 8.57844115069498 49.5329777548593 8.57841939687138 49.5329866469375 8.57828012476043 49.5328753326731 8.57824465288066
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtB9 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtB9_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 334.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007670006__";
+  alkis:gemarkung ex:DEHE06120000DtB9_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtB9_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 17, 17A";
+  alkis:position ex:DEHE06120000DtB9_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtB9_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 767 .
+
+ex:DEHE06120000DtB9_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtB9_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5329403838012 8.57879548533424 49.5329410306127 8.57896085044301 49.5329156750566 8.57896108206217 49.5329162521187 8.57911228214849 49.5329415886739 8.57910682679338 49.5329675724335 8.57910125531462 49.5330710615657 8.5790824972898 49.5330702131037 8.57886414727859 49.5330730945319 8.57881309877562 49.5329403838012 8.57879548533424
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBA a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBA_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 421.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007870002__";
+  alkis:gemarkung ex:DEHE06120000DtBA_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBA_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 4";
+  alkis:position ex:DEHE06120000DtBA_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBA_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 787 .
+
+ex:DEHE06120000DtBA_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBA_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5339552774904 8.57769216600002 49.533869041927 8.57792081969752 49.5338641863818 8.57791634226996 49.533814827645 8.57804837796095 49.5339110919662 8.57814753926041 49.5339946563127 8.57792869357198 49.5340227390032 8.57795359096497 49.5340797877564 8.57780171143438 49.5339552774904 8.57769216600002
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBB a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBB_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 345.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007880002__";
+  alkis:gemarkung ex:DEHE06120000DtBB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBB_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 6";
+  alkis:position ex:DEHE06120000DtBB_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 788 .
+
+ex:DEHE06120000DtBB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBB_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5338629446034 8.57761055105336 49.5337310259041 8.57796287472589 49.533814827645 8.57804837796095 49.5338641863818 8.57791634226996 49.533869041927 8.57792081969752 49.5339552774904 8.57769216600002 49.5338629446034 8.57761055105336
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBC a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBC_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 264.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007880003__";
+  alkis:gemarkung ex:DEHE06120000DtBC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBC_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 8";
+  alkis:position ex:DEHE06120000DtBC_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 788 .
+
+ex:DEHE06120000DtBC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBC_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5337718028222 8.57752999030807 49.5336867192198 8.57773900874611 49.533745138917 8.57780264534768 49.5337023742181 8.57793980664868 49.5337304055494 8.57795555532507 49.5337288861339 8.57796068190729 49.5337310259041 8.57796287472589 49.5338629446034 8.57761055105336 49.5337718028222 8.57752999030807
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBD a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBD_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 489.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007900001__";
+  alkis:gemarkung ex:DEHE06120000DtBD_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBD_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 10";
+  alkis:position ex:DEHE06120000DtBD_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBD_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 790 .
+
+ex:DEHE06120000DtBD_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBD_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5336016170652 8.57737624214524 49.5335638978155 8.57738993152738 49.5334712415778 8.57761394039054 49.5335122696101 8.57763684624184 49.533638537997 8.57770560569101 49.5336867192198 8.57773900874611 49.5337718028222 8.57752999030807 49.5336016170652 8.57737624214524
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBE a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBE_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 461.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007930001__";
+  alkis:gemarkung ex:DEHE06120000DtBE_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBE_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 12";
+  alkis:position ex:DEHE06120000DtBE_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBE_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 793 .
+
+ex:DEHE06120000DtBE_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBE_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.533328196167 8.57713103921186 49.5332312934729 8.57738421693101 49.5334316065914 8.57750695439053 49.5335020169874 8.57733425829486 49.5334930961653 8.57727818374062 49.533328196167 8.57713103921186
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBF a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBF_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 269.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007940001__";
+  alkis:gemarkung ex:DEHE06120000DtBF_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBF_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 14";
+  alkis:position ex:DEHE06120000DtBF_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBF_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 794 .
+
+ex:DEHE06120000DtBF_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBF_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5332030839912 8.57701941550339 49.5331305461235 8.57720054578857 49.5332358110876 8.57729371141379 49.533199396593 8.57739126380589 49.5332201562436 8.57741332139885 49.5332312934729 8.57738421693101 49.533328196167 8.57713103921186 49.5332030839912 8.57701941550339
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBG a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBG_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 108.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007940002__";
+  alkis:gemarkung ex:DEHE06120000DtBG_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBG_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 14";
+  alkis:position ex:DEHE06120000DtBG_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBG_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 794 .
+
+ex:DEHE06120000DtBG_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBG_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5331305461235 8.57720054578857 49.5330947391611 8.57729202578155 49.533199396593 8.57739126380589 49.5332358110876 8.57729371141379 49.5331305461235 8.57720054578857
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBH a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBH_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 403.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007950001__";
+  alkis:gemarkung ex:DEHE06120000DtBH_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBH_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 15";
+  alkis:position ex:DEHE06120000DtBH_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBH_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 795 .
+
+ex:DEHE06120000DtBH_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBH_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.533036649788 8.57687097304585 49.5329721457058 8.57703520078608 49.5330119263752 8.57707117664823 49.5330094326554 8.57707796999708 49.5329878702335 8.57713161203252 49.5329844905962 8.57713965682302 49.5330848818982 8.57722830344921 49.5330683992896 8.57726903519591 49.5330876122728 8.57728628280636 49.5330947391611 8.57729202578155 49.5331305461235 8.57720054578857 49.5332030839912 8.57701941550339 49.533036649788 8.57687097304585
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBI a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBI_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 92.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007950002__";
+  alkis:gemarkung ex:DEHE06120000DtBI_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBI_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 15";
+  alkis:position ex:DEHE06120000DtBI_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBI_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 795 .
+
+ex:DEHE06120000DtBI_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBI_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5329721457058 8.57703520078608 49.5329284852897 8.57714606877691 49.5330683992896 8.57726903519591 49.5330848818982 8.57722830344921 49.5329844905962 8.57713965682302 49.5329878702335 8.57713161203252 49.5330094326554 8.57707796999708 49.5330119263752 8.57707117664823 49.5329721457058 8.57703520078608
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBJ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBJ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 218.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007960001__";
+  alkis:gemarkung ex:DEHE06120000DtBJ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBJ_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 13";
+  alkis:position ex:DEHE06120000DtBJ_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBJ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 796 .
+
+ex:DEHE06120000DtBJ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBJ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5329284852897 8.57714606877691 49.5328768139045 8.57727759750251 49.5330344662749 8.57740815047425 49.5330516133337 8.57734984775533 49.5330597256713 8.57735696424638 49.5330876122728 8.57728628280636 49.5330683992896 8.57726903519591 49.5329284852897 8.57714606877691
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBK a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBK_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 172.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007960002__";
+  alkis:gemarkung ex:DEHE06120000DtBK_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBK_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 13";
+  alkis:position ex:DEHE06120000DtBK_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBK_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 796 .
+
+ex:DEHE06120000DtBK_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBK_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5330876122728 8.57728628280636 49.5330597256713 8.57735696424638 49.5330516133337 8.57734984775533 49.5330344662749 8.57740815047425 49.533158023238 8.57751026614375 49.5332035962919 8.5774575227128 49.5332201562436 8.57741332139885 49.533199396593 8.57739126380589 49.5330947391611 8.57729202578155 49.5330876122728 8.57728628280636
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBL a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBL_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 387.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100797______";
+  alkis:gemarkung ex:DEHE06120000DtBL_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBL_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 11, 11A";
+  alkis:position ex:DEHE06120000DtBL_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBL_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 797 .
+
+ex:DEHE06120000DtBL_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBL_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5328768139045 8.57727759750251 49.5328247051188 8.57741008330206 49.532941703728 8.57751681568686 49.5330004965775 8.57756190132212 49.5330691161415 8.57761558139529 49.5331238208375 8.57755102619572 49.533158023238 8.57751026614375 49.5330344662749 8.57740815047425 49.5328768139045 8.57727759750251
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBO a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBO_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 448.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007990001__";
+  alkis:gemarkung ex:DEHE06120000DtBO_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBO_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 7";
+  alkis:position ex:DEHE06120000DtBO_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBO_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 799 .
+
+ex:DEHE06120000DtBO_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBO_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5327545926469 8.57758803974599 49.5326990909288 8.57772996551861 49.5330189041769 8.57802156398 49.5330250150563 8.57797316876791 49.5330382123805 8.57786766325959 49.532939134556 8.57776662133389 49.532827767277 8.57765751807521 49.5327545926469 8.57758803974599
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBP a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBP_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1202.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008010001__";
+  alkis:gemarkung ex:DEHE06120000DtBP_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBP_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 5";
+  alkis:position ex:DEHE06120000DtBP_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBP_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 801 .
+
+ex:DEHE06120000DtBP_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBP_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5326990909288 8.57772996551861 49.5325981664987 8.57798814860068 49.5327412438787 8.57811552558785 49.5327319196219 8.57819540244625 49.5327462157176 8.57820124965928 49.5327710335042 8.57821141491452 49.5328737874119 8.57827230623054 49.5328753326731 8.57824465288066 49.5329866469375 8.57828012476043 49.5329995193515 8.57817670904363 49.5331168860516 8.57821188001349 49.5331432887528 8.57800791685674 49.5330250150563 8.57797316876791 49.5330189041769 8.57802156398 49.5326990909288 8.57772996551861
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBQ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBQ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 544.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008020001__";
+  alkis:gemarkung ex:DEHE06120000DtBQ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBQ_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 3";
+  alkis:position ex:DEHE06120000DtBQ_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBQ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 802 .
+
+ex:DEHE06120000DtBQ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBQ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5325981664987 8.57798814860068 49.5325554170624 8.57809748685839 49.5325329591937 8.57815236562632 49.5325144208849 8.57819925033868 49.5325925239295 8.57827109150907 49.5325589796603 8.57837404843646 49.5326023850518 8.57840761687565 49.53272198439 8.57850012185182 49.5327273588984 8.57829895338532 49.5327462157176 8.57820124965928 49.5327319196219 8.57819540244625 49.5327412438787 8.57811552558785 49.5325981664987 8.57798814860068
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBS a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBS_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 177.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008060003__";
+  alkis:gemarkung ex:DEHE06120000DtBS_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBS_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 1A";
+  alkis:position ex:DEHE06120000DtBS_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBS_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 806 .
+
+ex:DEHE06120000DtBS_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBS_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5325144208849 8.57819925033868 49.5324449282469 8.57837484980607 49.5325081132653 8.57843311008794 49.5325188729835 8.57840400952324 49.5325851020851 8.57846579547723 49.5326022694823 8.57840799100832 49.5326023850518 8.57840761687565 49.5325589796603 8.57837404843646 49.5325925239295 8.57827109150907 49.5325144208849 8.57819925033868
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBT a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBT_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 324.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008110003__";
+  alkis:gemarkung ex:DEHE06120000DtBT_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBT_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 35";
+  alkis:position ex:DEHE06120000DtBT_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBT_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 811 .
+
+ex:DEHE06120000DtBT_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBT_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5319781554526 8.57749819962171 49.5319262930223 8.57753069466499 49.531920475982 8.57751170117315 49.5317823873911 8.57762255083562 49.531848055474 8.57779422038187 49.5318499709703 8.57779904079162 49.5320244488583 8.57766493711374 49.5319789841357 8.57750344399345 49.5319781554526 8.57749819962171
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBU a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBU_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 300.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008110004__";
+  alkis:gemarkung ex:DEHE06120000DtBU_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBU_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 35A";
+  alkis:position ex:DEHE06120000DtBU_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBU_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 811 .
+
+ex:DEHE06120000DtBU_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBU_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5321562443534 8.57740964116624 49.5321391136501 8.57742070651142 49.5321377508425 8.57741698690886 49.5320515604471 8.5774558449549 49.5319789841357 8.57750344399345 49.5320244488583 8.57766493711374 49.5320287398448 8.57768231307666 49.5320487427736 8.57766956472615 49.5322138179811 8.57756175731572 49.5321562443534 8.57740964116624
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBX a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBX_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1311.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008110007__";
+  alkis:gemarkung ex:DEHE06120000DtBX_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBX_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 37";
+  alkis:position ex:DEHE06120000DtBX_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBX_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 811 .
+
+ex:DEHE06120000DtBX_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBX_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5322077811283 8.57694590055874 49.5321887858685 8.57696361569021 49.5320267730759 8.57711917364661 49.5319249823668 8.5772161820512 49.5317140069896 8.57742005955827 49.5317754308843 8.57760434111169 49.5317823873911 8.57762255083562 49.531920475982 8.57751170117315 49.5319262930223 8.57753069466499 49.5319781554526 8.57749819962171 49.5319789841357 8.57750344399345 49.5320515604471 8.5774558449549 49.5321377508425 8.57741698690886 49.5321265661646 8.5773616796883 49.5323072385584 8.57704478015411 49.5322077811283 8.57694590055874
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBa a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBa_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 388.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007690002__";
+  alkis:gemarkung ex:DEHE06120000DtBa_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBa_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 8";
+  alkis:position ex:DEHE06120000DtBa_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBa_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 769 .
+
+ex:DEHE06120000DtBa_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBa_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.533390600491 8.57795096303382 49.5333702023475 8.57805266161937 49.5333605802371 8.57812484424769 49.5336562328194 8.57821417655391 49.5336612700849 8.57818954698401 49.5336922713178 8.57808485432714 49.5334933695835 8.57800118523917 49.533390600491 8.57795096303382
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBb a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBb_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 412.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007690003__";
+  alkis:gemarkung ex:DEHE06120000DtBb_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBb_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 6";
+  alkis:position ex:DEHE06120000DtBb_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBb_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 769 .
+
+ex:DEHE06120000DtBb_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBb_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5334280176047 8.57778047293475 49.5334134476986 8.57783517432808 49.533390600491 8.57795096303382 49.5334933695835 8.57800118523917 49.5336922713178 8.57808485432714 49.5337288861339 8.57796068190729 49.5337304055494 8.57795555532507 49.5337023742181 8.57793980664868 49.5335282117127 8.57784232597679 49.5334280176047 8.57778047293475
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBc a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBc_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 431.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007690004__";
+  alkis:gemarkung ex:DEHE06120000DtBc_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBc_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 4";
+  alkis:position ex:DEHE06120000DtBc_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBc_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 769 .
+
+ex:DEHE06120000DtBc_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBc_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5334712415778 8.57761394039054 49.5334280176047 8.57778047293475 49.5335282117127 8.57784232597679 49.5337023742181 8.57793980664868 49.533745138917 8.57780264534768 49.5336867192198 8.57773900874611 49.533638537997 8.57770560569101 49.5335122696101 8.57763684624184 49.5334712415778 8.57761394039054
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBd a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBd_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1055.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007690006__";
+  alkis:gemarkung ex:DEHE06120000DtBd_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBd_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten";
+  alkis:position ex:DEHE06120000DtBd_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBd_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 769 .
+
+ex:DEHE06120000DtBd_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBd_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5334930961653 8.57727818374062 49.5335020169874 8.57733425829486 49.5334316065914 8.57750695439053 49.5334028154597 8.57757628962011 49.5333710766467 8.57770057151236 49.5333462502217 8.57779650383804 49.533330173883 8.57787468473383 49.5332998691545 8.57802232376959 49.5332959419327 8.57805288628183 49.5332694341919 8.57825766634189 49.5332510574046 8.57847726053627 49.5332496351269 8.57849424389063 49.5332454358632 8.5787070132878 49.5332385348683 8.5790574267076 49.5333103733549 8.57906150861375 49.5333143724905 8.5788528867314 49.5333177534641 8.5786771620898 49.5333184799079 8.57862964216226 49.5333211461188 8.57849977890453 49.5333377895995 8.57830806075557 49.5333406300393 8.57827544838473 49.5333605802371 8.57812484424769 49.5333702023475 8.57805266161937 49.533390600491 8.57795096303382 49.5334134476986 8.57783517432808 49.5334280176047 8.57778047293475 49.5334712415778 8.57761394039054 49.5335638978155 8.57738993152738 49.5336016170652 8.57737624214524 49.5334930961653 8.57727818374062
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBh a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBh_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 518.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007700005__";
+  alkis:gemarkung ex:DEHE06120000DtBh_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBh_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 11";
+  alkis:position ex:DEHE06120000DtBh_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBh_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 770 .
+
+ex:DEHE06120000DtBh_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBh_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5329995193515 8.57817670904363 49.5329866469375 8.57828012476043 49.5329777548593 8.57841939687138 49.5330804740113 8.57844115069498 49.5332510574046 8.57847726053627 49.5332694341919 8.57825766634189 49.5331168860516 8.57821188001349 49.5329995193515 8.57817670904363
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBi a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBi_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 394.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007700009__";
+  alkis:gemarkung ex:DEHE06120000DtBi_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBi_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 3";
+  alkis:position ex:DEHE06120000DtBi_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBi_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 770 .
+
+ex:DEHE06120000DtBi_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBi_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5332312934729 8.57738421693101 49.5332201562436 8.57741332139885 49.5332035962919 8.5774575227128 49.533158023238 8.57751026614375 49.5331238208375 8.57755102619572 49.5332948499182 8.57765494458538 49.5333710766467 8.57770057151236 49.5334028154597 8.57757628962011 49.5334316065914 8.57750695439053 49.5332312934729 8.57738421693101
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBj a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBj_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 324.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007700015__";
+  alkis:gemarkung ex:DEHE06120000DtBj_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBj_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 13, 13A";
+  alkis:position ex:DEHE06120000DtBj_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBj_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 770 .
+
+ex:DEHE06120000DtBj_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBj_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5330804740113 8.57844115069498 49.5330724328282 8.57858442355134 49.5330838406342 8.57862212340775 49.5330798357279 8.57869315161313 49.5331753485334 8.57869227536844 49.5332454358632 8.5787070132878 49.5332496351269 8.57849424389063 49.5332510574046 8.57847726053627 49.5330804740113 8.57844115069498
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBk a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBk_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 507.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007700016__";
+  alkis:gemarkung ex:DEHE06120000DtBk_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBk_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 15";
+  alkis:position ex:DEHE06120000DtBk_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBk_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 770 .
+
+ex:DEHE06120000DtBk_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBk_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5330798357279 8.57869315161313 49.5330730945319 8.57881309877562 49.5330702131037 8.57886414727859 49.5330710615657 8.5790824972898 49.5332159895763 8.57905625213256 49.5332385348683 8.5790574267076 49.5332454358632 8.5787070132878 49.5331753485334 8.57869227536844 49.5330798357279 8.57869315161313
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBm a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBm_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 328.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007710002__";
+  alkis:gemarkung ex:DEHE06120000DtBm_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBm_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 16";
+  alkis:position ex:DEHE06120000DtBm_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBm_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 771 .
+
+ex:DEHE06120000DtBm_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBm_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5333177534641 8.5786771620898 49.5333143724905 8.5788528867314 49.5335336687293 8.57886346833194 49.5335602691481 8.5786887871404 49.5334998427216 8.57868652867668 49.5333177534641 8.5786771620898
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBn a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBn_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 267.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007710003__";
+  alkis:gemarkung ex:DEHE06120000DtBn_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBn_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 14";
+  alkis:position ex:DEHE06120000DtBn_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBn_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 771 .
+
+ex:DEHE06120000DtBn_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBn_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5333211461188 8.57849977890453 49.5333184799079 8.57862964216226 49.5333177534641 8.5786771620898 49.5334998427216 8.57868652867668 49.5335027351426 8.57856936376424 49.5335176631211 8.57857089383898 49.533519145283 8.57851108105194 49.533425913743 8.57850607828587 49.5333211461188 8.57849977890453
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBo a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBo_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 409.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007710005__";
+  alkis:gemarkung ex:DEHE06120000DtBo_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBo_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 10, 10A";
+  alkis:position ex:DEHE06120000DtBo_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBo_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 771 .
+
+ex:DEHE06120000DtBo_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBo_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5333605802371 8.57812484424769 49.5333406300393 8.57827544838473 49.5333377895995 8.57830806075557 49.5334571763192 8.57833232458929 49.5334678713484 8.57833484459896 49.5335117040068 8.57834249705778 49.5335495746959 8.57835058778367 49.5336253301331 8.57836569117283 49.5336562328194 8.57821417655391 49.5333605802371 8.57812484424769
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBp a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBp_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 96.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007710007__";
+  alkis:gemarkung ex:DEHE06120000DtBp_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBp_gemeindezugehoerigkeit;
+  alkis:lageText "Am Pfarrgarten 14";
+  alkis:position ex:DEHE06120000DtBp_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBp_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 771 .
+
+ex:DEHE06120000DtBp_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBp_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.533519145283 8.57851108105194 49.5335176631211 8.57857089383898 49.5335027351426 8.57856936376424 49.5334998427216 8.57868652867668 49.5335602691481 8.5786887871404 49.5335659622955 8.57865157562781 49.5335944996408 8.57851485554022 49.533519145283 8.57851108105194
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBu a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBu_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 105.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007800004__";
+  alkis:gemarkung ex:DEHE06120000DtBu_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBu_gemeindezugehoerigkeit;
+  alkis:lageText "Karl-Marx-Straße 6";
+  alkis:position ex:DEHE06120000DtBu_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBu_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 780 .
+
+ex:DEHE06120000DtBu_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBu_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5343532518758 8.57830344273019 49.5343467714831 8.578326993237 49.5343320377406 8.57837876697085 49.5343278586498 8.57839207053924 49.5343346911617 8.57839603351479 49.5343342645474 8.57840238076578 49.5344510453442 8.57845698983578 49.5344706213416 8.57835913833905 49.5343846788597 8.57831800168923 49.5343532518758 8.57830344273019
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBv a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBv_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 741.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007800006__";
+  alkis:gemarkung ex:DEHE06120000DtBv_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBv_gemeindezugehoerigkeit;
+  alkis:lageText "Karl-Marx-Straße 4";
+  alkis:position ex:DEHE06120000DtBv_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBv_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 780 .
+
+ex:DEHE06120000DtBv_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBv_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5341432448115 8.5781910102452 49.5340698830001 8.57830944637096 49.5342332575236 8.57862593785687 49.5343877556197 8.5786984246693 49.5344160769129 8.57859868772693 49.5344349977511 8.5785258984979 49.5344371590073 8.5785265847568 49.5344510453442 8.57845698983578 49.5343342645474 8.57840238076578 49.5343346911617 8.57839603351479 49.5343278586498 8.57839207053924 49.5343320377406 8.57837876697085 49.5342481133375 8.57829902644298 49.5341432448115 8.5781910102452
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBw a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBw_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 408.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007820002__";
+  alkis:gemarkung ex:DEHE06120000DtBw_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBw_gemeindezugehoerigkeit;
+  alkis:lageText "Karl-Marx-Straße 8";
+  alkis:position ex:DEHE06120000DtBw_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBw_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 782 .
+
+ex:DEHE06120000DtBw_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBw_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5343550974763 8.5780374247536 49.5342481133375 8.57829902644298 49.5343320377406 8.57837876697085 49.5343467714831 8.578326993237 49.5343532518758 8.57830344273019 49.5343846788597 8.57831800168923 49.5344706213416 8.57835913833905 49.5345020516672 8.57820185341613 49.5345096759107 8.57816391966597 49.5343550974763 8.5780374247536
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBy a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBy_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 350.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007840001__";
+  alkis:gemarkung ex:DEHE06120000DtBy_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBy_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 2";
+  alkis:position ex:DEHE06120000DtBy_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBy_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 784 .
+
+ex:DEHE06120000DtBy_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBy_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5341463301787 8.57786053826848 49.5340053572266 8.5782436500325 49.5340626666498 8.57830135444272 49.5340698830001 8.57830944637096 49.5341432448115 8.5781910102452 49.5341888558614 8.57807459548237 49.5342398197328 8.57794366443947 49.5341782856554 8.57788927205659 49.5341463301787 8.57786053826848
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtBz a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtBz_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 328.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001007860003__";
+  alkis:gemarkung ex:DEHE06120000DtBz_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtBz_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 4A";
+  alkis:position ex:DEHE06120000DtBz_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtBz_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 786 .
+
+ex:DEHE06120000DtBz_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtBz_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5340797877564 8.57780171143438 49.5340227390032 8.57795359096497 49.5339946563127 8.57792869357198 49.5339110919662 8.57814753926041 49.5340053572266 8.5782436500325 49.5341463301787 8.57786053826848 49.5340797877564 8.57780171143438
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtC3 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtC3_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 62.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008130005__";
+  alkis:gemarkung ex:DEHE06120000DtC3_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtC3_gemeindezugehoerigkeit;
+  alkis:lageText "Mannheimer Straße 29, 31";
+  alkis:position ex:DEHE06120000DtC3_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtC3_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 813 .
+
+ex:DEHE06120000DtC3_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtC3_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5321339501022 8.57794796328153 49.5320590527752 8.57800291996623 49.5320021833032 8.57807329619294 49.5320239216414 8.57811711128025 49.5321368187773 8.57799463575071 49.5321339501022 8.57794796328153
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtC7 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtC7_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 667.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008160001__";
+  alkis:gemarkung ex:DEHE06120000DtC7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtC7_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 2; Mannheimer Straße 25";
+  alkis:position ex:DEHE06120000DtC7_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtC7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 816 .
+
+ex:DEHE06120000DtC7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtC7_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5324743731267 8.57784084380065 49.5323938274189 8.57806112175893 49.5322305531436 8.57829544689395 49.5321605805289 8.57838131720387 49.5322534666371 8.57856309231637 49.5323241756796 8.57847687027298 49.5325274719086 8.57795491224077 49.5324743731267 8.57784084380065
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCC a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCC_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 81.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008720001__";
+  alkis:gemarkung ex:DEHE06120000DtCC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCC_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 11";
+  alkis:position ex:DEHE06120000DtCC_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 872 .
+
+ex:DEHE06120000DtCC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCC_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5334068157471 8.57693797024747 49.533363417184 8.57704662582483 49.5334313412545 8.57710929469196 49.5334739253153 8.57699926402874 49.5334068157471 8.57693797024747
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCE a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCE_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 200.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100874______";
+  alkis:gemarkung ex:DEHE06120000DtCE_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCE_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 9";
+  alkis:position ex:DEHE06120000DtCE_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCE_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 874 .
+
+ex:DEHE06120000DtCE_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCE_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.53359511606 8.57701991591258 49.5335255287739 8.57719619894445 49.5336352212957 8.577297329042 49.5336615929227 8.57723052947305 49.5337006196861 8.57713158529645 49.533631614164 8.57706834493784 49.53359511606 8.57701991591258
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCF a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCF_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 73.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100875______";
+  alkis:gemarkung ex:DEHE06120000DtCF_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCF_gemeindezugehoerigkeit;
+  alkis:lageText "Neubaustraße 9";
+  alkis:position ex:DEHE06120000DtCF_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCF_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 875 .
+
+ex:DEHE06120000DtCF_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCF_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5336095919567 8.57692238597678 49.5335812654565 8.5769932380181 49.5335983067042 8.5770093850026 49.53359511606 8.57701991591258 49.533631614164 8.57706834493784 49.5337006196861 8.57713158529645 49.5337103253395 8.57710703969657 49.533702467119 8.57709316285295 49.5336095919567 8.57692238597678
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCI a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCI_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 294.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100877______";
+  alkis:gemarkung ex:DEHE06120000DtCI_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCI_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 11";
+  alkis:position ex:DEHE06120000DtCI_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCI_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 877 .
+
+ex:DEHE06120000DtCI_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCI_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5337466406688 8.57684466634862 49.5337125865173 8.57690868558198 49.5337492867397 8.57696071998712 49.533702467119 8.57709316285295 49.5337103253395 8.57710703969657 49.5337379334164 8.57715707964322 49.5338074855803 8.57722223656813 49.5338898420364 8.57701792533565 49.5338230841786 8.57695441672957 49.5337466406688 8.57684466634862
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCJ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCJ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 219.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100878______";
+  alkis:gemarkung ex:DEHE06120000DtCJ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCJ_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 11";
+  alkis:position ex:DEHE06120000DtCJ_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCJ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 878 .
+
+ex:DEHE06120000DtCJ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCJ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5336707305634 8.57673568563695 49.5335990601639 8.5769030179966 49.5336095919567 8.57692238597678 49.533702467119 8.57709316285295 49.5337492867397 8.57696071998712 49.5337125865173 8.57690868558198 49.5337466406688 8.57684466634862 49.5336707305634 8.57673568563695
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCK a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCK_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 480.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008800001__";
+  alkis:gemarkung ex:DEHE06120000DtCK_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCK_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 9";
+  alkis:position ex:DEHE06120000DtCK_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCK_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 880 .
+
+ex:DEHE06120000DtCK_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCK_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5337309313475 8.5765951249904 49.5336707305634 8.57673568563695 49.5337466406688 8.57684466634862 49.5338230841786 8.57695441672957 49.5338898420364 8.57701792533565 49.5339745065354 8.57680780276589 49.5338005848784 8.57665594066322 49.5337309313475 8.5765951249904
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCL a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCL_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 288.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100881______";
+  alkis:gemarkung ex:DEHE06120000DtCL_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCL_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 7";
+  alkis:position ex:DEHE06120000DtCL_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCL_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 881 .
+
+ex:DEHE06120000DtCL_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCL_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5338574533527 8.57650442119388 49.5338005848784 8.57665594066322 49.5339745065354 8.57680780276589 49.5340332385519 8.57666158767496 49.5340347554881 8.57665825768797 49.5338574533527 8.57650442119388
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCM a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCM_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 106.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100882______";
+  alkis:gemarkung ex:DEHE06120000DtCM_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCM_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 7";
+  alkis:position ex:DEHE06120000DtCM_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCM_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 882 .
+
+ex:DEHE06120000DtCM_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCM_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5337943961874 8.57644694845477 49.5337309313475 8.5765951249904 49.5338005848784 8.57665594066322 49.5338574533527 8.57650442119388 49.5337943961874 8.57644694845477
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCN a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCN_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1890.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008840001__";
+  alkis:gemarkung ex:DEHE06120000DtCN_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCN_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 5, 5A, 5B, 5C";
+  alkis:position ex:DEHE06120000DtCN_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCN_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 884 .
+
+ex:DEHE06120000DtCN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCN_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5339287132036 8.57587897478203 49.5338597750621 8.57604046729903 49.5338233892855 8.57602035562719 49.5337455975947 8.57619837027657 49.5336798721292 8.57635057440018 49.5337943961874 8.57644694845477 49.5338574533527 8.57650442119388 49.5340347554881 8.57665825768797 49.5341374164311 8.57644771577015 49.5342393769283 8.57617128329696 49.5340364220085 8.57598092150208 49.5339287132036 8.57587897478203
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCO a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCO_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 166.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008860002__";
+  alkis:gemarkung ex:DEHE06120000DtCO_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCO_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 3";
+  alkis:position ex:DEHE06120000DtCO_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCO_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 886 .
+
+ex:DEHE06120000DtCO_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCO_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5340031870619 8.57570388995159 49.5339610060152 8.57580329160944 49.5339287132036 8.57587897478203 49.5340364220085 8.57598092150208 49.5340245366185 8.57592358693877 49.5340819222108 8.5757759864323 49.5340031870619 8.57570388995159
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCP a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCP_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 456.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100887______";
+  alkis:gemarkung ex:DEHE06120000DtCP_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCP_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 3";
+  alkis:position ex:DEHE06120000DtCP_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCP_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 887 .
+
+ex:DEHE06120000DtCP_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCP_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5340819222108 8.5757759864323 49.5340245366185 8.57592358693877 49.5340364220085 8.57598092150208 49.5342393769283 8.57617128329696 49.5343129108204 8.57598748523687 49.5341059965379 8.57579675739497 49.5340819222108 8.5757759864323
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCS a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCS_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 472.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008900001__";
+  alkis:gemarkung ex:DEHE06120000DtCS_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCS_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 41";
+  alkis:position ex:DEHE06120000DtCS_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCS_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 890 .
+
+ex:DEHE06120000DtCS_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCS_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5341501861731 8.57533277004468 49.5341473262151 8.57534023019202 49.5340635359785 8.57555255973312 49.534052400605 8.57557959204356 49.5341622139574 8.57567404331113 49.5342320109656 8.57573460819798 49.5343243843409 8.57549333301164 49.5341501861731 8.57533277004468
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCU a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCU_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1046.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008930002__";
+  alkis:gemarkung ex:DEHE06120000DtCU_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCU_gemeindezugehoerigkeit;
+  alkis:lageText "Rathausstraße 66, 68";
+  alkis:position ex:DEHE06120000DtCU_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCU_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 893 .
+
+ex:DEHE06120000DtCU_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCU_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5345070419917 8.57566740941522 49.5343522149934 8.576043076559 49.5345228979135 8.57617491265535 49.5346498613052 8.57627357135578 49.5347078089077 8.57605828530469 49.5347250230815 8.5760184852529 49.5347250048515 8.57601351001276 49.5347633746747 8.57590985558556 49.5346562628001 8.5758088145084 49.5345070419917 8.57566740941522
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCV a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCV_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 294.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008970002__";
+  alkis:gemarkung ex:DEHE06120000DtCV_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCV_gemeindezugehoerigkeit;
+  alkis:lageText "Rathausstraße 64";
+  alkis:position ex:DEHE06120000DtCV_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 897 .
+
+ex:DEHE06120000DtCV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCV_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5347633746747 8.57590985558556 49.5347250048515 8.57601351001276 49.5347250230815 8.5760184852529 49.5347078089077 8.57605828530469 49.5346498613052 8.57627357135578 49.534692071168 8.57630719115281 49.5347213763838 8.57632932711265 49.5347329575453 8.57629871122646 49.5347633067631 8.57621784735987 49.5348478633827 8.57599095621492 49.5347633746747 8.57590985558556
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCZ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCZ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 458.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001009000003__";
+  alkis:gemarkung ex:DEHE06120000DtCZ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCZ_gemeindezugehoerigkeit;
+  alkis:lageText "Eulerstraße 8";
+  alkis:position ex:DEHE06120000DtCZ_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 900 .
+
+ex:DEHE06120000DtCZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCZ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5342383145266 8.57635276831661 49.5341665146467 8.57654109747455 49.5343929468016 8.57672700264527 49.5344566673265 8.57651346504485 49.5342383145266 8.57635276831661
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCb a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCb_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 693.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008190002__";
+  alkis:gemarkung ex:DEHE06120000DtCb_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCb_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 8";
+  alkis:position ex:DEHE06120000DtCb_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCb_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 819 .
+
+ex:DEHE06120000DtCb_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCb_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5323720610662 8.57689629276118 49.5323072385584 8.57704478015411 49.5323233873218 8.57706038164545 49.5324611972701 8.57719828996621 49.5327222805087 8.57745918426958 49.5327771678329 8.57731906002036 49.5325999438874 8.57712485630752 49.5323720610662 8.57689629276118
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCe a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCe_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 206.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008210003__";
+  alkis:gemarkung ex:DEHE06120000DtCe_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCe_gemeindezugehoerigkeit;
+  alkis:lageText "Steinstraße 5";
+  alkis:position ex:DEHE06120000DtCe_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCe_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 821 .
+
+ex:DEHE06120000DtCe_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCe_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5322950713081 8.57679460740242 49.5322529325551 8.57690091420712 49.5321869508769 8.57683322757651 49.5321592202817 8.57689730074959 49.5321863044005 8.57692455461709 49.5322077811283 8.57694590055874 49.5323072385584 8.57704478015411 49.5323720610662 8.57689629276118 49.5323794558878 8.57687936866763 49.5322950713081 8.57679460740242
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCg a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCg_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 156.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "06307000100848______";
+  alkis:gemarkung ex:DEHE06120000DtCg_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCg_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 39";
+  alkis:position ex:DEHE06120000DtCg_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCg_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 848 .
+
+ex:DEHE06120000DtCg_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCg_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5339705586112 8.57546485944811 49.5339078592716 8.57561785445577 49.5340031870619 8.57570388995159 49.534052400605 8.57557959204356 49.5340635359785 8.57555255973312 49.5339705586112 8.57546485944811
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCh a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCh_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 431.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008490001__";
+  alkis:gemarkung ex:DEHE06120000DtCh_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCh_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 39";
+  alkis:position ex:DEHE06120000DtCh_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCh_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 849 .
+
+ex:DEHE06120000DtCh_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCh_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5339925486424 8.57519953951883 49.5339312239553 8.57536427030293 49.5339034924906 8.57543768913804 49.5338802187513 8.5755003032612 49.5338962832188 8.57551493804946 49.5338731347364 8.57558473760291 49.5339078592716 8.57561785445577 49.5339705586112 8.57546485944811 49.5340635359785 8.57555255973312 49.5341473262151 8.57534023019202 49.5339925486424 8.57519953951883
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCi a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCi_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 6.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008490002__";
+  alkis:gemarkung ex:DEHE06120000DtCi_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCi_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 39";
+  alkis:position ex:DEHE06120000DtCi_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCi_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 849 .
+
+ex:DEHE06120000DtCi_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCi_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5339925486424 8.57519953951883 49.5341473262151 8.57534023019202 49.5341501861731 8.57533277004468 49.5339925486424 8.57519953951883
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCj a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCj_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 93.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008500001__";
+  alkis:gemarkung ex:DEHE06120000DtCj_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCj_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 37";
+  alkis:position ex:DEHE06120000DtCj_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCj_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 850 .
+
+ex:DEHE06120000DtCj_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCj_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5339394529191 8.57515073022149 49.5338792966094 8.57531763437375 49.5339312239553 8.57536427030293 49.5339925486424 8.57519953951883 49.5339394529191 8.57515073022149
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCk a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCk_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 346.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008500002__";
+  alkis:gemarkung ex:DEHE06120000DtCk_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCk_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 37";
+  alkis:position ex:DEHE06120000DtCk_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCk_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 850 .
+
+ex:DEHE06120000DtCk_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCk_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5338295765555 8.57505148545462 49.533817177219 8.57508210816354 49.5337246904771 8.57528981317606 49.5339034924906 8.57543768913804 49.5339312239553 8.57536427030293 49.5338792966094 8.57531763437375 49.5339394529191 8.57515073022149 49.5338295765555 8.57505148545462
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCn a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCn_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 303.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008550001__";
+  alkis:gemarkung ex:DEHE06120000DtCn_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCn_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 31";
+  alkis:position ex:DEHE06120000DtCn_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCn_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 855 .
+
+ex:DEHE06120000DtCn_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCn_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5338434303802 8.57570887999047 49.5337386906651 8.57594333542725 49.5338233892855 8.57602035562719 49.5338597750621 8.57604046729903 49.5339287132036 8.57587897478203 49.5339610060152 8.57580329160944 49.5338434303802 8.57570887999047
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCo a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCo_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 594.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008560001__";
+  alkis:gemarkung ex:DEHE06120000DtCo_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCo_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 31";
+  alkis:position ex:DEHE06120000DtCo_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCo_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 856 .
+
+ex:DEHE06120000DtCo_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCo_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5336181274725 8.57552721462102 49.5335128810307 8.57576074779799 49.5336564083819 8.57591697343382 49.5336713098176 8.5758842563494 49.5336857426303 8.57589792408113 49.5337386906651 8.57594333542725 49.5338434303802 8.57570887999047 49.5338338693161 8.575701637997 49.5336181274725 8.57552721462102
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCq a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCq_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 202.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008590001__";
+  alkis:gemarkung ex:DEHE06120000DtCq_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCq_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 27";
+  alkis:position ex:DEHE06120000DtCq_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCq_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 859 .
+
+ex:DEHE06120000DtCq_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCq_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5336226789298 8.57609156611556 49.5336047385977 8.57613203489488 49.5336201729134 8.57614655087538 49.5335676169317 8.57626218308845 49.5335715886469 8.5762660045953 49.5336707905253 8.57637109304802 49.5336798721292 8.57635057440018 49.5337455975947 8.57619837027657 49.5336226789298 8.57609156611556
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCs a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCs_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 429.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008610001__";
+  alkis:gemarkung ex:DEHE06120000DtCs_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCs_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 27";
+  alkis:position ex:DEHE06120000DtCs_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCs_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 861 .
+
+ex:DEHE06120000DtCs_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCs_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5334413329891 8.57591935944917 49.5333435437747 8.57613606259918 49.5334420263256 8.57624364415588 49.5334838602859 8.57617216373766 49.5335211269147 8.5762117542643 49.5335676169317 8.57626218308845 49.5336201729134 8.57614655087538 49.5336047385977 8.57613203489488 49.5336226789298 8.57609156611556 49.5335325864785 8.57599082199615 49.5335246471237 8.57600884313034 49.5334413329891 8.57591935944917
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCt a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCt_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 228.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008620001__";
+  alkis:gemarkung ex:DEHE06120000DtCt_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCt_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 25";
+  alkis:position ex:DEHE06120000DtCt_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCt_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 862 .
+
+ex:DEHE06120000DtCt_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCt_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5333435437747 8.57613606259918 49.5332494925021 8.57634444049481 49.5333233184824 8.57644421963522 49.5334420263256 8.57624364415588 49.5333435437747 8.57613606259918
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCu a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCu_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 268.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008630001__";
+  alkis:gemarkung ex:DEHE06120000DtCu_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCu_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 23";
+  alkis:position ex:DEHE06120000DtCu_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCu_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 863 .
+
+ex:DEHE06120000DtCu_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCu_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5334838602859 8.57617216373766 49.5334420263256 8.57624364415588 49.5333233184824 8.57644421963522 49.5334158386372 8.57656940490491 49.5334694799412 8.57648234416675 49.5334976802474 8.5764213330668 49.5334776771746 8.57635783627814 49.5334725965076 8.57629434874834 49.5335211269147 8.5762117542643 49.5334838602859 8.57617216373766
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHE06120000DtCv a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHE06120000DtCv_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 85.0;
+  alkis:flurschluessel 63070001;
+  alkis:flurstueckskennzeichen "063070001008630002__";
+  alkis:gemarkung ex:DEHE06120000DtCv_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHE06120000DtCv_gemeindezugehoerigkeit;
+  alkis:lageText "Holzstraße 23";
+  alkis:position ex:DEHE06120000DtCv_position;
+  alkis:zeitPunktDerEntstehung "2009-11-05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHE06120000DtCv_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 863 .
+
+ex:DEHE06120000DtCv_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Viernheim";
+  alkis:land "Hessen";
+  alkis:regierungsbezirk "Darmstadt" .
+
+ex:DEHE06120000DtCv_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+49.5335211269147 8.5762117542643 49.5334725965076 8.57629434874834 49.5334776771746 8.57635783627814 49.5334976802474 8.5764213330668 49.5335715886469 8.5762660045953 49.5335676169317 8.57626218308845 49.5335211269147 8.5762117542643
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:Viernheim_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 63070 .
+
+dbr:Hessen rdfs:label "Bundesland der BRD";
+  dbo:type "https://dbpedia.org/resource/States_of_Germany";
+  alkis:AX_Flurstueck ex:DEHE06120000DtA0, ex:DEHE06120000DtA1, ex:DEHE06120000DtA2,
+    ex:DEHE06120000DtA3, ex:DEHE06120000DtA4, ex:DEHE06120000DtA5, ex:DEHE06120000DtA6,
+    ex:DEHE06120000DtA7, ex:DEHE06120000DtA8, ex:DEHE06120000DtA9, ex:DEHE06120000DtAB,
+    ex:DEHE06120000DtAC, ex:DEHE06120000DtAI, ex:DEHE06120000DtAJ, ex:DEHE06120000DtAV,
+    ex:DEHE06120000DtAX, ex:DEHE06120000DtAY, ex:DEHE06120000DtAZ, ex:DEHE06120000DtAf,
+    ex:DEHE06120000DtAh, ex:DEHE06120000DtAi, ex:DEHE06120000DtAj, ex:DEHE06120000DtAk,
+    ex:DEHE06120000DtAl, ex:DEHE06120000DtAr, ex:DEHE06120000DtAs, ex:DEHE06120000DtAz,
+    ex:DEHE06120000DtB1, ex:DEHE06120000DtB4, ex:DEHE06120000DtB6, ex:DEHE06120000DtB7,
+    ex:DEHE06120000DtB8, ex:DEHE06120000DtB9, ex:DEHE06120000DtBA, ex:DEHE06120000DtBB,
+    ex:DEHE06120000DtBC, ex:DEHE06120000DtBD, ex:DEHE06120000DtBE, ex:DEHE06120000DtBF,
+    ex:DEHE06120000DtBG, ex:DEHE06120000DtBH, ex:DEHE06120000DtBI, ex:DEHE06120000DtBJ,
+    ex:DEHE06120000DtBK, ex:DEHE06120000DtBL, ex:DEHE06120000DtBO, ex:DEHE06120000DtBP,
+    ex:DEHE06120000DtBQ, ex:DEHE06120000DtBS, ex:DEHE06120000DtBT, ex:DEHE06120000DtBU,
+    ex:DEHE06120000DtBX, ex:DEHE06120000DtBa, ex:DEHE06120000DtBb, ex:DEHE06120000DtBc,
+    ex:DEHE06120000DtBd, ex:DEHE06120000DtBh, ex:DEHE06120000DtBi, ex:DEHE06120000DtBj,
+    ex:DEHE06120000DtBk, ex:DEHE06120000DtBm, ex:DEHE06120000DtBn, ex:DEHE06120000DtBo,
+    ex:DEHE06120000DtBp, ex:DEHE06120000DtBu, ex:DEHE06120000DtBv, ex:DEHE06120000DtBw,
+    ex:DEHE06120000DtBy, ex:DEHE06120000DtBz, ex:DEHE06120000DtC3, ex:DEHE06120000DtC7,
+    ex:DEHE06120000DtCC, ex:DEHE06120000DtCE, ex:DEHE06120000DtCF, ex:DEHE06120000DtCI,
+    ex:DEHE06120000DtCJ, ex:DEHE06120000DtCK, ex:DEHE06120000DtCL, ex:DEHE06120000DtCM,
+    ex:DEHE06120000DtCN, ex:DEHE06120000DtCO, ex:DEHE06120000DtCP, ex:DEHE06120000DtCS,
+    ex:DEHE06120000DtCU, ex:DEHE06120000DtCV, ex:DEHE06120000DtCZ, ex:DEHE06120000DtCb,
+    ex:DEHE06120000DtCe, ex:DEHE06120000DtCg, ex:DEHE06120000DtCh, ex:DEHE06120000DtCi,
+    ex:DEHE06120000DtCj, ex:DEHE06120000DtCk, ex:DEHE06120000DtCn, ex:DEHE06120000DtCo,
+    ex:DEHE06120000DtCq, ex:DEHE06120000DtCs, ex:DEHE06120000DtCt, ex:DEHE06120000DtCu,
+    ex:DEHE06120000DtCv .

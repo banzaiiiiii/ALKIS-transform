@@ -741,7 +741,7 @@ alkis:AX_Fortfuehrungsfall rdf:type owl:Class ;
 
 
 ###  https://w3id.org/alkis/AX_Gemarkung_Schluessel
-alkis:AX_Gemarkung_Schluessel rdf:type owl:Class ;
+alkis:AX_Gemarkung_Schluessel rdf:type owl:Css ;
                               rdfs:comment "Ein eindeutiger Schlüssel einer Gemarkung."@de ;
                               rdfs:label "Gemarkungsschlüssel"@de .
 

@@ -1,0 +1,4019 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ngeo: <http://geovocab.org/geometry#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:DESNALK05e0000A5 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000A5_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3186.0;
+  alkis:flurstueckskennzeichen "146317___00016____00";
+  alkis:gemarkung ex:DESNALK05e0000A5_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000A5_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000A5_position;
+  alkis:sonstigeEigenschaften "Weg;3186";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000A5_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 16 .
+
+ex:DESNALK05e0000A5_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000A5_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3439369608408 14.7365087095611 51.3455563451004 14.7397627827861 51.3455768386166 14.7398076651241 51.3465327256638 14.741727086722 51.3465524153684 14.7417666340634 51.347552833202 14.7437759610833 51.347576297395 14.7438230705585 51.3483982755507 14.7454746996916 51.3483987517967 14.7454000588694 51.3476042275934 14.7438030135685 51.3475832469923 14.7437608439974 51.3465437349944 14.7416714145954 51.3465265109002 14.7416367783808 51.3456087071188 14.7397918773523 51.3455839043495 14.7397420084068 51.3439568751891 14.7364714378117 51.3439369608408 14.7365087095611
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000AN a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000AN_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 5950.0;
+  alkis:flurstueckskennzeichen "146326___00069____00";
+  alkis:gemarkung ex:DESNALK05e0000AN_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000AN_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000AN_position;
+  alkis:sonstigeEigenschaften "Weg;5950|Wald;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000AN_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 69 .
+
+ex:DESNALK05e0000AN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000AN_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3146700848639 14.6796244092756 51.3146473753601 14.6797180766132 51.3191117921502 14.6819400928419 51.3191788194563 14.6819734520482 51.3210254613415 14.6828926888023 51.3210834053839 14.6828061144654 51.3209337221243 14.6827290660186 51.3192221716308 14.681848207468 51.3191617008168 14.6818186488278 51.3169656681171 14.6807457965355 51.3147439903125 14.6796605119797 51.3146700848639 14.6796244092756
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000B4 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000B4_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 350.0;
+  alkis:flurstueckskennzeichen "146317___00035____00";
+  alkis:gemarkung ex:DESNALK05e0000B4_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000B4_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000B4_position;
+  alkis:sonstigeEigenschaften "Weg;350";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000B4_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 35 .
+
+ex:DESNALK05e0000B4_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000B4_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.348457888302 14.7402087950716 51.3484576077033 14.7402566266181 51.3493545539393 14.7403725184443 51.3493542418221 14.7403168922045 51.348457888302 14.7402087950716
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000BK a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000BK_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 779.0;
+  alkis:flurstueckskennzeichen "146325___00009____00";
+  alkis:gemarkung ex:DESNALK05e0000BK_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000BK_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000BK_position;
+  alkis:sonstigeEigenschaften "Weg;779";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000BK_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 9 .
+
+ex:DESNALK05e0000BK_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000BK_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3323138834986 14.6729619579606 51.3311672898882 14.6731895535075 51.331052037909 14.6732148888119 51.3308196069336 14.6732613671416 51.3307060675863 14.6733139902803 51.3302582981868 14.6735420177397 51.3293098789665 14.6740250304905 51.3293049180438 14.6740615368287 51.3302788965257 14.6735669755297 51.3306919628123 14.6733572371568 51.3308161358864 14.6733032324013 51.33105132261 14.6732550266196 51.3312026167888 14.6732240238918 51.3322988362736 14.6729993280201 51.3323138834986 14.6729619579606
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000BZ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000BZ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 410.0;
+  alkis:flurstueckskennzeichen "146309___00111000100";
+  alkis:gemarkung ex:DESNALK05e0000BZ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000BZ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000BZ_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;410";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000BZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 111 .
+
+ex:DESNALK05e0000BZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000BZ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.353638522125 14.6861611331823 51.3535850050645 14.6862630573921 51.3534458502139 14.6864060199314 51.353414520312 14.68643221215 51.3534622249235 14.6864666104764 51.3537275829204 14.6866599037198 51.353638522125 14.6861611331823
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000CH a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000CH_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 183.0;
+  alkis:flurstueckskennzeichen "146318___00001____00";
+  alkis:gemarkung ex:DESNALK05e0000CH_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000CH_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000CH_position;
+  alkis:sonstigeEigenschaften "Unland/Vegetationslose Fläche;111|Fließgewässer;72";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000CH_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 1 .
+
+ex:DESNALK05e0000CH_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000CH_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.33822663203 14.7262429673349 51.3383181891129 14.7261970287058 51.3383549502745 14.7261785920839 51.3387611360516 14.7259782744247 51.3387493071894 14.7259533367832 51.3387434333876 14.725940939505 51.3387044454721 14.7259607535711 51.3386555476608 14.7259764203862 51.3386193017943 14.7259806418101 51.3383512940529 14.7261377857298 51.3383149753789 14.7261570236754 51.3382345456201 14.7261855255154 51.33822663203 14.7262429673349
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Cu a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Cu_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 400.0;
+  alkis:flurstueckskennzeichen "146326___00031____00";
+  alkis:gemarkung ex:DESNALK05e0000Cu_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Cu_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Cu_position;
+  alkis:sonstigeEigenschaften "Weg;400";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Cu_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 31 .
+
+ex:DESNALK05e0000Cu_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Cu_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.335322671737 14.6737960344461 51.3352932217005 14.6738698843157 51.3360036768131 14.6741851789238 51.3361098670427 14.6741638264757 51.335322671737 14.6737960344461
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000DH a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000DH_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 344.0;
+  alkis:flurstueckskennzeichen "146307___00020000200";
+  alkis:gemarkung ex:DESNALK05e0000DH_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000DH_gemeindezugehoerigkeit;
+  alkis:lageText "Hoyerswerdaer Straße";
+  alkis:position ex:DESNALK05e0000DH_position;
+  alkis:sonstigeEigenschaften "Straßenverkehr;344";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000DH_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 20 .
+
+ex:DESNALK05e0000DH_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000DH_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3457908820698 14.6739205966293 51.3459108093336 14.6748073445545 51.3458928481742 14.6754673627591 51.3459433749247 14.6749519172417 51.3459336584197 14.6746585173242 51.3458687181346 14.6741796270205 51.3457908820698 14.6739205966293
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Dr a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Dr_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 140.0;
+  alkis:flurstueckskennzeichen "146309___00113000100";
+  alkis:gemarkung ex:DESNALK05e0000Dr_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Dr_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Dr_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;140";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Dr_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 113 .
+
+ex:DESNALK05e0000Dr_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Dr_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.353414520312 14.68643221215 51.3533715897301 14.6864681051116 51.3534432962228 14.6865201611548 51.3537412213798 14.686736353246 51.3537275829204 14.6866599037198 51.3534622249235 14.6864666104764 51.353414520312 14.68643221215
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Eg a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Eg_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 635.0;
+  alkis:flurstueckskennzeichen "146317___00031____00";
+  alkis:gemarkung ex:DESNALK05e0000Eg_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Eg_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Eg_position;
+  alkis:sonstigeEigenschaften "Weg;635";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Eg_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 31 .
+
+ex:DESNALK05e0000Eg_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Eg_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3483900934614 14.7469860315266 51.3483862751748 14.7471000056997 51.3491702617692 14.7471846313249 51.3491719907593 14.7470816515509 51.3484175622108 14.7469893838559 51.3483900934614 14.7469860315266
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000G6 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000G6_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 7735.0;
+  alkis:flurstueckskennzeichen "146319___00005____00";
+  alkis:gemarkung ex:DESNALK05e0000G6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000G6_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000G6_position;
+  alkis:sonstigeEigenschaften "Weg;6358|Fließgewässer;1377";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000G6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 5 .
+
+ex:DESNALK05e0000G6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000G6_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3729366456773 14.7471640503341 51.3728844729391 14.7473176014181 51.3670620178349 14.7509471380973 51.3661283710371 14.7523880554318 51.3647638220612 14.7544937843396 51.3646439422195 14.7546788172261 51.3646349767203 14.7548461206395 51.366343546576 14.7521957592389 51.367113776632 14.7509772821271 51.3682321359042 14.7502732962344 51.3728022952524 14.747484304673 51.3729647988475 14.7474556542579 51.3729366456773 14.7471640503341
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000HU a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000HU_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 16101.0;
+  alkis:flurstueckskennzeichen "146319___00019____00";
+  alkis:gemarkung ex:DESNALK05e0000HU_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000HU_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000HU_position;
+  alkis:sonstigeEigenschaften "Weg;8209|Fließgewässer;7892";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000HU_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 19 .
+
+ex:DESNALK05e0000HU_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000HU_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3526173065025 14.7374812203537 51.3525550762845 14.7375549141465 51.3549207648235 14.7415183483791 51.3571287366285 14.7452183197025 51.3593468349454 14.7489362997006 51.3614949527846 14.7525379558139 51.3636188129877 14.7560995425853 51.3637110773042 14.7560596382303 51.3615657513838 14.7524721645801 51.3615585866713 14.7524432614876 51.3594313597017 14.7488818921911 51.3594150797766 14.7488546350801 51.3572830145678 14.7452857542173 51.3572062104642 14.745131058651 51.3550042162113 14.7414598886994 51.354987727203 14.7414323938759 51.3526337782959 14.7375086406417 51.3526173065025 14.7374812203537
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Hw a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Hw_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 774.0;
+  alkis:flurstueckskennzeichen "146309___00510000200";
+  alkis:gemarkung ex:DESNALK05e0000Hw_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Hw_gemeindezugehoerigkeit;
+  alkis:lageText "Bautzener Straße 30";
+  alkis:position ex:DESNALK05e0000Hw_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;774|Landwirtschaft;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Hw_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 510 .
+
+ex:DESNALK05e0000Hw_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Hw_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3429086551371 14.6824331473265 51.3428233380919 14.6824560194557 51.3429247268437 14.683095052566 51.3431099787302 14.6830380683376 51.3429086551371 14.6824331473265
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000I7 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000I7_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1273.0;
+  alkis:flurstueckskennzeichen "146315___00066____00";
+  alkis:gemarkung ex:DESNALK05e0000I7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000I7_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000I7_position;
+  alkis:sonstigeEigenschaften "Weg;1273";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000I7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 66 .
+
+ex:DESNALK05e0000I7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000I7_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3684629098807 14.7329770014665 51.3671668353327 14.7357727935446 51.3672068574783 14.7358122103491 51.368495059772 14.7330456961244 51.3684629098807 14.7329770014665
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000LI a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000LI_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 190.0;
+  alkis:flurstueckskennzeichen "146324___00192____00";
+  alkis:gemarkung ex:DESNALK05e0000LI_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000LI_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000LI_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;190";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000LI_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 192 .
+
+ex:DESNALK05e0000LI_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000LI_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.33731088608 14.6869014675502 51.337111722762 14.6870262242367 51.3365510285878 14.6873773981946 51.3363759196797 14.6874689413449 51.3363368942559 14.6874823848376 51.3363454078669 14.6875255219565 51.3368746141524 14.6872254844274 51.3371251953621 14.6870743095979 51.33731088608 14.6869014675502
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000LM a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000LM_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2141.0;
+  alkis:flurstueckskennzeichen "146314___00013____00";
+  alkis:gemarkung ex:DESNALK05e0000LM_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000LM_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000LM_position;
+  alkis:sonstigeEigenschaften "Weg;2141";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000LM_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 13 .
+
+ex:DESNALK05e0000LM_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000LM_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3592851166313 14.7032111902819 51.3583556150266 14.7041029534304 51.3580576465054 14.7044158402725 51.3579879288563 14.7044824261083 51.3574217286628 14.7057461205922 51.3572025538859 14.7062352796397 51.3568343578143 14.7070570108145 51.3565321667375 14.7077636318335 51.3560439032854 14.7089053692124 51.3560773780922 14.7089370107096 51.3568671812226 14.7071012508529 51.3580066252185 14.704540285339 51.358031183813 14.7045159273084 51.3583802337061 14.7041558342408 51.3586790435875 14.7038665926949 51.3593001087402 14.7032654265029 51.3592851166313 14.7032111902819
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000LZ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000LZ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 799.0;
+  alkis:flurstueckskennzeichen "146313___00002000200";
+  alkis:gemarkung ex:DESNALK05e0000LZ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000LZ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000LZ_position;
+  alkis:sonstigeEigenschaften "Wald;799";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000LZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 2 .
+
+ex:DESNALK05e0000LZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000LZ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3496585693958 14.7063388337312 51.3495816059354 14.7064747635458 51.3499225985702 14.7070022496142 51.3499675250437 14.7070715780375 51.3501302163735 14.7073231686032 51.3499761641614 14.7068585999499 51.3497212217335 14.7064413617382 51.3496585693958 14.7063388337312
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Lj a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Lj_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 280.0;
+  alkis:flurstueckskennzeichen "146326___00120____00";
+  alkis:gemarkung ex:DESNALK05e0000Lj_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Lj_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Lj_position;
+  alkis:sonstigeEigenschaften "Weg;280";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Lj_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 120 .
+
+ex:DESNALK05e0000Lj_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Lj_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3161830405944 14.6622358922315 51.3160629483639 14.6629182485979 51.315958661054 14.6632754685642 51.3158731981567 14.6634560579415 51.3155868598498 14.6639492692538 51.3159014893244 14.6634975057872 51.3159817680256 14.6632964640641 51.3160869436527 14.6629260651171 51.3161830405944 14.6622358922315
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Ln a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Ln_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 913.0;
+  alkis:flurstueckskennzeichen "146318___00017____00";
+  alkis:gemarkung ex:DESNALK05e0000Ln_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Ln_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Ln_position;
+  alkis:sonstigeEigenschaften "Weg;913";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Ln_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 17 .
+
+ex:DESNALK05e0000Ln_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Ln_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3439263607495 14.7364414043716 51.3435658176896 14.7369694166711 51.3432476794246 14.737317337488 51.342795554682 14.7378117446781 51.3426126195993 14.7380118081238 51.3422908002673 14.7381382913282 51.3423167484625 14.7381853640349 51.3426265650017 14.7380635581735 51.3428157568409 14.737854672528 51.3432794332134 14.7373427696085 51.343586341091 14.737015114032 51.3439369608408 14.7365087095611 51.3439263607495 14.7364414043716
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Lz a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Lz_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 800.0;
+  alkis:flurstueckskennzeichen "146326___00060____00";
+  alkis:gemarkung ex:DESNALK05e0000Lz_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Lz_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Lz_position;
+  alkis:sonstigeEigenschaften "Weg;800";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Lz_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 60 .
+
+ex:DESNALK05e0000Lz_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Lz_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3209063561832 14.689194046442 51.3208605975023 14.6892557181531 51.3221464291568 14.6899573815163 51.3221591252274 14.6898925879824 51.3221073176 14.6898637047162 51.3209063561832 14.689194046442
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000M9 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000M9_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1480.0;
+  alkis:flurstueckskennzeichen "146312___00031____00";
+  alkis:gemarkung ex:DESNALK05e0000M9_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000M9_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000M9_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;1480|Wald;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000M9_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 31 .
+
+ex:DESNALK05e0000M9_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000M9_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3532664804678 14.7061718046213 51.3528800326803 14.706365701078 51.352571684869 14.7065723499458 51.3522491989629 14.7068391551309 51.3519313795944 14.7069838225875 51.3517556662613 14.7071272661283 51.3514468082199 14.7070799373951 51.3514810545771 14.7071538309508 51.3517840154686 14.7071982109044 51.3519627081917 14.7070667392664 51.3522366799537 14.7068921955507 51.3525597700684 14.7066547681885 51.3529006565225 14.7064359641071 51.3532691078488 14.706258554272 51.3536419713536 14.7065213109275 51.3540535872271 14.7068908985671 51.3540792534221 14.7068310369204 51.3536442827504 14.7064174110767 51.3532664804678 14.7061718046213
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000MO a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000MO_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1097.0;
+  alkis:flurstueckskennzeichen "146311___00006____00";
+  alkis:gemarkung ex:DESNALK05e0000MO_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000MO_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000MO_position;
+  alkis:sonstigeEigenschaften "Weg;1097";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000MO_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 6 .
+
+ex:DESNALK05e0000MO_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000MO_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3651863542955 14.6979361323121 51.3643317791928 14.6996548351955 51.3643606515545 14.6996930988288 51.3651627890476 14.6980767268495 51.3654275034525 14.6975432894973 51.3658975104319 14.6965961437881 51.365870593684 14.6965599507508 51.3651863542955 14.6979361323121
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000MS a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000MS_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2683.0;
+  alkis:flurstueckskennzeichen "146306___00012000300";
+  alkis:gemarkung ex:DESNALK05e0000MS_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000MS_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000MS_position;
+  alkis:sonstigeEigenschaften "Weg;2660|Fließgewässer;23";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000MS_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 12 .
+
+ex:DESNALK05e0000MS_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000MS_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3566288117268 14.6647171684631 51.357625849417 14.6677148789146 51.3580481916309 14.6689847899039 51.3589194970416 14.6714128099167 51.3589936811138 14.6712974952252 51.3588706343864 14.671149912659 51.3579762506605 14.6686362391417 51.3574149982024 14.6670218648381 51.3566816150815 14.6647337297267 51.3566288117268 14.6647171684631
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000NN a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000NN_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4568.0;
+  alkis:flurstueckskennzeichen "146325___00001____00";
+  alkis:gemarkung ex:DESNALK05e0000NN_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000NN_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000NN_position;
+  alkis:sonstigeEigenschaften "Weg;4568|Wald;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000NN_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 1 .
+
+ex:DESNALK05e0000NN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000NN_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3326680540778 14.6719528839399 51.3323194469434 14.6729481385251 51.3323138834986 14.6729619579606 51.3322988362736 14.6729993280201 51.3319802756575 14.6739411292609 51.3316434417536 14.6749369595439 51.3312578296118 14.6760768999087 51.3308085308298 14.6774050556776 51.3307611938482 14.6775836012608 51.3300281424466 14.6803480348631 51.3299761708407 14.6805202624258 51.3298408863398 14.6809295091694 51.3297050148566 14.6815202106928 51.3297533341864 14.6813832477333 51.3298835541871 14.6809858940409 51.3299649718902 14.6807497056493 51.3300881413303 14.6803923856899 51.3300891114746 14.6803294109397 51.3308287170272 14.6775614969013 51.3308789897329 14.6774139197785 51.3318148152976 14.6746661966342 51.3321361198011 14.6737227767096 51.3321623864123 14.6736456386603 51.3327114681221 14.672033373576 51.3327216086502 14.6720035881533 51.3326680540778 14.6719528839399
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000NZ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000NZ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 13.0;
+  alkis:flurstueckskennzeichen "146324___00223____00";
+  alkis:gemarkung ex:DESNALK05e0000NZ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000NZ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000NZ_position;
+  alkis:sonstigeEigenschaften "Wald;13";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000NZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 223 .
+
+ex:DESNALK05e0000NZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000NZ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3288590260615 14.6877924752942 51.3288369071007 14.6878233694632 51.3288640114 14.6878546183466 51.3288823550507 14.687824223456 51.3288590260615 14.6877924752942
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Nd a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Nd_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 540.0;
+  alkis:flurstueckskennzeichen "146309___00115000100";
+  alkis:gemarkung ex:DESNALK05e0000Nd_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Nd_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Nd_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;540";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Nd_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 115 .
+
+ex:DESNALK05e0000Nd_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Nd_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3530655353143 14.6866013197596 51.3528824820256 14.6866437256621 51.3536310780119 14.6869043344152 51.3536971013787 14.6868890928783 51.3537575621458 14.6868751385983 51.353750733527 14.6867896527678 51.3536623872755 14.6867963728186 51.3535950330429 14.6868014992859 51.3530655353143 14.6866013197596
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Np a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Np_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 49954.0;
+  alkis:flurstueckskennzeichen "146317___00002____00";
+  alkis:gemarkung ex:DESNALK05e0000Np_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Np_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Np_position;
+  alkis:sonstigeEigenschaften "Weg;555|Wald;49399";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Np_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 2 .
+
+ex:DESNALK05e0000Np_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Np_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3430344022763 14.7253025485541 51.3432423479644 14.7260807837892 51.3433822436991 14.7266228483785 51.3434894716503 14.7269074794232 51.3437047405654 14.7273903512467 51.3441462043594 14.7282039097157 51.3441673863453 14.7282374388767 51.344239660915 14.7283408034122 51.3445748840947 14.7286752685436 51.3447969566432 14.7293116202056 51.3456852217737 14.7285540332249 51.3452289976416 14.7275517809558 51.3445498869546 14.7265138030787 51.3445809610466 14.724360445919 51.3445889183108 14.7233073802474 51.3430344022763 14.7253025485541
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000O0 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000O0_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 6782.0;
+  alkis:flurstueckskennzeichen "146312___00140____00";
+  alkis:gemarkung ex:DESNALK05e0000O0_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000O0_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000O0_position;
+  alkis:sonstigeEigenschaften "Wald;6782|Fließgewässer;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000O0_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 140 .
+
+ex:DESNALK05e0000O0_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000O0_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3418900737563 14.7173835111453 51.3417052603121 14.7175434354426 51.3414739424731 14.7174544664114 51.3414317218572 14.7174382299779 51.3414083749753 14.7174292569357 51.3413432300308 14.7180645736 51.3411829034436 14.7186258732943 51.3411490092252 14.7187667627233 51.3419072690242 14.7188007856777 51.342109745571 14.7188173494422 51.342092186901 14.7186162427447 51.3418900737563 14.7173835111453
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000OJ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000OJ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4620.0;
+  alkis:flurstueckskennzeichen "146310___00115____00";
+  alkis:gemarkung ex:DESNALK05e0000OJ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000OJ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000OJ_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;4620";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000OJ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 115 .
+
+ex:DESNALK05e0000OJ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000OJ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3638972259862 14.6848988196223 51.3636152386616 14.6851968355769 51.3640899874918 14.6863636531408 51.3645462322375 14.686471671662 51.3638972259862 14.6848988196223
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Og a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Og_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2780.0;
+  alkis:flurstueckskennzeichen "146323___00002____00";
+  alkis:gemarkung ex:DESNALK05e0000Og_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Og_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Og_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2780";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Og_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 2 .
+
+ex:DESNALK05e0000Og_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Og_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3369799815365 14.6930071781528 51.3367947004953 14.6933399107715 51.3370681867308 14.6944354486785 51.3373216308578 14.6943682018164 51.3370698500949 14.6933651637797 51.3369799815365 14.6930071781528
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Op a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Op_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1529.0;
+  alkis:flurstueckskennzeichen "146309___00476000100";
+  alkis:gemarkung ex:DESNALK05e0000Op_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Op_gemeindezugehoerigkeit;
+  alkis:lageText "Bautzener Straße 40";
+  alkis:position ex:DESNALK05e0000Op_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;1529";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Op_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 476 .
+
+ex:DESNALK05e0000Op_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Op_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3417256226706 14.6843663314985 51.341904702598 14.6850294001991 51.3421587163617 14.6848784603221 51.3419970044498 14.6842307030109 51.3417256226706 14.6843663314985
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000PB a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000PB_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 25460.0;
+  alkis:flurstueckskennzeichen "146309___00032____00";
+  alkis:gemarkung ex:DESNALK05e0000PB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000PB_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000PB_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;25460";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000PB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 32 .
+
+ex:DESNALK05e0000PB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000PB_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3634941299024 14.6774978301904 51.3625006322492 14.6780301077207 51.3627616759078 14.6796926225608 51.3629995587811 14.6812060791266 51.3639514735132 14.6801791449594 51.363541533041 14.6775916661559 51.3634941299024 14.6774978301904
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Po a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Po_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3795.0;
+  alkis:flurstueckskennzeichen "146318___00015____00";
+  alkis:gemarkung ex:DESNALK05e0000Po_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Po_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Po_position;
+  alkis:sonstigeEigenschaften "Wald;3795";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Po_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 15 .
+
+ex:DESNALK05e0000Po_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Po_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.342855810639 14.7365414699073 51.3427202473569 14.7368214955869 51.3424666798663 14.7371248359699 51.342795554682 14.7378117446781 51.3432476794246 14.737317337488 51.342855810639 14.7365414699073
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Pu a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Pu_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1867.0;
+  alkis:flurstueckskennzeichen "146312___00017____00";
+  alkis:gemarkung ex:DESNALK05e0000Pu_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Pu_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Pu_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;1867";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Pu_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 17 .
+
+ex:DESNALK05e0000Pu_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Pu_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3527720222907 14.6995321058661 51.3525958697211 14.6998549872156 51.3531723000029 14.7004555116311 51.3532682922981 14.7002105552028 51.3527720222907 14.6995321058661
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Qk a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Qk_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 17160.0;
+  alkis:flurstueckskennzeichen "146310___00011____00";
+  alkis:gemarkung ex:DESNALK05e0000Qk_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Qk_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Qk_position;
+  alkis:sonstigeEigenschaften "Wald;9150|Fließgewässer;8010";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Qk_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 11 .
+
+ex:DESNALK05e0000Qk_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Qk_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3713703994294 14.6814398145739 51.3714482023514 14.6817790220062 51.3716513227021 14.6826646904344 51.3728304854955 14.6818234581563 51.3724776855356 14.6802310564667 51.3713001055463 14.6811078541533 51.3713331756259 14.6812524070884 51.3713703994294 14.6814398145739
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000Qx a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000Qx_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2638.0;
+  alkis:flurstueckskennzeichen "146325___00101____00";
+  alkis:gemarkung ex:DESNALK05e0000Qx_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000Qx_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000Qx_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2589|Wald;0.00|Fließgewässer;50";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000Qx_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 101 .
+
+ex:DESNALK05e0000Qx_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000Qx_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3266386035366 14.6681690792514 51.326590470713 14.6684204614712 51.3270694697668 14.6685294436454 51.3279302703551 14.668743421705 51.3279908137736 14.6685082476376 51.3270668743787 14.6682765016916 51.3266386035366 14.6681690792514
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000R1 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000R1_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3510.0;
+  alkis:flurstueckskennzeichen "146323___00003____00";
+  alkis:gemarkung ex:DESNALK05e0000R1_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000R1_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000R1_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;3510";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000R1_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 3 .
+
+ex:DESNALK05e0000R1_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000R1_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3373614658236 14.6944683111724 51.3371000660439 14.6945433480314 51.337520685079 14.6961753722376 51.3377408576425 14.6959444408765 51.3373614658236 14.6944683111724
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000R5 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000R5_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 10500.0;
+  alkis:flurstueckskennzeichen "146318___00007____00";
+  alkis:gemarkung ex:DESNALK05e0000R5_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000R5_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000R5_position;
+  alkis:sonstigeEigenschaften "Wald;10500";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000R5_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 7 .
+
+ex:DESNALK05e0000R5_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000R5_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3413830845877 14.7312882209731 51.3402907125689 14.7328540962157 51.340470794279 14.7336632323217 51.3417443424779 14.7320203513816 51.3417108809566 14.7319525233612 51.3413830845877 14.7312882209731
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000T6 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000T6_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3250.0;
+  alkis:flurstueckskennzeichen "146311___00005000200";
+  alkis:gemarkung ex:DESNALK05e0000T6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000T6_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000T6_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;3250";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000T6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 5 .
+
+ex:DESNALK05e0000T6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000T6_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3630285318413 14.695368439985 51.3627233080447 14.6959013402466 51.3626814691412 14.6959743828049 51.3624041080816 14.6970038781636 51.3624547983344 14.6970813647416 51.3625729370807 14.6967033721166 51.362671164525 14.6964322299891 51.3628152639276 14.6965688226285 51.3632641125219 14.6956487643493 51.3630285318413 14.695368439985
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000TD a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000TD_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 27680.0;
+  alkis:flurstueckskennzeichen "146323___00076____00";
+  alkis:gemarkung ex:DESNALK05e0000TD_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000TD_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000TD_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;23243|Wald;4350|Fließgewässer;87";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000TD_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 76 .
+
+ex:DESNALK05e0000TD_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000TD_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3409394132559 14.6966073038033 51.340922305061 14.6966746635154 51.3409057049895 14.6967681202888 51.340903385245 14.6968307307657 51.3409106011612 14.6969436129069 51.3408835105073 14.697118325767 51.3408715918654 14.6972106029213 51.3408567543196 14.6973390637198 51.3408729740701 14.6974044951453 51.3408961360625 14.6975118885845 51.3408844859866 14.6975968563418 51.3408869960429 14.6977297540153 51.3409123157483 14.6978022610561 51.3409438106715 14.6978808722477 51.3409799901005 14.6980047194774 51.3409942200585 14.6980832577125 51.3409768709963 14.6981656500142 51.34090390653 14.6982620750028 51.3408552870843 14.6983774199108 51.3408277735625 14.698409630214 51.3407339158553 14.6984902844174 51.3407204866138 14.6985480574753 51.3407281826442 14.6985720830697 51.3408477707756 14.698958110507 51.3412462314446 14.7002443386381 51.3415027670585 14.7010724353333 51.342033300622 14.7027851388978 51.3421561929605 14.7031818485405 51.3425155242635 14.7043419145504 51.3425429847605 14.7044305802281 51.3430616657778 14.7061051315238 51.343381311429 14.7057068211993 51.342585081511 14.7032091566379 51.342264065568 14.7022022119702 51.3410519111003 14.6984002917807 51.3413697734245 14.6980981765134 51.3412354996501 14.6976707667511 51.3409394132559 14.6966073038033
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000TQ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000TQ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2542.0;
+  alkis:flurstueckskennzeichen "146312___00109____00";
+  alkis:gemarkung ex:DESNALK05e0000TQ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000TQ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000TQ_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2542";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000TQ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 109 .
+
+ex:DESNALK05e0000TQ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000TQ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3449705578415 14.7027724718537 51.3449278714024 14.7029846281883 51.3450547102 14.7030937043183 51.3454781428666 14.7020240164349 51.3451753963839 14.7016973533 51.3451028198699 14.7020816856321 51.3450302102247 14.7024216077346 51.3449705578415 14.7027724718537
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000aT a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000aT_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 6330.0;
+  alkis:flurstueckskennzeichen "146309___00515____00";
+  alkis:gemarkung ex:DESNALK05e0000aT_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000aT_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000aT_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;5300|Wald;1030";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000aT_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 515 .
+
+ex:DESNALK05e0000aT_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000aT_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3409960011223 14.6828708354661 51.3414082254988 14.6844907744531 51.3417256226706 14.6843663314985 51.3419970044498 14.6842307030109 51.342073034211 14.6841915600839 51.3420239225384 14.6840058015871 51.3416960934836 14.6837130781082 51.3416778215954 14.6836763926825 51.3416510781599 14.6836559602208 51.3415912511985 14.6829529552885 51.3409960011223 14.6828708354661
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000aV a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000aV_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 30864.0;
+  alkis:flurstueckskennzeichen "146318___00056____00";
+  alkis:gemarkung ex:DESNALK05e0000aV_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000aV_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000aV_position;
+  alkis:sonstigeEigenschaften "Wald;30864";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000aV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 56 .
+
+ex:DESNALK05e0000aV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000aV_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3388135178848 14.737099720653 51.3382767759771 14.7377814928776 51.338421847294 14.7381810226443 51.3385179564557 14.7384962339078 51.3386699299963 14.7389436490725 51.3387425923644 14.7391526760813 51.3388039588548 14.7393852542637 51.3388329616028 14.7395849831934 51.3388906951692 14.7402230552533 51.3390909379069 14.7411370107232 51.3391821802798 14.7415363727438 51.339234747781 14.7417444423768 51.3393074420157 14.7420437047803 51.3394167865748 14.7424491565551 51.3396023547501 14.7421059923059 51.339790966152 14.7415734194634 51.3398537963171 14.7412163682718 51.3398588125421 14.7409269303209 51.3398182697429 14.7407287255438 51.3399005667784 14.7405469977907 51.3398910013533 14.7402841580831 51.3399660709389 14.7399902318914 51.3399989311723 14.7399634435773 51.3388135178848 14.737099720653
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000b2 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000b2_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1998.0;
+  alkis:flurstueckskennzeichen "146324___00208____00";
+  alkis:gemarkung ex:DESNALK05e0000b2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000b2_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000b2_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;1998";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000b2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 208 .
+
+ex:DESNALK05e0000b2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000b2_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3304928387737 14.6857239862833 51.3303683838762 14.6859969345409 51.3307779519308 14.6867322674277 51.3308323088674 14.6868298599891 51.3308399799047 14.6868436302017 51.3310652302092 14.6866755938147 51.3304928387737 14.6857239862833
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000bc a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000bc_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3217.0;
+  alkis:flurstueckskennzeichen "146312___00128____00";
+  alkis:gemarkung ex:DESNALK05e0000bc_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000bc_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000bc_position;
+  alkis:sonstigeEigenschaften "Wald;3217";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000bc_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 128 .
+
+ex:DESNALK05e0000bc_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000bc_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3423631195123 14.7132077992599 51.3422988563584 14.7135469996821 51.3422131797221 14.7141761591497 51.3422304732598 14.7141843212761 51.3422764275844 14.7142012065634 51.3425707523455 14.7142486212651 51.3428121551423 14.713271212595 51.3423631195123 14.7132077992599
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000bt a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000bt_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2988.0;
+  alkis:flurstueckskennzeichen "146324___00193000100";
+  alkis:gemarkung ex:DESNALK05e0000bt_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000bt_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000bt_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2306|Wald;682";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000bt_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 193 .
+
+ex:DESNALK05e0000bt_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000bt_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3370905600747 14.6856007520987 51.3371274041464 14.6858200245919 51.33731088608 14.6869014675502 51.3375463751059 14.6867087609992 51.3375857280601 14.6866766088372 51.3373721284132 14.6854606534706 51.3372835307459 14.685504412615 51.3370905600747 14.6856007520987
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000c6 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000c6_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3700.0;
+  alkis:flurstueckskennzeichen "146324___00204____00";
+  alkis:gemarkung ex:DESNALK05e0000c6_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000c6_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000c6_position;
+  alkis:sonstigeEigenschaften "Wald;3700";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000c6_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 204 .
+
+ex:DESNALK05e0000c6_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000c6_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3297050148566 14.6815202106928 51.3294064943065 14.6819359351114 51.3292796020345 14.6821126523789 51.3291710631855 14.6822830987398 51.3290685232358 14.6824275526385 51.3289483536553 14.6825369485043 51.3292497195308 14.6831906012046 51.3294001088707 14.6828342394825 51.3294647989158 14.6826754064981 51.3295169558114 14.6824940677753 51.3296496910131 14.6819983108422 51.3296976354441 14.6817264454636 51.3297050148566 14.6815202106928
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000cA a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000cA_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1057.0;
+  alkis:flurstueckskennzeichen "146309___00284000500";
+  alkis:gemarkung ex:DESNALK05e0000cA_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000cA_gemeindezugehoerigkeit;
+  alkis:lageText "Lachestraße 4";
+  alkis:position ex:DESNALK05e0000cA_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;1057";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000cA_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 284 .
+
+ex:DESNALK05e0000cA_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000cA_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3471908650329 14.6860783616973 51.3473912833915 14.6864327152748 51.3475774731113 14.6864937616491 51.3475745113493 14.6863816254438 51.3474395888178 14.6863455439619 51.3474529294103 14.6861259939052 51.3474913338606 14.6860050605899 51.3474992051714 14.6859090185211 51.3473150437665 14.6858701162192 51.34732187383 14.6860062043487 51.3472860739762 14.6860253163253 51.3472633647272 14.6859163024625 51.3471908650329 14.6860783616973
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000cC a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000cC_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 6321.0;
+  alkis:flurstueckskennzeichen "146325___00121000100";
+  alkis:gemarkung ex:DESNALK05e0000cC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000cC_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000cC_position;
+  alkis:sonstigeEigenschaften "Wald;6321";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000cC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 121 .
+
+ex:DESNALK05e0000cC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000cC_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3278754729631 14.6745851070875 51.3275425205472 14.6748165442732 51.3281204599786 14.676750975996 51.328539455138 14.6769051793117 51.3278754729631 14.6745851070875
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000cf a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000cf_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 9328.0;
+  alkis:flurstueckskennzeichen "146309___00012____00";
+  alkis:gemarkung ex:DESNALK05e0000cf_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000cf_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000cf_position;
+  alkis:sonstigeEigenschaften "Wald;9328";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000cf_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 12 .
+
+ex:DESNALK05e0000cf_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000cf_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3672168385182 14.675504017222 51.3663317455559 14.6759831568566 51.3668084325889 14.6772425588597 51.3675571944634 14.6764311152732 51.3672168385182 14.675504017222
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000d4 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000d4_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4201.0;
+  alkis:flurstueckskennzeichen "146324___00163____00";
+  alkis:gemarkung ex:DESNALK05e0000d4_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000d4_gemeindezugehoerigkeit;
+  alkis:lageText "Schwarzer Schöps";
+  alkis:position ex:DESNALK05e0000d4_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;3987|Fließgewässer;214";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000d4_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 163 .
+
+ex:DESNALK05e0000d4_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000d4_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3331873681632 14.6855831082722 51.3332112917772 14.6857055446389 51.3333516180704 14.6864492880888 51.3334375331097 14.686932042117 51.3334677513964 14.6869272285596 51.3337306873512 14.6867962189831 51.3336512219385 14.6862406842295 51.333605187 14.68545764936 51.3335992415157 14.6853598934314 51.3331873681632 14.6855831082722
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000dC a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000dC_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 19237.0;
+  alkis:flurstueckskennzeichen "146323___00110____00";
+  alkis:gemarkung ex:DESNALK05e0000dC_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000dC_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000dC_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;19237";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000dC_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 110 .
+
+ex:DESNALK05e0000dC_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000dC_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3366339764324 14.7018527046992 51.3366182978406 14.7019318038955 51.33660986769 14.7019971323316 51.3366033367143 14.7020526006657 51.336587706663 14.7020801206865 51.3365580760949 14.7020864424716 51.3365389219325 14.702131943806 51.336540084513 14.702288610299 51.3365256662141 14.7023789986612 51.3364578521628 14.7025928723769 51.3363989835126 14.7027176561626 51.3364062537059 14.7027407498578 51.3366466947282 14.703505081941 51.3375982301684 14.706530240802 51.3377800473624 14.7071082467018 51.3381787056887 14.7068162207217 51.3380971195887 14.7065533981688 51.3379466102 14.7060687036366 51.3377559214544 14.7054548099081 51.3373965201998 14.7042984445535 51.3373916881853 14.704282885469 51.3373864392091 14.7042660083564 51.3372679344678 14.7038854873798 51.337185066027 14.7036195539797 51.3370363169818 14.7031423895349 51.3370193007601 14.7030878481439 51.3368636603428 14.7025889114739 51.3366339764324 14.7018527046992
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000dQ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000dQ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4332.0;
+  alkis:flurstueckskennzeichen "146310___00032____00";
+  alkis:gemarkung ex:DESNALK05e0000dQ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000dQ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000dQ_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2908|Fließgewässer;1424";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000dQ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 32 .
+
+ex:DESNALK05e0000dQ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000dQ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3709439508569 14.6794990708566 51.3698413383089 14.6803184763043 51.3686391090442 14.6812113665467 51.3687701522358 14.6813679733023 51.3698956938908 14.6805192902692 51.3709785686706 14.6797025117242 51.3709439508569 14.6794990708566
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000di a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000di_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 35715.0;
+  alkis:flurstueckskennzeichen "146315___00067____00";
+  alkis:gemarkung ex:DESNALK05e0000di_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000di_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000di_position;
+  alkis:sonstigeEigenschaften "Wald;35715";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000di_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 67 .
+
+ex:DESNALK05e0000di_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000di_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3676834349797 14.7313098593029 51.3663642789354 14.7337005581434 51.3669753174742 14.7355224824568 51.3671668353327 14.7357727935446 51.3684629098807 14.7329770014665 51.3676834349797 14.7313098593029
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000dx a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000dx_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 32710.0;
+  alkis:flurstueckskennzeichen "146310___00253____00";
+  alkis:gemarkung ex:DESNALK05e0000dx_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000dx_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000dx_position;
+  alkis:sonstigeEigenschaften "Wald;32710|Unland/Vegetationslose Fläche;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000dx_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 253 .
+
+ex:DESNALK05e0000dx_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000dx_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3669435114695 14.6970661296113 51.3669279840002 14.6971328561287 51.3669471582289 14.697224621479 51.3668983993237 14.6972924863956 51.3669099863102 14.6974372935864 51.3669407031442 14.6975767316819 51.3669335879047 14.6977151118464 51.366856900259 14.6979784926686 51.3667074545201 14.6983662181066 51.3666242263295 14.6988141975376 51.3665587929239 14.6990070851676 51.3664834523383 14.6992078659076 51.3663414933669 14.6995326755153 51.3663480418915 14.6997651244328 51.3660780925438 14.7004319687783 51.3660842689006 14.7006250312845 51.3661441567953 14.7011786395677 51.3660997759749 14.70132108016 51.3661244848221 14.701454739797 51.3661001716271 14.7018789542536 51.3670448473304 14.7026816338274 51.3670559602174 14.7021642399704 51.3671352037638 14.7013048347608 51.3671639476677 14.7009157468373 51.3671984276887 14.7005409428241 51.3672692227669 14.6998035312938 51.3675163900696 14.6988454640683 51.3676236858056 14.6984273551844 51.3677419203959 14.6981232885938 51.3669956071321 14.6970716323741 51.3669435114695 14.6970661296113
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000eN a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000eN_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 890.0;
+  alkis:flurstueckskennzeichen "146324___00115____00";
+  alkis:gemarkung ex:DESNALK05e0000eN_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000eN_gemeindezugehoerigkeit;
+  alkis:lageText "Nieskyer Straße 6";
+  alkis:position ex:DESNALK05e0000eN_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;890";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000eN_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 115 .
+
+ex:DESNALK05e0000eN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000eN_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3287822851124 14.6942823043783 51.3286645575524 14.6946082371071 51.328866315893 14.6951829949073 51.3289342408631 14.6947614289224 51.3287822851124 14.6942823043783
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000eW a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000eW_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 16298.0;
+  alkis:flurstueckskennzeichen "146308___00044____00";
+  alkis:gemarkung ex:DESNALK05e0000eW_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000eW_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000eW_position;
+  alkis:sonstigeEigenschaften "Wald;16298";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000eW_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 44 .
+
+ex:DESNALK05e0000eW_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000eW_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3368245788535 14.6760701843084 51.3356218592245 14.6767856178124 51.3356171527462 14.6770777330121 51.3354870134166 14.6776204195255 51.3366037566974 14.6784213386789 51.3368380017569 14.6775262323969 51.3369612144412 14.6774885461589 51.3368245788535 14.6760701843084
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000eg a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000eg_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 12910.0;
+  alkis:flurstueckskennzeichen "146325___00017____00";
+  alkis:gemarkung ex:DESNALK05e0000eg_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000eg_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000eg_position;
+  alkis:sonstigeEigenschaften "Wald;12910";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000eg_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 17 .
+
+ex:DESNALK05e0000eg_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000eg_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3291319415979 14.6756467481647 51.3290557648501 14.676327488455 51.3286744713834 14.6769740141736 51.3298042714762 14.6774005194848 51.3303747517426 14.6776158938324 51.3305037943517 14.6775302748683 51.3307497963307 14.6774251465103 51.3298140820307 14.6763965424598 51.3291319415979 14.6756467481647
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000fY a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000fY_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 8454.0;
+  alkis:flurstueckskennzeichen "146323___00080____00";
+  alkis:gemarkung ex:DESNALK05e0000fY_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000fY_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000fY_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;6206|Wald;2164|Fließgewässer;84";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000fY_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 80 .
+
+ex:DESNALK05e0000fY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000fY_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3408845208947 14.7007127302843 51.3406678338452 14.7008825732717 51.3406597123488 14.7008889430425 51.3409718635378 14.701899002009 51.3416640990984 14.7041389442199 51.3418783378182 14.7048322136515 51.342102927026 14.7046594051764 51.3417451209481 14.7035003135252 51.3416204038379 14.7030963250551 51.3414086280847 14.7024103161933 51.3408845208947 14.7007127302843
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000g2 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000g2_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 44440.0;
+  alkis:flurstueckskennzeichen "146326___00033____00";
+  alkis:gemarkung ex:DESNALK05e0000g2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000g2_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000g2_position;
+  alkis:sonstigeEigenschaften "Weg;848|Wald;43592";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000g2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 33 .
+
+ex:DESNALK05e0000g2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000g2_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3351615847778 14.6741920092778 51.3331780202285 14.6782495552134 51.3339805044405 14.6785413353995 51.3340431331704 14.6782921617226 51.3342347333549 14.6780788031291 51.3345321127542 14.6785978393368 51.3346424465558 14.6788706261464 51.3348929150168 14.6785445722375 51.3350709110476 14.6783051370043 51.3352157842318 14.6781588656507 51.3352396090076 14.6781115716071 51.3354870134166 14.6776204195255 51.3356171527462 14.6770777330121 51.3356218592245 14.6767856178124 51.3356207413846 14.6761074358582 51.3355569591639 14.6757199837752 51.3355246475712 14.6754136029324 51.3354543089152 14.6751172957682 51.3354051305301 14.6748220025622 51.3353908270626 14.6746319577513 51.3353231662664 14.6743583719144 51.3353467911061 14.6743464478282 51.3351615847778 14.6741920092778
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000gY a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000gY_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 215.0;
+  alkis:flurstueckskennzeichen "146309___00134000100";
+  alkis:gemarkung ex:DESNALK05e0000gY_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000gY_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000gY_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;215";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000gY_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 134 .
+
+ex:DESNALK05e0000gY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000gY_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3506759744555 14.6856903552808 51.3505529392705 14.6857448018578 51.3505932090945 14.6859809304856 51.3507531143017 14.6859140984166 51.3507134625594 14.6856737861067 51.3506759744555 14.6856903552808
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000h5 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000h5_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 11165.0;
+  alkis:flurstueckskennzeichen "146323___00114____00";
+  alkis:gemarkung ex:DESNALK05e0000h5_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000h5_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000h5_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;11155|Fließgewässer;10";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000h5_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 114 .
+
+ex:DESNALK05e0000h5_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000h5_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3363989835126 14.7027176561626 51.3362925428669 14.7028975268149 51.3362868867971 14.7029754980093 51.3362302334041 14.703048501574 51.3362358453595 14.7030666103289 51.3368035503729 14.7048935300025 51.3374112575804 14.7067772742448 51.3379468743142 14.7084376757536 51.3383913353822 14.709815563771 51.3384124046573 14.7097869342634 51.3379191842501 14.7082881065326 51.3381089139011 14.7081538813352 51.3380995419234 14.7081240807593 51.3377800473624 14.7071082467018 51.3375982301684 14.706530240802 51.3366466947282 14.703505081941 51.3364062537059 14.7027407498578 51.3363989835126 14.7027176561626
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000hT a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000hT_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2969.0;
+  alkis:flurstueckskennzeichen "146323___00074____00";
+  alkis:gemarkung ex:DESNALK05e0000hT_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000hT_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000hT_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2969";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000hT_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 74 .
+
+ex:DESNALK05e0000hT_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000hT_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3425763236201 14.7019377959838 51.342264065568 14.7022022119702 51.342585081511 14.7032091566379 51.3428921832719 14.7029423238754 51.3427484280852 14.7024851702706 51.3425763236201 14.7019377959838
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000hf a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000hf_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 20330.0;
+  alkis:flurstueckskennzeichen "146323___00008____00";
+  alkis:gemarkung ex:DESNALK05e0000hf_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000hf_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000hf_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;20330";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000hf_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 8 .
+
+ex:DESNALK05e0000hf_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000hf_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3355504641865 14.6935311523682 51.3365210606692 14.6972238318495 51.3372990144641 14.6964078760323 51.3368049355274 14.6946280970697 51.3365058627936 14.694545875788 51.3363559382481 14.6944455813443 51.3360839862299 14.694098472074 51.3359468083094 14.6938797656992 51.3355504641865 14.6935311523682
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000hh a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000hh_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 7330.0;
+  alkis:flurstueckskennzeichen "146312___00149____00";
+  alkis:gemarkung ex:DESNALK05e0000hh_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000hh_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000hh_position;
+  alkis:sonstigeEigenschaften "Wald;7330";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000hh_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 149 .
+
+ex:DESNALK05e0000hh_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000hh_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3384413347642 14.7246281125104 51.3383736182873 14.724797444026 51.3382921842021 14.7256474113561 51.3382345456201 14.7261855255154 51.3383149753789 14.7261570236754 51.3383512940529 14.7261377857298 51.3386193017943 14.7259806418101 51.3386555476608 14.7259764203862 51.3387044454721 14.7259607535711 51.3387434333876 14.725940939505 51.3388059918775 14.7258684130694 51.3389012482506 14.7257395591682 51.3390014267722 14.7256199493781 51.3390241169681 14.7255407836091 51.3391091955288 14.7254087303842 51.3392539561577 14.7252163254876 51.339316041078 14.7251184470627 51.3393711341761 14.7250184567762 51.3394967380037 14.7248170336799 51.3384413347642 14.7246281125104
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000hl a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000hl_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 6061.0;
+  alkis:flurstueckskennzeichen "146323___00079____00";
+  alkis:gemarkung ex:DESNALK05e0000hl_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000hl_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000hl_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;5862|Fließgewässer;199";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000hl_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 79 .
+
+ex:DESNALK05e0000hl_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000hl_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.342033300622 14.7027851388978 51.3416204038379 14.7030963250551 51.3417451209481 14.7035003135252 51.342102927026 14.7046594051764 51.3425155242635 14.7043419145504 51.3421561929605 14.7031818485405 51.342033300622 14.7027851388978
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000iq a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000iq_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 5060.0;
+  alkis:flurstueckskennzeichen "146312___00123____00";
+  alkis:gemarkung ex:DESNALK05e0000iq_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000iq_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000iq_position;
+  alkis:sonstigeEigenschaften "Wald;5060";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000iq_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 123 .
+
+ex:DESNALK05e0000iq_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000iq_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3433963308085 14.706503636196 51.3433547371329 14.7069575399589 51.3442155235279 14.7071484209809 51.3445457126809 14.7067542617989 51.3433963308085 14.706503636196
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000jV a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000jV_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 10610.0;
+  alkis:flurstueckskennzeichen "146324___00214____00";
+  alkis:gemarkung ex:DESNALK05e0000jV_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000jV_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000jV_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;6367|Wald;4243";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000jV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 214 .
+
+ex:DESNALK05e0000jV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000jV_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3293441443938 14.6849207171874 51.3293613964329 14.684949448663 51.3298634210425 14.6860983300239 51.3300788534117 14.6865085551506 51.3303504465187 14.6870257220063 51.3308399799047 14.6868436302017 51.3308323088674 14.6868298599891 51.3307779519308 14.6867322674277 51.3303683838762 14.6859969345409 51.3297406818448 14.6848699593669 51.3293611006679 14.6841884642449 51.3291693123371 14.6838360512667 51.3291220260488 14.6840036895434 51.3290180650235 14.6843723140861 51.3293441443938 14.6849207171874
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000jr a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000jr_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3079.0;
+  alkis:flurstueckskennzeichen "146325___00084____00";
+  alkis:gemarkung ex:DESNALK05e0000jr_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000jr_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000jr_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;3020|Fließgewässer;59";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000jr_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 84 .
+
+ex:DESNALK05e0000jr_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000jr_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3277244506639 14.6630307102453 51.3276568764427 14.6633374748619 51.3276663890253 14.6633433902277 51.3290273775531 14.6641893219582 51.3290728584358 14.6640009079696 51.3290549001152 14.6639722614491 51.3277359929486 14.6630388783898 51.3277244506639 14.6630307102453
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000k1 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000k1_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3867.0;
+  alkis:flurstueckskennzeichen "146322___00033____00";
+  alkis:gemarkung ex:DESNALK05e0000k1_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000k1_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000k1_position;
+  alkis:sonstigeEigenschaften "Straßenverkehr;406|Landwirtschaft;3461";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000k1_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 33 .
+
+ex:DESNALK05e0000k1_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000k1_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3361536265753 14.7098358785809 51.3361157065561 14.710158851376 51.3360264597965 14.7109189601949 51.3360045656426 14.7111054134672 51.3359792676965 14.7113520647225 51.3361415454196 14.7113407098857 51.3364651137999 14.711369929284 51.3366518927951 14.7114015870797 51.3361536265753 14.7098358785809
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000kO a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000kO_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3423.0;
+  alkis:flurstueckskennzeichen "146324___00176____00";
+  alkis:gemarkung ex:DESNALK05e0000kO_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000kO_gemeindezugehoerigkeit;
+  alkis:lageText "Nieskyer Straße 50";
+  alkis:position ex:DESNALK05e0000kO_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;1662|Unland/Vegetationslose Fläche;1761";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000kO_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 176 .
+
+ex:DESNALK05e0000kO_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000kO_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3346523592826 14.6863524494631 51.3346264133489 14.6863643973858 51.3348213785188 14.6873299055039 51.3350016491866 14.6882234888025 51.3352181922191 14.6880941607629 51.3350363568808 14.6872042879649 51.3348437451887 14.6862617561916 51.3346523592826 14.6863524494631
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000kQ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000kQ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 5133.0;
+  alkis:flurstueckskennzeichen "146323___00039____00";
+  alkis:gemarkung ex:DESNALK05e0000kQ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000kQ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000kQ_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;5133";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000kQ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 39 .
+
+ex:DESNALK05e0000kQ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000kQ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3328962548088 14.6984716030552 51.3327256258822 14.6986057420519 51.3331550450596 14.6999599791997 51.3331672015992 14.6999983405964 51.3333634655338 14.6998385448022 51.3335869666521 14.6998052760176 51.3335744843192 14.6997661269578 51.3331088632147 14.6983044598717 51.3328962548088 14.6984716030552
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000kY a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000kY_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4679.0;
+  alkis:flurstueckskennzeichen "146318___00016____00";
+  alkis:gemarkung ex:DESNALK05e0000kY_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000kY_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000kY_position;
+  alkis:sonstigeEigenschaften "Wald;4679";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000kY_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 16 .
+
+ex:DESNALK05e0000kY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000kY_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3424666798663 14.7371248359699 51.3424472998772 14.7371398639244 51.3419858825173 14.73725909662 51.3419491726846 14.7375780176883 51.3418793264599 14.7378165558458 51.3422908002673 14.7381382913282 51.3426126195993 14.7380118081238 51.342795554682 14.7378117446781 51.3424666798663 14.7371248359699
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000kz a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000kz_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 13147.0;
+  alkis:flurstueckskennzeichen "146325___00020____00";
+  alkis:gemarkung ex:DESNALK05e0000kz_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000kz_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000kz_position;
+  alkis:sonstigeEigenschaften "Wald;13147";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000kz_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 20 .
+
+ex:DESNALK05e0000kz_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000kz_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3307611938482 14.6775836012608 51.3305291366091 14.6776194760795 51.3303168091755 14.6777800292708 51.3293659079871 14.6791150725895 51.3299761708407 14.6805202624258 51.3300281424466 14.6803480348631 51.3307611938482 14.6775836012608
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000l8 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000l8_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 16470.0;
+  alkis:flurstueckskennzeichen "146310___00167____00";
+  alkis:gemarkung ex:DESNALK05e0000l8_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000l8_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000l8_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;16470";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000l8_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 167 .
+
+ex:DESNALK05e0000l8_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000l8_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3602617908124 14.6842576922015 51.359773234795 14.6847771278323 51.3610123488468 14.6878072255083 51.3615090383854 14.6872845927965 51.3602617908124 14.6842576922015
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000lZ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000lZ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3882.0;
+  alkis:flurstueckskennzeichen "146324___00210____00";
+  alkis:gemarkung ex:DESNALK05e0000lZ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000lZ_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000lZ_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;1635|Wald;2247";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000lZ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 210 .
+
+ex:DESNALK05e0000lZ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000lZ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3292080001556 14.6835878220643 51.3291693123371 14.6838360512667 51.3293611006679 14.6841884642449 51.3297406818448 14.6848699593669 51.3303683838762 14.6859969345409 51.3304928387737 14.6857239862833 51.3298876516785 14.6847178265448 51.3292080001556 14.6835878220643
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000mR a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000mR_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1700.0;
+  alkis:flurstueckskennzeichen "146322___00003____00";
+  alkis:gemarkung ex:DESNALK05e0000mR_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000mR_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000mR_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;1450|Wald;250";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000mR_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 3 .
+
+ex:DESNALK05e0000mR_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000mR_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3331040107272 14.7001337403958 51.3329859588311 14.7003075649168 51.3329552125713 14.7003663161769 51.3329622006263 14.7003879024203 51.3332705589395 14.7013402960041 51.3334287504598 14.7011726428662 51.3331040107272 14.7001337403958
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000mT a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000mT_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 32935.0;
+  alkis:flurstueckskennzeichen "146310___00079____00";
+  alkis:gemarkung ex:DESNALK05e0000mT_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000mT_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000mT_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;26112|Wald;6823";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000mT_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 79 .
+
+ex:DESNALK05e0000mT_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000mT_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3647402256403 14.6910554682149 51.3647521144815 14.6918789997205 51.3648532472885 14.6918824866785 51.364848128248 14.6922749790878 51.3646707788423 14.6927063443833 51.3653689728866 14.692752435229 51.3668211385019 14.6928483130746 51.3668252443761 14.69264467899 51.3679064969304 14.6925507038277 51.3679569842988 14.6925463291247 51.368054137377 14.6923046164204 51.3680699916736 14.6919732058907 51.3680204440161 14.6919724609301 51.367750717448 14.6919642006551 51.3668806033174 14.6919375883121 51.3668557565106 14.6919368213153 51.3668327892171 14.6919361278968 51.3669668361153 14.691189449045 51.3652296460315 14.6910849257323 51.3647402256403 14.6910554682149
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000mk a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000mk_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2623.0;
+  alkis:flurstueckskennzeichen "146325___00099____00";
+  alkis:gemarkung ex:DESNALK05e0000mk_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000mk_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000mk_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;1912|Wald;661|Fließgewässer;50";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000mk_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 99 .
+
+ex:DESNALK05e0000mk_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000mk_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.326731314155 14.667684781595 51.3266880559106 14.6679107404792 51.3266824470355 14.6679400452447 51.3270739696944 14.6680291446333 51.328042874394 14.6682752439979 51.3280898242834 14.6680539454724 51.3270755515472 14.667778325354 51.326731314155 14.667684781595
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000n7 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000n7_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 9624.0;
+  alkis:flurstueckskennzeichen "146318___00031____00";
+  alkis:gemarkung ex:DESNALK05e0000n7_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000n7_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000n7_position;
+  alkis:sonstigeEigenschaften "Wald;9624";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000n7_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 31 .
+
+ex:DESNALK05e0000n7_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000n7_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3460783662198 14.7434936003533 51.3459354432535 14.7436436091735 51.3455812189547 14.7437737606043 51.3453329466419 14.7439530845313 51.3461903230634 14.7454797230505 51.3466390257199 14.7449186642716 51.3460783662198 14.7434936003533
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000nN a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000nN_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 12061.0;
+  alkis:flurstueckskennzeichen "146308___00042____00";
+  alkis:gemarkung ex:DESNALK05e0000nN_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000nN_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000nN_position;
+  alkis:sonstigeEigenschaften "Wald;12061";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000nN_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 42 .
+
+ex:DESNALK05e0000nN_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000nN_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3353467911061 14.6743464478282 51.3368902631652 14.6758352969957 51.3373926372388 14.6757701108212 51.3366084191941 14.674127920845 51.3361195122505 14.6742208630977 51.3359337670149 14.6741992257381 51.3353467911061 14.6743464478282
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000ni a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000ni_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 814.0;
+  alkis:flurstueckskennzeichen "146309___00478000100";
+  alkis:gemarkung ex:DESNALK05e0000ni_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000ni_gemeindezugehoerigkeit;
+  alkis:lageText "Bautzener Straße 34";
+  alkis:position ex:DESNALK05e0000ni_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;814";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000ni_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 478 .
+
+ex:DESNALK05e0000ni_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000ni_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3425778631081 14.6849496405542 51.3427109849812 14.6854531845112 51.3427147515192 14.6854527710831 51.3428646765856 14.6853796424415 51.342836285005 14.6851640035722 51.3427944447302 14.6848461184472 51.3425822013379 14.6849478161592 51.3425778631081 14.6849496405542
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000o2 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000o2_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 7757.0;
+  alkis:flurstueckskennzeichen "146310___00148____00";
+  alkis:gemarkung ex:DESNALK05e0000o2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000o2_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000o2_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;7757";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000o2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 148 .
+
+ex:DESNALK05e0000o2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000o2_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3662772684907 14.6780172424144 51.3660304365773 14.6782225621715 51.3665588065288 14.6795061388888 51.3668555759453 14.6802296912682 51.3669226856523 14.6803921641335 51.3673595639557 14.6799224769412 51.3673789207668 14.6799016707979 51.3670692673348 14.6795572770505 51.3669129330633 14.6793896389098 51.3668281380735 14.6792710750134 51.366775145768 14.679155147903 51.3667063045483 14.6789553554503 51.3666368664853 14.6787872563904 51.3665678598078 14.6785437687696 51.3665134953681 14.6784359831848 51.3664346627796 14.6783409671024 51.3663845589127 14.67821956324 51.3662772684907 14.6780172424144
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000oF a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000oF_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 726.0;
+  alkis:flurstueckskennzeichen "146308___00084____00";
+  alkis:gemarkung ex:DESNALK05e0000oF_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000oF_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000oF_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;0.00|Unland/Vegetationslose Fläche;726";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000oF_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 84 .
+
+ex:DESNALK05e0000oF_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000oF_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3375753039867 14.6827932600506 51.3375390520612 14.6828179291981 51.3372473969982 14.6829244934115 51.3373300948251 14.6832895164143 51.3375621367937 14.6831044953018 51.3375489280365 14.6829285574349 51.3375556095773 14.6828656192436 51.3375753039867 14.6827932600506
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000oW a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000oW_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 8673.0;
+  alkis:flurstueckskennzeichen "146310___00241____00";
+  alkis:gemarkung ex:DESNALK05e0000oW_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000oW_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000oW_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;8673";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000oW_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 241 .
+
+ex:DESNALK05e0000oW_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000oW_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3643405836634 14.69309698597 51.364101632736 14.6937402204382 51.3633406986167 14.6950441480271 51.3634816827522 14.6952027642407 51.3639023521042 14.6956760052524 51.3645599513772 14.6932376667393 51.3643405836634 14.69309698597
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000pG a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000pG_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 20829.0;
+  alkis:flurstueckskennzeichen "146325___00110000200";
+  alkis:gemarkung ex:DESNALK05e0000pG_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000pG_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000pG_position;
+  alkis:sonstigeEigenschaften "Weg;903|Landwirtschaft;2123|Wald;17792|Fließgewässer;11";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000pG_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 110 .
+
+ex:DESNALK05e0000pG_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000pG_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3260130437967 14.6714795165044 51.3259703142342 14.6716849697862 51.3256893439944 14.6731202331763 51.3256381511225 14.673403459311 51.325657713416 14.6733986703342 51.3259625239841 14.6733240705362 51.3264027747741 14.6732051923942 51.3267550777193 14.6731100587952 51.327150825344 14.6730100219895 51.327427883811 14.6729345668299 51.3275444480264 14.6729057932727 51.3280227488071 14.6727791440689 51.3280151530435 14.6727221031963 51.3274201175854 14.6728808576592 51.3270963973107 14.6711537269852 51.3260130437967 14.6714795165044
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000qB a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000qB_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 11460.0;
+  alkis:flurstueckskennzeichen "146310___00138____00";
+  alkis:gemarkung ex:DESNALK05e0000qB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000qB_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000qB_position;
+  alkis:sonstigeEigenschaften "Weg;270|Landwirtschaft;5953|Wald;5086|Fließgewässer;150";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000qB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 138 .
+
+ex:DESNALK05e0000qB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000qB_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3695590746233 14.6828309836539 51.3680234562692 14.6844602170485 51.3682839553184 14.6851093881705 51.3689977208531 14.6843614094059 51.3697606535959 14.6835616392054 51.3697841549334 14.6835369836529 51.3697481291887 14.6834256678647 51.3697044294062 14.6832264583752 51.3695953934527 14.6829008659154 51.3695590746233 14.6828309836539
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000qO a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000qO_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2620.0;
+  alkis:flurstueckskennzeichen "146326___00005____00";
+  alkis:gemarkung ex:DESNALK05e0000qO_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000qO_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000qO_position;
+  alkis:sonstigeEigenschaften "Weg;2620|Wald;0.00";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000qO_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 5 .
+
+ex:DESNALK05e0000qO_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000qO_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3361610006478 14.655033211165 51.3360320826416 14.6555437015443 51.3359947413145 14.6556454867912 51.3359405901568 14.6557766248639 51.3352959674519 14.6570693786173 51.3344721148828 14.6587214629006 51.3345183439309 14.6588484028629 51.3360598809427 14.6557347043541 51.3361323529015 14.6554918168354 51.3361610006478 14.655033211165
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000qV a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000qV_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4716.0;
+  alkis:flurstueckskennzeichen "146323___00027____00";
+  alkis:gemarkung ex:DESNALK05e0000qV_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000qV_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000qV_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;4716";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000qV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 27 .
+
+ex:DESNALK05e0000qV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000qV_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3353379532078 14.6997629342992 51.335157347285 14.6998781779861 51.3350106010379 14.7000234167256 51.3352965128195 14.7009314672642 51.3355789479055 14.7005462786214 51.3356307134935 14.700401544001 51.3357387034194 14.7000766594266 51.3357656098801 14.6999055435089 51.3357687153828 14.6998857562804 51.3356314243068 14.6998432143354 51.3356182036345 14.6998177056353 51.3355916911406 14.6998020882487 51.3355482972393 14.6998272489026 51.3355119307 14.6998120978299 51.3354260015828 14.6997904662231 51.3353379532078 14.6997629342992
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000qa a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000qa_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 11398.0;
+  alkis:flurstueckskennzeichen "146323___00096____00";
+  alkis:gemarkung ex:DESNALK05e0000qa_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000qa_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000qa_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;8901|Wald;2494|Fließgewässer;3";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000qa_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 96 .
+
+ex:DESNALK05e0000qa_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000qa_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3395965368794 14.707438163059 51.3386035771471 14.7082060968077 51.338947757885 14.7093031419937 51.3398601641676 14.7088058950634 51.3400042948947 14.7087544329146 51.3395965368794 14.707438163059
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000qw a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000qw_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3800.0;
+  alkis:flurstueckskennzeichen "146310___00093____00";
+  alkis:gemarkung ex:DESNALK05e0000qw_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000qw_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000qw_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;3800";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000qw_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 93 .
+
+ex:DESNALK05e0000qw_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000qw_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3627426411331 14.6895174468738 51.3626112712032 14.6895456257306 51.3624899976543 14.6895494475933 51.3624333789168 14.6895338726116 51.362609170431 14.6912449686087 51.3628738700079 14.6911676364831 51.3629101246967 14.6911570508789 51.3627426411331 14.6895174468738
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000rB a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000rB_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 5326.0;
+  alkis:flurstueckskennzeichen "146317___00011____00";
+  alkis:gemarkung ex:DESNALK05e0000rB_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000rB_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000rB_position;
+  alkis:sonstigeEigenschaften "Wald;5326";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000rB_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 11 .
+
+ex:DESNALK05e0000rB_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000rB_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3453431899201 14.7312866856691 51.3454512519621 14.7316773981295 51.3465435647045 14.731454637431 51.3465673733283 14.731449774345 51.3465519467721 14.7312278829368 51.346543023823 14.7311795902551 51.3465355662273 14.7311272399368 51.3466456625241 14.7308798309074 51.3466268316454 14.7308791084141 51.3460071840443 14.7308552704305 51.3459406699056 14.7310195308136 51.3453431899201 14.7312866856691
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000rJ a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000rJ_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 3468.0;
+  alkis:flurstueckskennzeichen "146324___00175____00";
+  alkis:gemarkung ex:DESNALK05e0000rJ_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000rJ_gemeindezugehoerigkeit;
+  alkis:lageText "Nieskyer Straße 48";
+  alkis:position ex:DESNALK05e0000rJ_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;1636|Landwirtschaft;673|Wald;1159";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000rJ_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 175 .
+
+ex:DESNALK05e0000rJ_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000rJ_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3346264133489 14.6863643973858 51.3344865463874 14.6864296320239 51.334405216067 14.6864674946106 51.3346102462722 14.6874580221435 51.334794263214 14.6883473130704 51.3350016491866 14.6882234888025 51.3348213785188 14.6873299055039 51.3346264133489 14.6863643973858
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000rd a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000rd_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 2690.0;
+  alkis:flurstueckskennzeichen "146322___00011____00";
+  alkis:gemarkung ex:DESNALK05e0000rd_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000rd_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000rd_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;2690";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000rd_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 11 .
+
+ex:DESNALK05e0000rd_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000rd_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.333066096729 14.7024455229657 51.3329920930229 14.7024528202446 51.3332936322725 14.7034319282143 51.3336060351841 14.7031488964262 51.3333994934242 14.7024844182931 51.3332826676755 14.7024661118927 51.3331932904914 14.7024603745112 51.333066096729 14.7024455229657
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000sF a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000sF_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 9180.0;
+  alkis:flurstueckskennzeichen "146325___00120____00";
+  alkis:gemarkung ex:DESNALK05e0000sF_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000sF_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000sF_position;
+  alkis:sonstigeEigenschaften "Wald;9180";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000sF_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 120 .
+
+ex:DESNALK05e0000sF_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000sF_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3259833553787 14.6759645683514 51.3277044260007 14.6765978741448 51.3272225107217 14.6750589810466 51.3259833553787 14.6759645683514
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000sg a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000sg_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1965.0;
+  alkis:flurstueckskennzeichen "146324___00189000100";
+  alkis:gemarkung ex:DESNALK05e0000sg_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000sg_gemeindezugehoerigkeit;
+  alkis:lageText "Nieskyer Straße 60";
+  alkis:position ex:DESNALK05e0000sg_position;
+  alkis:sonstigeEigenschaften "Wohnbaufläche;1965";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000sg_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 189 .
+
+ex:DESNALK05e0000sg_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000sg_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3362674503214 14.6858356643829 51.3358593726819 14.6861333795145 51.335934608986 14.6865263401861 51.335980187848 14.6867643966959 51.3360073179277 14.6867413009664 51.3361643028232 14.6866077180805 51.3361283327471 14.6864255087188 51.3363632913997 14.6862532789556 51.3362674503214 14.6858356643829
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000tE a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000tE_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 6583.0;
+  alkis:flurstueckskennzeichen "146317___00075____00";
+  alkis:gemarkung ex:DESNALK05e0000tE_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000tE_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000tE_position;
+  alkis:sonstigeEigenschaften "Wald;6583";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000tE_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 75 .
+
+ex:DESNALK05e0000tE_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000tE_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3494695028946 14.7390833607778 51.3494440745212 14.7401478344071 51.3506026618545 14.7398186470954 51.3504744520554 14.739316081147 51.3494695028946 14.7390833607778
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000tj a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000tj_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 4573.0;
+  alkis:flurstueckskennzeichen "146323___00071____00";
+  alkis:gemarkung ex:DESNALK05e0000tj_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000tj_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000tj_position;
+  alkis:sonstigeEigenschaften "Landwirtschaft;4573";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000tj_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 71 .
+
+ex:DESNALK05e0000tj_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000tj_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3427051192359 14.7008384297959 51.3423415098189 14.7011907521999 51.3425763236201 14.7019377959838 51.3427484280852 14.7024851702706 51.343078221627 14.7020264420087 51.3430376991525 14.7018974167856 51.3427051192359 14.7008384297959
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000uG a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000uG_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 1959.0;
+  alkis:flurstueckskennzeichen "146325___00037000100";
+  alkis:gemarkung ex:DESNALK05e0000uG_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000uG_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000uG_position;
+  alkis:sonstigeEigenschaften "Weg;370|Wald;1589";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000uG_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 37 .
+
+ex:DESNALK05e0000uG_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000uG_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3281840222583 14.6831977006409 51.3276258015134 14.683205852777 51.327699238831 14.6837347413544 51.3281897771862 14.6836468725432 51.3281840222583 14.6831977006409
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DESNALK05e0000ul a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DESNALK05e0000ul_flurstuecksnummer;
+  alkis:abweichenderRechtszustand "Kein abweichender Rechtszustand";
+  alkis:amtlicheFlaeche 7665.0;
+  alkis:flurstueckskennzeichen "146310___00068____00";
+  alkis:gemarkung ex:DESNALK05e0000ul_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DESNALK05e0000ul_gemeindezugehoerigkeit;
+  alkis:lageText "ohne Lage";
+  alkis:position ex:DESNALK05e0000ul_position;
+  alkis:sonstigeEigenschaften "Wald;7665";
+  alkis:zeitPunktDerEntstehung "2013-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DESNALK05e0000ul_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 68 .
+
+ex:DESNALK05e0000ul_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Kreba-Neudorf";
+  alkis:land "Freistaat Sachsen";
+  alkis:regierungsbezirk "NUTS 2-Region Dresden" .
+
+ex:DESNALK05e0000ul_position a ex:Snapshot;
+  ex:Snapshot """
+
+
+
+
+
+51.3685212335459 14.692921536478 51.3685421708516 14.6934656701697 51.3702535931625 14.6935829465024 51.3703759299352 14.6932019649474 51.3704141897416 14.6930573892353 51.3702010402703 14.6930420781683 51.3685212335459 14.692921536478
+
+
+
+
+
+""";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:Kreba-Neudorf%20Flur%2010_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146315 .
+
+ex:Kreba-Neudorf%20Flur%2012_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146317 .
+
+ex:Kreba-Neudorf%20Flur%2013_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146318 .
+
+ex:Kreba-Neudorf%20Flur%2014_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146319 .
+
+ex:Kreba-Neudorf%20Flur%201_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146306 .
+
+ex:Kreba-Neudorf%20Flur%2022_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146322 .
+
+ex:Kreba-Neudorf%20Flur%2023_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146323 .
+
+ex:Kreba-Neudorf%20Flur%2024_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146324 .
+
+ex:Kreba-Neudorf%20Flur%2025_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146325 .
+
+ex:Kreba-Neudorf%20Flur%2026_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146326 .
+
+ex:Kreba-Neudorf%20Flur%202_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146307 .
+
+ex:Kreba-Neudorf%20Flur%203_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146308 .
+
+ex:Kreba-Neudorf%20Flur%204_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146309 .
+
+ex:Kreba-Neudorf%20Flur%205_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146310 .
+
+ex:Kreba-Neudorf%20Flur%206_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146311 .
+
+ex:Kreba-Neudorf%20Flur%207_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146312 .
+
+ex:Kreba-Neudorf%20Flur%208_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146313 .
+
+ex:Kreba-Neudorf%20Flur%209_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 146314 .
+
+dbr:Freistaat%20Sachsen rdfs:label "Bundesland der BRD";
+  dbo:type "https://dbpedia.org/resource/States_of_Germany";
+  alkis:AX_Flurstueck ex:DESNALK05e0000A5, ex:DESNALK05e0000AN, ex:DESNALK05e0000B4,
+    ex:DESNALK05e0000BK, ex:DESNALK05e0000BZ, ex:DESNALK05e0000CH, ex:DESNALK05e0000Cu,
+    ex:DESNALK05e0000DH, ex:DESNALK05e0000Dr, ex:DESNALK05e0000Eg, ex:DESNALK05e0000G6,
+    ex:DESNALK05e0000HU, ex:DESNALK05e0000Hw, ex:DESNALK05e0000I7, ex:DESNALK05e0000LI,
+    ex:DESNALK05e0000LM, ex:DESNALK05e0000LZ, ex:DESNALK05e0000Lj, ex:DESNALK05e0000Ln,
+    ex:DESNALK05e0000Lz, ex:DESNALK05e0000M9, ex:DESNALK05e0000MO, ex:DESNALK05e0000MS,
+    ex:DESNALK05e0000NN, ex:DESNALK05e0000NZ, ex:DESNALK05e0000Nd, ex:DESNALK05e0000Np,
+    ex:DESNALK05e0000O0, ex:DESNALK05e0000OJ, ex:DESNALK05e0000Og, ex:DESNALK05e0000Op,
+    ex:DESNALK05e0000PB, ex:DESNALK05e0000Po, ex:DESNALK05e0000Pu, ex:DESNALK05e0000Qk,
+    ex:DESNALK05e0000Qx, ex:DESNALK05e0000R1, ex:DESNALK05e0000R5, ex:DESNALK05e0000T6,
+    ex:DESNALK05e0000TD, ex:DESNALK05e0000TQ, ex:DESNALK05e0000aT, ex:DESNALK05e0000aV,
+    ex:DESNALK05e0000b2, ex:DESNALK05e0000bc, ex:DESNALK05e0000bt, ex:DESNALK05e0000c6,
+    ex:DESNALK05e0000cA, ex:DESNALK05e0000cC, ex:DESNALK05e0000cf, ex:DESNALK05e0000d4,
+    ex:DESNALK05e0000dC, ex:DESNALK05e0000dQ, ex:DESNALK05e0000di, ex:DESNALK05e0000dx,
+    ex:DESNALK05e0000eN, ex:DESNALK05e0000eW, ex:DESNALK05e0000eg, ex:DESNALK05e0000fY,
+    ex:DESNALK05e0000g2, ex:DESNALK05e0000gY, ex:DESNALK05e0000h5, ex:DESNALK05e0000hT,
+    ex:DESNALK05e0000hf, ex:DESNALK05e0000hh, ex:DESNALK05e0000hl, ex:DESNALK05e0000iq,
+    ex:DESNALK05e0000jV, ex:DESNALK05e0000jr, ex:DESNALK05e0000k1, ex:DESNALK05e0000kO,
+    ex:DESNALK05e0000kQ, ex:DESNALK05e0000kY, ex:DESNALK05e0000kz, ex:DESNALK05e0000l8,
+    ex:DESNALK05e0000lZ, ex:DESNALK05e0000mR, ex:DESNALK05e0000mT, ex:DESNALK05e0000mk,
+    ex:DESNALK05e0000n7, ex:DESNALK05e0000nN, ex:DESNALK05e0000ni, ex:DESNALK05e0000o2,
+    ex:DESNALK05e0000oF, ex:DESNALK05e0000oW, ex:DESNALK05e0000pG, ex:DESNALK05e0000qB,
+    ex:DESNALK05e0000qO, ex:DESNALK05e0000qV, ex:DESNALK05e0000qa, ex:DESNALK05e0000qw,
+    ex:DESNALK05e0000rB, ex:DESNALK05e0000rJ, ex:DESNALK05e0000rd, ex:DESNALK05e0000sF,
+    ex:DESNALK05e0000sg, ex:DESNALK05e0000tE, ex:DESNALK05e0000tj, ex:DESNALK05e0000uG,
+    ex:DESNALK05e0000ul .

@@ -34,7 +34,7 @@ def convertStateNamesForDBpedia(FileName):
     with fileinput.FileInput(FileName,
                              inplace=True) as f:
         for line in f:
-            if (line.contains("Nordrhein-Westfalen") == True):
+            if (line.startswith("Nordrhein-Westfalen") == True):
                 print("North_Rhine_Westphalia", end='\n')
             else:
                 print(line, end='')

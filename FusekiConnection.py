@@ -20,15 +20,16 @@ def executeShowCaseSave():
     alkis_graph = URIRef('http://example.org/alkis_graph')
     store = Graph(store, identifier=alkis_graph)
 
-    filesList = ["Output/Bra/showCaseFile.ttl",
-                 "Output/Ham/showcaseFile.ttl",
-                 "Output/Hes/showcaseFile.ttl",
-                 "Output/NRW/showcaseFile.ttl",
-                 "Output/Sac/showcaseFile.ttl",
-                 ]
-    for file in filesList:
-        store.load(file, format="ttl")
-        print("the file " + file + " got saved to the fuseki server!")
+    #filesList = ["Output/Bra/showCaseFile10.ttl",
+   #              "Output/Ham/showcaseFile10.ttl",
+    #             "Output/Hes/showcaseFile10.ttl",
+    #             "Output/NRW/showcaseFile10.ttl",
+    #            # "Output/Sac/showcaseFile0.ttl",
+     #            ]
+   # for file in filesList:
+    file = "Output/Bra/showCaseFile0.ttl"
+    store.load(file, format="ttl")
+    print("the file " + file + " got saved to the fuseki server!")
 
 def openStore():
     store = sparqlstore.SPARQLUpdateStore()

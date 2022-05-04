@@ -52,32 +52,32 @@ def nameFileToMap(FileName):
                 print(line, end='')
 
 
-def executeShowCaseTransformation(maxIndex):
+def executeShowCaseTransformation(maxIndex=None):
     # für Bra/Ham/Hes/NRW/Sac .xml umwandeln
-    Index = 0
+    StartIndex = 0
     filesToTransform = [
-                        #"TestData/Bra/vereinfachtes-schema" + str(Index) + ".xml",
-                        #"TestData/Ham/vereinfachtes-schema" + str(Index) + ".xml",
-                        #"TestData/Hes/vereinfachtes-schema" + str(Index) + ".xml",
-                        "TestData/NRW/vereinfachtes-schema"
-                        #"TestData/Sac/vereinfachtes-schema" + str(Index) + ".xml"
+                        "TestData/Bra/vereinfachtes-schema" + str(StartIndex) + ".xml",
+                        "TestData/Ham/vereinfachtes-schema" + str(StartIndex) + ".xml",
+                        "TestData/Hes/vereinfachtes-schema" + str(StartIndex) + ".xml",
+                        "TestData/NRW/vereinfachtes-schema" + str(StartIndex) + ".xml",
+                        "TestData/Sac/vereinfachtes-schema" + str(StartIndex) + ".xml"
                         ]
 
-
-
     for file in filesToTransform:
+        StartIndex = 0
         while (True):
-            if Index == maxIndex:
+            if maxIndex is not None and StartIndex >= maxIndex:
                 print("Transformation finished!\n")
                 break
             try:
-                fileWithIndex = file + str(Index) + ".xml"
-                outputPath = Helper.getProjektPath() + "Output/" + file[9:12] + "/showCaseFile" + str(Index) + ".ttl"
+                fileWithIndex = file
+                outputPath = Helper.getProjektPath() + "Output/" + file[9:12] + "/showCaseFile" + str(StartIndex) + ".ttl"
                 nameFileToMap(fileWithIndex)
                 yarrrmlToRML(fileWithIndex)
                 callRDFTransformer(fileWithIndex, outputPath)
+                #Helper.convertStateNamesForDBpedia(file)
                 print("the file " + fileWithIndex + " got transformed successfully!")
-                Index += 1000
+                StartIndex += 1000
             except Exception as e:
                 print(e)
                 break

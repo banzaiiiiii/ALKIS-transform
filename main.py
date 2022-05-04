@@ -61,18 +61,18 @@ def start():
         userInput = input("How many 'Flurstuecke' per state you want to download? type 'all' or a number!\n")
         if userInput == 'all':
             AlkisDataService.executeShowCaseDownload()
+            rdfTransformer.executeShowCaseTransformation()
         else:
             try:
-                maxIndex = int(userInput)
-                AlkisDataService.executeShowCaseDownload(maxIndex)
+                #AlkisDataService.executeShowCaseDownload(int(userInput))
+                # transform .xml files for bra, ham, hes, nrw, sac in .ttl
+                rdfTransformer.executeShowCaseTransformation(int(userInput))
+                 # save all the transformed files to fuseki
+               # FusekiConnection.executeShowCaseSave()
+                # FusekiConnection.queryDB()
             except ValueError:
                 print("number must be an int! try again")
                 start()
-        # transform .xml files for bra, ham, hes, nrw, sac in .ttl
-        rdfTransformer.executeShowCaseTransformation(maxIndex)
-        # save all the transformed files to fuseki
-        #FusekiConnection.executeShowCaseSave()
-        #FusekiConnection.queryDB()
     elif userInput =="6":
         Neo4jConnection.saveToNeo4j()
         print("neo")

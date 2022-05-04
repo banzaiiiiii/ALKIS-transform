@@ -120,19 +120,20 @@ def executeShowCaseDownload(maxIndex=None):
 """
 
 def executeShowCaseDownload(maxIndex=None):
-    listAvailableStates = ["NRW-vereinfacht",
-                           #"Brandenburg-vereinfacht",
-                           #"Hamburg-vereinfacht",
-                           #"Sachsen-vereinfacht",
-                          # "Hessen-vereinfacht"
+    listAvailableStates = [
+                           "NRW-vereinfacht",
+                           "Brandenburg-vereinfacht",
+                           "Hamburg-vereinfacht",
+                           "Hessen-vereinfacht",
+                           "Sachsen-vereinfacht",
                           ]
     Typenames = "&TYPENAMES=ave:Flurstueck"
     KoordinatenType = "&srsName=EPSG:4258"
     Namespaces = "&NAMESPACES=xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
-    AnzahlObjekte = "&Count=1000"
-    StartIndex = 0
+    AnzahlObjekte = "&Count=100"
 
     for state in listAvailableStates:
+        StartIndex = 0
         while(True):
             try:
                 # send request to WFS
@@ -141,7 +142,7 @@ def executeShowCaseDownload(maxIndex=None):
                                          "&STARTINDEX=" + str(StartIndex), allow_redirects=True)
                 #
                 # if maxindex is reached end download
-                if (maxIndex is not None and StartIndex >= maxIndex) or 'numberReturned="0"' in response.text:
+                if (maxIndex is not None and StartIndex >= maxIndex): #or 'numberReturned="0"' in response.text:
                     print("Download finished or maxIndex is reached!\n")
                     break
                 with open("TestData/" + state[0:3] + "/vereinfachtes-schema" + str(StartIndex) + ".xml", 'wb') as file:
@@ -168,7 +169,7 @@ WFS_dictionary = {
     #"Sachsen-Anhalt": "", #kostenpflichtig
     #"Reinland-pfalz": "", #kostenpflichtig https://www.geoportal.rlp.de/spatial-objects/353
     # "Mecklenburg-vorpommern": "https://www.geodaten-mv.de/dienste/alkis_wfs_einfach?",#auth
-    #"Berlin": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
+    #"Berlin-AAA-basiert": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis?", # typenames wird nicht erkannt
     #"Thüringen": "http://www.geoproxy.geoportal-th.de/geoproxy/services?", #auth notwendig
     #"Niedersachsen": "",
     #"Schleswig-Holtstein": "", #kostenpflichtig https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_digALKIS.html
@@ -178,20 +179,8 @@ WFS_dictionary = {
     #https://fbinter.stadt-berlin.de/fb_daten/beschreibung/datenformatbeschreibung/datenformatbeschreibung_alkis_berlin.pdf
 }
 
-# urheberrechtlich geschützt https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=FA4D0ED5-EE47-4959-A620-DA34AA76663E&plugid=/ingrid-group:ige-iplug-hb
 def outputDic():
     return str(WFS_dictionary.keys())
 
-FeatureTypes = {
-    "FlurstueckEigentuemer", "Flurstueck", "FlurstueckPunkt", "GebaeudeBauwerk", "KatasterBezirk", "Nutzung", "NutzungFlurstueck", "VerwaltungsEinheit"
-}
 
-#löscht nicht mehr benötigte .zip
-def deleteZip(bundesland, gemeindenummer):
-    os.remove(downloadFolder + bundesland + gemeindenummer + ".xml.zip")
-    for files in os.listdir(downloadFolder + bundesland + gemeindenummer):
-        if files[len(files)-3:len(files)] == 'zip':
-            os.remove(downloadFolder + bundesland + gemeindenummer + "/" + files)
-
-# alkis data leipzig https://geocloud.landesvermessung.sachsen.de/index.php/s/UXVzrdm4WeOhkhR/download?path=%2F&files=14713000.xml.zip
 

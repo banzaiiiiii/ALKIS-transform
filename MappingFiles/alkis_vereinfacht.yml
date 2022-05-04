@@ -7,7 +7,7 @@ prefixes:
   dbo: https://dbpedia.org/ontology/
 sources:
   flurstueck-source:
-      access: TestData/NRW/vereinfachtes-schema5000.xml
+      access: TestData/Sac/vereinfachtes-schema0.xml
       referenceFormulation: xpath
       iterator: FeatureCollection/member/Flurstueck
 mappings:
@@ -17,17 +17,6 @@ mappings:
     predicateobjects:
       - [ dbo:type, dbr:States_of_Germany ]
       - [ rdfs:label, "Bundesland der BRD"]
-      - predicates: alkis:gemarkung
-        objects:
-          value: ex:$(gemarkung)_gemarkung
-          type: iri
-  alkis_gemarkung:
-    sources: flurstueck-source
-    subjects: ex:$(gemarkung)_gemarkung
-    predicateobjects:
-      - [ rdfs:label, "Die Gemarkung ist eine Flächeneinheit des Liegenschaftskatasters, die aus mehreren Fluren besteht."]
-      - [ a, alkis:AX_Gemarkung_Schluessel ]
-      - [ alkis:gemarkungsnummer, $(gemaschl), xsd:integer ]
       - predicates: alkis:AX_Flurstueck
         objects:
           value: ex:$(idflurst)
@@ -37,12 +26,18 @@ mappings:
     subjects: ex:$(idflurst)
     predicateobjects:
       - [ a, alkis:AX_Flurstueck ]
+      - [ rdfs:label, "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters." ]
       - [ alkis:amtlicheFlaeche, $(flaeche), xsd:decimal ]
       - [ alkis:flurstueckskennzeichen, $(flstkennz), xsd:string ]
       - [ alkis:abweichenderRechtszustand, $(abwrecht), xsd:string ]
       - [ alkis:lageText, $(lagebeztxt), xsd:string ]
-      - [ alkis:sonstigeEigenschaften, $(tntxt) ]
-      - [ alkis:flurschluessel, $(flurschl)]
+      - [ alkis:sonstigeEigenschaften, $(tntxt), xsd:string ]
+      - [ alkis:flurschluessel, $(flurschl), xsd:integer ]
+      - [ alkis:zeitPunktDerEntstehung, $(aktualit), xsd:dateTime ]
+      - predicates: alkis:gemarkung
+        objects:
+          value: ex:$(idflurst)_gemarkung
+          type: iri
       - predicates: alkis:Flurstuecksnummer
         objects:
           value: ex:$(idflurst)_flurstuecksnummer
@@ -51,41 +46,38 @@ mappings:
         objects:
           value: ex:$(idflurst)_gemeindezugehoerigkeit
           type: iri
-      - predicates: alkis:lebenszeitintervall
+      - predicates: alkis:position
         objects:
-         value: ex:$(idflurst)_lebenszeitintervall
-         type: iri
-      - predicates: ngeo:geometrie
-        objects:
-          value: ex:$(idflurst)_geometrie
+          value: ex:$(idflurst)_position
           type: iri
-      - predicates: alkis:objektkoordinaten
-          value: ex:$(idflurst)_objektkoordinaten
-          type: iri
-  alkis_lebenszeitintervall:
+  alkis_gemarkung:
     sources: flurstueck-source
-    subjects: ex:$(idflurst)_lebenszeitintervall
+    subjects: ex:$(gemarkung)_gemarkung
     predicateobjects:
-      - [ a, alkis:AA_lebenszeitintervall ]
-      - [ alkis:beginnt, $(aktualit), xsd:dateTime ]
+      - [ rdfs:label, "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden." ]
+      - [ a, alkis:AX_Gemarkung_Schluessel ]
+      - [ alkis:gemarkungsnummer, $(gemaschl), xsd:integer ]
   alkis_flurstuecksnummer:
     sources: flurstueck-source
     subjects: ex:$(idflurst)_flurstuecksnummer
     predicateobjects:
+      - [ rdfs:label, "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist." ]
       - [ a, alkis:AX_Flurstuecksnummer ]
       - [ alkis:zaehler, $(flstnrzae), xsd:integer ]
   alkis_gemeindezugehoerigkeit:
     sources: flurstueck-source
     subjects: ex:$(idflurst)_gemeindezugehoerigkeit
     predicateobjects:
+      - [ rdfs:label, " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde." ]
       - [ a, alkis:AX_Gemeindekennzeichen ]
       - [ alkis:gemeinde, $(gemeinde), xsd:string ]
       - [ alkis:kreis, $(Euskirchen), xsd:string ]
       - [ alkis:land, $(land) , xsd:string ]
       - [ alkis:regierungsbezirk, $(regbezirk), xsd:string ]
-  alkis_geometrie:
+  alkis_position:
     sources: flurstueck-source
-    subjects: ex:$(idflurst)_geometrie
+    subjects: ex:$(idflurst)_position
     predicateobjects:
-      - [ a, ngeo:posList ]
-      - [ ex:PosList, $(geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList) ]
+      - [ rdfs:label, "Beschreibt die Geometrie eines Flurstückes" ]
+      - [ a, ex:PositionSnapshot ]
+      - [ ex:Snapshot, $(geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList)  ]

@@ -10,12 +10,11 @@ def saveToNeo4j():
 
     graph.open(theconfig, create=False)
 
-    graph.load("D://repos/uni/ba/alkis-transform/Output/NRW/showCaseFile0.ttl", format="ttl")
-    graph.load("D://repos/uni/ba/alkis-transform/output/nrw/showCaseFile1000.ttl", format="ttl")
-    graph.load("D://repos/uni/ba/alkis-transform/output/nrw/showCaseFile2000.tll", format="ttl")
-    graph.load("D://repos/uni/ba/alkis-transform/output/nrw/showCaseFile3000.tll", format="ttl")
-    graph.load("D://repos/uni/ba/alkis-transform/output/nrw/showCaseFile4000.tll", format="ttl")
-    graph.load("D://repos/uni/ba/alkis-transform/output/nrw/showCaseFile5000.tll", format="ttl")
+    #graph.load("D://repos/uni/ba/alkis-transform/Output/Bra/showCaseFile10.ttl", format="ttl")
+    #graph.load("D://repos/uni/ba/alkis-transform/Output/Ham/showCaseFile10.ttl", format="ttl")
+    #graph.load("D://repos/uni/ba/alkis-transform/Output/Hes/showCaseFile10.ttl", format="ttl")
+    graph.load("D://repos/uni/ba/alkis-transform/Output/NRW/showCaseFile10.ttl", format="ttl")
+
 
 def saveExample():
     graph = rdflib.Graph(store='Neo4j')

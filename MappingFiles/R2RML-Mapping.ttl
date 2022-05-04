@@ -18,11 +18,11 @@
 @prefix dbo: <https://dbpedia.org/ontology/> .
 
 :rules_000 rdf:type void:Dataset ;
-	void:exampleResource :map_bundesland_000, :map_alkis_gemarkung_000, :map_alkis_flurstueck_000, :map_alkis_lebenszeitintervall_000, :map_alkis_flurstuecksnummer_000, :map_alkis_gemeindezugehoerigkeit_000, :map_alkis_geometrie_000 .
+	void:exampleResource :map_bundesland_000, :map_alkis_flurstueck_000, :map_alkis_gemarkung_000, :map_alkis_flurstuecksnummer_000, :map_alkis_gemeindezugehoerigkeit_000, :map_alkis_position_000 .
 
 :source_000 rdf:type rml:LogicalSource ;
 	rdfs:label "flurstueck-source" ;
-	rml:source "TestData/NRW/vereinfachtes-schema5000.xml" ;
+	rml:source "TestData/Sac/vereinfachtes-schema0.xml" ;
 	rml:iterator "FeatureCollection/member/Flurstueck" ;
 	rml:referenceFormulation ql:XPath .
 
@@ -62,107 +62,100 @@
 	rr:objectMap :om_002 .
 
 :pm_002 rdf:type rr:PredicateMap ;
-	rr:constant alkis:gemarkung .
-
-:om_002 rdf:type rr:ObjectMap ;
-	rr:template "http://example.com/{gemarkung}_gemarkung" ;
-	rr:termType rr:IRI .
-
-:map_alkis_gemarkung_000 rml:logicalSource :source_000 ;
-	rdf:type rr:TriplesMap ;
-	rdfs:label "alkis_gemarkung" ;
-	rr:subjectMap :s_001 ;
-	rr:predicateObjectMap :pom_003, :pom_004, :pom_005, :pom_006 .
-
-:s_001 rdf:type rr:SubjectMap ;
-	rr:template "http://example.com/{gemarkung}_gemarkung" .
-
-:pom_003 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_003 ;
-	rr:objectMap :om_003 .
-
-:pm_003 rdf:type rr:PredicateMap ;
-	rr:constant rdfs:label .
-
-:om_003 rdf:type rr:ObjectMap ;
-	rr:constant "Die Gemarkung ist eine Flächeneinheit des Liegenschaftskatasters, die aus mehreren Fluren besteht." ;
-	rr:termType rr:Literal .
-
-:pom_004 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_004 ;
-	rr:objectMap :om_004 .
-
-:pm_004 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
-
-:om_004 rdf:type rr:ObjectMap ;
-	rr:constant "https://w3id.org/alkis/AX_Gemarkung_Schluessel" ;
-	rr:termType rr:IRI .
-
-:pom_005 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_005 ;
-	rr:objectMap :om_005 .
-
-:pm_005 rdf:type rr:PredicateMap ;
-	rr:constant alkis:gemarkungsnummer .
-
-:om_005 rdf:type rr:ObjectMap ;
-	rml:reference "gemaschl" ;
-	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
-
-:pom_006 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_006 ;
-	rr:objectMap :om_006 .
-
-:pm_006 rdf:type rr:PredicateMap ;
 	rr:constant alkis:AX_Flurstueck .
 
-:om_006 rdf:type rr:ObjectMap ;
+:om_002 rdf:type rr:ObjectMap ;
 	rr:template "http://example.com/{idflurst}" ;
 	rr:termType rr:IRI .
 
 :map_alkis_flurstueck_000 rml:logicalSource :source_000 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "alkis_flurstueck" ;
-	rr:subjectMap :s_002 ;
-	rr:predicateObjectMap :pom_007, :pom_008, :pom_009, :pom_010, :pom_011, :pom_012, :pom_013, :pom_014, :pom_015, :pom_016, :pom_017 .
+	rr:subjectMap :s_001 ;
+	rr:predicateObjectMap :pom_003, :pom_004, :pom_005, :pom_006, :pom_007, :pom_008, :pom_009, :pom_010, :pom_011, :pom_012, :pom_013, :pom_014, :pom_015 .
 
-:s_002 rdf:type rr:SubjectMap ;
+:s_001 rdf:type rr:SubjectMap ;
 	rr:template "http://example.com/{idflurst}" .
+
+:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_003 ;
+	rr:objectMap :om_003 .
+
+:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_003 rdf:type rr:ObjectMap ;
+	rr:constant "https://w3id.org/alkis/AX_Flurstueck" ;
+	rr:termType rr:IRI .
+
+:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_004 ;
+	rr:objectMap :om_004 .
+
+:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_004 rdf:type rr:ObjectMap ;
+	rr:constant "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters." ;
+	rr:termType rr:Literal .
+
+:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_005 ;
+	rr:objectMap :om_005 .
+
+:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant alkis:amtlicheFlaeche .
+
+:om_005 rdf:type rr:ObjectMap ;
+	rml:reference "flaeche" ;
+	rr:termType rr:Literal ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> .
+
+:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_006 ;
+	rr:objectMap :om_006 .
+
+:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant alkis:flurstueckskennzeichen .
+
+:om_006 rdf:type rr:ObjectMap ;
+	rml:reference "flstkennz" ;
+	rr:termType rr:Literal ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
 
 :pom_007 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_007 ;
 	rr:objectMap :om_007 .
 
 :pm_007 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant alkis:abweichenderRechtszustand .
 
 :om_007 rdf:type rr:ObjectMap ;
-	rr:constant "https://w3id.org/alkis/AX_Flurstueck" ;
-	rr:termType rr:IRI .
+	rml:reference "abwrecht" ;
+	rr:termType rr:Literal ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
 
 :pom_008 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_008 ;
 	rr:objectMap :om_008 .
 
 :pm_008 rdf:type rr:PredicateMap ;
-	rr:constant alkis:amtlicheFlaeche .
+	rr:constant alkis:lageText .
 
 :om_008 rdf:type rr:ObjectMap ;
-	rml:reference "flaeche" ;
+	rml:reference "lagebeztxt" ;
 	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> .
+	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
 
 :pom_009 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_009 ;
 	rr:objectMap :om_009 .
 
 :pm_009 rdf:type rr:PredicateMap ;
-	rr:constant alkis:flurstueckskennzeichen .
+	rr:constant alkis:sonstigeEigenschaften .
 
 :om_009 rdf:type rr:ObjectMap ;
-	rml:reference "flstkennz" ;
+	rml:reference "tntxt" ;
 	rr:termType rr:Literal ;
 	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
 
@@ -171,56 +164,56 @@
 	rr:objectMap :om_010 .
 
 :pm_010 rdf:type rr:PredicateMap ;
-	rr:constant alkis:abweichenderRechtszustand .
+	rr:constant alkis:flurschluessel .
 
 :om_010 rdf:type rr:ObjectMap ;
-	rml:reference "abwrecht" ;
+	rml:reference "flurschl" ;
 	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+	rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
 
 :pom_011 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_011 ;
 	rr:objectMap :om_011 .
 
 :pm_011 rdf:type rr:PredicateMap ;
-	rr:constant alkis:lageText .
+	rr:constant alkis:zeitPunktDerEntstehung .
 
 :om_011 rdf:type rr:ObjectMap ;
-	rml:reference "lagebeztxt" ;
+	rml:reference "aktualit" ;
 	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+	rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime> .
 
 :pom_012 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_012 ;
 	rr:objectMap :om_012 .
 
 :pm_012 rdf:type rr:PredicateMap ;
-	rr:constant alkis:sonstigeEigenschaften .
+	rr:constant alkis:gemarkung .
 
 :om_012 rdf:type rr:ObjectMap ;
-	rml:reference "tntxt" ;
-	rr:termType rr:Literal .
+	rr:template "http://example.com/{idflurst}_gemarkung" ;
+	rr:termType rr:IRI .
 
 :pom_013 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_013 ;
 	rr:objectMap :om_013 .
 
 :pm_013 rdf:type rr:PredicateMap ;
-	rr:constant alkis:flurschluessel .
+	rr:constant alkis:Flurstuecksnummer .
 
 :om_013 rdf:type rr:ObjectMap ;
-	rml:reference "flurschl" ;
-	rr:termType rr:Literal .
+	rr:template "http://example.com/{idflurst}_flurstuecksnummer" ;
+	rr:termType rr:IRI .
 
 :pom_014 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_014 ;
 	rr:objectMap :om_014 .
 
 :pm_014 rdf:type rr:PredicateMap ;
-	rr:constant alkis:Flurstuecksnummer .
+	rr:constant alkis:gemeindezugehoerigkeit .
 
 :om_014 rdf:type rr:ObjectMap ;
-	rr:template "http://example.com/{idflurst}_flurstuecksnummer" ;
+	rr:template "http://example.com/{idflurst}_gemeindezugehoerigkeit" ;
 	rr:termType rr:IRI .
 
 :pom_015 rdf:type rr:PredicateObjectMap ;
@@ -228,74 +221,74 @@
 	rr:objectMap :om_015 .
 
 :pm_015 rdf:type rr:PredicateMap ;
-	rr:constant alkis:gemeindezugehoerigkeit .
+	rr:constant alkis:position .
 
 :om_015 rdf:type rr:ObjectMap ;
-	rr:template "http://example.com/{idflurst}_gemeindezugehoerigkeit" ;
+	rr:template "http://example.com/{idflurst}_position" ;
 	rr:termType rr:IRI .
+
+:map_alkis_gemarkung_000 rml:logicalSource :source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "alkis_gemarkung" ;
+	rr:subjectMap :s_002 ;
+	rr:predicateObjectMap :pom_016, :pom_017, :pom_018 .
+
+:s_002 rdf:type rr:SubjectMap ;
+	rr:template "http://example.com/{gemarkung}_gemarkung" .
 
 :pom_016 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_016 ;
 	rr:objectMap :om_016 .
 
 :pm_016 rdf:type rr:PredicateMap ;
-	rr:constant alkis:lebenszeitintervall .
+	rr:constant rdfs:label .
 
 :om_016 rdf:type rr:ObjectMap ;
-	rr:template "http://example.com/{idflurst}_lebenszeitintervall" ;
-	rr:termType rr:IRI .
+	rr:constant "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden." ;
+	rr:termType rr:Literal .
 
 :pom_017 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_017 ;
 	rr:objectMap :om_017 .
 
 :pm_017 rdf:type rr:PredicateMap ;
-	rr:constant ngeo:geometrie .
+	rr:constant rdf:type .
 
 :om_017 rdf:type rr:ObjectMap ;
-	rr:template "http://example.com/{idflurst}_geometrie" ;
+	rr:constant "https://w3id.org/alkis/AX_Gemarkung_Schluessel" ;
 	rr:termType rr:IRI .
-
-:map_alkis_lebenszeitintervall_000 rml:logicalSource :source_000 ;
-	rdf:type rr:TriplesMap ;
-	rdfs:label "alkis_lebenszeitintervall" ;
-	rr:subjectMap :s_003 ;
-	rr:predicateObjectMap :pom_018, :pom_019 .
-
-:s_003 rdf:type rr:SubjectMap ;
-	rr:template "http://example.com/{idflurst}_lebenszeitintervall" .
 
 :pom_018 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_018 ;
 	rr:objectMap :om_018 .
 
 :pm_018 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant alkis:gemarkungsnummer .
 
 :om_018 rdf:type rr:ObjectMap ;
-	rr:constant "https://w3id.org/alkis/AA_lebenszeitintervall" ;
-	rr:termType rr:IRI .
+	rml:reference "gemaschl" ;
+	rr:termType rr:Literal ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+:map_alkis_flurstuecksnummer_000 rml:logicalSource :source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "alkis_flurstuecksnummer" ;
+	rr:subjectMap :s_003 ;
+	rr:predicateObjectMap :pom_019, :pom_020, :pom_021 .
+
+:s_003 rdf:type rr:SubjectMap ;
+	rr:template "http://example.com/{idflurst}_flurstuecksnummer" .
 
 :pom_019 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_019 ;
 	rr:objectMap :om_019 .
 
 :pm_019 rdf:type rr:PredicateMap ;
-	rr:constant alkis:beginnt .
+	rr:constant rdfs:label .
 
 :om_019 rdf:type rr:ObjectMap ;
-	rml:reference "aktualit" ;
-	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime> .
-
-:map_alkis_flurstuecksnummer_000 rml:logicalSource :source_000 ;
-	rdf:type rr:TriplesMap ;
-	rdfs:label "alkis_flurstuecksnummer" ;
-	rr:subjectMap :s_004 ;
-	rr:predicateObjectMap :pom_020, :pom_021 .
-
-:s_004 rdf:type rr:SubjectMap ;
-	rr:template "http://example.com/{idflurst}_flurstuecksnummer" .
+	rr:constant "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist." ;
+	rr:termType rr:Literal .
 
 :pom_020 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_020 ;
@@ -323,10 +316,10 @@
 :map_alkis_gemeindezugehoerigkeit_000 rml:logicalSource :source_000 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "alkis_gemeindezugehoerigkeit" ;
-	rr:subjectMap :s_005 ;
-	rr:predicateObjectMap :pom_022, :pom_023, :pom_024, :pom_025, :pom_026 .
+	rr:subjectMap :s_004 ;
+	rr:predicateObjectMap :pom_022, :pom_023, :pom_024, :pom_025, :pom_026, :pom_027 .
 
-:s_005 rdf:type rr:SubjectMap ;
+:s_004 rdf:type rr:SubjectMap ;
 	rr:template "http://example.com/{idflurst}_gemeindezugehoerigkeit" .
 
 :pom_022 rdf:type rr:PredicateObjectMap ;
@@ -334,33 +327,32 @@
 	rr:objectMap :om_022 .
 
 :pm_022 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant rdfs:label .
 
 :om_022 rdf:type rr:ObjectMap ;
-	rr:constant "https://w3id.org/alkis/AX_Gemeindekennzeichen" ;
-	rr:termType rr:IRI .
+	rr:constant " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde." ;
+	rr:termType rr:Literal .
 
 :pom_023 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_023 ;
 	rr:objectMap :om_023 .
 
 :pm_023 rdf:type rr:PredicateMap ;
-	rr:constant alkis:gemeinde .
+	rr:constant rdf:type .
 
 :om_023 rdf:type rr:ObjectMap ;
-	rml:reference "gemeinde" ;
-	rr:termType rr:Literal ;
-	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+	rr:constant "https://w3id.org/alkis/AX_Gemeindekennzeichen" ;
+	rr:termType rr:IRI .
 
 :pom_024 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_024 ;
 	rr:objectMap :om_024 .
 
 :pm_024 rdf:type rr:PredicateMap ;
-	rr:constant alkis:kreis .
+	rr:constant alkis:gemeinde .
 
 :om_024 rdf:type rr:ObjectMap ;
-	rml:reference "Euskirchen" ;
+	rml:reference "gemeinde" ;
 	rr:termType rr:Literal ;
 	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
 
@@ -369,10 +361,10 @@
 	rr:objectMap :om_025 .
 
 :pm_025 rdf:type rr:PredicateMap ;
-	rr:constant alkis:land .
+	rr:constant alkis:kreis .
 
 :om_025 rdf:type rr:ObjectMap ;
-	rml:reference "land" ;
+	rml:reference "Euskirchen" ;
 	rr:termType rr:Literal ;
 	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
 
@@ -381,41 +373,119 @@
 	rr:objectMap :om_026 .
 
 :pm_026 rdf:type rr:PredicateMap ;
-	rr:constant alkis:regierungsbezirk .
+	rr:constant alkis:land .
 
 :om_026 rdf:type rr:ObjectMap ;
-	rml:reference "regbezirk" ;
+	rml:reference "land" ;
 	rr:termType rr:Literal ;
 	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
-
-:map_alkis_geometrie_000 rml:logicalSource :source_000 ;
-	rdf:type rr:TriplesMap ;
-	rdfs:label "alkis_geometrie" ;
-	rr:subjectMap :s_006 ;
-	rr:predicateObjectMap :pom_027, :pom_028 .
-
-:s_006 rdf:type rr:SubjectMap ;
-	rr:template "http://example.com/{idflurst}_geometrie" .
 
 :pom_027 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_027 ;
 	rr:objectMap :om_027 .
 
 :pm_027 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant alkis:regierungsbezirk .
 
 :om_027 rdf:type rr:ObjectMap ;
-	rr:constant "http://geovocab.org/geometry#posList" ;
-	rr:termType rr:IRI .
+	rml:reference "regbezirk" ;
+	rr:termType rr:Literal ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+:map_alkis_position_000 rml:logicalSource :source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "alkis_position" ;
+	rr:subjectMap :s_005 ;
+	rr:predicateObjectMap :pom_028, :pom_029, :pom_030, :pom_031 .
+
+:s_005 rdf:type rr:SubjectMap ;
+	rr:template "http://example.com/{idflurst}_position" .
 
 :pom_028 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_028 ;
 	rr:objectMap :om_028 .
 
 :pm_028 rdf:type rr:PredicateMap ;
-	rr:constant ex:PosList .
+	rr:constant rdfs:label .
 
 :om_028 rdf:type rr:ObjectMap ;
+	rr:constant "Beschreibt die Geometrie eines Flurstückes" ;
+	rr:termType rr:Literal .
+
+:pom_029 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_029 ;
+	rr:objectMap :om_029 .
+
+:pm_029 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_029 rdf:type rr:ObjectMap ;
+	rr:constant "http://example.com/Snapshot" ;
+	rr:termType rr:IRI .
+
+:pom_030 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_030 ;
+	rr:objectMap :om_030 .
+
+:pm_030 rdf:type rr:PredicateMap ;
+	rr:constant ex:Snapshot .
+
+:om_030 rdf:type rr:ObjectMap ;
+	rml:reference "geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList" ;
+	rr:termType rr:Literal .
+
+:pom_031 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_031 ;
+	rr:objectMap :om_031 .
+
+:pm_031 rdf:type rr:PredicateMap ;
+	rr:constant ex:Snapshot .
+
+:om_031 rdf:type fnml:FunctionTermMap ;
+	rr:termType rr:Literal ;
+	fnml:functionValue :fn_000 .
+
+:fn_000 rml:logicalSource :source_000 ;
+	rr:predicateObjectMap :pomexec_000, :pom_032, :pom_033, :pom_034 .
+
+:pomexec_000 rr:predicateMap :pmexec_000 ;
+	rr:objectMap :omexec_000 .
+
+:pmexec_000 rr:constant fno:executes .
+
+:omexec_000 rr:constant "http://users.ugent.be/~bjdmeest/function/grel.ttl#string_replace" ;
+	rr:termType rr:IRI .
+
+:pom_032 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_032 ;
+	rr:objectMap :om_032 .
+
+:pm_032 rdf:type rr:PredicateMap ;
+	rr:constant grel:valueParam .
+
+:om_032 rdf:type rr:ObjectMap ;
+	rr:constant "blyatcyka poslist cyka" ;
+	rr:termType rr:Literal .
+
+:pom_033 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_033 ;
+	rr:objectMap :om_033 .
+
+:pm_033 rdf:type rr:PredicateMap ;
+	rr:constant grel:param_find .
+
+:om_033 rdf:type rr:ObjectMap ;
+	rr:constant "poslist" ;
+	rr:termType rr:Literal .
+
+:pom_034 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_034 ;
+	rr:objectMap :om_034 .
+
+:pm_034 rdf:type rr:PredicateMap ;
+	rr:constant grel:param_replace .
+
+:om_034 rdf:type rr:ObjectMap ;
 	rml:reference "geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList" ;
 	rr:termType rr:Literal .
 
