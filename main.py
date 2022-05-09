@@ -19,7 +19,25 @@ def start():
         "2: Download ALKIS DATA \n 3: Transform existing ALKIS Data \n 4: SAVE .ttl file to fuseki \n"
         " 5: Enter SPARQL Query\n "
         "Type: close to exit!\n ")
-    if userInput == "2":
+    if userInput =="test":
+        FusekiConnection.queryDB()
+    if userInput == "1":
+        userInput = input("How many 'Flurstuecke' per state you want to download? type 'all' or a number!\n")
+        if userInput == 'all':
+            AlkisDataService.executeShowCaseDownload()
+            rdfTransformer.executeShowCaseTransformation()
+        else:
+            try:
+                #AlkisDataService.executeShowCaseDownload(int(userInput))
+                # transform .xml files for bra, ham, hes, nrw, sac in .ttl
+                #rdfTransformer.executeShowCaseTransformation(int(userInput))
+                 # save all the transformed files to fuseki
+                #FusekiConnection.executeShowCaseSave(int(userInput))
+                 FusekiConnection.queryDB()
+            except ValueError:
+                print("number must be an int! try again")
+                start()
+    elif userInput == "2":
         bundeslandToMap = input(
             "Enter state you want to download the data from.\n All available data sources are listed here:" + AlkisDataService.outputDic() + "\n")
 
@@ -57,25 +75,6 @@ def start():
     elif userInput == "5":
         print("Here you can enter Sparql Queries!\n Not yet implemented\n")
         endOrRepeatProgram()
-    elif userInput == "1":
-        userInput = input("How many 'Flurstuecke' per state you want to download? type 'all' or a number!\n")
-        if userInput == 'all':
-            AlkisDataService.executeShowCaseDownload()
-            rdfTransformer.executeShowCaseTransformation()
-        else:
-            try:
-                #AlkisDataService.executeShowCaseDownload(int(userInput))
-                # transform .xml files for bra, ham, hes, nrw, sac in .ttl
-                rdfTransformer.executeShowCaseTransformation(int(userInput))
-                 # save all the transformed files to fuseki
-               # FusekiConnection.executeShowCaseSave()
-                # FusekiConnection.queryDB()
-            except ValueError:
-                print("number must be an int! try again")
-                start()
-    elif userInput =="6":
-        Neo4jConnection.saveToNeo4j()
-        print("neo")
     elif userInput == "Close" or userInput == "CLOSE" or userInput == "close":
         endProgramm()
     else:

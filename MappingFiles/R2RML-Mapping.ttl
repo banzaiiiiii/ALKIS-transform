@@ -22,7 +22,7 @@
 
 :source_000 rdf:type rml:LogicalSource ;
 	rdfs:label "flurstueck-source" ;
-	rml:source "TestData/Sac/vereinfachtes-schema0.xml" ;
+	rml:source "TestData/Ham/vereinfachtes-schema4000.xml" ;
 	rml:iterator "FeatureCollection/member/Flurstueck" ;
 	rml:referenceFormulation ql:XPath .
 
@@ -396,7 +396,7 @@
 	rdf:type rr:TriplesMap ;
 	rdfs:label "alkis_position" ;
 	rr:subjectMap :s_005 ;
-	rr:predicateObjectMap :pom_028, :pom_029, :pom_030, :pom_031 .
+	rr:predicateObjectMap :pom_028, :pom_029, :pom_030 .
 
 :s_005 rdf:type rr:SubjectMap ;
 	rr:template "http://example.com/{idflurst}_position" .
@@ -420,7 +420,7 @@
 	rr:constant rdf:type .
 
 :om_029 rdf:type rr:ObjectMap ;
-	rr:constant "http://example.com/Snapshot" ;
+	rr:constant "http://example.com/PositionSnapshot" ;
 	rr:termType rr:IRI .
 
 :pom_030 rdf:type rr:PredicateObjectMap ;
@@ -431,61 +431,6 @@
 	rr:constant ex:Snapshot .
 
 :om_030 rdf:type rr:ObjectMap ;
-	rml:reference "geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList" ;
-	rr:termType rr:Literal .
-
-:pom_031 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_031 ;
-	rr:objectMap :om_031 .
-
-:pm_031 rdf:type rr:PredicateMap ;
-	rr:constant ex:Snapshot .
-
-:om_031 rdf:type fnml:FunctionTermMap ;
-	rr:termType rr:Literal ;
-	fnml:functionValue :fn_000 .
-
-:fn_000 rml:logicalSource :source_000 ;
-	rr:predicateObjectMap :pomexec_000, :pom_032, :pom_033, :pom_034 .
-
-:pomexec_000 rr:predicateMap :pmexec_000 ;
-	rr:objectMap :omexec_000 .
-
-:pmexec_000 rr:constant fno:executes .
-
-:omexec_000 rr:constant "http://users.ugent.be/~bjdmeest/function/grel.ttl#string_replace" ;
-	rr:termType rr:IRI .
-
-:pom_032 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_032 ;
-	rr:objectMap :om_032 .
-
-:pm_032 rdf:type rr:PredicateMap ;
-	rr:constant grel:valueParam .
-
-:om_032 rdf:type rr:ObjectMap ;
-	rr:constant "blyatcyka poslist cyka" ;
-	rr:termType rr:Literal .
-
-:pom_033 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_033 ;
-	rr:objectMap :om_033 .
-
-:pm_033 rdf:type rr:PredicateMap ;
-	rr:constant grel:param_find .
-
-:om_033 rdf:type rr:ObjectMap ;
-	rr:constant "poslist" ;
-	rr:termType rr:Literal .
-
-:pom_034 rdf:type rr:PredicateObjectMap ;
-	rr:predicateMap :pm_034 ;
-	rr:objectMap :om_034 .
-
-:pm_034 rdf:type rr:PredicateMap ;
-	rr:constant grel:param_replace .
-
-:om_034 rdf:type rr:ObjectMap ;
 	rml:reference "geometrie/MultiSurface/surfaceMember/Polygon/exterior/LinearRing/posList" ;
 	rr:termType rr:Literal .
 

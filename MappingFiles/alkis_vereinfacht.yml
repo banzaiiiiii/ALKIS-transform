@@ -7,7 +7,7 @@ prefixes:
   dbo: https://dbpedia.org/ontology/
 sources:
   flurstueck-source:
-      access: TestData/Sac/vereinfachtes-schema0.xml
+      access: TestData/Ham/vereinfachtes-schema4000.xml
       referenceFormulation: xpath
       iterator: FeatureCollection/member/Flurstueck
 mappings:

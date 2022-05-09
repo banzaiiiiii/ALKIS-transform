@@ -2,8 +2,8 @@ from rdflib import URIRef, Graph
 from rdflib.plugins.stores import sparqlstore
 import Helper
 
-def saveGraph(path):
 
+def saveGraph(path):
     store = sparqlstore.SPARQLUpdateStore()
     store.open((Helper.getQueryEndpoint(), Helper.getUpdateEndpoint()))
 
@@ -13,23 +13,30 @@ def saveGraph(path):
     store.load(path, format="ttl")
 
 
-def executeShowCaseSave():
+def executeShowCaseSave(maxIndex=None):
     store = sparqlstore.SPARQLUpdateStore()
     store.open((Helper.getQueryEndpoint(), Helper.getUpdateEndpoint()))
-
     alkis_graph = URIRef('http://example.org/alkis_graph')
     store = Graph(store, identifier=alkis_graph)
 
-    #filesList = ["Output/Bra/showCaseFile10.ttl",
-   #              "Output/Ham/showcaseFile10.ttl",
-    #             "Output/Hes/showcaseFile10.ttl",
-    #             "Output/NRW/showcaseFile10.ttl",
-    #            # "Output/Sac/showcaseFile0.ttl",
-     #            ]
-   # for file in filesList:
-    file = "Output/Bra/showCaseFile0.ttl"
-    store.load(file, format="ttl")
-    print("the file " + file + " got saved to the fuseki server!")
+    filesList = ["Output/Bra/showCaseFile",
+                 "Output/Ham/showcaseFile",
+                 "Output/Hes/showcaseFile",
+                 "Output/NRW/showcaseFile",
+                 "Output/Sac/showcaseFile",
+                 ]
+    for file in filesList:
+        StartIndex = 0
+        while True:
+            if maxIndex is not None and StartIndex >= maxIndex:
+                print("Saving data finished!")
+                break
+            fileWithIndex = file + str(StartIndex) + ".ttl"
+            store.load(fileWithIndex, format="ttl")
+            print("the file " + fileWithIndex + " got saved to the fuseki server!")
+            StartIndex += 1000
+
+
 
 def openStore():
     store = sparqlstore.SPARQLUpdateStore()
@@ -38,14 +45,14 @@ def openStore():
     store = Graph(store, identifier=alkis_graph)
     return store
 
-def queryDB():
 
+def queryDB():
     test_query = """
-    SELECT $s $p $o
-    WHERE { 
-        $s $p $o
-    }
-    LIMIT 100
+    SSELECT $s $p $o
+FROM <http://example.org/alkis_graph>
+WHERE {
+  <http://example.com/DESNALK05e0000cC> $p $o
+}
     """
 
     response = openStore().query(test_query)
@@ -69,8 +76,3 @@ graph ?g {
      }
      """
     return test_query
-
-
-
-
-

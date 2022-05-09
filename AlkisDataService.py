@@ -121,26 +121,24 @@ def executeShowCaseDownload(maxIndex=None):
 
 def executeShowCaseDownload(maxIndex=None):
     listAvailableStates = [
-                           "NRW-vereinfacht",
-                           "Brandenburg-vereinfacht",
-                           "Hamburg-vereinfacht",
-                           "Hessen-vereinfacht",
-                           "Sachsen-vereinfacht",
+                           #"NRW-vereinfacht",
+                           #"Brandenburg-vereinfacht",
+                           "Hamburg-vereinfacht"
+                           #"Hessen-vereinfacht",
+                          # "Sachsen-vereinfacht",
                           ]
     Typenames = "&TYPENAMES=ave:Flurstueck"
     KoordinatenType = "&srsName=EPSG:4258"
     Namespaces = "&NAMESPACES=xmlns(ave,http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0)"
-    AnzahlObjekte = "&Count=100"
+    AnzahlObjekte = "&Count=1000"
 
     for state in listAvailableStates:
         StartIndex = 0
         while(True):
             try:
-                # send request to WFS
                 response = requests.get(WFS_dictionary[
                                             state] + "Service=WFS&REQUEST=GetFeature&Version=2.0.0" + Typenames + KoordinatenType + Namespaces + AnzahlObjekte +
                                          "&STARTINDEX=" + str(StartIndex), allow_redirects=True)
-                #
                 # if maxindex is reached end download
                 if (maxIndex is not None and StartIndex >= maxIndex): #or 'numberReturned="0"' in response.text:
                     print("Download finished or maxIndex is reached!\n")

@@ -56,13 +56,12 @@ def executeShowCaseTransformation(maxIndex=None):
     # für Bra/Ham/Hes/NRW/Sac .xml umwandeln
     StartIndex = 0
     filesToTransform = [
-                        "TestData/Bra/vereinfachtes-schema" + str(StartIndex) + ".xml",
-                        "TestData/Ham/vereinfachtes-schema" + str(StartIndex) + ".xml",
-                        "TestData/Hes/vereinfachtes-schema" + str(StartIndex) + ".xml",
-                        "TestData/NRW/vereinfachtes-schema" + str(StartIndex) + ".xml",
-                        "TestData/Sac/vereinfachtes-schema" + str(StartIndex) + ".xml"
+                        #"TestData/Bra/vereinfachtes-schema",
+                        "TestData/Ham/vereinfachtes-schema",
+                        #"TestData/Hes/vereinfachtes-schema",
+                        #"TestData/NRW/vereinfachtes-schema",
+                        #"TestData/Sac/vereinfachtes-schema"
                         ]
-
     for file in filesToTransform:
         StartIndex = 0
         while (True):
@@ -70,7 +69,7 @@ def executeShowCaseTransformation(maxIndex=None):
                 print("Transformation finished!\n")
                 break
             try:
-                fileWithIndex = file
+                fileWithIndex = file + str(StartIndex) + ".xml"
                 outputPath = Helper.getProjektPath() + "Output/" + file[9:12] + "/showCaseFile" + str(StartIndex) + ".ttl"
                 nameFileToMap(fileWithIndex)
                 yarrrmlToRML(fileWithIndex)
