@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://geodienste.hamburg.de/WFS_HH_ALKIS_vereinfacht?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=DescribeFeatureType&amp;OUTPUTFORMAT=application%2Fgml%2Bxml%3B+version%3D3.2&amp;TYPENAME=ave:Flurstueck&amp;NAMESPACES=xmlns(ave,http%3A%2F%2Frepository.gdi-de.org%2Fschemas%2Fadv%2Fprodukt%2Falkis-vereinfacht%2F2.0)" xmlns:wfs="http://www.opengis.net/wfs/2.0" timeStamp="2022-05-11T11:32:23Z" xmlns:gml="http://www.opengis.net/gml/3.2" numberMatched="unknown" numberReturned="0">
+  <!--NOTE: numberReturned attribute should be 'unknown' as well, but this would not validate against the current version of the WFS 2.0 schema (change upcoming). See change request (CR 144): https://portal.opengeospatial.org/files?artifact_id=43925.-->
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_11">
+      <ave:oid>DEHHALKAV0000wQVFL</ave:oid>
+      <ave:aktualit>2017-12-28Z</ave:aktualit>
+      <ave:idflurst>DEHHALKAV0000wQV</ave:idflurst>
+      <ave:flaeche>783.0</ave:flaeche>
+      <ave:flstkennz>020304___00013______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Stellingen</ave:gemarkung>
+      <ave:gemaschl>020304</ave:gemaschl>
+      <ave:flurschl>020304___</ave:flurschl>
+      <ave:flstnrzae>13</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Olloweg 41</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 783</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_11_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_11_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_f32fe940-c20d-42b5-a369-3e96f4be53fe" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>9.918515 53.601906 9.919148 53.602144 9.919287 53.602069 9.918589 53.601749 9.918525 53.601894 9.918515 53.601906</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_12">
+      <ave:oid>DEHHALKAz00015RYFL</ave:oid>
+      <ave:aktualit>2010-01-16Z</ave:aktualit>
+      <ave:idflurst>DEHHALKAz00015RY</ave:idflurst>
+      <ave:flaeche>575.0</ave:flaeche>
+      <ave:flstkennz>020707___03361______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Neugraben</ave:gemarkung>
+      <ave:gemaschl>020707</ave:gemaschl>
+      <ave:flurschl>020707___</ave:flurschl>
+      <ave:flstnrzae>3361</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Erlenbruch 47</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 575</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_12_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_12_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_de6180e7-2062-4d38-8c37-03d6679b1657" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>9.871113 53.482602 9.871506 53.482600 9.871592 53.482600 9.871592 53.482573 9.871590 53.482438 9.871489 53.482438 9.871111 53.482439 9.871113 53.482602</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_13">
+      <ave:oid>DEHHALKAP0006kecFL</ave:oid>
+      <ave:aktualit>2021-11-08Z</ave:aktualit>
+      <ave:idflurst>DEHHALKAP0006kec</ave:idflurst>
+      <ave:flaeche>773.0</ave:flaeche>
+      <ave:flstkennz>020420___03332______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Langenhorn</ave:gemarkung>
+      <ave:gemaschl>020420</ave:gemaschl>
+      <ave:flurschl>020420___</ave:flurschl>
+      <ave:flstnrzae>3332</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Langenhorner Chaussee 371</ave:lagebeztxt>
+      <ave:tntxt>Flaeche Gemischter Nutzung; 773</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_13_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_13_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_889088bb-7778-4abf-846f-bf487cd301fc" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>10.002880 53.658956 10.002576 53.658892 10.002441 53.659002 10.002685 53.659054 10.003155 53.659154 10.003226 53.659169 10.003300 53.659046 10.003065 53.658995 10.003023 53.658987 10.002880 53.658956</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_14">
+      <ave:oid>DEHHALKAP0000QNWFL</ave:oid>
+      <ave:aktualit>2009-12-29Z</ave:aktualit>
+      <ave:idflurst>DEHHALKAP0000QNW</ave:idflurst>
+      <ave:flaeche>92.0</ave:flaeche>
+      <ave:flstkennz>020214___00637______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Altona Nordwest</ave:gemarkung>
+      <ave:gemaschl>020214</ave:gemaschl>
+      <ave:flurschl>020214___</ave:flurschl>
+      <ave:flstnrzae>637</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Chemnitzstraße 67</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 92</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_14_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_14_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e322fc09-141e-448a-8ec9-e825bb3e3ad5" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>9.944734 53.555806 9.944848 53.555822 9.944873 53.555713 9.944757 53.555704 9.944734 53.555806</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_15">
+      <ave:oid>DEHHALKA70000aKyFL</ave:oid>
+      <ave:aktualit>2017-12-30Z</ave:aktualit>
+      <ave:idflurst>DEHHALKA70000aKy</ave:idflurst>
+      <ave:flaeche>1054.0</ave:flaeche>
+      <ave:flstkennz>020539___00966______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Sasel</ave:gemarkung>
+      <ave:gemaschl>020539</ave:gemaschl>
+      <ave:flurschl>020539___</ave:flurschl>
+      <ave:flstnrzae>966</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Gilcherweg 1; Kunaustraße 27</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 1054</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_15_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_15_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_31d66d02-bff8-4a6e-9f47-1e4d4624521a" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>10.106932 53.651194 10.107013 53.651287 10.107282 53.651381 10.107495 53.651046 10.107487 53.651044 10.107394 53.651023 10.107086 53.650954 10.106932 53.651194</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_16">
+      <ave:oid>DEHHALKA70000hK2FL</ave:oid>
+      <ave:aktualit>2017-12-30Z</ave:aktualit>
+      <ave:idflurst>DEHHALKA70000hK2</ave:idflurst>
+      <ave:flaeche>997.0</ave:flaeche>
+      <ave:flstkennz>020531___01564______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Wellingsbüttel</ave:gemarkung>
+      <ave:gemaschl>020531</ave:gemaschl>
+      <ave:flurschl>020531___</ave:flurschl>
+      <ave:flstnrzae>1564</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Hoheneichen 51</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 997</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_16_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_16_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e8a9aa60-b43b-447e-afcc-2f4a41a85c51" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>10.068047 53.631622 10.067939 53.631787 10.068651 53.631951 10.068759 53.631786 10.068047 53.631622</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_17">
+      <ave:oid>DEHHALKA70000UmDFL</ave:oid>
+      <ave:aktualit>2017-12-30Z</ave:aktualit>
+      <ave:idflurst>DEHHALKA70000UmD</ave:idflurst>
+      <ave:flaeche>284.0</ave:flaeche>
+      <ave:flstkennz>020546___10010______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Bramfeld</ave:gemarkung>
+      <ave:gemaschl>020546</ave:gemaschl>
+      <ave:flurschl>020546___</ave:flurschl>
+      <ave:flstnrzae>10010</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Friedländer Straße; Marienburger Allee 36</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 284</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_17_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_17_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b620a481-a671-4712-86b9-267e65d43273" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>10.086460 53.621441 10.086394 53.621445 10.086328 53.621451 10.086263 53.621459 10.086244 53.621461 10.086286 53.621599 10.086395 53.621583 10.086397 53.621585 10.086431 53.621577 10.086543 53.621552 10.086600 53.621540 10.086562 53.621480 10.086460 53.621441</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_18">
+      <ave:oid>DEHHALKAn00009vkFL</ave:oid>
+      <ave:aktualit>2014-01-06Z</ave:aktualit>
+      <ave:idflurst>DEHHALKAn00009vk</ave:idflurst>
+      <ave:flaeche>438.0</ave:flaeche>
+      <ave:flstkennz>020605___00099______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Boberg</ave:gemarkung>
+      <ave:gemaschl>020605</ave:gemaschl>
+      <ave:flurschl>020605___</ave:flurschl>
+      <ave:flstnrzae>99</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Weidemoor 18</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 438</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_18_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_18_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d8111c49-2bd1-4311-af1f-5ea6648cd557" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>10.154308 53.514642 10.154509 53.514813 10.154756 53.514709 10.154578 53.514558 10.154308 53.514642</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_19">
+      <ave:oid>DEHHALKAV0000E6IFL</ave:oid>
+      <ave:aktualit>2010-01-01Z</ave:aktualit>
+      <ave:idflurst>DEHHALKAV0000E6I</ave:idflurst>
+      <ave:flaeche>558.0</ave:flaeche>
+      <ave:flstkennz>020308___05819______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Schnelsen</ave:gemarkung>
+      <ave:gemaschl>020308</ave:gemaschl>
+      <ave:flurschl>020308___</ave:flurschl>
+      <ave:flstnrzae>5819</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Klabautermannweg 38, 40</ave:lagebeztxt>
+      <ave:tntxt>Wohnbauflaeche; 558</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_19_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_19_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b01611a3-eeb9-4c4e-9117-fb7fb0832ef1" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>9.924732 53.646237 9.924730 53.646443 9.924967 53.646442 9.925049 53.646421 9.925117 53.646375 9.925115 53.646234 9.924732 53.646237</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+  <wfs:member>
+    <ave:Flurstueck xmlns:ave="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" gml:id="AVE_FLURSTUECK_20">
+      <ave:oid>DEHHALKA3WD000ArFL</ave:oid>
+      <ave:aktualit>2021-04-27Z</ave:aktualit>
+      <ave:idflurst>DEHHALKA3WD000Ar</ave:idflurst>
+      <ave:flaeche>9036.0</ave:flaeche>
+      <ave:flstkennz>020533___04160______</ave:flstkennz>
+      <ave:land>Hamburg</ave:land>
+      <ave:landschl>02</ave:landschl>
+      <ave:gemarkung>Lemsahl-Mellingstedt</ave:gemarkung>
+      <ave:gemaschl>020533</ave:gemaschl>
+      <ave:flurschl>020533___</ave:flurschl>
+      <ave:flstnrzae>4160</ave:flstnrzae>
+      <ave:regbezirk>Hamburg</ave:regbezirk>
+      <ave:regbezschl>020</ave:regbezschl>
+      <ave:kreis>Hamburg</ave:kreis>
+      <ave:kreisschl>02000</ave:kreisschl>
+      <ave:gemeinde>Hamburg</ave:gemeinde>
+      <ave:gmdschl>02000000</ave:gmdschl>
+      <ave:lagebeztxt>Ödenweg</ave:lagebeztxt>
+      <ave:tntxt>Strassenverkehr; 9036</ave:tntxt>
+      <ave:geometrie>
+        <!--Inlined geometry 'AVE_FLURSTUECK_20_AVE_GEOMETRIE'-->
+        <gml:MultiSurface gml:id="AVE_FLURSTUECK_20_AVE_GEOMETRIE" srsName="EPSG:4258">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_efb2d498-563a-4b0f-8c73-a323034dde81" srsName="EPSG:4258">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>10.095691 53.679748 10.096285 53.679708 10.096284 53.679739 10.096516 53.679722 10.096569 53.679718 10.096800 53.679701 10.097012 53.679685 10.097065 53.679681 10.097274 53.679666 10.097350 53.679661 10.097348 53.679629 10.097619 53.679612 10.097890 53.679595 10.097943 53.679592 10.098221 53.679574 10.098522 53.679552 10.098688 53.679540 10.098893 53.679530 10.099074 53.679521 10.099194 53.679516 10.099465 53.679506 10.099679 53.679498 10.099736 53.679495 10.099993 53.679484 10.100103 53.679480 10.100296 53.679486 10.100298 53.679517 10.100619 53.679521 10.101295 53.679498 10.101619 53.679460 10.102071 53.679408 10.102510 53.679385 10.102991 53.679383 10.103129 53.679367 10.103429 53.679302 10.104415 53.679063 10.104599 53.679028 10.104706 53.679012 10.105288 53.678965 10.105350 53.678963 10.105448 53.678966 10.105630 53.678985 10.105878 53.679026 10.106480 53.679173 10.106450 53.678908 10.106320 53.678996 10.106145 53.678977 10.105930 53.678926 10.105862 53.678910 10.105757 53.678886 10.105719 53.678880 10.105558 53.678856 10.105555 53.678843 10.105117 53.678835 10.104758 53.678878 10.104483 53.678930 10.104227 53.678978 10.103995 53.679022 10.103742 53.679082 10.103489 53.679142 10.103151 53.679223 10.103137 53.679226 10.102906 53.679253 10.102726 53.679252 10.102640 53.679218 10.102662 53.679298 10.102582 53.679299 10.102476 53.679300 10.102217 53.679306 10.102022 53.679325 10.101873 53.679341 10.101725 53.679363 10.101620 53.679374 10.101397 53.679405 10.101203 53.679425 10.101178 53.679419 10.101172 53.679370 10.100989 53.679364 10.100386 53.679375 10.100392 53.679424 10.100098 53.679425 10.100092 53.679425 10.100039 53.679427 10.099793 53.679434 10.099675 53.679438 10.099323 53.679451 10.099237 53.679454 10.099068 53.679460 10.098992 53.679461 10.098917 53.679463 10.098675 53.679472 10.098461 53.679487 10.098059 53.679514 10.098003 53.679189 10.097950 53.678881 10.097870 53.678886 10.097890 53.678975 10.097936 53.679240 10.097984 53.679519 10.097720 53.679537 10.097456 53.679555 10.097453 53.679540 10.097176 53.679559 10.096928 53.679576 10.096679 53.679593 10.096603 53.679598 10.096371 53.679614 10.096296 53.679619 10.095991 53.679640 10.095916 53.679645 10.095918 53.679661 10.095906 53.679660 10.095693 53.679676 10.095468 53.679692 10.095464 53.679669 10.095239 53.679686 10.095113 53.679695 10.095049 53.679667 10.095081 53.679721 10.095107 53.679811 10.095154 53.679784 10.095691 53.679748</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </ave:geometrie>
+    </ave:Flurstueck>
+  </wfs:member>
+</wfs:FeatureCollection>

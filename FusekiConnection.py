@@ -19,7 +19,7 @@ def executeShowCaseSave(maxIndex=None):
     alkis_graph = URIRef('http://example.org/alkis_graph')
     store = Graph(store, identifier=alkis_graph)
 
-    filesList = ["Output/Bra/showCaseFile",
+    filesList = [#"Output/Bra/showCaseFile",
                  "Output/Ham/showcaseFile",
                  "Output/Hes/showcaseFile",
                  "Output/NRW/showcaseFile",
@@ -48,16 +48,18 @@ def openStore():
 
 def queryDB():
     test_query = """
-    SSELECT $s $p $o
+    SELECT $s $p $o
 FROM <http://example.org/alkis_graph>
 WHERE {
-  <http://example.com/DESNALK05e0000cC> $p $o
+  <http://example.com/DENW42AL1000Nscu> $p $o
 }
     """
 
     response = openStore().query(test_query)
     for triple in response:
-        print(triple.s, triple.p, triple.o)
+        print("http://example.com/DENW42AL1000Nscu", triple.p, triple.o)
+
+
 
 
 def queryTest():

@@ -22,7 +22,7 @@
 
 :source_000 rdf:type rml:LogicalSource ;
 	rdfs:label "flurstueck-source" ;
-	rml:source "TestData/Ham/vereinfachtes-schema4000.xml" ;
+	rml:source "TestData/Sac/vereinfachtes-schema40.xml" ;
 	rml:iterator "FeatureCollection/member/Flurstueck" ;
 	rml:referenceFormulation ql:XPath .
 

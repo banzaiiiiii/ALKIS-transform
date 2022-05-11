@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:FeatureCollection timeStamp="2022-05-11T13:32:22.466+02:00" numberReturned="10" numberMatched="unknown" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 http://www.wfs.nrw.de/aaa-suite/schema/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 http://www.wfs.nrw.de/aaa-suite/schema/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://www.wfs.nrw.de/aaa-suite/schema/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco http://www.wfs.nrw.de/aaa-suite/schema/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd http://www.wfs.nrw.de/aaa-suite/schema/ogc/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:lowerCorner>50.3227378649723 6.40394008279641</gml:lowerCorner>
+<gml:upperCorner>50.3544611910421 6.46483698652037</gml:upperCorner>
+</gml:Envelope>
+</wfs:boundedBy>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000RTHFFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000RTHFFL</gml:identifier>
+<idflurst>DENW42AL1000RTHF</idflurst>
+<flstkennz>05433801100018______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Kronenburg</gemarkung>
+<gemaschl>054338</gemaschl>
+<flur>011</flur>
+<flurschl>054338011</flurschl>
+<flstnrzae>18</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Dahlem</gemeinde>
+<gmdschl>05366012</gmdschl>
+<oid>DENW42AL1000RTHFFL</oid>
+<aktualit>2012-03-08Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.821.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.821.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3402293905361 6.45237097339066 50.3402094584783 6.45245309765591 50.3400916039724 6.45293900221114 50.3406254528436 6.45323428823794 50.3407303998579 6.45290307629265 50.3406541426237 6.45283758217689 50.340577791294 6.45270705850329 50.3403962680326 6.45259211518863 50.3402293905361 6.45237097339066</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>2205.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Neuert</lagebeztxt>
+<tntxt>Wald / Laub- und Nadelholz;2205</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000RUk5FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000RUk5FL</gml:identifier>
+<idflurst>DENW42AL1000RUk5</idflurst>
+<flstkennz>05433801000036______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Kronenburg</gemarkung>
+<gemaschl>054338</gemaschl>
+<flur>010</flur>
+<flurschl>054338010</flurschl>
+<flstnrzae>36</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Dahlem</gemeinde>
+<gmdschl>05366012</gmdschl>
+<oid>DENW42AL1000RUk5FL</oid>
+<aktualit>2019-10-21Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.822.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.822.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3479906064726 6.45849063049971 50.3476503411057 6.45851051856219 50.3474900148139 6.45863695361266 50.3471055619709 6.45942524494657 50.3470712884652 6.45949552023473 50.3470640126115 6.45951162484117 50.3461265164745 6.46158546254426 50.3459473445493 6.46188129178841 50.3451082197923 6.46272523079691 50.3450830728531 6.46275052429585 50.3449791347185 6.46286881505233 50.3448370602788 6.46303052130225 50.3447018222732 6.4632635372612 50.3446554516425 6.4633941496485 50.3445333390817 6.46373814420238 50.3441970895793 6.46468708473712 50.3440648454468 6.46477709103599 50.3441528301561 6.46480816396714 50.3442365886576 6.46479518397471 50.3443402134648 6.46477913556856 50.3442944352865 6.46467018985882 50.3447680521924 6.46333765635664 50.344891439178 6.4631250358059 50.3451287810824 6.46285494739771 50.3459993541426 6.46197930721291 50.3461892240797 6.46166588419987 50.3465719846786 6.4608192106999 50.3465986525271 6.46076020922413 50.34705886047 6.4597421741945 50.3471365288826 6.45957035121604 50.3475431104866 6.45873679436297 50.347671064174 6.45863590193797 50.3479788692391 6.45861780457421 50.3481241270513 6.4586940979701 50.3491324806974 6.45964445166117 50.3503510245804 6.46043671708318 50.3514901881079 6.46065905756925 50.3525703493316 6.46111392955228 50.3534447818844 6.46153549703301 50.3542075693491 6.4619292504244 50.3542864282485 6.4619699636324 50.3543235915712 6.46206326259386 50.3543594134699 6.46215321678359 50.3541383517868 6.46463864941737 50.3540444242725 6.46483698652037 50.354300089547 6.46470486906699 50.3542241278699 6.46459198411565 50.3544611910421 6.46192695362424 50.3544368729558 6.46191440228163 50.3544065867118 6.46189876693273 50.3534693521161 6.46141503356383 50.3525927652523 6.46099245833274 50.351505785237 6.46053470527955 50.3504047888433 6.46031981994586 50.3503719153744 6.46031340664806 50.3502423615209 6.46022916728431 50.3491690637198 6.45953127150484 50.3481582940175 6.45857865871761 50.3479906064726 6.45849063049971</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>14603.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Worbelbruch</lagebeztxt>
+<tntxt>Weg / Wirtschaftsweg;14603</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NpaPFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NpaPFL</gml:identifier>
+<idflurst>DENW42AL1000NpaP</idflurst>
+<flstkennz>05439400800070______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>008</flur>
+<flurschl>054394008</flurschl>
+<flstnrzae>70</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NpaPFL</oid>
+<aktualit>2016-12-02Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.824.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.824.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.323465566011 6.42014702842877 50.3234102917143 6.42035940300729 50.3233761158027 6.42066966221388 50.3237253052961 6.42080315757962 50.3243784229293 6.42105286348802 50.3244018364075 6.42083841710497 50.3241904586156 6.42075254904232 50.3241559789583 6.42066294621602 50.3240624681493 6.42041997388878 50.3235331951813 6.42017795746086 50.323465566011 6.42014702842877</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>3500.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Lückerschbusch</lagebeztxt>
+<tntxt>Landwirtschaft / Grünland;1429|Landwirtschaft / Grünland;212|Fläche besonderer funktionaler Prägung / Historische Anlage;1168|Wald / Nadelholz;691</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NpcfFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NpcfFL</gml:identifier>
+<idflurst>DENW42AL1000Npcf</idflurst>
+<flstkennz>05439400700027______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>007</flur>
+<flurschl>054394007</flurschl>
+<flstnrzae>27</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NpcfFL</oid>
+<aktualit>2016-12-12Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.825.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.825.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3375177062553 6.40394008279641 50.3375101352739 6.40398531610642 50.3375001999075 6.40404470492269 50.3374939462443 6.40408206600919 50.3378297847136 6.40417313980437 50.3379599013504 6.40421343710153 50.3379865767501 6.40422169433753 50.3380691029905 6.4042472433333 50.3385641171661 6.40464383897053 50.3390714452818 6.40504893529432 50.339134398786 6.40514060058633 50.3393504462573 6.4056897531407 50.3400556545249 6.40748227619981 50.3400411711383 6.40757859984649 50.3400794815609 6.40754189471191 50.340159215619 6.40745037991473 50.340100536652 6.40742403146434 50.3391491982478 6.40501300206942 50.3380729516406 6.40415536767417 50.3379914687436 6.40412377457901 50.3379399656256 6.40410380036087 50.3378390737287 6.40406467841431 50.3375177062553 6.40394008279641</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>2585.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Auf dem Gericht</lagebeztxt>
+<tntxt>Weg;126|Weg;94|Weg / Wirtschaftsweg;2365</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NqFCFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NqFCFL</gml:identifier>
+<idflurst>DENW42AL1000NqFC</idflurst>
+<flstkennz>05439400700033______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>007</flur>
+<flurschl>054394007</flurschl>
+<flstnrzae>33</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NqFCFL</oid>
+<aktualit>2014-03-24Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.826.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.826.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3377363362181 6.40914979578993 50.3375067573253 6.40938975203064 50.3372553426879 6.4096525382179 50.3374963962492 6.41021956993373 50.3377066665313 6.4099922354103 50.337980906732 6.40969572569176 50.3377363362181 6.40914979578993</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>3088.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Auf dem Gericht</lagebeztxt>
+<tntxt>Landwirtschaft / Grünland;3088</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NrdoFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NrdoFL</gml:identifier>
+<idflurst>DENW42AL1000Nrdo</idflurst>
+<flstkennz>05439400800065______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>008</flur>
+<flurschl>054394008</flurschl>
+<flstnrzae>65</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NrdoFL</oid>
+<aktualit>2009-07-24Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.827.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.827.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3271394972258 6.42300999322284 50.3266257732682 6.42348632909497 50.3257638099819 6.42428502528727 50.3261445186613 6.42439193553908 50.326292478502 6.4245423901152 50.3264760471896 6.42488713353943 50.3266208554114 6.42520878104905 50.3270352810696 6.42489327219857 50.327713382285 6.42411266068413 50.3274958945817 6.42353481617873 50.3274399440684 6.42342039945525 50.3271394972258 6.42300999322284</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>16208.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Lückerschbusch</lagebeztxt>
+<tntxt>Landwirtschaft / Grünland;16208</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NrkqFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NrkqFL</gml:identifier>
+<idflurst>DENW42AL1000Nrkq</idflurst>
+<flstkennz>05439400800040______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>008</flur>
+<flurschl>054394008</flurschl>
+<flstnrzae>40</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NrkqFL</oid>
+<aktualit>2016-06-28Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.828.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.828.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3244097145598 6.40979004377873 50.3243635492855 6.40987067704381 50.3246002556516 6.41132291519309 50.3247384125336 6.41217054347468 50.3258315416231 6.41223763164636 50.3256245247331 6.41041896927571 50.3255714647955 6.40995293945009 50.3244097145598 6.40979004377873</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>21050.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Walbervenn</lagebeztxt>
+<tntxt>Landwirtschaft / Grünland;21050</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NtZnFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NtZnFL</gml:identifier>
+<idflurst>DENW42AL1000NtZn</idflurst>
+<flstkennz>05439400700030______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>007</flur>
+<flurschl>054394007</flurschl>
+<flstnrzae>30</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NtZnFL</oid>
+<aktualit>2017-01-16Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.829.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.829.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3390158739584 6.40781233667281 50.3386451084915 6.4081998976986 50.3384241286875 6.40843087784278 50.3377363362181 6.40914979578993 50.337980906732 6.40969572569176 50.3383547690537 6.40929151298598 50.3389415182352 6.40867461886931 50.339244752905 6.4083557975195 50.3390158739584 6.40781233667281</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>7942.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Auf dem Gericht</lagebeztxt>
+<tntxt>Landwirtschaft / Grünland;7942</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000NupNFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000NupNFL</gml:identifier>
+<idflurst>DENW42AL1000NupN</idflurst>
+<flstkennz>05439400800061______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>008</flur>
+<flurschl>054394008</flurschl>
+<flstnrzae>61</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000NupNFL</oid>
+<aktualit>2009-07-24Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.830.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.830.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3255547898899 6.41466334000891 50.3254724816391 6.41469196219623 50.3245666632237 6.41566943234128 50.3245143663102 6.41576858864861 50.3244625024881 6.41595598844531 50.3249267777232 6.41626362210104 50.325230638223 6.41603431959011 50.3263363407675 6.41519991111864 50.3262770678884 6.41509826309455 50.326001468783 6.4147960712906 50.3259208613322 6.41474547864824 50.3256102162915 6.41467577324729 50.3255547898899 6.41466334000891</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>11630.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Lückerschbusch</lagebeztxt>
+<tntxt>Landwirtschaft / Grünland;11630</tntxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DENW42AL1000Nx1EFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DENW42AL1000Nx1EFL</gml:identifier>
+<idflurst>DENW42AL1000Nx1E</idflurst>
+<flstkennz>05439400800072______</flstkennz>
+<land>Nordrhein-Westfalen</land>
+<landschl>05</landschl>
+<gemarkung>Losheim</gemarkung>
+<gemaschl>054394</gemaschl>
+<flur>008</flur>
+<flurschl>054394008</flurschl>
+<flstnrzae>72</flstnrzae>
+<regbezirk>Köln</regbezirk>
+<regbezschl>053</regbezschl>
+<kreis>Euskirchen</kreis>
+<kreisschl>05366</kreisschl>
+<gemeinde>Hellenthal</gemeinde>
+<gmdschl>05366020</gmdschl>
+<oid>DENW42AL1000Nx1EFL</oid>
+<aktualit>2016-08-18Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.831.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.831.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>50.3234176970678 6.41996123235385 50.3233950684027 6.4199966289906 50.3232443888737 6.4202324086997 50.3229433123044 6.42302689308232 50.3228672196612 6.42394607990478 50.3227378649723 6.425217068218 50.3228662682739 6.42525019817512 50.3229073646322 6.42488067262984 50.3229808508492 6.42413410983508 50.3230703512588 6.42303984447273 50.3233651388985 6.42034779817502 50.3234099259208 6.42001838923059 50.3234176970678 6.41996123235385</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>5400.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Lückerschbusch</lagebeztxt>
+<tntxt>Fläche besonderer funktionaler Prägung / Historische Anlage;5396|Weg / Wirtschaftsweg;4</tntxt>
+</Flurstueck>
+</wfs:member>
+</wfs:FeatureCollection>

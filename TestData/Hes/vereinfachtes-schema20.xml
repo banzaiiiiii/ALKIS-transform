@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:FeatureCollection timeStamp="2022-05-11T13:32:24.819+02:00" numberReturned="10" numberMatched="unknown" xmlns="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://repository.gdi-de.org/schemas/adv/produkt/alkis-vereinfacht/2.0 https://www.gds.hessen.de/wfs2/aaa-suite/schema/AAA-vereinfacht/2.0/schema/ALKIS-vereinfacht.xsd http://www.opengis.net/wfs/2.0 https://www.gds.hessen.de/wfs2/aaa-suite/schema/ogc/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 https://www.gds.hessen.de/wfs2/aaa-suite/schema/ogc/gml/3.2.1/gml.xsd http://www.isotc211.org/2005/gco https://www.gds.hessen.de/wfs2/aaa-suite/schema/ogc/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmd https://www.gds.hessen.de/wfs2/aaa-suite/schema/ogc/iso/19139/20070417/gmd/gmd.xsd">
+<wfs:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:lowerCorner>49.5322655701415 8.57840761687565</gml:lowerCorner>
+<gml:upperCorner>49.5350493377447 8.58098735222007</gml:upperCorner>
+</gml:Envelope>
+</wfs:boundedBy>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtAiFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtAiFL</gml:identifier>
+<idflurst>DEHE06120000DtAi</idflurst>
+<flstkennz>06307000100731______</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>731</flstnrzae>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtAiFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8167.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8167.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5349604803854 8.58013558610735 49.5349225209514 8.5802294353124 49.5348560346704 8.58016839256539 49.5347905011899 8.58034024601298 49.5349447251773 8.58047139605646 49.534975035656 8.58040137012708 49.5349773546908 8.58039596023215 49.5350425645667 8.58023405983334 49.5350493377447 8.5802167260249 49.5349604803854 8.58013558610735</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>374.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Weinheimer Straße 9</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtAjFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtAjFL</gml:identifier>
+<idflurst>DEHE06120000DtAj</idflurst>
+<flstkennz>063070001007320002__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>732</flstnrzae>
+<flstnrnen>2</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtAjFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8168.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8168.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5345196352813 8.58047282333196 49.5344379952328 8.58067049142364 49.5344370215404 8.58067462446221 49.5344362357584 8.58067893877529 49.5344356902725 8.58068307572217 49.5344353519993 8.58068701564965 49.5344351903249 8.58069074748165 49.534435181232 8.58069448754626 49.5344353388027 8.58069845422719 49.5344356940811 8.58070263977519 49.5344362809664 8.5807070281511 49.534437063575 8.58071125595163 49.5344371782765 8.58071178926888 49.5344382790079 8.58071623372235 49.5344395248075 8.58072029041844 49.5344408766077 8.58072397146901 49.5344423010964 8.58072729526675 49.5344437704626 8.58073028418841 49.5344453587035 8.5807331259425 49.5344471694511 8.58073597154861 49.5344492228512 8.58073878401323 49.534451537686 8.58074151723553 49.5344541299674 8.58074411513864 49.5344544447284 8.58074440078055 49.534737068204 8.58094727370879 49.5348425353869 8.58070227287289 49.534784573337 8.58066022902971 49.5345196352813 8.58047282333196</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>812.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Berliner Ring 28</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtAkFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtAkFL</gml:identifier>
+<idflurst>DEHE06120000DtAk</idflurst>
+<flstkennz>063070001007320003__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>732</flstnrzae>
+<flstnrnen>3</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtAkFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8169.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8169.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5346309402719 8.58020335170282 49.5345920807737 8.5802970559043 49.5345196352813 8.58047282333196 49.534784573337 8.58066022902971 49.5348425353869 8.58070227287289 49.5349204758825 8.58052618118331 49.5349447251773 8.58047139605646 49.5347905011899 8.58034024601298 49.5346309402719 8.58020335170282</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>858.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Berliner Ring 28</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtAlFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtAlFL</gml:identifier>
+<idflurst>DEHE06120000DtAl</idflurst>
+<flstkennz>063070001007320004__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>732</flstnrzae>
+<flstnrnen>4</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtAlFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8170.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8170.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5344379952328 8.58067049142364 49.534413126707 8.58073065733987 49.5344912081921 8.58078954187638 49.5346026779867 8.58088059163578 49.534719412599 8.58098735222007 49.534737068204 8.58094727370879 49.5344544447284 8.58074440078055 49.5344541299674 8.58074411513864 49.534451537686 8.58074151723553 49.5344492228512 8.58073878401323 49.5344471694511 8.58073597154861 49.5344453587035 8.5807331259425 49.5344437704626 8.58073028418841 49.5344423010964 8.58072729526675 49.5344408766077 8.58072397146901 49.5344395248075 8.58072029041844 49.5344382790079 8.58071623372235 49.5344371782765 8.58071178926888 49.534437063575 8.58071125595163 49.5344362809664 8.5807070281511 49.5344356940811 8.58070263977519 49.5344353388027 8.58069845422719 49.534435181232 8.58069448754626 49.5344351903249 8.58069074748165 49.5344353519993 8.58068701564965 49.5344356902725 8.58068307572217 49.5344362357584 8.58067893877529 49.5344370215404 8.58067462446221 49.5344379952328 8.58067049142364</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>82.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Berliner Ring 28</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtArFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtArFL</gml:identifier>
+<idflurst>DEHE06120000DtAr</idflurst>
+<flstkennz>063070001007350004__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>735</flstnrzae>
+<flstnrnen>4</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtArFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8171.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8171.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5345949803739 8.57942842572888 49.5344642081514 8.57980569971877 49.534433334056 8.57989133342297 49.5344070365852 8.57996411623426 49.5345262647981 8.58006128906948 49.5344975824967 8.58013624835247 49.5344785823846 8.58018002854437 49.5345224968054 8.58022760950411 49.5347178883838 8.57971884640652 49.5347596366554 8.57953159300986 49.5345949803739 8.57942842572888</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>1027.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Weinheimer Straße 3</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtAsFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtAsFL</gml:identifier>
+<idflurst>DEHE06120000DtAs</idflurst>
+<flstkennz>063070001007370004__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>737</flstnrzae>
+<flstnrnen>4</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtAsFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8172.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8172.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5343916488441 8.57932349037072 49.5343897162324 8.57932485593382 49.5343868900689 8.57932719025698 49.5343843290317 8.57932969056834 49.534382020804 8.57933230287413 49.5343799501824 8.57933498174014 49.5343781003008 8.57933768969501 49.5343763586475 8.57934056209415 49.534374638391 8.57934377331168 49.5343729641059 8.57934734884226 49.5343713655303 8.57935131153673 49.5343698779404 8.57935567971533 49.5343690108309 8.57935866422367 49.5342609001848 8.57974925871621 49.534433334056 8.57989133342297 49.5344642081514 8.57980569971877 49.5345949803739 8.57942842572888 49.5344240195815 8.57932304669179 49.5344219600396 8.57932188838389 49.5344188788127 8.57932048536471 49.5344159097128 8.57931948675294 49.5344130686848 8.57931884102956 49.534410365732 8.57931849961781 49.5344078060505 8.57931841777654 49.5344052477267 8.57931856976657 49.534402549168 8.57931898521282 49.5343997160893 8.57931970870676 49.5343967590564 8.5793207885431 49.5343936946097 8.57932227579546 49.5343916488441 8.57932349037072</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>858.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Weinheimer Straße 1</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtAzFL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtAzFL</gml:identifier>
+<idflurst>DEHE06120000DtAz</idflurst>
+<flstkennz>063070001007400009__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>740</flstnrzae>
+<flstnrnen>9</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtAzFL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8173.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8173.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5341905539551 8.57928700292759 49.5341799102509 8.57929117130462 49.5340825209521 8.57963947891512 49.5338797101555 8.58037173222243 49.5339217876034 8.58039892970588 49.5339400531523 8.58035099646839 49.534127225761 8.57967182217225 49.5342291946356 8.57931145124676 49.5341905539551 8.57928700292759</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>475.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Karl-Marx-Straße</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtB1FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtB1FL</gml:identifier>
+<idflurst>DEHE06120000DtB1</idflurst>
+<flstkennz>063070001007570005__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>757</flstnrzae>
+<flstnrnen>5</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtB1FL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8174.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8174.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5324879449346 8.57961187378427 49.5323622721185 8.57971169465799 49.5322655701415 8.57978636329384 49.5323187935571 8.57995015617661 49.532513596838 8.57998056285978 49.5325021324849 8.57978843980567 49.5325291180196 8.57977635096491 49.5325213008328 8.57970929459592 49.5324901906355 8.57961847426519 49.5324879449346 8.57961187378427</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>491.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Heddesheimer Straße 4</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtB4FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtB4FL</gml:identifier>
+<idflurst>DEHE06120000DtB4</idflurst>
+<flstkennz>063070001007650002__</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>765</flstnrzae>
+<flstnrnen>2</flstnrnen>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtB4FL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8175.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8175.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5326023850518 8.57840761687565 49.5326022694823 8.57840799100832 49.5325851020851 8.57846579547723 49.5325175511271 8.57869305083324 49.5325488698972 8.57871001510299 49.5325512730012 8.57870054161265 49.5327036259032 8.57881876113104 49.5327125682793 8.57866352736209 49.53272198439 8.57850012185182 49.5326023850518 8.57840761687565</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>407.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Mannheimer Straße 21B</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+<wfs:member>
+<Flurstueck gml:id="DEHE06120000DtB6FL">
+<gml:identifier codeSpace="urn:adv:oid:">urn:adv:oid:DEHE06120000DtB6FL</gml:identifier>
+<idflurst>DEHE06120000DtB6</idflurst>
+<flstkennz>06307000100766______</flstkennz>
+<land>Hessen</land>
+<landschl>06</landschl>
+<gemarkung>Viernheim</gemarkung>
+<gemaschl>063070</gemaschl>
+<flur>1</flur>
+<flurschl>063070001</flurschl>
+<flstnrzae>766</flstnrzae>
+<regbezirk>Darmstadt</regbezirk>
+<regbezschl>064</regbezschl>
+<kreis>Bergstraße</kreis>
+<kreisschl>06431</kreisschl>
+<gemeinde>Viernheim</gemeinde>
+<gmdschl>06431020</gmdschl>
+<oid>DEHE06120000DtB6FL</oid>
+<aktualit>2009-11-05Z</aktualit>
+<geometrie>
+<gml:MultiSurface gml:id="flurstueck.id.8176.geometrie.Geom_0" srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="flurstueck.id.8176.geometrie.Geom_1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>49.5327125682793 8.57866352736209 49.5327036259032 8.57881876113104 49.5326838369346 8.57916228840339 49.5328392987275 8.57912884976286 49.5328260864926 8.57891407582149 49.532842770209 8.57882711514312 49.5328512322868 8.57867583758921 49.5327125682793 8.57866352736209</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</geometrie>
+<flaeche>538.00</flaeche>
+<abwrecht>Kein abweichender Rechtszustand</abwrecht>
+<lagebeztxt>Mannheimer Straße 19, 19A</lagebeztxt>
+</Flurstueck>
+</wfs:member>
+</wfs:FeatureCollection>

@@ -13,7 +13,7 @@ def yarrrmlToRML(file):
         callToYarrrmlParser,
         stdout=PIPE, stderr=PIPE, shell=True)
     result = process.communicate()
-    print(result)
+
 
 def callRDFTransformer(fileToMap, outputFile=None):
     bundesland = fileToMap[9:12]
@@ -24,7 +24,7 @@ def callRDFTransformer(fileToMap, outputFile=None):
     process = Popen(['java', '-jar', Helper.getRmlMapperPath(), "-m", Helper.getProjektPath() + "MappingFiles/R2RML-Mapping.ttl", "-o", outputFile, "-s", "turtle"], stdout=PIPE,
                     stderr=PIPE)
     result = process.communicate()
-    print(result)
+
 
 
 def pickMappingFile(FileName):
@@ -56,11 +56,11 @@ def executeShowCaseTransformation(maxIndex=None):
     # für Bra/Ham/Hes/NRW/Sac .xml umwandeln
     StartIndex = 0
     filesToTransform = [
-                        #"TestData/Bra/vereinfachtes-schema",
+                        "TestData/Bra/vereinfachtes-schema",
                         "TestData/Ham/vereinfachtes-schema",
-                        #"TestData/Hes/vereinfachtes-schema",
-                        #"TestData/NRW/vereinfachtes-schema",
-                        #"TestData/Sac/vereinfachtes-schema"
+                        "TestData/Hes/vereinfachtes-schema",
+                        "TestData/NRW/vereinfachtes-schema",
+                        "TestData/Sac/vereinfachtes-schema"
                         ]
     for file in filesToTransform:
         StartIndex = 0

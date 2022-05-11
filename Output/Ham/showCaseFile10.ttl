@@ -1,0 +1,334 @@
+@prefix : <http://mapping.example.com/> .
+@prefix alkis: <https://w3id.org/alkis/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ngeo: <http://geovocab.org/geometry#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ex:Altona%20Nordwest_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20214 .
+
+ex:Boberg_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20605 .
+
+ex:Bramfeld_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20546 .
+
+ex:DEHHALKA3WD000Ar a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKA3WD000Ar_flurstuecksnummer;
+  alkis:amtlicheFlaeche 9036.0;
+  alkis:flurschluessel "020533___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020533___04160______";
+  alkis:gemarkung ex:DEHHALKA3WD000Ar_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKA3WD000Ar_gemeindezugehoerigkeit;
+  alkis:lageText "Ödenweg";
+  alkis:position ex:DEHHALKA3WD000Ar_position;
+  alkis:sonstigeEigenschaften "Strassenverkehr; 9036";
+  alkis:zeitPunktDerEntstehung "2021-04-27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKA3WD000Ar_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 4160 .
+
+ex:DEHHALKA3WD000Ar_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKA3WD000Ar_position a ex:PositionSnapshot;
+  ex:Snapshot "10.095691 53.679748 10.096285 53.679708 10.096284 53.679739 10.096516 53.679722 10.096569 53.679718 10.096800 53.679701 10.097012 53.679685 10.097065 53.679681 10.097274 53.679666 10.097350 53.679661 10.097348 53.679629 10.097619 53.679612 10.097890 53.679595 10.097943 53.679592 10.098221 53.679574 10.098522 53.679552 10.098688 53.679540 10.098893 53.679530 10.099074 53.679521 10.099194 53.679516 10.099465 53.679506 10.099679 53.679498 10.099736 53.679495 10.099993 53.679484 10.100103 53.679480 10.100296 53.679486 10.100298 53.679517 10.100619 53.679521 10.101295 53.679498 10.101619 53.679460 10.102071 53.679408 10.102510 53.679385 10.102991 53.679383 10.103129 53.679367 10.103429 53.679302 10.104415 53.679063 10.104599 53.679028 10.104706 53.679012 10.105288 53.678965 10.105350 53.678963 10.105448 53.678966 10.105630 53.678985 10.105878 53.679026 10.106480 53.679173 10.106450 53.678908 10.106320 53.678996 10.106145 53.678977 10.105930 53.678926 10.105862 53.678910 10.105757 53.678886 10.105719 53.678880 10.105558 53.678856 10.105555 53.678843 10.105117 53.678835 10.104758 53.678878 10.104483 53.678930 10.104227 53.678978 10.103995 53.679022 10.103742 53.679082 10.103489 53.679142 10.103151 53.679223 10.103137 53.679226 10.102906 53.679253 10.102726 53.679252 10.102640 53.679218 10.102662 53.679298 10.102582 53.679299 10.102476 53.679300 10.102217 53.679306 10.102022 53.679325 10.101873 53.679341 10.101725 53.679363 10.101620 53.679374 10.101397 53.679405 10.101203 53.679425 10.101178 53.679419 10.101172 53.679370 10.100989 53.679364 10.100386 53.679375 10.100392 53.679424 10.100098 53.679425 10.100092 53.679425 10.100039 53.679427 10.099793 53.679434 10.099675 53.679438 10.099323 53.679451 10.099237 53.679454 10.099068 53.679460 10.098992 53.679461 10.098917 53.679463 10.098675 53.679472 10.098461 53.679487 10.098059 53.679514 10.098003 53.679189 10.097950 53.678881 10.097870 53.678886 10.097890 53.678975 10.097936 53.679240 10.097984 53.679519 10.097720 53.679537 10.097456 53.679555 10.097453 53.679540 10.097176 53.679559 10.096928 53.679576 10.096679 53.679593 10.096603 53.679598 10.096371 53.679614 10.096296 53.679619 10.095991 53.679640 10.095916 53.679645 10.095918 53.679661 10.095906 53.679660 10.095693 53.679676 10.095468 53.679692 10.095464 53.679669 10.095239 53.679686 10.095113 53.679695 10.095049 53.679667 10.095081 53.679721 10.095107 53.679811 10.095154 53.679784 10.095691 53.679748";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKA70000UmD a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKA70000UmD_flurstuecksnummer;
+  alkis:amtlicheFlaeche 284.0;
+  alkis:flurschluessel "020546___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020546___10010______";
+  alkis:gemarkung ex:DEHHALKA70000UmD_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKA70000UmD_gemeindezugehoerigkeit;
+  alkis:lageText "Friedländer Straße; Marienburger Allee 36";
+  alkis:position ex:DEHHALKA70000UmD_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 284";
+  alkis:zeitPunktDerEntstehung "2017-12-30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKA70000UmD_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 10010 .
+
+ex:DEHHALKA70000UmD_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKA70000UmD_position a ex:PositionSnapshot;
+  ex:Snapshot "10.086460 53.621441 10.086394 53.621445 10.086328 53.621451 10.086263 53.621459 10.086244 53.621461 10.086286 53.621599 10.086395 53.621583 10.086397 53.621585 10.086431 53.621577 10.086543 53.621552 10.086600 53.621540 10.086562 53.621480 10.086460 53.621441";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKA70000aKy a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKA70000aKy_flurstuecksnummer;
+  alkis:amtlicheFlaeche 1054.0;
+  alkis:flurschluessel "020539___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020539___00966______";
+  alkis:gemarkung ex:DEHHALKA70000aKy_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKA70000aKy_gemeindezugehoerigkeit;
+  alkis:lageText "Gilcherweg 1; Kunaustraße 27";
+  alkis:position ex:DEHHALKA70000aKy_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 1054";
+  alkis:zeitPunktDerEntstehung "2017-12-30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKA70000aKy_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 966 .
+
+ex:DEHHALKA70000aKy_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKA70000aKy_position a ex:PositionSnapshot;
+  ex:Snapshot "10.106932 53.651194 10.107013 53.651287 10.107282 53.651381 10.107495 53.651046 10.107487 53.651044 10.107394 53.651023 10.107086 53.650954 10.106932 53.651194";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKA70000hK2 a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKA70000hK2_flurstuecksnummer;
+  alkis:amtlicheFlaeche 997.0;
+  alkis:flurschluessel "020531___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020531___01564______";
+  alkis:gemarkung ex:DEHHALKA70000hK2_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKA70000hK2_gemeindezugehoerigkeit;
+  alkis:lageText "Hoheneichen 51";
+  alkis:position ex:DEHHALKA70000hK2_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 997";
+  alkis:zeitPunktDerEntstehung "2017-12-30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKA70000hK2_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 1564 .
+
+ex:DEHHALKA70000hK2_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKA70000hK2_position a ex:PositionSnapshot;
+  ex:Snapshot "10.068047 53.631622 10.067939 53.631787 10.068651 53.631951 10.068759 53.631786 10.068047 53.631622";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKAP0000QNW a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKAP0000QNW_flurstuecksnummer;
+  alkis:amtlicheFlaeche 92.0;
+  alkis:flurschluessel "020214___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020214___00637______";
+  alkis:gemarkung ex:DEHHALKAP0000QNW_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKAP0000QNW_gemeindezugehoerigkeit;
+  alkis:lageText "Chemnitzstraße 67";
+  alkis:position ex:DEHHALKAP0000QNW_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 92";
+  alkis:zeitPunktDerEntstehung "2009-12-29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKAP0000QNW_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 637 .
+
+ex:DEHHALKAP0000QNW_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKAP0000QNW_position a ex:PositionSnapshot;
+  ex:Snapshot "9.944734 53.555806 9.944848 53.555822 9.944873 53.555713 9.944757 53.555704 9.944734 53.555806";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKAP0006kec a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKAP0006kec_flurstuecksnummer;
+  alkis:amtlicheFlaeche 773.0;
+  alkis:flurschluessel "020420___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020420___03332______";
+  alkis:gemarkung ex:DEHHALKAP0006kec_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKAP0006kec_gemeindezugehoerigkeit;
+  alkis:lageText "Langenhorner Chaussee 371";
+  alkis:position ex:DEHHALKAP0006kec_position;
+  alkis:sonstigeEigenschaften "Flaeche Gemischter Nutzung; 773";
+  alkis:zeitPunktDerEntstehung "2021-11-08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKAP0006kec_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 3332 .
+
+ex:DEHHALKAP0006kec_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKAP0006kec_position a ex:PositionSnapshot;
+  ex:Snapshot "10.002880 53.658956 10.002576 53.658892 10.002441 53.659002 10.002685 53.659054 10.003155 53.659154 10.003226 53.659169 10.003300 53.659046 10.003065 53.658995 10.003023 53.658987 10.002880 53.658956";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKAV0000E6I a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKAV0000E6I_flurstuecksnummer;
+  alkis:amtlicheFlaeche 558.0;
+  alkis:flurschluessel "020308___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020308___05819______";
+  alkis:gemarkung ex:DEHHALKAV0000E6I_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKAV0000E6I_gemeindezugehoerigkeit;
+  alkis:lageText "Klabautermannweg 38, 40";
+  alkis:position ex:DEHHALKAV0000E6I_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 558";
+  alkis:zeitPunktDerEntstehung "2010-01-01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKAV0000E6I_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 5819 .
+
+ex:DEHHALKAV0000E6I_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKAV0000E6I_position a ex:PositionSnapshot;
+  ex:Snapshot "9.924732 53.646237 9.924730 53.646443 9.924967 53.646442 9.925049 53.646421 9.925117 53.646375 9.925115 53.646234 9.924732 53.646237";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKAV0000wQV a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKAV0000wQV_flurstuecksnummer;
+  alkis:amtlicheFlaeche 783.0;
+  alkis:flurschluessel "020304___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020304___00013______";
+  alkis:gemarkung ex:DEHHALKAV0000wQV_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKAV0000wQV_gemeindezugehoerigkeit;
+  alkis:lageText "Olloweg 41";
+  alkis:position ex:DEHHALKAV0000wQV_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 783";
+  alkis:zeitPunktDerEntstehung "2017-12-28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKAV0000wQV_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 13 .
+
+ex:DEHHALKAV0000wQV_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKAV0000wQV_position a ex:PositionSnapshot;
+  ex:Snapshot "9.918515 53.601906 9.919148 53.602144 9.919287 53.602069 9.918589 53.601749 9.918525 53.601894 9.918515 53.601906";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKAn00009vk a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKAn00009vk_flurstuecksnummer;
+  alkis:amtlicheFlaeche 438.0;
+  alkis:flurschluessel "020605___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020605___00099______";
+  alkis:gemarkung ex:DEHHALKAn00009vk_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKAn00009vk_gemeindezugehoerigkeit;
+  alkis:lageText "Weidemoor 18";
+  alkis:position ex:DEHHALKAn00009vk_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 438";
+  alkis:zeitPunktDerEntstehung "2014-01-06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKAn00009vk_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 99 .
+
+ex:DEHHALKAn00009vk_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKAn00009vk_position a ex:PositionSnapshot;
+  ex:Snapshot "10.154308 53.514642 10.154509 53.514813 10.154756 53.514709 10.154578 53.514558 10.154308 53.514642";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:DEHHALKAz00015RY a alkis:AX_Flurstueck;
+  rdfs:label "Ein Flurstueck ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters.";
+  alkis:Flurstuecksnummer ex:DEHHALKAz00015RY_flurstuecksnummer;
+  alkis:amtlicheFlaeche 575.0;
+  alkis:flurschluessel "020707___"^^<http://www.w3.org/2001/XMLSchema#integer>;
+  alkis:flurstueckskennzeichen "020707___03361______";
+  alkis:gemarkung ex:DEHHALKAz00015RY_gemarkung;
+  alkis:gemeindezugehoerigkeit ex:DEHHALKAz00015RY_gemeindezugehoerigkeit;
+  alkis:lageText "Erlenbruch 47";
+  alkis:position ex:DEHHALKAz00015RY_position;
+  alkis:sonstigeEigenschaften "Wohnbauflaeche; 575";
+  alkis:zeitPunktDerEntstehung "2010-01-16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+ex:DEHHALKAz00015RY_flurstuecksnummer a alkis:AX_Flurstuecksnummer;
+  rdfs:label "Flustücksnummer ist die Nummer die dem Flurstück zugeordnet ist.";
+  alkis:zaehler 3361 .
+
+ex:DEHHALKAz00015RY_gemeindezugehoerigkeit a alkis:AX_Gemeindekennzeichen;
+  rdfs:label " Die Gemeindezugehörigkeit enthält das Gemeindekennzeichen zur Zuordnung der Flurstücksdaten zu einer Gemeinde.";
+  alkis:gemeinde "Hamburg";
+  alkis:land "Hamburg";
+  alkis:regierungsbezirk "Hamburg" .
+
+ex:DEHHALKAz00015RY_position a ex:PositionSnapshot;
+  ex:Snapshot "9.871113 53.482602 9.871506 53.482600 9.871592 53.482600 9.871592 53.482573 9.871590 53.482438 9.871489 53.482438 9.871111 53.482439 9.871113 53.482602";
+  rdfs:label "Beschreibt die Geometrie eines Flurstückes" .
+
+ex:Langenhorn_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20420 .
+
+ex:Lemsahl-Mellingstedt_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20533 .
+
+ex:Neugraben_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20707 .
+
+ex:Sasel_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20539 .
+
+ex:Schnelsen_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20308 .
+
+ex:Stellingen_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20304 .
+
+ex:Wellingsb%C3%BCttel_gemarkung a alkis:AX_Gemarkung_Schluessel;
+  rdfs:label "Eine Gemarkung ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden.";
+  alkis:gemarkungsnummer 20531 .
+
+dbr:Hamburg rdfs:label "Bundesland der BRD";
+  dbo:type "https://dbpedia.org/resource/States_of_Germany";
+  alkis:AX_Flurstueck ex:DEHHALKA3WD000Ar, ex:DEHHALKA70000UmD, ex:DEHHALKA70000aKy,
+    ex:DEHHALKA70000hK2, ex:DEHHALKAP0000QNW, ex:DEHHALKAP0006kec, ex:DEHHALKAV0000E6I,
+    ex:DEHHALKAV0000wQV, ex:DEHHALKAn00009vk, ex:DEHHALKAz00015RY .

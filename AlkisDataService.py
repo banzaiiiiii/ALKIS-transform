@@ -121,11 +121,11 @@ def executeShowCaseDownload(maxIndex=None):
 
 def executeShowCaseDownload(maxIndex=None):
     listAvailableStates = [
-                           #"NRW-vereinfacht",
+                           "NRW-vereinfacht",
                            #"Brandenburg-vereinfacht",
-                           "Hamburg-vereinfacht"
-                           #"Hessen-vereinfacht",
-                          # "Sachsen-vereinfacht",
+                           "Hamburg-vereinfacht",
+                           "Hessen-vereinfacht",
+                           "Sachsen-vereinfacht",
                           ]
     Typenames = "&TYPENAMES=ave:Flurstueck"
     KoordinatenType = "&srsName=EPSG:4258"

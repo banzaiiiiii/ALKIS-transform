@@ -28,19 +28,18 @@ def start():
             rdfTransformer.executeShowCaseTransformation()
         else:
             try:
-                #AlkisDataService.executeShowCaseDownload(int(userInput))
+                AlkisDataService.executeShowCaseDownload(int(userInput))
                 # transform .xml files for bra, ham, hes, nrw, sac in .ttl
-                #rdfTransformer.executeShowCaseTransformation(int(userInput))
+                rdfTransformer.executeShowCaseTransformation(int(userInput))
                  # save all the transformed files to fuseki
-                #FusekiConnection.executeShowCaseSave(int(userInput))
-                 FusekiConnection.queryDB()
+                FusekiConnection.executeShowCaseSave(int(userInput))
+                FusekiConnection.queryDB()
             except ValueError:
                 print("number must be an int! try again")
                 start()
     elif userInput == "2":
         bundeslandToMap = input(
             "Enter state you want to download the data from.\n All available data sources are listed here:" + AlkisDataService.outputDic() + "\n")
-
         if filter_download():
             try:
                 gemarkung = str(input("Optional: Enter gemarkung or gemarkungsnummer!\n"))
