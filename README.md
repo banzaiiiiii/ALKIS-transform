@@ -32,7 +32,6 @@ Transformed Data in /Output
 press 1 to use the automated transformation
 
 the functions AlkisDataService.executeShowCaseDownload(), rdfTransformer.executeShowCaseTransformation(), FusekiConnection.executeShowCaseSave(), 
-
 FusekiConnection.queryDB() are getting executed
 
 you could comment out the ones you dont want to use
@@ -45,6 +44,6 @@ rmlmapper: https://github.com/RMLio/rmlmapper-java
 
 Yarrrml Parser: https://github.com/RMLio/yarrrml-parser
 
-Neo4j mit neosemantics als GraphDB : https://github.com/neo4j-labs/rdflib-neo4j 
+Apache Jena Fuseki als GraphDB : https://jena.apache.org/documentation/fuseki2/
 
 RDFLib: https://github.com/RDFLib/rdflib
