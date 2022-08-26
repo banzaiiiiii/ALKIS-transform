@@ -38,7 +38,7 @@ you could comment out the ones you dont want to use
 
 the automated transformation is for the states in germany(Bra, Ham, Hes, NRW, Sac) if you want more or less you need to ajust the functions 
 
-## genutzte Technologien
+## used technologies
 
 rmlmapper: https://github.com/RMLio/rmlmapper-java 
 
