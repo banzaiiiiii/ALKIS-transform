@@ -1,7 +1,7 @@
 # ALKIS-transform
 Projekt for bachelor thesis - Transformation von ALKIS Daten in semantische Formate 
 
-## How to use 
+## How to install 
 clone this repo 
 
 install latest python version
